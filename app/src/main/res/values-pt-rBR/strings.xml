@@ -1067,4 +1067,18 @@
     <string name="discover_users_list_empty">Usuários não encontrados</string>
     <string name="discover_users_search_empty">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \"</string>
     <string name="discover_users_search_error">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \". \ N \ Nerror: %2$s</string>
-</resources>
+<string name="trending">Tendendo</string>
+    <string name="verify_account_title">Verificação de conta</string>
+    <string name="verify_account_subtitle">Para usar todos os recursos necessários para verificar sua conta.</string>
+    <string name="verify_account_code_hint">Digite código de 6 ou 7 dígitos</string>
+    <string name="verify_account_resend_code">Reenviar código</string>
+    <string name="verify_account_resend_text">Você não recebeu um email?Clique no botão abaixo para enviar um novo código</string>
+    <string name="verify_account_resend_code_success">Um código foi enviado para o seu e -mail</string>
+    <string name="verify_account_code">Código de verificação</string>
+    <string name="verify_account_success">Sucesso!sua conta foi verificada</string>
+
+    <string name="main_verify_email_title">Verificação da conta necessária</string>
+    <string name="main_verify_email_message">Pressione para iniciar o processo de verificação</string>
+    <string name="about_stats_content">Usuários: %1$d \ n Postagens: %2$d \ n Comentários: %3$d \ n Mensagens: %4$d \ n FURSONAS: %5$d \ n Arquivos: %6$d \ n bytes armazenados: %7$d (%8$s gb) \ n \ n premium \ n meses de prêmio: %9$d \ n Nível Ups: %10 $ d</string>
+    <string name="user_comments_title">%1$s comentários</string>
+    </resources>
