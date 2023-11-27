@@ -1186,4 +1186,16 @@
     <string name="discover_users_search_error">Nessun utente trovato con un nome o un nome utente che inizia con \"%1$s\".\n\nErrore: %2$s</string>
     <string name="profile_stats_data_bytes_stored">%1$d byte immagazzinato (%2$s MB)</string>
 
-</resources>
+<string name="trending">Tendenza</string>
+    <string name="verify_account_title">Verifica dell\'account</string>
+    <string name="verify_account_subtitle">Per utilizzare tutte le funzionalità necessarie per verificare il tuo account. \ N \ ncheck la tua casella di posta a %1$s e inserire il codice inviato di seguito.</string>
+    <string name="verify_account_code_hint">Immettere il codice a 6 o 7 cifre</string>
+    <string name="verify_account_resend_code">Codice di rispedizione</string>
+    <string name="verify_account_resend_text">Non hai ricevuto un\'e -mail?Fai clic sul pulsante in basso per inviare un nuovo codice</string>
+    <string name="verify_account_resend_code_success">Un codice è stato inviato alla tua email</string>
+    <string name="verify_account_code">Verificare il codice</string>
+    <string name="verify_account_success">Successo!il tuo account è stato verificato</string>
+
+    <string name="main_verify_email_title">Verifica del conto necessario</string>
+    <string name="main_verify_email_message">Premere per avviare il processo di verifica</string>
+    </resources>

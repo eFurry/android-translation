@@ -1150,4 +1150,26 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="upload_chooser_video_thumbnail_generation_failed">Nie udało się stworzyć miniatury</string>
     <string name="profile_stats_data_bytes_stored">Zmawiane bajty %1$d (%2$s MB)</string>
 
+    <string name="trending">Trend</string>
+    <string name="verify_account_title">Weryfikacja konta</string>
+    <string name="verify_account_subtitle">Aby użyć wszystkich funkcji, musisz zweryfikować swoje konto. \ N \ ncheck swoją skrzynkę odbiorczą przy %1$s i wprowadź kod wysłany poniżej.</string>
+    <string name="verify_account_code_hint">Wprowadź kod 6- lub 7-cyfrowy</string>
+    <string name="verify_account_resend_code">Ponownie wyznacz kod</string>
+    <string name="verify_account_resend_text">Czy nie otrzymałeś e -maila?Kliknij przycisk poniżej, aby wysłać nowy kod</string>
+    <string name="verify_account_resend_code_success">Kod został wysłany na adres e -mail</string>
+    <string name="verify_account_code">Sprawdź kod</string>
+    <string name="verify_account_success">Powodzenie! Twoje konto zostało zweryfikowane</string>
+
+    <string name="main_verify_email_title">Potrzebna weryfikacja konta</string>
+    <string name="main_verify_email_message">Naciśnij, aby rozpocząć proces weryfikacji</string>
+    <string name="about_stats_content">Użytkownicy: %1$d
+        \ nposts: %2$d
+        \ ncomments: %3$d
+        \ nmessages: %4$d
+        \ nfursonas: %5$d
+        \ nfiles: %6$d
+        \ nbytes przechowywane: %7$d (%8$s GB)
+        \ n \ npremium
+        \ nonths of premium: %9$d
+        \ nlevel UPS: %10 $ D</string>
     </resources>

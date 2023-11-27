@@ -1121,4 +1121,26 @@
     <string name="upload_chooser_video_thumbnail_generation_failed">No se pudo crear miniatura</string>
     <string name="profile_stats_data_bytes_stored">%1$d bytes almacenados (%2$s mb)</string>
 
+    <string name="trending">Tendencias</string>
+    <string name="verify_account_title">Verificación de la cuenta</string>
+    <string name="verify_account_subtitle">Para usar todas las funciones, debe verificar su cuenta.</string>
+    <string name="verify_account_code_hint">Ingrese el código de 6 o 7 dígitos</string>
+    <string name="verify_account_resend_code">Reenviar codigo</string>
+    <string name="verify_account_resend_text">¿No recibiste un correo electrónico?Haga clic en el botón de abajo para enviar un nuevo código</string>
+    <string name="verify_account_resend_code_success">Se ha enviado un código a su correo electrónico</string>
+    <string name="verify_account_code">Código de verificación</string>
+    <string name="verify_account_success">¡Éxito!Tu cuenta ha sido verificada</string>
+
+    <string name="main_verify_email_title">Verificación de la cuenta necesaria</string>
+    <string name="main_verify_email_message">Presione para iniciar el proceso de verificación</string>
+    <string name="about_stats_content">Usuarios: %1$d
+        \ nposts: %2$d
+        \ ncomments: %3$d
+        \ nmessages: %4$d
+        \ nfursonas: %5$d
+        \ nfiles: %6$d
+        \ nbytes almacenado: %7$d (%8$s GB)
+        \ n \ npremium
+        \ nMonths of Premium: %9$d
+        \ nlevel ups: %10 $ d</string>
     </resources>

@@ -1118,4 +1118,26 @@
 <string name="upload_chooser_video_thumbnail_generation_failed">Не удалось создать миниатюру</string>
     <string name="profile_stats_data_bytes_stored">%1$d байты хранятся (%2$s MB)</string>
 
+    <string name="trending">Трендование</string>
+    <string name="verify_account_title">Верификация учетной записи</string>
+    <string name="verify_account_subtitle">Чтобы использовать все функции, вам необходимо проверить свою учетную запись. \ N \ ncheck ваш почтовый ящик в %1$s и введите код, который был отправлен вам ниже.</string>
+    <string name="verify_account_code_hint">Введите 6- или 7-значный код</string>
+    <string name="verify_account_resend_code">Отправить код еще раз</string>
+    <string name="verify_account_resend_text">Вы не получили электронное письмо?Нажмите кнопку ниже, чтобы отправить новый код</string>
+    <string name="verify_account_resend_code_success">Код был отправлен на вашу электронную почту</string>
+    <string name="verify_account_code">Проверьте код</string>
+    <string name="verify_account_success">Успех!Ваша учетная запись была подтверждена</string>
+
+    <string name="main_verify_email_title">Требуется проверка счета</string>
+    <string name="main_verify_email_message">Нажмите, чтобы начать процесс проверки</string>
+    <string name="about_stats_content">Пользователи: %1$d
+        \ nposts: %2$d
+        \ ncomments: %3$d
+        \ nmessages: %4$d
+        \ nfursonas: %5$d
+        \ nfiles: %6$d
+        \ nbytes хранится: %7$d (%8$s Gb)
+        \ n \ npremium
+        \ nmonths of Premium: %9$d
+        \ nlevel Ups: %10 $ d</string>
     </resources>
