@@ -600,18 +600,6 @@
 
     <string name="about_general">Benvenuto nel proggetto eFur!\n\nUno spazio sociale per condividere e godersi tutto ciò che è peloso ~</string>
     <string name="about_stats">Stato</string>
-    <string name="about_stats_content">
-        Utenti: %1$d
-        \nPost: %2$d
-        \nCommenti: %3$d
-        \nMessaggi: %4$d
-        \nFursone: %5$d
-        \nFile: %6$d
-        \nByte immagazzinati: %7$d (%8$s GB)
-        \n\nAccount premium
-        \nMesi di premium: %9$d
-        \nLivello Account: %10$d
-    </string>
     <string name="feedback_general">Hai feedback o suggerimenti per migliorare l\'app? Lascia una valutazione nel Play Store, invia un\'e-mail a feedback@efurry.net o unisciti a Discord e condividi i tuoi pensieri lì!</string>
     <string name="contributions_general">Se contribuisci, invia @Dog un messaggio!</string>
     <string name="translate_general">Puoi aiutarci a tradurre l\'app nella tua lingua! (Come ho fatto io!)</string>
@@ -1052,7 +1040,6 @@
 
     <string name="settings_consent_title">Consenti</string>
 
-    <string name="settings_language_title">Localizzazione</string>
     <string name="settings_language_edit_title">Cambia lingua app</string>
 
     <string name="content_filter_title">Filtra contenuti</string>
@@ -1106,23 +1093,10 @@
     <string name="delete_account_subtitle">Qui puoi eliminare il tuo account e tutti i suoi dati.\n\nQuesta azione è irreversibile.</string>
     <string name="delete_account_account_info">Utente: %1$s\nEmail: %2$s</string>
     <string name="delete_account_confirmation">Scegli</string>
-    <string name="delete_account_comments">1. Elimina i miei commenti</string>
-    <string name="delete_account_posts">2. Elimina i miei post</string>
-    <string name="delete_account_messages">3. Elimina i miei messaggi</string>
-    <string name="delete_account_account">4. Elimina l\'account e esci (PERICOLOSO!)</string>
     <string name="delete_account_comments_failed">Impossibile eliminare i commenti: %1$s</string>
     <string name="delete_account_posts_failed">Impossibile eliminare i post: %1$s</string>
     <string name="delete_account_messages_failed">Impossibile eliminare i messaggi: %1$s</string>
-    <string name="delete_account_account_failed">Impossibile eliminare l\'account: %1$s</string>
-    <string name="delete_account_comments_success">Eliminati %1$d commenti</string>
-    <string name="delete_account_posts_success">Eliminati %1$d post</string>
-    <string name="delete_account_messages_success">Eliminati %1$d messaggi</string>
-    <string name="delete_account_account_success">Accont eliminato</string>
     <string name="delete_account_deleting">Eliminazione…</string>
-    <string name="delete_account_deleted">Eliminato tutto</string>
-    <string name="delete_account_final_confirmation_title">Continuare?</string>
-    <string name="delete_account_final_confirmation_message">Sei sicuro? Il tuo account verrà perso per sempre.</string>
-    <string name="delete_account_deleted_toast">Addio, e grazie per il tuo supporto :3</string>
 
     <string name="email_not_verified_dialog_message">Devi prima verificare il tuo indirizzo email!\n\nFai clic sul collegamento che è stato inviato a %1$se riprova o riavvia l\'app.\n\nSe non hai ricevuto un\'email, esci e accedi di nuovo e dovresti riceverne uno nuovo.</string>
     <string name="email_verification_dialog_title">Verifica e-mail</string>

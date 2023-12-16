@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27946 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 28236 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -184,10 +184,10 @@
     <string name="upload_settings_categories">Categories</string>
     <string name="upload_settings_categories_dialog_title">Select categories</string>
     <string name="upload_settings_categories_none_selected">No categories selected</string>
-    <string name="upload_settings_content_normal">Content/theme (optional)</string>
+    <string name="upload_settings_content_normal">Content/theme</string>
     <string name="upload_settings_content_normal_dialog_title">Select content</string>
     <string name="upload_settings_content_normal_none_selected">No content/theme selected</string>
-    <string name="upload_settings_content_sensitive">Sensitive content/theme (optional)</string>
+    <string name="upload_settings_content_sensitive">Sensitive content/theme</string>
     <string name="upload_settings_content_sensitive_dialog_title">Select sensitive content</string>
     <string name="upload_settings_content_sensitive_none_selected">No sensitive content selected</string>
     <string name="upload_settings_content_sensitive_none_enabled">You have not enabled any sensitive content.\n\nUpdate your preferences at Settings->Content preferences</string>
@@ -288,7 +288,14 @@
     <string name="discover_posts_advanced_default_categories">All categories</string>
     <string name="discover_posts_advanced_default_content_safe">All themes</string>
     <string name="discover_posts_advanced_default_content_sensitive">All sensitive themes</string>
+    <string name="search_ratings">Posts rated</string>
+    <string name="search_categories">In categories</string>
+    <string name="search_content_safe">With content/themes</string>
+    <string name="search_content_sensitive">With sensitive content/themes</string>
     <string name="search_all_any">Match\nALL/ANY</string>
+    <string name="search_any_categories">Match any of the selected categories</string>
+    <string name="search_any_themes">Match any of the selected themes</string>
+    <string name="search_any_sensitive_themes">Match any of the selected sensitive themes</string>
     <string name="search_all">ALL</string>
     <string name="search_any">ANY</string>
     <string name="search_result">Search result</string>
@@ -402,6 +409,10 @@
     <string name="user">User</string>
     <string name="and">and</string>
     <string name="info">Info</string>
+    <string name="ban">Ban</string>
+    <string name="unban">Unban</string>
+    <string name="refresh">Refresh</string>
+    <string name="account">Account</string>
 
     <string name="verify_account_title">Account verification</string>
     <string name="verify_account_subtitle">To use all features you need to verify your account.\n\nCheck your inbox at %1$s and enter the code that was sent to you below.</string>
@@ -516,6 +527,12 @@
     <string name="chat_info_user_option_ban">Ban</string>
     <string name="chat_info_user_option_ban_error">Failed to ban: %1$s</string>
     <string name="chat_info_user_option_ban_success">Banned %1$s</string>
+    <string name="chat_info_user_option_promote_to_mod">Promote to moderator</string>
+    <string name="chat_info_user_option_promote_to_mod_error">Promotion failed: %1$s</string>
+    <string name="chat_info_user_option_promote_to_mod_success">Promoted %1$s</string>
+    <string name="chat_info_user_option_demote_from_mod">Demote to member</string>
+    <string name="chat_info_user_option_demote_from_mod_error">Demotion failed: %1$s</string>
+    <string name="chat_info_user_option_demote_from_mod_success">Demoted %1$s</string>
     <string name="chat_info_user_option_unban">Unban</string>
     <string name="chat_info_user_option_unban_error">Failed to unban: %1$s</string>
     <string name="chat_info_user_option_unban_success">Unbanned %1$s</string>
@@ -1082,7 +1099,12 @@
 
     <string name="settings_consent_title">Consent</string>
 
-    <string name="settings_language_title">Localisation</string>
+    <string name="settings_ui_title">UI &amp; localisation</string>
+    <string name="settings_ui_change_theme">Change theme</string>
+    <string name="settings_ui_theme_item_light">Light</string>
+    <string name="settings_ui_theme_item_dark">Dark</string>
+    <string name="settings_ui_theme_item_system">Follow system</string>
+
     <string name="settings_language_edit_title">Change app language</string>
     <string name="setting_language_item_en" translatable="false">English (English)</string>
     <string name="setting_language_item_es" translatable="false">Español (Spanish)</string>
@@ -1143,23 +1165,35 @@
     <string name="delete_account_subtitle">Here you can delete your account and all of its data.\n\nThis action is irreversible.</string>
     <string name="delete_account_account_info">Username: %1$s\nEmail: %2$s</string>
     <string name="delete_account_confirmation">I understand the risks</string>
-    <string name="delete_account_comments">1. Delete my comments</string>
-    <string name="delete_account_posts">2. Delete my posts</string>
-    <string name="delete_account_messages">3. Delete my messages</string>
-    <string name="delete_account_account">4. Delete my account and log out</string>
+    <string name="delete_account_posts_counter">Posts: %1$d</string>
+    <string name="delete_account_comments_counter">Comments: %1$d</string>
+    <string name="delete_account_messages_counter">Messages: %1$d</string>
+    <string name="delete_account_posts_button">Delete my posts</string>
+    <string name="delete_account_comments_button">Delete my comments</string>
+    <string name="delete_account_messages_button">Delete my messages</string>
+    <string name="delete_account_posts_success_message">Success! You posts will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
+    <string name="delete_account_comments_success_message">Success! You comments will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
+    <string name="delete_account_messages_success_message">Success! You messages will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
+    <string name="delete_account_send_request_success_message">Success! You account has been scheduled for deletion. Check your inbox for more details. Your account is now deactivated.</string>
+    <string name="delete_account_cancel_request_success_message">Success! You account has been reactivated and is no longer pending deletion.</string>
+    <string name="delete_account_send_request_button">Send account deletion request</string>
+    <string name="delete_account_cancel_request_button">Cancel account deletion request</string>
     <string name="delete_account_comments_failed">Failed to delete comments: %1$s</string>
     <string name="delete_account_posts_failed">Failed to delete posts: %1$s</string>
     <string name="delete_account_messages_failed">Failed to delete messages: %1$s</string>
-    <string name="delete_account_account_failed">Failed to delete account: %1$s</string>
-    <string name="delete_account_comments_success">Deleted %1$d comments</string>
-    <string name="delete_account_posts_success">Deleted %1$d posts</string>
-    <string name="delete_account_messages_success">Deleted %1$d messages</string>
-    <string name="delete_account_account_success">Deleted your account</string>
+    <string name="delete_account_send_request_failed">Failed to send deletion request: %1$s</string>
+    <string name="delete_account_cancel_request_failed">Failed to cancel deletion request: %1$s</string>
+    <string name="delete_account_refresh_failed">Failed to refresh: %1$s</string>
     <string name="delete_account_deleting">Deleting&#8230;</string>
-    <string name="delete_account_deleted">All deleted</string>
-    <string name="delete_account_final_confirmation_title">Continue?</string>
-    <string name="delete_account_final_confirmation_message">Are you sure? Your account will be permanently deleted.</string>
-    <string name="delete_account_deleted_toast">Bye :3</string>
+    <string name="delete_account_loading">Loading&#8230;</string>
+    <string name="delete_account_request_text_title">Permanently deleting your eFurry account</string>
+    <string name="delete_account_request_text_1">1. Requesting account deletion.</string>
+    <string name="delete_account_request_text_1_sub">When you press the \"Send account deletion request\" button, your account will be deactivated and marked as pending deletion. An email will be sent to your inbox that confirms the deletion request. </string>
+    <string name="delete_account_request_text_2">2. Grace period.</string>
+    <string name="delete_account_request_text_2_sub">Your account will remain deactivated for one month before we process your deletion request. During this time, if you change your mind and want your account back you need to either press the \"Cancel account deletion request\" button or send an email to support@efurry.net to cancel the deletion. </string>
+    <string name="delete_account_request_text_3">3. Physical account deletion.</string>
+    <string name="delete_account_request_text_3_sub">When one month has passed, your account will be deleted from our servers. Once this happens you will be notified via email.</string>
+    <string name="delete_account_request_text_notice">Note: once your account has been deleted, your username becomes free for others to use.</string>
 
     <string name="email_not_verified_dialog_message">You need to verify your email address first!\n\nClick on the link that was sent to %1$s and then try again or restart the app.\n\nIf you have not received an email, log out and log in again and you should receive a new one.</string>
     <string name="email_verification_dialog_title">Email verification</string>
@@ -1204,6 +1238,10 @@
     <string name="cleanup_old_control_messages" translatable="false">Delete old control messages</string>
     <string name="cleanup_old_like_notifications" translatable="false">Delete old liked notifications</string>
     <string name="cleanup_old_installations" translatable="false">Delete old installations</string>
+    <string name="cleanup_ban_ip" translatable="false">Ban IP</string>
+    <string name="cleanup_unban_ip" translatable="false">Unban IP</string>
+    <string name="enter_ip" translatable="false">Enter IP</string>
+    <string name="reason">Reason</string>
     <string name="cleanup_error" translatable="false">Error: %1$s</string>
 
     <string name="modmail_empty_text">You have no Modmail yet!</string>

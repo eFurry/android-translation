@@ -442,23 +442,10 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="delete_account_subtitle">Aqui você pode apagar a sua conta e todos os seus dados.\n\nEsta ação é irreversível</string>
     <string name="delete_account_account_info">Nome de utilizador: %1$s\nEmail: %2$s</string>
     <string name="delete_account_confirmation">Eu compreendo os riscos</string>
-    <string name="delete_account_comments">"1. Apagar os meus comentários "</string>
-    <string name="delete_account_posts">"2. Apagar as minhas publicações "</string>
-    <string name="delete_account_messages">3. Apagar as minhas mensagens</string>
-    <string name="delete_account_account">4. Apagar a minha conta e fazer log out</string>
     <string name="delete_account_comments_failed">Falha ao apagar comentários: %1$s</string>
     <string name="delete_account_posts_failed">Falha ao apagar publicações: %1$s</string>
     <string name="delete_account_messages_failed">Falha ao apagar mensagens: %1$s</string>
-    <string name="delete_account_account_failed">Falha ao apagar conta: %1$s</string>
-    <string name="delete_account_comments_success">"Apagados %1$d comentários "</string>
-    <string name="delete_account_posts_success">"Apagados %1$d publicações "</string>
-    <string name="delete_account_messages_success">"Apagadas %1$d mensagens "</string>
-    <string name="delete_account_account_success">A tua conta foi apagada</string>
     <string name="delete_account_deleting">Apagando...</string>
-    <string name="delete_account_deleted">Tudo foi apagado</string>
-    <string name="delete_account_final_confirmation_title">Continuar?</string>
-    <string name="delete_account_final_confirmation_message">De certeza? A tua conta vai ser permanentemente apagada</string>
-    <string name="delete_account_deleted_toast">Adeus :3</string>
     <string name="email_not_verified_dialog_message">"Precisa de verificar o seu e-mail primeiro.\n\nClique na hiperligação que foi enviada para %1$s</string>
     <string name="email_verification_dialog_title">Verificação do email</string>
     <string name="email_verification_dialog_message">Bem-vindo ao eFur!\n\nPara confirmar, %1$s</string>
@@ -796,8 +783,8 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="premium_purchased_item_gifted_to">Dotado de</string>
     <string name="premium_purchased_item_gifted_from">Dotado de</string>
     <string name="premium_purchased_item_activate_dialog_title">Ative a compra</string>
-    <string name="premium_purchased_item_activate_dialog_message">Deseja ativar esta compra para sua própria conta ou presentear com outra pessoa? \ N \ n %1 s x %2$d</string>
-    <string name="premium_purchased_item_activate_dialog_message_confirm">Isso ativará a compra por %1$s (%2$s). \ N \ ncontinUe?</string>
+    <string name="premium_purchased_item_activate_dialog_message">Deseja ativar esta compra para sua própria conta ou presentear com outra pessoa?\n\n%1$s x %2$d</string>
+    <string name="premium_purchased_item_activate_dialog_message_confirm">Isso ativará a compra por %1$s (%2$s).\n\nContinue?</string>
     <string name="premium_purchased_item_activate_dialog_myself">Eu mesmo</string>
     <string name="premium_purchased_item_activate_dialog_gift">Presente</string>
     <string name="premium_purchased_item_activate_error">Falhou em ativar: %1$s</string>
@@ -964,7 +951,6 @@ Deixe um comentário e faça alguém feliz!</string>
 
     <string name="toggle_after_dark">Alterne após o perfil escuro (AD/NSFW)</string>
 
-    <string name="settings_language_title">Localização</string>
     <string name="settings_language_edit_title">Alterar a linguagem do aplicativo</string>
     <string name="content_filter_block_tags_title">Tags de bloco</string>
     <string name="content_filter_block_tags_summary">Gerencie minhas tags bloqueadas</string>

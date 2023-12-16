@@ -539,7 +539,6 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="downloading">Pobieranie…</string>
     <string name="download_error_storage_permission_required">Uprawnienie do pamięci wymagane!</string>
     <string name="settings_consent_title">Zgody</string>
-    <string name="settings_language_title">Lokalizacja</string>
     <string name="settings_language_edit_title">Zmień język aplikacji</string>
     <string name="content_filter_title">Filtr treści</string>
     <string name="content_filter_rating_title">Maksymalna klasyfikacja treści</string>
@@ -560,23 +559,10 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="delete_account_subtitle">"Możesz tu usunąć swoje konto i wszystkie jego dane.\n\nTa czynność jest nieodwracalna. "</string>
     <string name="delete_account_account_info">Nazwa użytkownika: %1$s\nE-mail: %2$s</string>
     <string name="delete_account_confirmation">Rozumiem zagrożenia</string>
-    <string name="delete_account_comments">1. Usuń moje komentarze</string>
-    <string name="delete_account_posts">2. Usuń moje posty</string>
-    <string name="delete_account_messages">3. Usuń moje wiadomości</string>
-    <string name="delete_account_account">4. Usuń moje konto i wyloguj się</string>
     <string name="delete_account_comments_failed">Nie udało się usunąć komentarzy: %1$s</string>
     <string name="delete_account_posts_failed">Nie udało się usunąć postów: %1$s</string>
     <string name="delete_account_messages_failed">Nie udało się usunąć wiadomości: %1$s</string>
-    <string name="delete_account_account_failed">Nie udało się usunąć konta: %1$s</string>
-    <string name="delete_account_comments_success">Usunięte komentarze: %1$d</string>
-    <string name="delete_account_posts_success">Usunięte posty: %1$d</string>
-    <string name="delete_account_messages_success">Usunięte wiadomości: %1$d</string>
-    <string name="delete_account_account_success">Usunąłeś/aś swoje konto</string>
     <string name="delete_account_deleting">Usuwanie…</string>
-    <string name="delete_account_deleted">Wszystko zostało usunięte</string>
-    <string name="delete_account_final_confirmation_title">Kontynuować?</string>
-    <string name="delete_account_final_confirmation_message">Na pewno? Twoje konto zostanie bezpowrotnie usunięte.</string>
-    <string name="delete_account_deleted_toast">Pa :3</string>
     <string name="email_not_verified_dialog_message">Najpierw musisz zweryfikować swój adres e-mail!\n\nKliknij przycisk z linkiem, który został wysłany na adres %1$s i spróbuj ponownie lub zrestartuj aplikację.\n\nJeżeli nie otrzymałeś wiadomości e-mail, wyloguj się i zaloguj ponownie, a powinieneś otrzymać nową.</string>
     <string name="email_verification_dialog_title">Weryfikacja adresu e-mail</string>
     <string name="email_verification_dialog_message">Witamy na eFur!\n\nAby potwierdzić swój e-mail, kliknij przycisk z linkiem, który został wysłany na adres %1$s.\n\nJeżeli po pięciu minutach nie otrzymasz wiadomości e-mail, wyloguj się i zaloguj ponownie, a powinieneś otrzymać nową.</string>
@@ -807,7 +793,7 @@ Zostaw komentarz i spraw komuś radość!</string>
 
     <string name="chat_group_add_members">Dodaj członków</string>
     <string name="chat_group_invite_user_error">Nie udało się zaprosić: %1$s</string>
-    <string name="chat_group_invite_user_success">%1 $ zaproszony!</string>
+    <string name="chat_group_invite_user_success">%1$s zaproszony!</string>
     <string name="chat_role_with_last_seen_date">%1$s \ nlast widział %2$s %3$s temu</string>
     <string name="chat_last_seen_date">Ostatnio widziane %1$s %2$s temu</string>
     <string name="chat_role_with_online">%1$s \ online</string>
