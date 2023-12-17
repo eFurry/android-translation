@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
     <string name="action_log_out">Выйти</string>
     <string name="action_log_in">Войти</string>
@@ -62,8 +62,10 @@
     <string name="login_dialog_consent_personalised_yes">Да</string>
     <string name="login_dialog_consent_personalised_no">Нет</string>
     <string name="login_dialog_consent_done_title">Зарегестрироваться?</string>
-    <string name="login_dialog_register_confirm_message">Вы собираетесь зарегистрировать учетную запись, используя %1$s. На этот адрес будет отправлено письмо для подтверждения.\n\nПродолжать?</string>
-    <string name="account_needed">Для выполнения этого действия необходима учетная запись!</string>
+    <string name="login_dialog_register_confirm_message">Вы собираетесь зарегистрировать аккаунт, используя %1$s. На этот адрес будет отправлено письмо для подтверждения.
+\n
+\nПродолжать?</string>
+    <string name="account_needed">Для выполнения этого действия необходим аккаунт!</string>
     <string name="reset_password_dialog_title">Сброс пароля</string>
     <string name="reset_password_dialog_message">Это отправит электронное письмо для сброса пароля на \"%1$s\".\nНажмите на ссылку в письме, чтобы сбросить пароль\n\nВы хотите продолжить?</string>
     <string name="reset_password_error">Ошибка: %1$s</string>
@@ -845,9 +847,11 @@
     <string name="settings_danger_change_email_saving">Изменение адреса электронной почты…</string>
     <string name="settings_danger_change_email_saving_error">Не удалось изменить адрес электронной почты: %1$s</string>
     <string name="settings_danger_change_email_saving_success">Успех! Адрес электронной почты изменен на %1$s</string>
-    <string name="settings_danger_delete_account_title">Удалить данные учетной записи</string>
+    <string name="settings_danger_delete_account_title">Удалить данные аккаунта</string>
     <string name="delete_account_title">Удаление аккаунта</string>
-    <string name="delete_account_subtitle">Здесь вы можете удалить свою учетную запись и все ее данные.\n\nЭто действие необратимо.</string>
+    <string name="delete_account_subtitle">Здесь вы можете удалить свой аккаунт и все его данные.
+\n
+\nЭто действие необратимо.</string>
     <string name="delete_account_account_info">Имя пользователя: %1$s\nЭлектронная почта: %2$s</string>
     <string name="delete_account_confirmation">Я понимаю риски</string>
     <string name="delete_account_comments_failed">Не удалось удалить комментарии: %1$s</string>
@@ -894,14 +898,12 @@
     <string name="blocked_none">Вы не заблокировали ни одного пользователя</string>
     <string name="modmail_empty_text">У вас еще нет Modmail!</string>
     <string name="action_start_chat">Начать чат</string>
-    <string name="action_create_1_1_chat">Начните чат 1: 1</string>
+    <string name="action_create_1_1_chat">Начать чат 1:1</string>
     <string name="action_create_group_chat">Начать групповой чат</string>
-    <string name="action_clear_history">Чистая история</string>
+    <string name="action_clear_history">Очистить историю</string>
     <string name="action_delete_chat">Удалить чат</string>
     <string name="action_leave_chat">Оставить чат</string>
-
     <string name="launcher_save_token_error">Не удалось сэкономить токен: %1$s</string>
-
     <string name="upload_settings_disable_comments">Отключить комментарии</string>
     <string name="upload_settings_disable_comments_hint">Комментирование будет отключено для этого поста</string>
     <string name="discover_users_start_chat_with">Выберите пользователя, чтобы общаться с</string>
@@ -911,12 +913,10 @@
     <string name="unknown_account">Неизвестный</string>
     <string name="and">и</string>
     <string name="info">Информация</string>
-
     <string name="message_last_seen_online">В сети</string>
     <string name="message_send_media">Отправить СМИ</string>
     <string name="chats_no_messages">Пока нет сообщений</string>
     <string name="chats_no_chats">Как только вы присоединитесь к чату, он появится здесь. \ N \ nstart в чате в правом верхнем углу!</string>
-
     <string name="chat_toolbar_loading">Загрузка чата…</string>
     <string name="chat_group_member_count">%1$d Член</string>
     <string name="chat_group_members_count">%1$d участники</string>
@@ -929,12 +929,11 @@
     <string name="chat_deleted_dialog_title">Чат удален</string>
     <string name="chat_deleted_dialog_message">Этот чат был удален.</string>
     <string name="chat_create_1_1_hint">Запустите чат с другим пользователем. \ Nenter их имя пользователя ниже или перейдите в их профиль и используйте кнопку «Сообщение», чтобы запустить чат</string>
-    <string name="chat_self_chat">%1$s (сэкономленные сообщения)</string>
+    <string name="chat_self_chat">%1$s (сохраненные сообщения)</string>
     <string name="chat_create_group_dialog_title">Создать групповой чат</string>
     <string name="chat_create_group_dialog_input_hint">Название группы (можно изменить позже)</string>
     <string name="chat_create_group_creating">Создание группы…</string>
     <string name="chat_create_group_created">Группа создана!</string>
-
     <string name="chat_control_message_3">%1$s присоединился</string>
     <string name="chat_control_message_4">%1$s осталось</string>
     <string name="chat_control_message_5">%1$s Kicked %2$s</string>
@@ -944,7 +943,6 @@
     <string name="chat_control_message_9">%1$s изменил иконку группы</string>
     <string name="chat_control_message_10">чат удален</string>
     <string name="chat_control_message_11">чат создан</string>
-
     <string name="chat_group_add_members">Добавить участники</string>
     <string name="chat_group_invite_user_error">Не удалось пригласить: %1$s</string>
     <string name="chat_group_invite_user_success">%1$s приглашен!</string>
@@ -968,7 +966,6 @@
     <string name="chat_info_user_option_unban">Бормотать</string>
     <string name="chat_info_user_option_unban_error">Не удалось сдать: %1$s</string>
     <string name="chat_info_user_option_unban_success">Недован %1$s</string>
-
     <string name="chat_open_error_banned">Вы были запрещены в этом чате.</string>
     <string name="chat_open_error_kicked">Вы были выбиты из этого чата.</string>
     <string name="chat_open_error_deleted">Этот чат больше не существует.</string>
@@ -983,50 +980,41 @@
     <string name="chat_edit_icon_read_error">Не удалось прочитать файл: %1$s</string>
     <string name="chat_edit_error">Не удалось отредактировать: %1$s</string>
     <string name="chat_edit_success">Чат отредактирован!</string>
-
     <string name="notification_delete_message">Удалить это уведомление?</string>
     <string name="notification_delete_error">Не удалось удалить: %1$s</string>
-
     <string name="post_comments_disabled">Комментарии были отключены для этого поста</string>
-
     <string name="profile_content_manage_fursonas">Управляйте своими фурсонами</string>
-    <string name="discover_users_title">Просмотрите пользователей</string>
+    <string name="discover_users_title">Просмотр пользователей</string>
     <string name="discover_users_member_for">Присоединился %1$s %2$s назад</string>
     <string name="discover_users_order_followers_item">%1$d подписчиков</string>
     <string name="discover_users_order_likes_item">%1$d лайки</string>
     <string name="discover_users_order_posts_item">%1$d посты</string>
     <string name="discover_users_order_level_item">Уровень %1$d</string>
     <string name="discover_users_menu_order_by">Заказывать пользователей</string>
-    <string name="discover_users_menu_order_by_newest">Новички вперед</string>
+    <string name="discover_users_menu_order_by_newest">Сначала новые</string>
     <string name="discover_users_menu_order_by_oldest">Сначала старые</string>
-    <string name="discover_users_menu_order_by_followers">Большинство последователей</string>
-    <string name="discover_users_menu_order_by_likes">Большинство лайков получили</string>
-    <string name="discover_users_menu_order_by_posts">Большинство сообщений сделано</string>
-    <string name="discover_users_menu_order_by_level">Высший уровень</string>
-    <string name="discover_users_search_sub_hint">Имена пользователей нечувствительны к случаям.Имена чувствительны к случаям.</string>
+    <string name="discover_users_menu_order_by_followers">Наибольшее количество подписчиков</string>
+    <string name="discover_users_menu_order_by_likes">Наибольшее количество полученных лайков</string>
+    <string name="discover_users_menu_order_by_posts">Наибольшее количество постов</string>
+    <string name="discover_users_menu_order_by_level">Наивысший уровень</string>
+    <string name="discover_users_search_sub_hint">Имена пользователей нечувствительны к регистру. Имена чувствительны к регистру.</string>
     <string name="discover_users_search_user_clicked_view_profile">Просмотреть профиль</string>
     <string name="discover_users_search_user_clicked_select">Выберите пользователя</string>
     <string name="discover_users_list_empty">Пользователи не найдены</string>
     <string name="discover_users_search_empty">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \"</string>
     <string name="discover_users_search_error">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \". \ N \ nerror: %2$s</string>
     <string name="chat_control_message_12">%1$s изменил информацию группы на %2$s</string>
-
     <string name="chat_error_removed_from_chat">Вы были удалены из этого чата</string>
-
-    <string name="action_mute">Немой</string>
+    <string name="action_mute">Заглушить</string>
     <string name="action_unmute">Моги</string>
-
     <string name="moderators">Модераторы</string>
     <string name="reported_chats">Сообщалось в чатах</string>
     <string name="chat_media_message">СМИ сообщение</string>
     <string name="chat_media_message_with_text">Сообщение СМИ: %1$s</string>
-
     <string name="chat_role_admin">Администратор</string>
     <string name="chat_admin_join">Присоединяйтесь как администратор</string>
     <string name="chat_joined_with_role">Присоединился к роле %1$d</string>
-
     <string name="chat_error_does_not_exist">Этот чат был удален</string>
-
     <string name="chat_open_invited_single">%1$s (%2$s) хочет поговорить с вами. \ N \ Naccept Invite?</string>
     <string name="chat_open_invited_group">Вам было предложено присоединиться к групповому чату \"%1$s \". \ N \ naccept Invite?</string>
     <string name="chat_delete_error">Не удалось удалить: %1$s</string>
@@ -1055,53 +1043,121 @@
     <string name="chat_unmute_chat_positive">Моги</string>
     <string name="chat_unmute_chat_error">Не удалось включить: %1$s</string>
     <string name="chat_unmute_chat_success">Потекайте без разговора!</string>
-
     <string name="mod_log_chat">Зайдите в чат %1$s</string>
     <string name="post_info_file_dimensions">Файл измерения: %1$dx %2$d</string>
-
     <plurals name="profile_stats_data_liked_posts">
-        <item quantity="one">%1$d Понравившийся пост</item>
-        <item quantity="few">%1$d Понравившихся поста</item>
-        <item quantity="many">%1$d Понравившиеся посты</item>
-        <item quantity="other">%1$d Понравившиеся посты</item>
+        <item quantity="one">%1$d понравившийся пост</item>
+        <item quantity="few">%1$d понравившихся постов</item>
+        <item quantity="many">%1$d понравившихся постов</item>
+        <item quantity="other">%1$d понравившихся постов</item>
     </plurals>
     <plurals name="profile_stats_data_likes_received">
-        <item quantity="one">%1$d Лайки</item>
-        <item quantity="few">%1$d Лайки</item>
-        <item quantity="many">%1$d Лайки</item>
-        <item quantity="other">%1$d Лайки</item>
+        <item quantity="one">%1$d лайк</item>
+        <item quantity="few">%1$d лайка</item>
+        <item quantity="many">%1$d лайков</item>
+        <item quantity="other">%1$d лайков</item>
     </plurals>
     <plurals name="profile_stats_data_comments_written">
-        <item quantity="one">%1$d Написанный комментарий</item>
-        <item quantity="few">%1$d Написанных комментариев</item>
-        <item quantity="many">%1$d Написанных комментариев</item>
-        <item quantity="other">%1$d Написанных комментариев</item>
+        <item quantity="one">%1$d написанный комментарий</item>
+        <item quantity="few">%1$d написанных комментариев</item>
+        <item quantity="many">%1$d написанных комментариев</item>
+        <item quantity="other">%1$d написанных комментариев</item>
     </plurals>
     <plurals name="profile_stats_data_comments_received">
-        <item quantity="one">%1$d Ответ на комментарий</item>
-        <item quantity="few">%1$d Ответов на комментарий</item>
-        <item quantity="many">%1$d Ответов на комментарий</item>
-        <item quantity="other">%1$d Ответов на комментарий</item>
+        <item quantity="one">%1$d полученный комментарий</item>
+        <item quantity="few">%1$d полученных комментария</item>
+        <item quantity="many">%1$d полученных комментариев</item>
+        <item quantity="other">%1$d полученных комментариев</item>
     </plurals>
     <plurals name="profile_stats_data_premium_months">
-        <item quantity="one">%1$d Месяц с оплаченным аккаунтом</item>
-        <item quantity="few">%1$d Месяц с оплаченным аккаунтом</item>
-        <item quantity="many">%1$d Месяц с оплаченным аккаунтом</item>
-        <item quantity="other">%1$d Месяц с оплаченным аккаунтом</item>
+        <item quantity="one">%1$d месяц с купленным премиумом</item>
+        <item quantity="few">%1$d месяца с купленным премиумом</item>
+        <item quantity="many">%1$d месяцев с купленным премиумом</item>
+        <item quantity="other">%1$d месяцев с купленным премиумом</item>
     </plurals>
     <plurals name="profile_stats_data_levels">
-        <item quantity="one">%1$d Оплаченный уровень аккаунта</item>
-        <item quantity="few">%1$d Оплаченный уровень аккаунта</item>
-        <item quantity="many">%1$d Оплаченный уровень аккаунта</item>
-        <item quantity="other">%1$d Оплаченный уровень аккаунта</item>
+        <item quantity="one">%1$d купленный уровень аккаунта</item>
+        <item quantity="few">%1$d купленных уровеня аккаунта</item>
+        <item quantity="many">%1$d купленных уровней аккаунта</item>
+        <item quantity="other">%1$d купленных уровней аккаунта</item>
     </plurals>
     <plurals name="profile_stats_data_messages_sent">
-        <item quantity="one">%1$d Отправленное сообщение</item>
-        <item quantity="few">%1$d Отправленных сообщений</item>
-        <item quantity="many">%1$d Отправленных сообщений</item>
-        <item quantity="other">%1$d Отправленных сообщений</item>
+        <item quantity="one">%1$d отправленное сообщение</item>
+        <item quantity="few">%1$d отправленных сообщений</item>
+        <item quantity="many">%1$d отправленных сообщений</item>
+        <item quantity="other">%1$d отправленных сообщений</item>
     </plurals>
-<string name="upload_chooser_video_thumbnail_generation_failed">Не удалось создать миниатюру</string>
-    <string name="profile_stats_data_bytes_stored">%1$d байты хранятся (%2$s MB)</string>
-
-    </resources>
+    <string name="upload_chooser_video_thumbnail_generation_failed">Не удалось создать миниатюру</string>
+    <string name="profile_stats_data_bytes_stored">%1$d байтов хранится (%2$s МБ)</string>
+    <string name="trending">Тренды</string>
+    <string name="settings_ui_title">Интерфейс и локализация</string>
+    <string name="chat_info_user_option_demote_from_mod">Понизить до участника</string>
+    <string name="about_stats_bytes">Хранится байт: %1$d (%2$s ГБ)</string>
+    <string name="search_content_sensitive">С деликатным содержанием/темами</string>
+    <string name="search_any_sensitive_themes">Соответствует любой из выбранных деликатных тем</string>
+    <string name="about_stats_posts">Постов: %1$d</string>
+    <string name="delete_account_posts_button">Удалить мои посты</string>
+    <string name="reset_password_title">Сброс пароля</string>
+    <string name="reset_password_subtitle">Забыли пароль от своего аккаунта?
+\n
+\n1. Введите свой адрес электронной почты ниже, чтобы приступить к созданию нового пароля.</string>
+    <string name="verify_account_resend_text">Вы не получили электронное письмо? Нажмите на кнопку ниже, чтобы отправить новый код</string>
+    <string name="search_ratings">Рейтинг постов</string>
+    <string name="delete_account_cancel_request_success_message">Успех! Ваш аккаунт был повторно активирована и больше не находится в очереди на удаление.</string>
+    <string name="reset_password_new_password">2. Введите свой новый пароль и код, полученный по электронной почте ниже.</string>
+    <string name="verify_account_subtitle">Чтобы использовать все функции, вам необходимо подтвердить свой аккаунт.
+\n
+\nПроверьте свою электронную почту по адресу %1$s и введите код, который был отправлен вам ниже.</string>
+    <string name="about_stats_users">Пользователей: %1$d</string>
+    <string name="settings_danger_reset_password_title">Изменить пароль аккаунта</string>
+    <string name="delete_account_posts_success_message">Успех! Ваши посты будут удалены. Если у вас их много, это может занять некоторое время. Нажмите на значок обновления, чтобы проверить прогресс.</string>
+    <string name="delete_account_messages_success_message">Успех! Ваши сообщения будут удалены. Если у вас их много, это может занять некоторое время. Нажмите на значок обновления, чтобы проверить прогресс.</string>
+    <string name="delete_account_send_request_failed">Не удалось отправить запрос на удаление: %1$s</string>
+    <string name="search_categories">В категориях</string>
+    <string name="search_content_safe">С содержанием/темами</string>
+    <string name="search_any_categories">Соответствует любой из выбранных категорий</string>
+    <string name="search_any_themes">Соответствует любой из выбранных тем</string>
+    <string name="reset_password_email_hint">Введите адрес электронной почты аккаунта</string>
+    <string name="reset_password_send_reset">Отправить код для сброса пароля</string>
+    <string name="reset_password_password_hint">Введите новый пароль</string>
+    <string name="reset_password_save">Сохранить новый пароль аккаунта</string>
+    <string name="reset_password_success">Успех! Пароль вашего аккаунта был изменен</string>
+    <string name="reset_password_resend_code_success">Код был отправлен на вашу электронную почту</string>
+    <string name="refresh">Обновить</string>
+    <string name="account">Аккаунт</string>
+    <string name="ban">Заблокировать</string>
+    <string name="verify_account_resend_code">Отправить код еще раз</string>
+    <string name="main_verify_email_title">Необходимо подтверждение аккаунта</string>
+    <string name="verify_account_title">Подтверждение аккаунта</string>
+    <string name="verify_account_resend_code_success">Код был отправлен на вашу электронную почту</string>
+    <string name="reset_password_code_hint">Введите 8- или 9-значный код</string>
+    <string name="verify_account_code_hint">Введите 6- или 7-значный код</string>
+    <string name="chat_info_user_option_promote_to_mod">Повысить до модератора</string>
+    <string name="about_stats_comments">Комментариев: %1$d</string>
+    <string name="about_stats_messages">Сообщений: %1$d</string>
+    <string name="about_stats_fursonas">Фурсон: %1$d</string>
+    <string name="about_stats_files">Файлов: %1$d</string>
+    <string name="about_stats_premium">Премиум</string>
+    <string name="about_stats_premium_months">Месяцов премиума: %1$d</string>
+    <string name="about_stats_premium_levels">Повышений уровня: %1$d</string>
+    <string name="settings_ui_change_theme">Изменить тему</string>
+    <string name="settings_ui_theme_item_light">Светлая</string>
+    <string name="settings_ui_theme_item_dark">Темная</string>
+    <string name="settings_ui_theme_item_system">Как в системе</string>
+    <string name="delete_account_posts_counter">Постов: %1$d</string>
+    <string name="delete_account_comments_counter">Комментариев: %1$d</string>
+    <string name="delete_account_messages_counter">Сообщений: %1$d</string>
+    <string name="delete_account_comments_button">Удалить мои комментарии</string>
+    <string name="delete_account_messages_button">Удалить мои сообщения</string>
+    <string name="delete_account_send_request_button">Отправить запрос на удаление аккаунта</string>
+    <string name="delete_account_cancel_request_button">Отменить запрос на удаление аккаунта</string>
+    <string name="delete_account_cancel_request_failed">Не удалось отменить запрос на удаление: %1$s</string>
+    <string name="delete_account_refresh_failed">Не удалось обновить: %1$s</string>
+    <string name="delete_account_loading">Загрузка…</string>
+    <string name="reason">Причина</string>
+    <string name="unban">Разблокировать</string>
+    <string name="verify_account_success">Успех! Ваш аккаунт был подтвержден</string>
+    <string name="main_verify_email_message">Нажмите, чтобы начать процесс подтверждения</string>
+    <string name="delete_account_comments_success_message">Успех! Ваши комментарии будут удалены. Если у вас их много, это может занять некоторое время. Нажмите на значок обновления, чтобы проверить прогресс.</string>
+    <string name="delete_account_send_request_success_message">Успех! Ваш аккаунт запланирован к удалению. Проверьте свой почтовый ящик для получения более подробной информации. Ваш аккаунт теперь деактивирован.</string>
+</resources>
