@@ -489,4 +489,116 @@
     <string name="chats_no_chats">一旦你加入聊天，它就会出现在这里。
 \n
 \n在右上角开始聊天！</string>
+    <string name="chat_admin_join">以管理员身份加入</string>
+    <string name="chat_info_user_option_ban_error">封禁失败：%1$s</string>
+    <string name="chat_info_user_option_unban_error">解除失败：%1$s</string>
+    <string name="chat_open_error_deleted">此聊天已不存在。</string>
+    <string name="chat_mute_chat_message">开启免打扰？
+\n
+\n您将不再收到新消息的推送通知。</string>
+    <string name="chat_unmute_chat_message">是否取消此聊天的免打扰？
+\n
+\n您将收到新邮件的推送通知。</string>
+    <string name="share_disabled">已禁用此帖子的共享</string>
+    <string name="chat_leave_error">离开失败：%1$s</string>
+    <string name="chat_clear_history_message">是否删除所有消息和媒体？
+\n
+\n这将删除所有成员在此聊天中的所有内容。
+\n
+\n此操作是不可逆的，可能需要几分钟才能完成。</string>
+    <string name="chat_mute_chat_title">消息免打扰</string>
+    <string name="chat_role_invited">已邀请</string>
+    <string name="chat_role_kicked">已移除</string>
+    <string name="chat_role_banned">已封禁</string>
+    <string name="chat_role_admin">管理员</string>
+    <string name="chat_role_left">离开</string>
+    <string name="chat_control_message_7">&lt; %1$s &gt;</string>
+    <string name="chat_control_message_8">%1$s已将群名更改为%2$s</string>
+    <string name="chat_control_message_9">%1$s更改群组图标</string>
+    <string name="chat_control_message_10">聊天已删除</string>
+    <string name="chat_control_message_11">聊天已创建</string>
+    <string name="chat_control_message_12">%1$s将群聊信息更改为%2$s</string>
+    <string name="chat_media_message">媒体消息</string>
+    <string name="chat_media_message_with_text">媒体消息：%1$s</string>
+    <string name="chat_group_add_members">添加成员</string>
+    <string name="chat_group_invite_user_error">邀请失败：%1$s</string>
+    <string name="chat_group_invite_user_success">已邀请%1$s人！</string>
+    <string name="chat_role_with_last_seen_date">%1$s
+\n上次查看时间：%2$s%3$s之前</string>
+    <string name="chat_last_seen_date">上次查看在%1$s%2$s之前</string>
+    <string name="chat_role_with_online">%1$s
+\n在线</string>
+    <string name="chat_online">在线</string>
+    <string name="chat_role_owner">所有者</string>
+    <string name="chat_role_moderator">管理员</string>
+    <string name="chat_role_member">成员</string>
+    <string name="chat_joined_with_role">已加入%1$d</string>
+    <string name="chat_info_user_option_kick">移除</string>
+    <string name="chat_info_user_option_kick_error">踢出失败：%1$s</string>
+    <string name="chat_info_user_option_kick_success">已踢出%1$s</string>
+    <string name="chat_info_user_option_ban">封禁</string>
+    <string name="chat_info_user_option_ban_success">已封禁%1$s</string>
+    <string name="chat_info_user_option_promote_to_mod">升级为管理员</string>
+    <string name="chat_info_user_option_promote_to_mod_error">升级失败：%1$s</string>
+    <string name="chat_info_user_option_promote_to_mod_success">已升级%1$s</string>
+    <string name="chat_info_user_option_demote_from_mod">降级为成员</string>
+    <string name="chat_info_user_option_demote_from_mod_error">降级失败：%1$s</string>
+    <string name="chat_info_user_option_demote_from_mod_success">已降级%1$s</string>
+    <string name="chat_info_user_option_unban">解除封禁</string>
+    <string name="chat_info_user_option_unban_success">已解除对%1$s的封禁</string>
+    <string name="chat_error_removed_from_chat">您已被从此聊天中删除</string>
+    <string name="chat_error_does_not_exist">此聊天已被删除</string>
+    <string name="chat_open_error_banned">您已被禁止参与此聊天。</string>
+    <string name="chat_open_error_kicked">您已被踢出此聊天。</string>
+    <string name="chat_open_invited_single">%1$s（%2$s）想与您聊天。
+\n
+\n是否接受邀请？</string>
+    <string name="chat_open_invited_group">您已被邀请加入群聊“%1$s”。
+\n
+\n是否接受邀请？</string>
+    <string name="leave">离开</string>
+    <string name="join">加入</string>
+    <string name="decline">降级</string>
+    <string name="chat_open_joining">加入中…</string>
+    <string name="chat_open_join_error">无法加入：%1$s</string>
+    <string name="chat_delete_error">无法删除：%1$s</string>
+    <string name="chat_clear_history_title">清除历史记录</string>
+    <string name="chat_clear_history_positive">删除所有内容</string>
+    <string name="chat_clear_history_error">无法清除历史记录：%1$s</string>
+    <string name="chat_clear_history_success">聊天记录已清除！</string>
+    <string name="chat_leave_chat_title">离开聊天</string>
+    <string name="chat_leave_chat_message">离开这个聊天？
+\n
+\n如果没有邀请，您可能无法再次加入。</string>
+    <string name="chat_leave_chat_positive">离开聊天</string>
+    <string name="chat_leave_chat_error">离开失败：%1$s</string>
+    <string name="chat_leave_chat_success">离开了聊天</string>
+    <string name="chat_delete_chat_title">删除聊天</string>
+    <string name="chat_delete_chat_message">删除此聊天？
+\n
+\n所有消息和媒体将被删除，所有成员将被踢。</string>
+    <string name="chat_delete_chat_positive">删除聊天</string>
+    <string name="chat_delete_chat_error">无法删除：%1$s</string>
+    <string name="chat_delete_chat_success">聊天已删除！</string>
+    <string name="chat_mute_chat_positive">免打扰</string>
+    <string name="chat_mute_chat_error">静音失败：%1$s</string>
+    <string name="chat_mute_chat_success">免打扰已经开启！</string>
+    <string name="chat_unmute_chat_title">取消免打扰</string>
+    <string name="chat_unmute_chat_positive">取消</string>
+    <string name="chat_unmute_chat_error">无法取消静音：%1$s</string>
+    <string name="chat_unmute_chat_success">取消免打扰！</string>
+    <string name="chat_edit_description_hint">群信息/说明</string>
+    <string name="chat_edit_name_hint">群名称</string>
+    <string name="chat_edit_icon_read_error">无法读取文件：%1$s</string>
+    <string name="chat_edit_error">无法编辑：%1$s</string>
+    <string name="chat_edit_success">聊天已编辑！</string>
+    <string name="copy_text">复制文本</string>
+    <string name="share_post_link">分享帖子链接</string>
+    <string name="share_media_link">分享媒体链接</string>
+    <string name="share_media_file">共享媒体</string>
+    <string name="report_as">举报为：</string>
+    <string name="report_reason_spam">垃圾邮件</string>
+    <string name="report_reason_hate_speech">仇恨言论</string>
+    <string name="report_reason_harassment">骚扰</string>
+    <string name="report_reason_impersonation">冒充</string>
 </resources>
