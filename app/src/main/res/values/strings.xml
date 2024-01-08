@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27905 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27870 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -92,11 +92,8 @@
     <string name="post_category_0">General</string>
     <string name="post_category_1">Artwork (Digital)</string>
     <string name="post_category_2">Artwork (Traditional)</string>
-    <string name="post_category_29">Artwork (AI)</string>
     <string name="post_category_3">Fursuits &amp; costumes</string>
     <string name="post_category_4">Animals &amp; pets</string>
-    <string name="post_category_5">GIF</string>
-    <string name="post_category_27">Video</string>
     <string name="post_category_6">Funny &amp; memes</string>
     <string name="post_category_7">Aww &amp; cute</string>
     <string name="post_category_8">Photography</string>
@@ -106,16 +103,18 @@
     <string name="post_category_12">Comics</string>
     <string name="post_category_13">Stories / text</string>
     <string name="post_category_25">Questions (Q&amp;A)</string>
-    <string name="post_category_26">Polls</string>
     <string name="post_category_14">Commissions</string>
     <string name="post_category_15">Auctions / YCH</string>
     <string name="post_category_16">Adoptables</string>
+    <string name="post_category_30">Clothing &amp; makeup</string>
     <string name="post_category_17">Gaming</string>
     <string name="post_category_18">Movies, series &amp; TV shows</string>
     <string name="post_category_28">Music</string>
     <string name="post_category_19">Travel &amp; places</string>
     <string name="post_category_20">WTF</string>
     <string name="post_category_21">Food &amp; recipes</string>
+    <string name="post_category_31">Cars &amp; vehicles</string>
+    <string name="post_category_32">Guns &amp; weaponry</string>
     <string name="post_category_22">Screenshots</string>
     <string name="post_category_23">Current events</string>
     <string name="post_category_24">Other &amp; random</string>
@@ -301,6 +300,12 @@
     <string name="discover_posts_tag_hint">Enter tag</string>
     <string name="discover_posts">Posts</string>
     <string name="coming_soon">Coming soon!</string>
+    <string name="post_types">Post types</string>
+    <string name="post_type_images">Images</string>
+    <string name="post_type_gifs">GIFs</string>
+    <string name="post_type_videos">Videos</string>
+    <string name="post_type_polls">Polls</string>
+    <string name="post_type_texts">Text posts</string>
 
     <string name="failed_to_get_posts">Failed to get posts: %1$s</string>
 
@@ -1101,6 +1106,7 @@
     <string name="setting_language_item_ru" translatable="false">Pусский (Russian)</string>
     <string name="setting_language_item_it" translatable="false">Italiano (Italian)</string>
     <string name="setting_language_item_zh_CN" translatable="false">简体中文 (Chinese Simplified)</string>
+    <string name="setting_language_item_tr" translatable="false">Türkçe (Turkish)</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>
