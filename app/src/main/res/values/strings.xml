@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 28236 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27905 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -207,6 +207,7 @@
     <string name="upload_settings_comic_button">Choose comic</string>
     <string name="upload_post_created">Post created!</string>
     <string name="upload_post_edited">Post edited!</string>
+    <string name="upload_no_rating_selected">Select a post rating!</string>
 
     <string name="my_comics_title">My comics</string>
     <string name="my_comics_create_title">Create a new comic</string>
@@ -216,14 +217,12 @@
     <string name="my_comics_add_to_message">Add the post to this comic?</string>
     <string name="my_comics_add_to_error">Failed to add post: %1$s</string>
     <string name="my_comics_add_to_success">Post added to %1$s</string>
-    <string name="comic_list_draft">DRAFT</string>
     <string name="comic_list_pages">Pages: %1$d</string>
     <string name="comic_list_desc">Updated %1$s %2$s ago, created %3$s %4$s ago</string>
 
     <string name="comic_view_get_error">Failed to get comic: %1$s</string>
     <string name="comic_view_title">Comic</string>
     <string name="comic_view_desc">Pages: %1$d\nCreated by %2$s</string>
-    <string name="comic_view_desc_draft">Pages: %1$d\nCreated by %2$s. DRAFT</string>
     <string name="comic_view_edit_title">New title</string>
     <string name="comic_view_edit_title_error">Failed to update title: %1$s</string>
     <string name="comic_view_edit_title_success">Title updated</string>
@@ -243,9 +242,7 @@
     <string name="comic_view_post_remove_error">Failed to remove: %1$s</string>
     <string name="comic_view_post_set_thumb_updated">Thumbnail updated</string>
     <string name="comic_view_post_set_thumb_error">Failed to set thumb: %1$s</string>
-    <string name="comic_view_publish_title">Publish comic</string>
     <string name="comic_view_add_page">Add page</string>
-    <string name="comic_view_publish_already_published">This comic has already been published!</string>
 
     <string name="fursona_view_title">Fursona</string>
     <string name="fursona_view_user_title">%1$s\'s fursonas</string>
@@ -319,8 +316,8 @@
     <string name="content_policy">Content policy</string>
     <string name="terms_of_service">Terms of Service</string>
     <string name="privacy_policy">Privacy Policy</string>
-    <string name="divider_horizontal"> | </string>
-    <string name="allowed_digits">01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</string>
+    <string name="divider_horizontal" translatable="false"> | </string>
+    <string name="allowed_digits" translatable="false">01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</string>
 
     <string name="main_press_back_again_to_exit">Press the back button again to exit!</string>
 
@@ -661,8 +658,8 @@
     <string name="support_general">Need to contact an admin or want help with the app? Send an email to support@efurry.net or contact one of the moderators below!</string>
     <string name="support_social">We have a Discord channel and a Telegram group! Join to chat with other users and moderators and get assistance with anything.</string>
     <string name="support_social_not_logged_in">Register an account first</string>
-    <string name="discord">Discord</string>
-    <string name="telegram">Telegram</string>
+    <string name="discord" translatable="false">Discord</string>
+    <string name="telegram" translatable="false">Telegram</string>
     <string name="dialogs_open_uri_title">Open external URL</string>
     <string name="dialogs_open_uri_message">You are about to open the external URL %1$s\n\nContinue?</string>
 
@@ -708,7 +705,6 @@
     <string name="notification_type_faved_post_gif">Liked your GIF</string>
     <string name="notification_type_faved_post_text">Liked your text post</string>
     <string name="notification_type_faved_post_poll">Liked your poll</string>
-    <string name="notification_type_faved_post_comic">Liked your comic</string>
     <string name="notification_type_faved_post">Liked your post</string>
     <string name="notification_type_followed">Followed you</string>
     <string name="notification_type_unfollowed">Someone unfollowed you</string>
@@ -808,22 +804,14 @@
     <string name="report_failed">Failed to send report: %1$s</string>
     <string name="edit_edit">Edit&#8230;</string>
     <string name="edit_mod">Moderation&#8230;</string>
-    <string name="edit_rating">Edit rating</string>
-    <string name="edit_artist">Edit artist</string>
-    <string name="edit_source">Edit source</string>
-    <string name="edit_category">Edit category</string>
-    <string name="edit_title">Edit title</string>
-    <string name="edit_description">Edit description</string>
-    <string name="post_info_menu_add_to_news">Add to News</string>
-    <string name="post_info_menu_remove_from_news">Remove from News</string>
-    <string name="post_info_menu_hide_from_new">Hide from New</string>
-    <string name="post_info_menu_hide_from_new_message">Hide this post from New?</string>
-    <string name="post_info_menu_recreate_thumbnail">Recreate thumbnail</string>
-    <string name="post_info_menu_recreate_thumbnail_message">Recreate the thumbnail?</string>
-    <string name="post_info_menu_swap_width_height">Swap width/height</string>
-    <string name="post_info_menu_swap_width_height_message">Swap the width/height?</string>
-    <string name="post_info_menu_add_to_news_message">Add this post to the News section?</string>
-    <string name="post_info_menu_remove_from_news_message">Remove this post from the News section?</string>
+    <string name="post_info_menu_add_to_news" translatable="false">Add to News</string>
+    <string name="post_info_menu_remove_from_news" translatable="false">Remove from News</string>
+    <string name="post_info_menu_recreate_thumbnail" translatable="false">Recreate thumbnail</string>
+    <string name="post_info_menu_recreate_thumbnail_message" translatable="false">Recreate the thumbnail?</string>
+    <string name="post_info_menu_swap_width_height" translatable="false">Swap width/height</string>
+    <string name="post_info_menu_swap_width_height_message" translatable="false">Swap the width/height?</string>
+    <string name="post_info_menu_add_to_news_message" translatable="false">Add this post to the News section?</string>
+    <string name="post_info_menu_remove_from_news_message" translatable="false">Remove this post from the News section?</string>
     <string name="post_info_menu_hide_post">Hide post</string>
     <string name="post_info_menu_hide_post_message">You will never see this post again. This action cannot be undone.</string>
     <string name="post_info_menu_add_to_comic">Add to comic</string>
@@ -851,16 +839,16 @@
     <string name="unban_user_dialog_positive">Unban</string>
     <string name="unban_user_dialog_title">Unban user</string>
     <string name="unban_user_dialog_message">Unban this user?</string>
-    <string name="remove_mod_dialog_title">Remove moderator</string>
-    <string name="remove_mod_dialog_message">Remove this user\'s moderator status?</string>
-    <string name="add_mod_dialog_title">Add moderator</string>
-    <string name="add_mod_dialog_message">Promote this user to a moderator?</string>
-    <string name="delete_all_posts_from_dialog_title">Purge user gallery</string>
-    <string name="delete_all_posts_from_dialog_message">Purge this user\'s gallery?</string>
-    <string name="delete_all_comments_from_dialog_title">Purge user comments</string>
-    <string name="delete_all_comments_from_dialog_message">Purge this user\'s comments?</string>
-    <string name="admin_verify_email_dialog_title">Verify email</string>
-    <string name="admin_verify_email_dialog_message">Manually verify this user\'s email?</string>
+    <string name="remove_mod_dialog_title" translatable="false">Remove moderator</string>
+    <string name="remove_mod_dialog_message" translatable="false">Remove this user\'s moderator status?</string>
+    <string name="add_mod_dialog_title" translatable="false">Add moderator</string>
+    <string name="add_mod_dialog_message" translatable="false">Promote this user to a moderator?</string>
+    <string name="delete_all_posts_from_dialog_title" translatable="false">Purge user gallery</string>
+    <string name="delete_all_posts_from_dialog_message" translatable="false">Purge this user\'s gallery?</string>
+    <string name="delete_all_comments_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
+    <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
     <string name="ban_user_type_all">Full ban (all below)</string>
     <string name="ban_user_type_comment">Create comments</string>
     <string name="ban_user_type_message">Send messages</string>
@@ -1112,6 +1100,7 @@
     <string name="setting_language_item_pt" translatable="false">Português (Portuguese)</string>
     <string name="setting_language_item_ru" translatable="false">Pусский (Russian)</string>
     <string name="setting_language_item_it" translatable="false">Italiano (Italian)</string>
+    <string name="setting_language_item_zh_CN" translatable="false">简体中文 (Chinese Simplified)</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>
@@ -1119,9 +1108,6 @@
     <string name="content_filter_block_tags_summary">Manage my blocked tags</string>
     <string name="content_filter_block_content_title">Content preferences</string>
     <string name="content_filter_block_content_summary">Show/hide content</string>
-    <string name="content_filter_mod_show_hidden_title">Show Hidden posts in New</string>
-    <string name="content_filter_mod_show_hidden_summary_on">Hidden posts included</string>
-    <string name="content_filter_mod_show_hidden_summary_off">Hidden posts excluded</string>
     <string name="content_filter_mod_delete_mode_title">Show post quick actions</string>
     <string name="content_filter_mod_delete_mode_summary_on">Quick actions visible</string>
     <string name="content_filter_mod_delete_mode_summary_off">Quick actions hidden</string>
@@ -1235,6 +1221,7 @@
 
     <string name="cleanup_old_following_posts" translatable="false">Delete old following posts</string>
     <string name="cleanup_deleted_messages" translatable="false">Delete deleted messages</string>
+    <string name="cleanup_deleted_chats" translatable="false">Delete deleted chats</string>
     <string name="cleanup_old_control_messages" translatable="false">Delete old control messages</string>
     <string name="cleanup_old_like_notifications" translatable="false">Delete old liked notifications</string>
     <string name="cleanup_old_installations" translatable="false">Delete old installations</string>
