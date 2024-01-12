@@ -1107,4 +1107,126 @@
     <string name="delete_account_subtitle">Hier kunt u uw account verwijderen en alle data dat er aan is gekoppelt.
 \n
 \nDeze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="app_name_main" translatable="false"></string>
+    <string name="app_name_debug" translatable="false"></string>
+    <string name="app_details" translatable="false"></string>
+    <string name="divider_horizontal" translatable="false"></string>
+    <string name="allowed_digits" translatable="false"></string>
+    <string name="zero" translatable="false"></string>
+    <string name="chats_unread_many" translatable="false"></string>
+    <string name="discord" translatable="false"></string>
+    <string name="telegram" translatable="false"></string>
+    <string name="post_info_menu_add_to_news" translatable="false"></string>
+    <string name="post_info_menu_remove_from_news" translatable="false"></string>
+    <string name="post_info_menu_recreate_thumbnail" translatable="false"></string>
+    <string name="post_info_menu_recreate_thumbnail_message" translatable="false"></string>
+    <string name="post_info_menu_swap_width_height" translatable="false"></string>
+    <string name="post_info_menu_swap_width_height_message" translatable="false"></string>
+    <string name="post_info_menu_add_to_news_message" translatable="false"></string>
+    <string name="post_info_menu_remove_from_news_message" translatable="false"></string>
+    <string name="remove_mod_dialog_title" translatable="false"></string>
+    <string name="remove_mod_dialog_message" translatable="false"></string>
+    <string name="add_mod_dialog_title" translatable="false"></string>
+    <string name="add_mod_dialog_message" translatable="false"></string>
+    <string name="delete_all_posts_from_dialog_title" translatable="false"></string>
+    <string name="delete_all_posts_from_dialog_message" translatable="false"></string>
+    <string name="delete_all_comments_from_dialog_title" translatable="false"></string>
+    <string name="delete_all_comments_from_dialog_message" translatable="false"></string>
+    <string name="admin_verify_email_dialog_title" translatable="false"></string>
+    <string name="admin_verify_email_dialog_message" translatable="false"></string>
+    <string name="post_date_posted_categories" translatable="false"></string>
+    <string name="post_poll_option_percentage" translatable="false"></string>
+    <string name="posts_comic" translatable="false"></string>
+    <string name="setting_language_item_en" translatable="false"></string>
+    <string name="setting_language_item_es" translatable="false"></string>
+    <string name="setting_language_item_pl" translatable="false"></string>
+    <string name="setting_language_item_pt" translatable="false"></string>
+    <string name="setting_language_item_ru" translatable="false"></string>
+    <string name="setting_language_item_it" translatable="false"></string>
+    <string name="setting_language_item_zh_CN" translatable="false"></string>
+    <string name="setting_language_item_tr" translatable="false"></string>
+    <string name="delete_account_send_request_button"></string>
+    <string name="delete_account_cancel_request_button"></string>
+    <string name="delete_account_comments_failed"></string>
+    <string name="delete_account_posts_failed"></string>
+    <string name="delete_account_messages_failed"></string>
+    <string name="delete_account_send_request_failed"></string>
+    <string name="delete_account_cancel_request_failed"></string>
+    <string name="delete_account_refresh_failed"></string>
+    <string name="delete_account_deleting"></string>
+    <string name="delete_account_loading"></string>
+    <string name="delete_account_request_text_title"></string>
+    <string name="delete_account_request_text_1"></string>
+    <string name="delete_account_request_text_1_sub"></string>
+    <string name="delete_account_request_text_2"></string>
+    <string name="delete_account_request_text_2_sub"></string>
+    <string name="delete_account_request_text_3"></string>
+    <string name="delete_account_request_text_3_sub"></string>
+    <string name="delete_account_request_text_notice"></string>
+    <string name="email_not_verified_dialog_message"></string>
+    <string name="email_verification_dialog_title"></string>
+    <string name="email_verification_dialog_message"></string>
+    <string name="notification_dialog_clear_all_message"></string>
+    <string name="notification_clear_all_message_done"></string>
+    <string name="following_posts_dialog_clear_all_message"></string>
+    <string name="following_posts_clear_all_message_done"></string>
+    <string name="picker_app_name"></string>
+    <string name="picker_gallery"></string>
+    <string name="picker_video"></string>
+    <string name="picker_comic"></string>
+    <string name="picker_camera"></string>
+    <string name="picker_text"></string>
+    <string name="picker_title"></string>
+    <string name="picker_poll"></string>
+    <string name="picker_select"></string>
+    <string name="picker_camera_permissions_hint"></string>
+    <string name="picker_media_permissions_hint"></string>
+    <string name="picker_empty_media"></string>
+    <string name="picker_allow"></string>
+    <string name="picker_select_photo"></string>
+    <string name="picker_no_camera"></string>
+    <string name="blocked_title"></string>
+    <string name="blocked_item_for"></string>
+    <string name="blocked_get_error"></string>
+    <string name="blocked_none"></string>
+    <string name="cleanup_old_following_posts" translatable="false"></string>
+    <string name="cleanup_deleted_messages" translatable="false"></string>
+    <string name="cleanup_deleted_chats" translatable="false"></string>
+    <string name="cleanup_old_control_messages" translatable="false"></string>
+    <string name="cleanup_old_like_notifications" translatable="false"></string>
+    <string name="cleanup_old_installations" translatable="false"></string>
+    <string name="cleanup_ban_ip" translatable="false"></string>
+    <string name="cleanup_unban_ip" translatable="false"></string>
+    <string name="enter_ip" translatable="false"></string>
+    <string name="reason"></string>
+    <string name="cleanup_error" translatable="false"></string>
+    <string name="modmail_empty_text"></string>
+    <string name="discover_users_title"></string>
+    <string name="discover_users_member_for"></string>
+    <string name="discover_users_order_followers_item"></string>
+    <string name="discover_users_order_likes_item"></string>
+    <string name="discover_users_order_posts_item"></string>
+    <string name="discover_users_order_level_item"></string>
+    <string name="discover_users_menu_order_by"></string>
+    <string name="discover_users_menu_order_by_newest"></string>
+    <string name="discover_users_menu_order_by_oldest"></string>
+    <string name="discover_users_menu_order_by_followers"></string>
+    <string name="discover_users_menu_order_by_likes"></string>
+    <string name="discover_users_menu_order_by_posts"></string>
+    <string name="discover_users_menu_order_by_level"></string>
+    <string name="discover_users_search_hint"></string>
+    <string name="discover_users_search_sub_hint"></string>
+    <string name="discover_users_search_user_clicked_view_profile"></string>
+    <string name="discover_users_search_user_clicked_select"></string>
+    <string name="discover_users_list_empty"></string>
+    <string name="discover_users_search_empty"></string>
+    <string name="discover_users_search_error"></string>
+    <plurals name="picker_selected_count">
+        <item quantity="one"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="picker_max_selection_reached">
+        <item quantity="one"></item>
+        <item quantity="other"></item>
+    </plurals>
 </resources>
