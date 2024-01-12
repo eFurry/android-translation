@@ -1120,5 +1120,6 @@
     <string name="delete_account_cancel_request_button">Annuleer aanvraag naar account verwijdering</string>
     <string name="delete_account_comments_failed">Opmerkingen verwijderen mislukt: %1$s</string>
     <string name="delete_account_posts_failed">Posts verwijderen mislukt: %1$s</string>
-    <string name="delete_account_send_request_failed">Verwijdering aanvragen mislukt: %1$s</string>
+    <string name="delete_account_send_request_failed">Verwijderingsverzoek verzenden mislukt: %1$s</string>
+    <string name="delete_account_cancel_request_failed">Verwijderingsverzoek annuleren mislukt: %1$s</string>
 </resources>
