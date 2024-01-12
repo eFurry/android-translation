@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_log_out">"Log out
-"</string>
+    <string name="action_log_out">Log out
+\n</string>
     <string name="action_log_in">Log in</string>
     <string name="action_settings">"Definições "</string>
     <string name="action_create">Criar</string>
@@ -16,9 +16,15 @@
     <string name="launch_btn_guest">Continuar como convidado</string>
     <string name="launcher_init_parse">Inicializando</string>
     <string name="launcher_creating_guest_account">criando conta de convidado</string>
-    <string name="launcher_creating_guest_account_error">criando conta de convidado\nErro: %1$s\n\nVoltar a tentar</string>
+    <string name="launcher_creating_guest_account_error">criando conta de convidado
+\nErro: %1$s
+\n
+\nVoltar a tentar</string>
     <string name="launcher_updating_account">buscando conta</string>
-    <string name="launcher_updating_account_error">buscando conta\nerro: %1$s\n\nVoltar a tentar</string>
+    <string name="launcher_updating_account_error">buscando conta
+\nerro: %1$s
+\n
+\nVoltar a tentar</string>
     <string name="launcher_server_status">verificar estatuto do servidor</string>
     <string name="login_title">Bem vindo ao eFur!</string>
     <string name="login_subtitle">Por favor faça login ou registre-se para continuar</string>
@@ -27,7 +33,7 @@
     <string name="login_reset">Repor palavra passe</string>
     <string name="login_new_user">Novo utilizador? Registre-se em vez disso</string>
     <string name="legal_notice_launch">"Ao continuar está a confirmar que leu e concordou com os Termos de Serviço e a Política de Privacidade "</string>
-    <string name="legal_notice_checkbox">"Eu aceito a"</string>
+    <string name="legal_notice_checkbox">Eu aceito a</string>
     <string name="login_invalid_email">Endereço de e-mail inválido</string>
     <string name="login_password_too_short">A sua password tem de ter no mínimo 8 caracteres</string>
     <string name="login_username_too_short">O seu nome de utilizador tem de ter no mínimo 3 caracteres</string>
@@ -43,10 +49,15 @@
     <string name="login_dialog_consent_personalised_yes">Sim</string>
     <string name="login_dialog_consent_personalised_no">Não</string>
     <string name="login_dialog_consent_done_title">Registar-se?</string>
-    <string name="login_dialog_register_confirm_message">está prestes a registrar uma conta utilizando %1$s.\nUm email vai ser enviado para este endereço para confirmá-lo.\n\nContinuar?</string>
+    <string name="login_dialog_register_confirm_message">está prestes a registrar uma conta utilizando %1$s.
+\nUm email vai ser enviado para este endereço para confirmá-lo.
+\n
+\nContinuar?</string>
     <string name="account_needed">É preciso uma conta para executar está ação!</string>
     <string name="reset_password_dialog_title">"Redefinir palavra-passe "</string>
-    <string name="reset_password_dialog_message">Isto mandará um e-mail de redefinição de palavra-passe para \"%1$s\". Clique na hiperligação no email para redefinir a sua palavra-passe \n\nQuer continuar?</string>
+    <string name="reset_password_dialog_message">Isto mandará um e-mail de redefinição de palavra-passe para \"%1$s\". Clique na hiperligação no email para redefinir a sua palavra-passe
+\n
+\nQuer continuar?</string>
     <string name="reset_password_error">Erro: %1$s</string>
     <string name="reset_password_sent">Um e-mail de redefinição de palavra-passe foi enviado para \"%1$s\"</string>
     <string name="register_success">Conta criada, bem-vindo ao eFur!</string>
@@ -104,7 +115,9 @@
     <string name="upload_settings_poll_option_add">Adicione uma opção...</string>
     <string name="upload_settings_poll_settings">Definições</string>
     <string name="upload_settings_poll_settings_type">Várias respostas</string>
-    <string name="discover_text">Este espaço ainda está a ser trabalhado:)\n\nAqui poderás procurar por marcações, postagens, utilizadores e muito mais</string>
+    <string name="discover_text">Este espaço ainda está a ser trabalhado:)
+\n
+\nAqui poderás procurar por marcações, postagens, utilizadores e muito mais</string>
     <string name="discover_users">Utilizadores</string>
     <string name="discover_users_search">"Procurar utilizadores "</string>
     <string name="discover_tags">"Marcações "</string>
@@ -163,18 +176,22 @@
     <string name="reply">Resposta</string>
     <plurals name="seconds">
         <item quantity="one">segundo</item>
+        <item quantity="many"></item>
         <item quantity="other">segundos</item>
     </plurals>
     <plurals name="minutes">
         <item quantity="one">minuto</item>
+        <item quantity="many"></item>
         <item quantity="other">minutos</item>
     </plurals>
     <plurals name="hours">
         <item quantity="one">hora</item>
+        <item quantity="many"></item>
         <item quantity="other">horas</item>
     </plurals>
     <plurals name="days">
         <item quantity="one">dia</item>
+        <item quantity="many"></item>
         <item quantity="other">dias</item>
     </plurals>
     <string name="description">"Descrição "</string>
@@ -223,8 +240,8 @@
     <string name="block_save_failed">Falha ao salvar definições bloqueadas: %1$s</string>
     <string name="block_get_failed">Falha ao obter definições bloqueadas: %1$s</string>
     <string name="block_save_success">Definições bloqueadas atualizadas</string>
-    <string name="report_reported_ago">Relatado há  %1$s %2$s</string>
-    <string name="report_reported_reason">Razão do relato:  %1$s</string>
+    <string name="report_reported_ago">Relatado há %1$s %2$s</string>
+    <string name="report_reported_reason">Razão do relato: %1$s</string>
     <string name="report_reported_by">Relatado por: %1$s (%2$s), há %3$s %4$s</string>
     <string name="report_resolve_report">Marca resolvida</string>
     <string name="report_delete_comment">Apagar comentário</string>
@@ -232,7 +249,9 @@
     <string name="report_resolve_dialog_message">De certeza?</string>
     <string name="report_resolve_delete_dialog_title">Apagar?</string>
     <string name="report_resolve_delete_dialog_message">De certeza que quer apagar este comentário?</string>
-    <string name="report_comment_deleted_by_text">%1$s. Disse:\n \n%2$s</string>
+    <string name="report_comment_deleted_by_text">%1$s. Disse:
+\n
+\n%2$s</string>
     <string name="report_linked_button">"Clique para ver postagem "</string>
     <string name="report_post_deleted">Esta postagem foi apagada</string>
     <string name="go_to_post">"Ir a postagem "</string>
@@ -240,7 +259,9 @@
     <string name="mod_log_hide_log">Tornar este registro visível apenas por administradores?</string>
     <string name="post_deleted_by">Apagado por: %1$s (%2$s)</string>
     <string name="deleted_score_when_deleted">Favoritos: %1$d, Comentários: %2$d</string>
-    <string name="about_general">Bem-vindo ao projeto eFur!\n\nUm espaço social em que pode partilhar e apreciar todas as coisas furry ~</string>
+    <string name="about_general">Bem-vindo ao projeto eFur!
+\n
+\nUm espaço social em que pode partilhar e apreciar todas as coisas furry ~</string>
     <string name="about_stats">"Estatísticas "</string>
     <string name="feedback_general">Tem um feedback ou sugestões para melhorar esta aplicação? Deixe uma avaliação na Play Store, mande um e-mail de feedback para @efurry.net, ou junte-se ao Discord e partilhe os seus pensamentos lá!</string>
     <string name="translate_general">Podes ajudar a traduzir esta aplicação para outra língua!</string>
@@ -250,7 +271,9 @@
     <string name="discord">Discord</string>
     <string name="telegram">"Telegram "</string>
     <string name="dialogs_open_uri_title">"Abrir URL externo "</string>
-    <string name="dialogs_open_uri_message">Está prestes a abrir o URL externo %1$s\n\nContinuar?</string>
+    <string name="dialogs_open_uri_message">Está prestes a abrir o URL externo %1$s
+\n
+\nContinuar?</string>
     <string name="notification_type_faved_post_image">Gostou da sua imagem</string>
     <string name="notification_type_faved_post_video">"Gostou do seu vídeo "</string>
     <string name="notification_type_faved_post_gif">Gostou do seu GIF</string>
@@ -265,8 +288,9 @@
     <string name="notification_type_mod_deleted_comment">O teu comentário foi apagado por um moderador</string>
     <string name="post_comment_hint">"Escreve um comentário "</string>
     <string name="post_comment_thread_hint">"Escreve uma resposta "</string>
-    <string name="post_comment_empty">Isto está vazio…\n\n
-Deixe um comentário e faça alguém feliz!</string>
+    <string name="post_comment_empty">Isto está vazio…
+\n
+\n Deixe um comentário e faça alguém feliz!</string>
     <string name="comment_time_posted">" %1$s %2$s"</string>
     <string name="comment_time_edited">" %1$s %2$s (editado há %3$s %4$s)"</string>
     <string name="comment_separator">~</string>
@@ -353,7 +377,8 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="post_poll_vote">Votar</string>
     <string name="post_poll_error_title">"Falha ao receber voto: %1$s. Por favor tente novamente "</string>
     <string name="post_poll_error_button">"Tentar novamente "</string>
-    <string name="posts_scrolling_empty_following">O feed está vazio.\nSiga utilizadores para ver as suas novas postagens aqui!</string>
+    <string name="posts_scrolling_empty_following">O feed está vazio.
+\nSiga utilizadores para ver as suas novas postagens aqui!</string>
     <string name="post_info_title">"Informação da postagem "</string>
     <string name="post_info_posted_by">Publicado por</string>
     <string name="post_info_time">Há %1$s %2$s</string>
@@ -379,11 +404,11 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="profile_tab_about_presentation">"Apresentação "</string>
     <string name="profile_tab_about_stats">"Estatísticas "</string>
     <string name="profile_followers_item_follower_for">Seguidor por %1$s %2$s</string>
-    <string name="profile_followers_item_following_for">Seguindo há  %1$s %2$s</string>
-    <string name="posts_gallery_title">Galeria de  %1$s</string>
-    <string name="posts_gallery_favs_title">Favoritos de  %1$s</string>
+    <string name="profile_followers_item_following_for">Seguindo há %1$s %2$s</string>
+    <string name="posts_gallery_title">Galeria de %1$s</string>
+    <string name="posts_gallery_favs_title">Favoritos de %1$s</string>
     <string name="posts_tag_search">Postagens marcadas como %1$s</string>
-    <string name="posts_single_post_title">Postagem de  %1$s</string>
+    <string name="posts_single_post_title">Postagem de %1$s</string>
     <string name="edit_profile_title">"Editar o teu perfil "</string>
     <string name="edit_profile_username_hint">Editar o teu nome</string>
     <string name="edit_profile_presentation_hint">"Pequena apresentação "</string>
@@ -439,16 +464,23 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="settings_danger_title">Zona da perigo</string>
     <string name="settings_danger_delete_account_title">Apagar dados da conta</string>
     <string name="delete_account_title">"Remoção de conta "</string>
-    <string name="delete_account_subtitle">Aqui você pode apagar a sua conta e todos os seus dados.\n\nEsta ação é irreversível</string>
-    <string name="delete_account_account_info">Nome de utilizador: %1$s\nEmail: %2$s</string>
+    <string name="delete_account_subtitle">Aqui você pode apagar a sua conta e todos os seus dados.
+\n
+\nEsta ação é irreversível</string>
+    <string name="delete_account_account_info">Nome de utilizador: %1$s
+\nEmail: %2$s</string>
     <string name="delete_account_confirmation">Eu compreendo os riscos</string>
     <string name="delete_account_comments_failed">Falha ao apagar comentários: %1$s</string>
     <string name="delete_account_posts_failed">Falha ao apagar publicações: %1$s</string>
     <string name="delete_account_messages_failed">Falha ao apagar mensagens: %1$s</string>
     <string name="delete_account_deleting">Apagando...</string>
-    <string name="email_not_verified_dialog_message">"Precisa de verificar o seu e-mail primeiro.\n\nClique na hiperligação que foi enviada para %1$s</string>
+    <string name="email_not_verified_dialog_message">Precisa de verificar o seu e-mail primeiro.
+\n
+\nClique na hiperligação que foi enviada para %1$s</string>
     <string name="email_verification_dialog_title">Verificação do email</string>
-    <string name="email_verification_dialog_message">Bem-vindo ao eFur!\n\nPara confirmar, %1$s</string>
+    <string name="email_verification_dialog_message">Bem-vindo ao eFur!
+\n
+\nPara confirmar, %1$s</string>
     <string name="notification_dialog_clear_all_message">Limpar todas as suas notificações?</string>
     <string name="notification_clear_all_message_done">"Apagadas %1$d notificações "</string>
     <string name="following_posts_dialog_clear_all_message">Apagar todas as público de quem segues?</string>
@@ -470,7 +502,7 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="blocked_item_for">Bloqueado há %1$s %2$s</string>
     <string name="blocked_get_error">Erro: %1$s</string>
     <string name="blocked_none">"Ainda não bloqueasse nenhum utilizador "</string>
-<string name="action_edit_title">Editar título</string>
+    <string name="action_edit_title">Editar título</string>
     <string name="action_reorder_comic">Páginas de reordenação</string>
     <string name="action_delete_comic">Excluir quadrinhos</string>
     <string name="action_ban_user">Ban Usuário</string>
@@ -478,7 +510,7 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="action_show_logs">Mostre logs</string>
     <string name="action_add_as_mod">Promover para o moderador</string>
     <string name="action_remove_as_mod">Remova o status do moderador</string>
-    <string name="action_delete_all_posts">Postagens de Purge User \</string>
+    <string name="action_delete_all_posts">Postagens de Purge User \\</string>
     <string name="action_delete_all_comments">Purge os comentários do usuário</string>
     <string name="action_verify_email">Verificar e-mail</string>
     <string name="action_start_chat">Comece um bate -papo</string>
@@ -487,20 +519,17 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="action_clear_history">Apagar o histórico</string>
     <string name="action_delete_chat">Exclua bate -papo</string>
     <string name="action_leave_chat">Deixe o chat</string>
-
     <string name="launcher_fetching_config">Buscar configuração</string>
-    <string name="launcher_fetching_config_error">Fetching Configuration \ Nerror: %1$s \ n \ nretrying</string>
+    <string name="launcher_fetching_config_error">"Fetching Configuration  Nerror: %1$s  n  nretrying"</string>
     <string name="launcher_updating_account_settings">Buscando configurações de conta</string>
     <string name="launcher_reset_button">Log Out / Reset</string>
     <string name="launcher_save_token_error">Falhou em salvar o token: %1$s</string>
-
     <string name="legal_ad_checkbox">Eu concordo com anúncios personalizados</string>
     <string name="login_invalid_email_pw">Email inválido e/ou senha</string>
     <string name="login_register_error">Falhou em se registrar: %1$s</string>
     <string name="login_register_age">Tenho 13 anos ou mais</string>
     <string name="login_register_age_error">Você deve confirmar que tem 13 anos ou mais para usar este aplicativo!</string>
     <string name="login_expired_session">Sessão expirou, por favor, faça o login novamente!</string>
-
     <string name="post_category_0">Em geral</string>
     <string name="post_category_1">Obra de arte (digital)</string>
     <string name="post_category_2">Obra de arte (tradicional)</string>
@@ -531,7 +560,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="post_category_22">Capturas de tela</string>
     <string name="post_category_23">Eventos atuais</string>
     <string name="post_category_24">Outro e aleatório</string>
-
     <string name="upload_chooser_edit_title">Editar post</string>
     <string name="upload_chooser_comic_not_allowed">Você não pode adicionar uma história em quadrinhos a uma história em quadrinhos!</string>
     <string name="upload_chooser_invalid_file">Arquivo inválido!</string>
@@ -540,7 +568,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="upload_progress_edit">Economizando…</string>
     <string name="upload_rating_error_age_safe">Sua conta está definida apenas para conteúdo seguro</string>
     <string name="upload_rating_error_age_suggestive">Sua conta está definida apenas com conteúdo seguro e sugestivo</string>
-
     <string name="upload_settings_prevent_downloads">Evite downloads</string>
     <string name="upload_settings_prevent_downloads_hint">Faz um esforço razoável para impedir que a mídia post seja baixada por outros usuários</string>
     <string name="upload_settings_disable_comments">Desative os comentários</string>
@@ -555,7 +582,7 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="upload_settings_content_sensitive">Conteúdo/tema sensível (opcional)</string>
     <string name="upload_settings_content_sensitive_dialog_title">Selecione conteúdo sensível</string>
     <string name="upload_settings_content_sensitive_none_selected">Nenhum conteúdo sensível selecionado</string>
-    <string name="upload_settings_content_sensitive_none_enabled">Você não ativou nenhum conteúdo sensível. \ On \ Atualize suas preferências em Configurações-&gt; Conteúdo Preferências</string>
+    <string name="upload_settings_content_sensitive_none_enabled">"Você não ativou nenhum conteúdo sensível.  On  Atualize suas preferências em Configurações-&gt; Conteúdo Preferências"</string>
     <string name="upload_settings_categories_remaining">Você pode selecionar no máximo três categorias</string>
     <string name="upload_settings_tags_hint">Digite uma tag</string>
     <string name="upload_settings_comic_switch">Este post faz parte de um quadrinho</string>
@@ -563,7 +590,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="upload_settings_comic_button">Escolha a Comic</string>
     <string name="upload_post_created">Post criado!</string>
     <string name="upload_post_edited">Post editado!</string>
-
     <string name="my_comics_title">Meus quadrinhos</string>
     <string name="my_comics_create_title">Crie um novo quadrinho</string>
     <string name="my_comics_create_hint">Nome da história em quadrinhos</string>
@@ -575,10 +601,9 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="comic_list_draft">RASCUNHO</string>
     <string name="comic_list_pages">Páginas: %1$d</string>
     <string name="comic_list_desc">Atualizado %1$s %2$s atrás, criado %3$s %4$s atrás</string>
-
     <string name="comic_view_get_error">Falhou em obter quadrinhos: %1$s</string>
     <string name="comic_view_title">Quadrinho</string>
-    <string name="comic_view_desc">Páginas: %1$d \ Ncreated por %2$s</string>
+    <string name="comic_view_desc">"Páginas: %1$d  Ncreated por %2$s"</string>
     <string name="comic_view_desc_draft">Páginas: %1$d \ NCREATADO POR %2$s.RASCUNHO</string>
     <string name="comic_view_edit_title">Novo título</string>
     <string name="comic_view_edit_title_error">Falha ao atualizar o título: %1$s</string>
@@ -602,8 +627,7 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="comic_view_publish_title">Publique a Comic</string>
     <string name="comic_view_add_page">Adicionar Página</string>
     <string name="comic_view_publish_already_published">Este quadrinho já foi publicado!</string>
-
-    <string name="fursona_view_user_title">%1$s \ \'Sursonas</string>
+    <string name="fursona_view_user_title">"%1$s  \'Sursonas"</string>
     <string name="my_fursonas_create_title">Crie uma nova fursona</string>
     <string name="my_fursonas_create_hint">Nome</string>
     <string name="my_fursonas_species_hint">Espécies</string>
@@ -619,7 +643,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="my_fursonas_description_empty">Nenhuma descrição definida</string>
     <string name="my_fursonas_edit_error">Falha ao salvar: %1$s</string>
     <string name="my_fursonas_edit_success">Fursona salvou</string>
-
     <string name="discover_users_browse">Navegue por usuários</string>
     <string name="discover_users_start_chat_with">Selecione o usuário para conversar</string>
     <string name="discover_users_invite">Selecione o usuário para convidar</string>
@@ -635,11 +658,11 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="order_oldest_first">Mais velhos primeiro</string>
     <string name="order_most_likes">Mais curtidas</string>
     <string name="order_least_likes">Menos gosta</string>
-    <string name="discover_posts_advanced_enter_tags_details">Digite as tags separadas por um espaço. \ Nexample: \"Dog Digital Art \"procurará postagens contendo as tags \"Dog \"e \"Digital Art \"</string>
+    <string name="discover_posts_advanced_enter_tags_details">"Digite as tags separadas por um espaço.  Nexample: \"Dog Digital Art \"procurará postagens contendo as tags \"Dog \"e \"Digital Art \""</string>
     <string name="discover_posts_advanced_default_categories">Todas as categorias</string>
     <string name="discover_posts_advanced_default_content_safe">Todos os temas</string>
     <string name="discover_posts_advanced_default_content_sensitive">Todos os temas sensíveis</string>
-    <string name="search_all_any">Match \ nall/qualquer</string>
+    <string name="search_all_any">"Match  nall/qualquer"</string>
     <string name="search_all">TODOS</string>
     <string name="search_any">QUALQUER</string>
     <string name="search_result">Resultado da pesquisa</string>
@@ -647,18 +670,13 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="discover_posts_tag_none_found">Nenhuma postagem corresponde à tag %1$s</string>
     <string name="discover_posts_tag_hint">Insira a tag</string>
     <string name="coming_soon">Em breve!</string>
-
     <string name="failed_to_get_posts">Falhou em obter postagens: %1$s</string>
-
     <string name="post_info_none">Nenhum</string>
     <string name="post_not_found">Esse post não foi encontrado</string>
-    <string name="post_media_failed_to_load_with_error">Falha ao carregar.Toque para tentar novamente. \ N \ n%1$s</string>
+    <string name="post_media_failed_to_load_with_error">"Falha ao carregar.Toque para tentar novamente.  N  n%1$s"</string>
     <string name="post_media_failed_to_load">Falha ao carregar.Toque para tentar novamente.</string>
-
     <string name="post_reposted">%1$s republicado</string>
-
     <string name="logged_out">Desconectado</string>
-
     <string name="ok">OK</string>
     <string name="copy">cópia de</string>
     <string name="search">Procurar</string>
@@ -674,7 +692,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="user">Do utilizador</string>
     <string name="and">e</string>
     <string name="info">Informações</string>
-
     <string name="main_update_app_title">Atualização de aplicativo disponível!</string>
     <string name="main_update_app_message">Pressione para atualizar</string>
     <string name="main_update_app_error">Falhou: %1$s</string>
@@ -686,7 +703,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="conversation_delete">Deseja excluir essa conversa e todas as mensagens?</string>
     <string name="chats_no_messages">Sem mensagens ainda</string>
     <string name="chats_no_chats">Depois de participar de um bate -papo, ele aparecerá aqui.</string>
-
     <string name="chat_toolbar_loading">Carregando bate -papo…</string>
     <string name="chat_group_member_count">%1$d Membro</string>
     <string name="chat_group_members_count">%1$d membros</string>
@@ -704,7 +720,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="chat_create_group_dialog_input_hint">Nome do grupo (pode ser alterado posteriormente)</string>
     <string name="chat_create_group_creating">Criando grupo…</string>
     <string name="chat_create_group_created">Grupo criado!</string>
-
     <string name="chat_control_message_3">%1$s unido</string>
     <string name="chat_control_message_4">%1$s restante</string>
     <string name="chat_control_message_5">%1$s chutou %2$s</string>
@@ -714,11 +729,10 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="chat_control_message_9">%1$s mudou o ícone do grupo</string>
     <string name="chat_control_message_10">Chat excluído</string>
     <string name="chat_control_message_11">bate -papo criado</string>
-
     <string name="chat_group_add_members">Adicionar membros</string>
     <string name="chat_group_invite_user_error">Falhou em convidar: %1$s</string>
     <string name="chat_group_invite_user_success">%1$s convidado!</string>
-    <string name="chat_role_with_last_seen_date">%1$s \ nlast visto %2$s %3$s atrás</string>
+    <string name="chat_role_with_last_seen_date">"%1$s  nlast visto %2$s %3$s atrás"</string>
     <string name="chat_last_seen_date">visto pela última vez %1$s %2$s atrás</string>
     <string name="chat_role_with_online">%1$s online</string>
     <string name="chat_online">on-line</string>
@@ -735,7 +749,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="chat_info_user_option_unban">Resmungar</string>
     <string name="chat_info_user_option_unban_error">Falhou em Unban: %1$s</string>
     <string name="chat_info_user_option_unban_success">Unbank %1$s</string>
-
     <string name="chat_open_error_banned">Você foi banido deste bate -papo.</string>
     <string name="chat_open_error_kicked">Você foi expulso deste bate -papo.</string>
     <string name="chat_open_error_deleted">Este bate -papo não existe mais.</string>
@@ -750,16 +763,13 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="chat_edit_icon_read_error">Falha ao ler o arquivo: %1$s</string>
     <string name="chat_edit_error">Falhou em editar: %1$s</string>
     <string name="chat_edit_success">Bate -papo editado!</string>
-
     <string name="share_disabled">O compartilhamento foi desativado para esta postagem</string>
     <string name="report_hide_post">Esconda este post permanentemente</string>
     <string name="report_hide_comment">Esconder este comentário permanentemente</string>
-
     <string name="report_resolved_report">Relatório resolvido %1$s</string>
     <string name="report_resolve_deleted_comment">Excluído %1$s Comentário</string>
     <string name="restore">Restaurar</string>
     <string name="post_is_nsfw_in_sfw_mode">Esta postagem é classificada mais alta que sua classificação máxima!</string>
-
     <string name="contributions_general">Se você contribuir, envie uma mensagem para @Dog!</string>
     <string name="premium_title">Apoie o aplicativo comprando o Efurry Premium e suba sua conta ou presenteie -o a outro usuário!</string>
     <string name="premium">Prêmio</string>
@@ -779,12 +789,16 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="premium_purchases_reload">Recarregar as compras</string>
     <string name="premium_purchases_none_found_reload">Nenhuma compra encontrada - toque para recarregar</string>
     <string name="premium_purchases_error_reload">Falha ao carregar compras - toque para tentar novamente</string>
-    <string name="premium_purchased_item_description">Quantidade: %1$d \ npurchased %2$s %3$s atrás</string>
+    <string name="premium_purchased_item_description">"Quantidade: %1$d  npurchased %2$s %3$s atrás"</string>
     <string name="premium_purchased_item_gifted_to">Dotado de</string>
     <string name="premium_purchased_item_gifted_from">Dotado de</string>
     <string name="premium_purchased_item_activate_dialog_title">Ative a compra</string>
-    <string name="premium_purchased_item_activate_dialog_message">Deseja ativar esta compra para sua própria conta ou presentear com outra pessoa?\n\n%1$s x %2$d</string>
-    <string name="premium_purchased_item_activate_dialog_message_confirm">Isso ativará a compra por %1$s (%2$s).\n\nContinue?</string>
+    <string name="premium_purchased_item_activate_dialog_message">Deseja ativar esta compra para sua própria conta ou presentear com outra pessoa?
+\n
+\n%1$s x %2$d</string>
+    <string name="premium_purchased_item_activate_dialog_message_confirm">Isso ativará a compra por %1$s (%2$s).
+\n
+\nContinue?</string>
     <string name="premium_purchased_item_activate_dialog_myself">Eu mesmo</string>
     <string name="premium_purchased_item_activate_dialog_gift">Presente</string>
     <string name="premium_purchased_item_activate_error">Falhou em ativar: %1$s</string>
@@ -796,7 +810,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="anon_name">Nome</string>
     <string name="user_level">x%1$d</string>
     <string name="example">exemplo</string>
-
     <string name="notification_type_faved_post_comic">Gostei da sua história em quadrinhos</string>
     <string name="notification_type_mentioned_in_comment">Mencionou você em um comentário: %1$s</string>
     <string name="notification_type_mentioned_in_post">Mencionou você em um post</string>
@@ -829,19 +842,15 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="notification_type_old_below">Mais velho</string>
     <string name="notification_delete_message">Excluir esta notificação?</string>
     <string name="notification_delete_error">Falha ao excluir: %1$s</string>
-
     <string name="post_comments_disabled">Comentários foram desativados para esta postagem</string>
-
     <string name="comment_alt_post">Vá para postar</string>
     <string name="comment_alt_hide">Ocultar comentários</string>
     <string name="comment_edit">Editar comentário</string>
     <string name="comment_edited">Comentário editado</string>
     <string name="comment_edit_error">Falhou em editar comentários: %1$s</string>
-
     <string name="comment_hide_title">Ocultar comentários</string>
     <string name="comment_hide_message">Você nunca mais verá esse comentário.Essa ação não pode ser desfeita.</string>
     <string name="comment_hidden">O comentário está escondido</string>
-
     <string name="comment_thread_act_title">Respostas</string>
     <string name="hide">Esconder</string>
     <string name="edit_category">Categoria de edição</string>
@@ -850,7 +859,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="post_info_menu_add_to_comic">Adicione a quadrinhos</string>
     <string name="post_info_menu_add_to">adicionar à</string>
     <string name="post_hidden">O post está escondido</string>
-
     <string name="unban_user_type_title">Proibição de remover</string>
     <string name="ban_user_type_title">Selecione Tipo de BAN</string>
     <string name="ban_user_reason_hint">Razão para proibição</string>
@@ -869,16 +877,14 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="ban_user_type_edit_profile">Editar Perfil</string>
     <string name="ban_user_type_report">Relatar conteúdo</string>
     <string name="ban_user_type_follow_users">Siga os usuários</string>
-
     <string name="post_tag_blocked_title">Postar escondido</string>
     <string name="post_tag_blocked_body">Tags bloqueadas: %1$s</string>
     <string name="post_content_blocked_body">Conteúdo bloqueado: %1$s</string>
-    <string name="post_tag_and_content_blocked_body">Conteúdo bloqueado: %1$s, tags \ nblocked: %2$s</string>
+    <string name="post_tag_and_content_blocked_body">"Conteúdo bloqueado: %1$s, tags  nblocked: %2$s"</string>
     <string name="post_tag_blocked_view">Mostrar postagem</string>
     <string name="post_poll_option_click_votes">%$ 1 votos</string>
     <string name="post_poll_option_click_vote">%1$d Vote</string>
     <string name="post_rating_safe">SEGURO</string>
-
     <string name="post_info_update_rating">Pós -classificação definida para %1$s</string>
     <string name="post_info_update_rating_failed">Falha ao atualizar a classificação: %1$s</string>
     <string name="post_info_edited_post_info">Post editado</string>
@@ -888,15 +894,12 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="post_info_view_comic">Ver quadrinho</string>
     <string name="post_info_favourited_by_view_all">Ver tudo</string>
     <string name="post_info_tag_block_title">Tag de bloco?</string>
-    <string name="post_info_tag_block_message">Deseja bloquear a tag \"%1$s \"? \ Nposts com esta tag estará oculta.</string>
+    <string name="post_info_tag_block_message">"Deseja bloquear a tag \"%1$s \"?  Nposts com esta tag estará oculta."</string>
     <string name="post_info_tag_blocked">Tag %1$s bloqueado</string>
     <string name="post_info_tag_block_error">Falha ao bloquear a tag %1$s: %2$s</string>
-
     <string name="liked_post_liked_ago">%1$s %2$s atrás</string>
     <string name="liked_post_title">Apreciado por</string>
-
     <string name="media_fullscreen_dialog_body">Baixar mídia?</string>
-
     <string name="profile_following">seguindo</string>
     <string name="profile_posts">Postagens</string>
     <string name="profile_content_error">Falhou em obter perfil.Clique para tentar novamente</string>
@@ -923,18 +926,16 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="user_comments_title">%1$s comentários</string>
     <string name="profile_is_adult">Usuário tem 18 anos ou mais</string>
     <string name="profile_banned_until">Banido até %1$s (%2$s %3$s)</string>
-    <string name="profile_banned_until_with_reason">Banido até %1$s (%2$s %3$s) \ nReason: %4$s</string>
+    <string name="profile_banned_until_with_reason">"Banido até %1$s (%2$s %3$s)  nReason: %4$s"</string>
     <string name="profile_mod_icon_mod">Este usuário é um moderador</string>
     <string name="profile_followers_unfollow_deleted_title">Deixar de seguir?</string>
     <string name="profile_followers_unfollow_deleted_message">Você quer deixar de seguir esta conta excluída?</string>
-
     <string name="posts_category_search">Postagens em %1$s</string>
     <string name="post">Publicar</string>
     <string name="post_is_nsfw">Esta postagem é NSFW!</string>
-
     <string name="edit_profile_name_hint">Nome</string>
     <string name="edit_profile_name_info">Escolha um bom nome!</string>
-    <string name="edit_profile_username_info">Outros usuários podem mencioná-lo com @YOUR_USERNAME. \ NOLLABED CARATTHOS: A-Z A-Z _-.e 0–9</string>
+    <string name="edit_profile_username_info">"Outros usuários podem mencioná-lo com @YOUR_USERNAME.  NOLLABED CARATTHOS: A-Z A-Z _-.e 0–9"</string>
     <string name="edit_profile_username_invalid">Seu nome de usuário contém caracteres inválidos</string>
     <string name="edit_profile_edit_failed">Falha ao atualizar o perfil</string>
     <string name="edit_profile_edit_username_taken">Erro: esse nome de usuário é levado!</string>
@@ -948,9 +949,7 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="edit_profile_edit_ad">Editar depois do perfil Dark (AD/NSFW)</string>
     <string name="edit_profile_image_removed">Imagem removida</string>
     <string name="edit_profile_image_remove_error">Falha ao remover: %1$s</string>
-
     <string name="toggle_after_dark">Alterne após o perfil escuro (AD/NSFW)</string>
-
     <string name="settings_language_edit_title">Alterar a linguagem do aplicativo</string>
     <string name="content_filter_block_tags_title">Tags de bloco</string>
     <string name="content_filter_block_tags_summary">Gerencie minhas tags bloqueadas</string>
@@ -965,18 +964,16 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="content_settings_missing">Faltando uma categoria?Envie uma mensagem @Dog!</string>
     <string name="content_settings_fetch_error">Falhou em buscar preferências: %1$s</string>
     <string name="content_settings_save_error">Falha ao atualizar %1$s: %2$s</string>
-
     <string name="edit_blocked_tags_title">Minhas tags bloqueadas</string>
     <string name="edit_blocked_tags_body">Tags separadas que você deseja bloquear com um espaço ou nova linha.As postagens que contêm qualquer uma dessas tags serão ocultas.</string>
     <string name="edit_blocked_tags_edit_text_info">Tags bloqueadas</string>
     <string name="edit_blocked_tags_saving">Economizando…</string>
     <string name="edit_blocked_tags_saved">Lista de blocos de tags salva</string>
     <string name="edit_blocked_tags_save_error">Falha ao salvar tags bloqueadas: %1$s</string>
-
     <string name="settings_danger_change_email_title">Alterar endereço de e -mail da conta</string>
-    <string name="settings_danger_change_email_message">Se você precisar alterar o endereço de e -mail usado para fazer login na sua conta, você pode fazê -lo aqui. \ N \ \ ncurrent email: %1$s</string>
+    <string name="settings_danger_change_email_message">"Se você precisar alterar o endereço de e -mail usado para fazer login na sua conta, você pode fazê -lo aqui.  N   ncurrent email: %1$s"</string>
     <string name="settings_danger_change_email_confirm_title">Confirme a alteração do email</string>
-    <string name="settings_danger_change_email_confirm_message">Para confirmar a alteração do email, digite o novo email novamente. \ Em \ E -mail atual: %1$s \ Novo email: %2$s</string>
+    <string name="settings_danger_change_email_confirm_message">"Para confirmar a alteração do email, digite o novo email novamente.  Em  E -mail atual: %1$s  Novo email: %2$s"</string>
     <string name="settings_danger_change_email_hint">Novo Endereço de Email</string>
     <string name="settings_danger_change_email_no_match">O email não corresponde</string>
     <string name="settings_danger_change_email_saving">Mudando seu e -mail…</string>
@@ -985,7 +982,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="picker_comic">Quadrinho</string>
     <string name="picker_camera_permissions_hint">Permissão da câmera necessária</string>
     <string name="modmail_empty_text">Você ainda não tem Modmail!</string>
-
     <string name="discover_users_title">Navegue por usuários</string>
     <string name="discover_users_member_for">Juntou -se %1$s %2$s atrás</string>
     <string name="discover_users_order_followers_item">%1$d Seguidores</string>
@@ -1005,106 +1001,224 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="discover_users_search_user_clicked_select">Selecione Usuário</string>
     <string name="discover_users_list_empty">Usuários não encontrados</string>
     <string name="discover_users_search_empty">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \"</string>
-    <string name="discover_users_search_error">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \". \ N \ Nerror: %2$s</string>
-<string name="fursona_view_title">Furson</string>
+    <string name="discover_users_search_error">"Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \".  N  Nerror: %2$s"</string>
+    <string name="fursona_view_title">Furson</string>
     <string name="chat_control_message_12">%1$s alterou as informações do grupo para %2$s</string>
-
     <string name="chat_error_removed_from_chat">Você foi removido deste bate -papo</string>
-
     <string name="action_unmute">Mogi</string>
-
     <string name="moderators">Moderadores</string>
     <string name="reported_chats">Bate -papos relatados</string>
     <string name="chat_media_message">Mensagem de mídia</string>
     <string name="chat_media_message_with_text">Mensagem de mídia: %1$s</string>
-
     <string name="chat_role_admin">Admin</string>
     <string name="chat_admin_join">Junte -se como admin</string>
     <string name="chat_joined_with_role">Juntou -se ao papel %1$d</string>
-
     <string name="chat_error_does_not_exist">Este bate -papo foi excluído</string>
-
-    <string name="chat_open_invited_single">%1$s (%2$s) quer conversar com você. \ N \ nACECT convite?</string>
-    <string name="chat_open_invited_group">Você foi convidado a ingressar no grupo de bate -papo em grupo \"%1$s \". \ N \ nACEcept convite?</string>
+    <string name="chat_open_invited_single">"%1$s (%2$s) quer conversar com você.  N  nACECT convite?"</string>
+    <string name="chat_open_invited_group">"Você foi convidado a ingressar no grupo de bate -papo em grupo \"%1$s \".  N  nACEcept convite?"</string>
     <string name="chat_delete_error">Falha ao excluir: %1$s</string>
     <string name="chat_clear_history_title">Apagar o histórico</string>
-    <string name="chat_clear_history_message">Exclua todas as mensagens e mídia? \ Nn Isso excluirá tudo neste bate -papo para todos os membros.</string>
+    <string name="chat_clear_history_message">"Exclua todas as mensagens e mídia?  Nn Isso excluirá tudo neste bate -papo para todos os membros."</string>
     <string name="chat_clear_history_positive">Exclua tudo</string>
     <string name="chat_clear_history_error">Falha ao limpar histórico: %1$s</string>
     <string name="chat_clear_history_success">História do bate -papo limpo!</string>
     <string name="chat_leave_chat_title">Deixe o chat</string>
-    <string name="chat_leave_chat_message">Deixe este bate -papo? \ N \ nyou pode não conseguir se juntar novamente sem um convite.</string>
+    <string name="chat_leave_chat_message">"Deixe este bate -papo?  N  nyou pode não conseguir se juntar novamente sem um convite."</string>
     <string name="chat_leave_chat_positive">Deixe o chat</string>
     <string name="chat_leave_chat_error">Falhou em sair: %1$s</string>
     <string name="chat_leave_chat_success">Deixou a conversa</string>
     <string name="chat_delete_chat_title">Exclua bate -papo</string>
-    <string name="chat_delete_chat_message">Exclua este bate -papo? \ N \ nall mensagens e mídia serão excluídos e todos os membros serão chutados.</string>
+    <string name="chat_delete_chat_message">"Exclua este bate -papo?  N  nall mensagens e mídia serão excluídos e todos os membros serão chutados."</string>
     <string name="chat_delete_chat_positive">Exclua bate -papo</string>
     <string name="chat_delete_chat_error">Falha ao excluir: %1$s</string>
     <string name="chat_delete_chat_success">Chat excluído!</string>
     <string name="chat_mute_chat_title">Chat mudo</string>
-    <string name="chat_mute_chat_message">Silenciar este bate -papo? \ N \ nyou não receberá mais notificações push para novas mensagens.</string>
+    <string name="chat_mute_chat_message">"Silenciar este bate -papo?  N  nyou não receberá mais notificações push para novas mensagens."</string>
     <string name="chat_mute_chat_error">Falhou em mudo: %1$s</string>
     <string name="chat_mute_chat_success">Bate -papo abafado!</string>
     <string name="chat_unmute_chat_title">Bate -papo de som</string>
-    <string name="chat_unmute_chat_message">Leia este bate -papo? \ N \ nyou receberá notificações push para novas mensagens.</string>
+    <string name="chat_unmute_chat_message">"Leia este bate -papo?  N  nyou receberá notificações push para novas mensagens."</string>
     <string name="chat_unmute_chat_positive">Mogi</string>
     <string name="chat_unmute_chat_error">Falhou em ativar o som: %1$s</string>
     <string name="chat_unmute_chat_success">Bate -papo sem domínio!</string>
-
     <string name="mod_log_chat">Vá para o bate -papo %1$s</string>
     <string name="post_info_file_dimensions">Dimensões do arquivo: %1$dx %2$d</string>
-
     <plurals name="profile_stats_data_liked_posts">
-        <item quantity="zero">%1$d postagens curtidas</item>
         <item quantity="one">%1$d curtiu postagem</item>
-        <item quantity="few">%1$d postagens curtidas</item>
         <item quantity="many">%1$d postagens curtidas</item>
         <item quantity="other">%1$d postagens curtidas</item>
     </plurals>
     <plurals name="profile_stats_data_likes_received">
-        <item quantity="zero">%1$d curtidas recebidas</item>
         <item quantity="one">%1$d likes recebidos</item>
-        <item quantity="few">%1$d curtidas recebidas</item>
         <item quantity="many">%1$d curtidas recebidas</item>
         <item quantity="other">%1$d curtidas recebidas</item>
     </plurals>
     <plurals name="profile_stats_data_comments_written">
-        <item quantity="zero">%1$d comentários escritos</item>
         <item quantity="one">%1$d comentário escrito</item>
-        <item quantity="few">%1$d comentários escritos</item>
         <item quantity="many">%1$d comentários escritos</item>
         <item quantity="other">%1$d comentários escritos</item>
     </plurals>
     <plurals name="profile_stats_data_comments_received">
-        <item quantity="zero">%1$d comentários recebidos</item>
         <item quantity="one">%1$d comentário recebido</item>
-        <item quantity="few">%1$d comentários recebidos</item>
         <item quantity="many">%1$d comentários recebidos</item>
         <item quantity="other">%1$d comentários recebidos</item>
     </plurals>
     <plurals name="profile_stats_data_premium_months">
-        <item quantity="zero">%1$d meses de premium comprados</item>
         <item quantity="one">%1$d mês de prêmio comprado</item>
-        <item quantity="few">%1$d meses de premium comprados</item>
         <item quantity="many">%1$d meses de premium comprados</item>
         <item quantity="other">%1$d meses de premium comprados</item>
     </plurals>
     <plurals name="profile_stats_data_levels">
-        <item quantity="zero">%1$d níveis de conta comprados</item>
         <item quantity="one">%1$d nível de conta comprada</item>
-        <item quantity="few">%1$d níveis de conta comprados</item>
         <item quantity="many">%1$d níveis de conta comprados</item>
         <item quantity="other">%1$d níveis de conta comprados</item>
     </plurals>
     <plurals name="profile_stats_data_messages_sent">
-        <item quantity="zero">%1$d mensagens enviadas</item>
         <item quantity="one">%1$d mensagem enviada</item>
-        <item quantity="few">%1$d mensagens enviadas</item>
         <item quantity="many">%1$d mensagens enviadas</item>
         <item quantity="other">%1$d mensagens enviadas</item>
     </plurals>
     <string name="upload_chooser_video_thumbnail_generation_failed">Falhou em criar miniatura</string>
     <string name="profile_stats_data_bytes_stored">%1$d bytes armazenados (%2$s MB)</string>
-
-    </resources>
+    <string name="app_name_main" translatable="false"></string>
+    <string name="app_name_debug" translatable="false"></string>
+    <string name="action_mute"></string>
+    <string name="app_details" translatable="false"></string>
+    <string name="post_category_30"></string>
+    <string name="post_category_31"></string>
+    <string name="post_category_32"></string>
+    <string name="search_ratings"></string>
+    <string name="search_categories"></string>
+    <string name="search_content_safe"></string>
+    <string name="search_content_sensitive"></string>
+    <string name="search_any_categories"></string>
+    <string name="search_any_themes"></string>
+    <string name="search_any_sensitive_themes"></string>
+    <string name="post_types"></string>
+    <string name="post_type_images"></string>
+    <string name="post_type_gifs"></string>
+    <string name="post_type_videos"></string>
+    <string name="post_type_polls"></string>
+    <string name="post_type_texts"></string>
+    <string name="trending"></string>
+    <string name="followers"></string>
+    <string name="contributors"></string>
+    <string name="zero" translatable="false"></string>
+    <string name="unknown_account"></string>
+    <string name="ban"></string>
+    <string name="unban"></string>
+    <string name="refresh"></string>
+    <string name="account"></string>
+    <string name="verify_account_title"></string>
+    <string name="verify_account_subtitle"></string>
+    <string name="verify_account_code_hint"></string>
+    <string name="verify_account_resend_code"></string>
+    <string name="verify_account_resend_text"></string>
+    <string name="verify_account_resend_code_success"></string>
+    <string name="verify_account_code"></string>
+    <string name="verify_account_success"></string>
+    <string name="reset_password_title"></string>
+    <string name="reset_password_subtitle"></string>
+    <string name="reset_password_new_password"></string>
+    <string name="reset_password_password_hint"></string>
+    <string name="reset_password_email_hint"></string>
+    <string name="reset_password_send_reset"></string>
+    <string name="reset_password_code_hint"></string>
+    <string name="reset_password_resend_code_success"></string>
+    <string name="reset_password_save"></string>
+    <string name="reset_password_success"></string>
+    <string name="main_verify_email_title"></string>
+    <string name="main_verify_email_message"></string>
+    <string name="guest"></string>
+    <string name="chat_role_owner"></string>
+    <string name="chat_role_kicked"></string>
+    <string name="chat_role_left"></string>
+    <string name="chat_info_user_option_promote_to_mod"></string>
+    <string name="chat_info_user_option_promote_to_mod_error"></string>
+    <string name="chat_info_user_option_promote_to_mod_success"></string>
+    <string name="chat_info_user_option_demote_from_mod"></string>
+    <string name="chat_info_user_option_demote_from_mod_error"></string>
+    <string name="chat_info_user_option_demote_from_mod_success"></string>
+    <string name="chat_mute_chat_positive"></string>
+    <string name="about_stats_users"></string>
+    <string name="about_stats_posts"></string>
+    <string name="about_stats_comments"></string>
+    <string name="about_stats_messages"></string>
+    <string name="about_stats_fursonas"></string>
+    <string name="about_stats_files"></string>
+    <string name="about_stats_bytes"></string>
+    <string name="about_stats_premium"></string>
+    <string name="about_stats_premium_months"></string>
+    <string name="about_stats_premium_levels"></string>
+    <string name="activated"></string>
+    <string name="notification_type_new_below"></string>
+    <string name="post_date_posted_categories" translatable="false"></string>
+    <string name="post_poll_option_percentage" translatable="false"></string>
+    <string name="post_rating_explicit"></string>
+    <string name="post_rating_suggestive"></string>
+    <string name="profile_followers"></string>
+    <string name="posts_comic" translatable="false"></string>
+    <string name="edit_profile_chip_public_comments_2"></string>
+    <string name="settings_ui_title"></string>
+    <string name="settings_ui_change_theme"></string>
+    <string name="settings_ui_theme_item_light"></string>
+    <string name="settings_ui_theme_item_dark"></string>
+    <string name="settings_ui_theme_item_system"></string>
+    <string name="setting_language_item_en" translatable="false"></string>
+    <string name="setting_language_item_es" translatable="false"></string>
+    <string name="setting_language_item_pl" translatable="false"></string>
+    <string name="setting_language_item_pt" translatable="false"></string>
+    <string name="setting_language_item_ru" translatable="false"></string>
+    <string name="setting_language_item_it" translatable="false"></string>
+    <string name="setting_language_item_zh_CN" translatable="false"></string>
+    <string name="setting_language_item_tr" translatable="false"></string>
+    <string name="settings_danger_reset_password_title"></string>
+    <string name="delete_account_posts_counter"></string>
+    <string name="delete_account_comments_counter"></string>
+    <string name="delete_account_messages_counter"></string>
+    <string name="delete_account_posts_button"></string>
+    <string name="delete_account_comments_button"></string>
+    <string name="delete_account_messages_button"></string>
+    <string name="delete_account_send_request_button"></string>
+    <string name="delete_account_cancel_request_button"></string>
+    <string name="delete_account_send_request_failed"></string>
+    <string name="delete_account_cancel_request_failed"></string>
+    <string name="delete_account_refresh_failed"></string>
+    <string name="delete_account_loading"></string>
+    <string name="delete_account_request_text_title"></string>
+    <string name="delete_account_request_text_1"></string>
+    <string name="delete_account_request_text_1_sub"></string>
+    <string name="delete_account_request_text_2"></string>
+    <string name="delete_account_request_text_2_sub"></string>
+    <string name="delete_account_request_text_3"></string>
+    <string name="delete_account_request_text_3_sub"></string>
+    <string name="delete_account_request_text_notice"></string>
+    <string name="cleanup_old_following_posts" translatable="false"></string>
+    <string name="cleanup_deleted_messages" translatable="false"></string>
+    <string name="cleanup_deleted_chats" translatable="false"></string>
+    <string name="cleanup_old_control_messages" translatable="false"></string>
+    <string name="cleanup_old_like_notifications" translatable="false"></string>
+    <string name="cleanup_old_installations" translatable="false"></string>
+    <string name="cleanup_ban_ip" translatable="false"></string>
+    <string name="cleanup_unban_ip" translatable="false"></string>
+    <string name="enter_ip" translatable="false"></string>
+    <string name="reason"></string>
+    <string name="cleanup_error" translatable="false"></string>
+    <string name="delete_account_posts_success_message"></string>
+    <string name="delete_account_comments_success_message"></string>
+    <string name="delete_account_messages_success_message"></string>
+    <string name="delete_account_send_request_success_message"></string>
+    <string name="delete_account_cancel_request_success_message"></string>
+    <plurals name="picker_selected_count">
+        <item quantity="one"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="picker_max_selection_reached">
+        <item quantity="one"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="upload_no_rating_selected"></string>
+    <string name="chats_unread_many" translatable="false"></string>
+</resources>
