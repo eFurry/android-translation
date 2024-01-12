@@ -1163,11 +1163,11 @@
     <string name="delete_account_posts_button">Delete my posts</string>
     <string name="delete_account_comments_button">Delete my comments</string>
     <string name="delete_account_messages_button">Delete my messages</string>
-    <string name="delete_account_posts_success_message">Success! You posts will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
-    <string name="delete_account_comments_success_message">Success! You comments will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
-    <string name="delete_account_messages_success_message">Success! You messages will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
-    <string name="delete_account_send_request_success_message">Success! You account has been scheduled for deletion. Check your inbox for more details. Your account is now deactivated.</string>
-    <string name="delete_account_cancel_request_success_message">Success! You account has been reactivated and is no longer pending deletion.</string>
+    <string name="delete_account_posts_success_message">Success! Your posts will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
+    <string name="delete_account_comments_success_message">Success! Your comments will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
+    <string name="delete_account_messages_success_message">Success! Your messages will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
+    <string name="delete_account_send_request_success_message">Success! Your account has been scheduled for deletion. Check your inbox for more details. Your account is now deactivated.</string>
+    <string name="delete_account_cancel_request_success_message">Success! Your account has been reactivated and is no longer pending deletion.</string>
     <string name="delete_account_send_request_button">Send account deletion request</string>
     <string name="delete_account_cancel_request_button">Cancel account deletion request</string>
     <string name="delete_account_comments_failed">Failed to delete comments: %1$s</string>
