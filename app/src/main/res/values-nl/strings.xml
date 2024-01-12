@@ -1115,7 +1115,7 @@
         <item quantity="one"/>
         <item quantity="other"/>
     </plurals>
-    <string name="delete_account_send_request_button">Vraag account verwijdering aan</string>
+    <string name="delete_account_send_request_button">Verzend verwijderingsverzoek</string>
     <string name="delete_account_messages_failed">Berichten verwijderen mislukt: %1$s</string>
     <string name="delete_account_cancel_request_button">Annuleer verwijderingsverzoek</string>
     <string name="delete_account_comments_failed">Opmerkingen verwijderen mislukt: %1$s</string>
