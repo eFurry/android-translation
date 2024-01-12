@@ -1115,4 +1115,5 @@
         <item quantity="one"/>
         <item quantity="other"/>
     </plurals>
+    <string name="delete_account_send_request_button">Vraag account verwijdering aan</string>
 </resources>
