@@ -1141,4 +1141,120 @@
 \n
 \nHata: %2$s</string>
     <string name="login_new_user">Yeni bir kullanıcı mısın? Hesap oluştur</string>
+    <string name="app_name_main" translatable="false"></string>
+    <string name="app_name_debug" translatable="false"></string>
+    <string name="delete_account_posts_counter"></string>
+    <string name="cleanup_ban_ip" translatable="false"></string>
+    <string name="cleanup_unban_ip" translatable="false"></string>
+    <string name="enter_ip" translatable="false"></string>
+    <string name="reason"></string>
+    <string name="cleanup_error" translatable="false"></string>
+    <string name="post_date_posted_categories" translatable="false"></string>
+    <string name="post_poll_option_percentage" translatable="false"></string>
+    <string name="verify_account_subtitle"></string>
+    <string name="verify_account_code_hint"></string>
+    <string name="verify_account_resend_code"></string>
+    <string name="reset_password_email_hint"></string>
+    <string name="app_details" translatable="false"></string>
+    <string name="post_category_30"></string>
+    <string name="post_category_31"></string>
+    <string name="post_category_32"></string>
+    <string name="search_ratings"></string>
+    <string name="search_categories"></string>
+    <string name="search_content_safe"></string>
+    <string name="search_content_sensitive"></string>
+    <string name="search_any_categories"></string>
+    <string name="search_any_themes"></string>
+    <string name="search_any_sensitive_themes"></string>
+    <string name="post_types"></string>
+    <string name="post_type_images"></string>
+    <string name="post_type_gifs"></string>
+    <string name="post_type_videos"></string>
+    <string name="post_type_polls"></string>
+    <string name="post_type_texts"></string>
+    <string name="trending"></string>
+    <string name="zero" translatable="false"></string>
+    <string name="ban"></string>
+    <string name="unban"></string>
+    <string name="refresh"></string>
+    <string name="account"></string>
+    <string name="verify_account_title"></string>
+    <string name="verify_account_resend_text"></string>
+    <string name="verify_account_resend_code_success"></string>
+    <string name="verify_account_code"></string>
+    <string name="verify_account_success"></string>
+    <string name="reset_password_title"></string>
+    <string name="reset_password_subtitle"></string>
+    <string name="reset_password_new_password"></string>
+    <string name="reset_password_password_hint"></string>
+    <string name="reset_password_send_reset"></string>
+    <string name="reset_password_code_hint"></string>
+    <string name="reset_password_resend_code_success"></string>
+    <string name="reset_password_save"></string>
+    <string name="reset_password_success"></string>
+    <string name="main_verify_email_title"></string>
+    <string name="main_verify_email_message"></string>
+    <string name="chats_unread_many" translatable="false"></string>
+    <string name="chat_info_user_option_promote_to_mod"></string>
+    <string name="chat_info_user_option_promote_to_mod_error"></string>
+    <string name="chat_info_user_option_promote_to_mod_success"></string>
+    <string name="chat_info_user_option_demote_from_mod"></string>
+    <string name="chat_info_user_option_demote_from_mod_error"></string>
+    <string name="chat_info_user_option_demote_from_mod_success"></string>
+    <string name="about_stats_users"></string>
+    <string name="about_stats_posts"></string>
+    <string name="about_stats_comments"></string>
+    <string name="about_stats_messages"></string>
+    <string name="about_stats_fursonas"></string>
+    <string name="about_stats_files"></string>
+    <string name="about_stats_bytes"></string>
+    <string name="about_stats_premium"></string>
+    <string name="about_stats_premium_months"></string>
+    <string name="about_stats_premium_levels"></string>
+    <string name="posts_comic" translatable="false"></string>
+    <string name="settings_ui_title"></string>
+    <string name="settings_ui_change_theme"></string>
+    <string name="settings_ui_theme_item_light"></string>
+    <string name="settings_ui_theme_item_dark"></string>
+    <string name="settings_ui_theme_item_system"></string>
+    <string name="setting_language_item_en" translatable="false"></string>
+    <string name="setting_language_item_es" translatable="false"></string>
+    <string name="setting_language_item_pl" translatable="false"></string>
+    <string name="setting_language_item_pt" translatable="false"></string>
+    <string name="setting_language_item_ru" translatable="false"></string>
+    <string name="setting_language_item_it" translatable="false"></string>
+    <string name="setting_language_item_zh_CN" translatable="false"></string>
+    <string name="setting_language_item_tr" translatable="false"></string>
+    <string name="settings_danger_reset_password_title"></string>
+    <string name="delete_account_comments_counter"></string>
+    <string name="delete_account_messages_counter"></string>
+    <string name="delete_account_posts_button"></string>
+    <string name="delete_account_comments_button"></string>
+    <string name="delete_account_messages_button"></string>
+    <string name="delete_account_send_request_button"></string>
+    <string name="delete_account_cancel_request_button"></string>
+    <string name="delete_account_send_request_failed"></string>
+    <string name="delete_account_cancel_request_failed"></string>
+    <string name="delete_account_refresh_failed"></string>
+    <string name="delete_account_loading"></string>
+    <string name="delete_account_request_text_title"></string>
+    <string name="delete_account_request_text_1"></string>
+    <string name="delete_account_request_text_1_sub"></string>
+    <string name="delete_account_request_text_2"></string>
+    <string name="cleanup_old_installations" translatable="false"></string>
+    <string name="delete_account_request_text_2_sub"></string>
+    <string name="delete_account_request_text_3"></string>
+    <string name="delete_account_request_text_3_sub"></string>
+    <string name="delete_account_request_text_notice"></string>
+    <string name="cleanup_old_following_posts" translatable="false"></string>
+    <string name="cleanup_deleted_messages" translatable="false"></string>
+    <string name="cleanup_deleted_chats" translatable="false"></string>
+    <string name="cleanup_old_control_messages" translatable="false"></string>
+    <string name="cleanup_old_like_notifications" translatable="false"></string>
+    <string name="delete_account_posts_success_message"></string>
+    <string name="delete_account_comments_success_message"></string>
+    <string name="delete_account_messages_success_message"></string>
+    <string name="delete_account_send_request_success_message"></string>
+    <string name="delete_account_cancel_request_success_message"></string>
+    <string name="upload_no_rating_selected"></string>
 </resources>
