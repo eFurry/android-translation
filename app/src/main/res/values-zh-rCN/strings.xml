@@ -1210,40 +1210,4 @@
     <string name="blocked_get_error">错误：%1$s</string>
     <string name="blocked_none">您没有把任何用户加入黑名单</string>
     <string name="reason">原因</string>
-    <string name="app_details" translatable="false"></string>
-    <string name="app_name_main" translatable="false"></string>
-    <string name="app_name_debug" translatable="false"></string>
-    <string name="post_type_images"></string>
-    <string name="post_type_gifs"></string>
-    <string name="post_type_videos"></string>
-    <string name="post_type_polls"></string>
-    <string name="post_type_texts"></string>
-    <string name="post_category_30"></string>
-    <string name="post_category_31"></string>
-    <string name="post_category_32"></string>
-    <string name="post_types"></string>
-    <string name="zero" translatable="false"></string>
-    <string name="chats_unread_many" translatable="false"></string>
-    <string name="post_date_posted_categories" translatable="false"></string>
-    <string name="post_poll_option_percentage" translatable="false"></string>
-    <string name="posts_comic" translatable="false"></string>
-    <string name="setting_language_item_en" translatable="false"></string>
-    <string name="setting_language_item_es" translatable="false"></string>
-    <string name="setting_language_item_pl" translatable="false"></string>
-    <string name="setting_language_item_pt" translatable="false"></string>
-    <string name="setting_language_item_ru" translatable="false"></string>
-    <string name="setting_language_item_it" translatable="false"></string>
-    <string name="setting_language_item_zh_CN" translatable="false"></string>
-    <string name="setting_language_item_tr" translatable="false"></string>
-    <string name="cleanup_old_following_posts" translatable="false"></string>
-    <string name="cleanup_deleted_messages" translatable="false"></string>
-    <string name="cleanup_deleted_chats" translatable="false"></string>
-    <string name="cleanup_old_control_messages" translatable="false"></string>
-    <string name="cleanup_old_like_notifications" translatable="false"></string>
-    <string name="cleanup_old_installations" translatable="false"></string>
-    <string name="cleanup_ban_ip" translatable="false"></string>
-    <string name="cleanup_unban_ip" translatable="false"></string>
-    <string name="enter_ip" translatable="false"></string>
-    <string name="cleanup_error" translatable="false"></string>
-    <string name="upload_no_rating_selected"></string>
 </resources>
