@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27870 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 28086 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -18,6 +18,7 @@
     <string name="action_ban_user">Ban user</string>
     <string name="action_unban_user">Unban user</string>
     <string name="action_show_logs">Show logs</string>
+    <string name="action_show_messages">Show messages</string>
     <string name="action_add_as_mod">Promote to moderator</string>
     <string name="action_remove_as_mod">Remove moderator status</string>
     <string name="action_delete_all_posts">Purge user\'s posts</string>
@@ -378,6 +379,7 @@
     <string name="recent_messages">Recent messages</string>
     <string name="mod_logs">Moderation logs</string>
     <string name="mod_logs_user">Mod logs for %1$s</string>
+    <string name="messages_user">Messages from %1$s</string>
     <string name="download">Download</string>
     <string name="share">Share&#8230;</string>
     <string name="arrow_right">-></string>
@@ -415,6 +417,18 @@
     <string name="unban">Unban</string>
     <string name="refresh">Refresh</string>
     <string name="account">Account</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
 
     <string name="verify_account_title">Account verification</string>
     <string name="verify_account_subtitle">To use all features you need to verify your account.\n\nCheck your inbox at %1$s and enter the code that was sent to you below.</string>
@@ -438,6 +452,8 @@
 
     <string name="main_verify_email_title">Account verification needed</string>
     <string name="main_verify_email_message">Press to start the verification process</string>
+    <string name="main_complete_profile_title">Complete your profile</string>
+    <string name="main_complete_profile_message">Change your name, set an icon and more</string>
     <string name="main_update_app_title">App update available!</string>
     <string name="main_update_app_message">Press to update</string>
     <string name="main_update_app_error">Failed: %1$s</string>
@@ -1046,6 +1062,8 @@
     <string name="edit_profile_edit_username_taken">Error: that username is taken!</string>
     <string name="edit_profile_edit_error">Error, please try again!</string>
     <string name="edit_profile_upload_icon_error">Failed to upload image: %1$s</string>
+    <string name="edit_profile_removed_icon">Icon deleted!</string>
+    <string name="edit_profile_removed_background">Background deleted!</string>
     <string name="failed_to_read_file">Failed to read file!</string>
     <string name="not_image_or_gif">Not an image or GIF file!</string>
     <string name="edit_profile_bio_info">Introduce yourself! (supports markdown)</string>
@@ -1063,24 +1081,28 @@
     <string name="edit_profile_chip_public_comments_title">My comments are:</string>
     <string name="edit_profile_chip_public_comments_1">Visible in my profile</string>
     <string name="edit_profile_chip_public_comments_2">Private</string>
-    <string name="edit_profile_chip_show_age_title">Show posts made by:</string>
+    <string name="edit_profile_chip_show_age_title">I want to see posts made by:</string>
     <string name="edit_profile_chip_show_age_1">All users</string>
-    <string name="edit_profile_chip_show_age_2">Users 16 years or older</string>
-    <string name="edit_profile_chip_show_age_3">Users 18 years or older</string>
+    <string name="edit_profile_chip_show_age_2">Users aged 16+</string>
+    <string name="edit_profile_chip_show_age_3">Users aged 18+</string>
     <string name="edit_profile_chip_max_rating_title">Show content rated max:</string>
     <string name="edit_profile_chip_max_rating_1">Safe</string>
-    <string name="edit_profile_chip_max_rating_2">Suggestive</string>
-    <string name="edit_profile_chip_max_rating_3">Explicit</string>
-    <string name="edit_profile_age">I am:</string>
-    <string name="edit_profile_age_locked_message">Your age is locked. Contact a moderator or the support if you need to change it</string>
-    <string name="edit_profile_age_lock">Lock age</string>
-    <string name="edit_profile_age_15_younger">13 to 15 years old</string>
-    <string name="edit_profile_age_16_to_17">16 to 17 years old</string>
-    <string name="edit_profile_age_18_above">18 or older</string>
+    <string name="edit_profile_chip_max_rating_2">Suggestive (18+)</string>
+    <string name="edit_profile_chip_max_rating_3">Explicit (18+)</string>
+    <string name="edit_profile_birthday">My birthdate:</string>
+    <string name="edit_profile_birthday_hidden_show">Hidden, click to show</string>
+    <string name="edit_profile_birthday_year_button">Select year</string>
+    <string name="edit_profile_birthday_month_button">Select month</string>
+    <string name="edit_profile_birthday_year_dialog_title">Select birth year</string>
+    <string name="edit_profile_birthday_month_dialog_title">Select birth month</string>
+    <string name="edit_profile_birthday_age_years">Age: %1$d years</string>
+    <string name="edit_profile_birthday_notice">Your birthdate is never shown to other users. Once set, it can only be changed by a moderator.</string>
+    <string name="edit_profile_birthday_locked">Your birthdate is locked. Contact a moderator if you need to change it</string>
     <string name="uploading_dots">Uploading&#8230;</string>
     <string name="edit_profile_uploading_error">Error: %1$s</string>
     <string name="edit_profile_edited_profile">Profile updated!</string>
     <string name="edit_profile_edit_ad">Edit after dark (AD/NSFW) profile</string>
+    <string name="edit_profile_after_dark_help">If you are 18+ you can have two profiles. One general that is visible to all users and one adult (NSFW) profile that is only visible to users that are 18+.\n\nYour general profile must be safe for work while the after dark (AD/NSFW) profile can contain explicit and adult material.</string>
     <string name="edit_profile_image_removed">Image removed</string>
     <string name="edit_profile_image_remove_error">Failed to remove: %1$s</string>
 
@@ -1107,6 +1129,7 @@
     <string name="setting_language_item_it" translatable="false">Italiano (Italian)</string>
     <string name="setting_language_item_zh_CN" translatable="false">简体中文 (Chinese Simplified)</string>
     <string name="setting_language_item_tr" translatable="false">Türkçe (Turkish)</string>
+    <string name="setting_language_item_nl" translatable="false">Nederlands (Dutch)</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>
@@ -1121,8 +1144,9 @@
     <string name="content_settings_subtitle">Manage what type of content you want to see in the app. Disable an item to hide all posts in that category</string>
     <string name="content_settings_normal">Standard content</string>
     <string name="visible_by_default">Visible by default. Uncheck to hide.</string>
-    <string name="hidden_by_default">Hidden by default. Check to show.</string>
-    <string name="content_settings_sensitive">NSFW content</string>
+    <string name="hidden_by_default">Sensitive content is hidden unless you enable it. Check an item in the list if you want to see or upload posts in that category.</string>
+    <string name="content_settings_sensitive_click_to_show">Show the sensitive content list</string>
+    <string name="content_settings_sensitive">Sensitive content</string>
     <string name="content_settings_empty_fetch_error">Failed to fetch content: %1$s</string>
     <string name="content_settings_missing">Missing a category? Send @Dog a message!</string>
     <string name="content_settings_fetch_error">Failed to fetch preferences: %1$s</string>
@@ -1163,13 +1187,17 @@
     <string name="delete_account_posts_button">Delete my posts</string>
     <string name="delete_account_comments_button">Delete my comments</string>
     <string name="delete_account_messages_button">Delete my messages</string>
+    <string name="delete_account_send_request_button">Send account deletion request</string>
+    <string name="delete_account_cancel_request_button">Cancel account deletion request</string>
+    <string name="delete_account_posts_confirm">Are you sure? All your posts will be deleted when you confirm.</string>
+    <string name="delete_account_comments_confirm">Are you sure? All your comments will be deleted when you confirm.</string>
+    <string name="delete_account_messages_confirm">Are you sure? All your messages will be deleted when you confirm.</string>
+    <string name="delete_account_send_request_confirm">Are you sure? Confirming will deactivate your account. One month from now all your posts, comments, messages and all other data will be deleted.</string>
     <string name="delete_account_posts_success_message">Success! Your posts will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
     <string name="delete_account_comments_success_message">Success! Your comments will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
     <string name="delete_account_messages_success_message">Success! Your messages will be deleted. This may take a while if you have many. Click on the refresh icon to check the progress.</string>
     <string name="delete_account_send_request_success_message">Success! Your account has been scheduled for deletion. Check your inbox for more details. Your account is now deactivated.</string>
     <string name="delete_account_cancel_request_success_message">Success! Your account has been reactivated and is no longer pending deletion.</string>
-    <string name="delete_account_send_request_button">Send account deletion request</string>
-    <string name="delete_account_cancel_request_button">Cancel account deletion request</string>
     <string name="delete_account_comments_failed">Failed to delete comments: %1$s</string>
     <string name="delete_account_posts_failed">Failed to delete posts: %1$s</string>
     <string name="delete_account_messages_failed">Failed to delete messages: %1$s</string>
