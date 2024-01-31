@@ -882,7 +882,7 @@
     <string name="post_content_blocked_body">Conteúdo bloqueado: %1$s</string>
     <string name="post_tag_and_content_blocked_body">"Conteúdo bloqueado: %1$s, tags  nblocked: %2$s"</string>
     <string name="post_tag_blocked_view">Mostrar postagem</string>
-    <string name="post_poll_option_click_votes">%$ 1 votos</string>
+    <string name="post_poll_option_click_votes">%1$d votos</string>
     <string name="post_poll_option_click_vote">%1$d Vote</string>
     <string name="post_rating_safe">SEGURO</string>
     <string name="post_info_update_rating">Pós -classificação definida para %1$s</string>
