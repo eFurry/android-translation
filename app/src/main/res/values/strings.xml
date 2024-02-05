@@ -24,6 +24,7 @@
     <string name="action_delete_all_posts">Purge user\'s posts</string>
     <string name="action_delete_all_comments">Purge user\'s comments</string>
     <string name="action_verify_email">Verify email</string>
+    <string name="action_delete_account">Delete account</string>
     <string name="action_start_chat">Start a chat</string>
     <string name="action_create_1_1_chat">Start a 1:1 chat</string>
     <string name="action_create_group_chat">Start a group chat</string>
@@ -138,9 +139,11 @@
     <string name="upload_progress_0">Compressing&#8230;</string>
     <string name="upload_progress_1">Preparing&#8230;</string>
     <string name="upload_progress_2">Uploading&#8230;</string>
+    <string name="upload_progress_file_part">Uploading file %1$d of %2$d&#8230;</string>
     <string name="upload_progress_3">Creating&#8230;</string>
     <string name="upload_progress_edit">Saving&#8230;</string>
     <string name="upload_quota_too_low">You have no upload quota left, please wait %1$d minutes!</string>
+    <string name="upload_quota_too_many_mb">You can only upload %1$d MB with %2$d quota. Wait %3$d minutes or choose smaller files!</string>
 
     <string name="upload_image">Image</string>
     <string name="upload_gif">GIF</string>
@@ -159,6 +162,10 @@
     <string name="upload_poll_too_short_question">Write a longer question!</string>
     <string name="upload_poll_not_enough_options">Add at least two options</string>
 
+    <string name="upload_add_another">Add another</string>
+    <string name="upload_image_too_large">A file you are trying to upload is larger than 100 MB. Crop it or choose a smaller file.</string>
+    <string name="upload_image_error">Failed to upload file %1$d of %2$d: %3$s</string>
+    <string name="upload_images_empty">You must select at least one file to upload</string>
     <string name="upload_settings_title">Post details</string>
     <string name="upload_settings_post_title">Post title</string>
     <string name="upload_settings_post_description">Post description</string>
@@ -370,6 +377,7 @@
     <string name="close_drawer">Close drawer</string>
     <string name="close_reply">Close reply</string>
     <string name="deleted_posts">Deleted posts</string>
+    <string name="account_deletions">Account deletions</string>
     <string name="cleanup">Cleanup</string>
     <string name="reported_posts">Reported posts</string>
     <string name="reported_comments">Reported comments</string>
@@ -429,6 +437,7 @@
     <string name="october">October</string>
     <string name="november">November</string>
     <string name="december">December</string>
+    <string name="plus_number">+%1$d</string>
 
     <string name="verify_account_title">Account verification</string>
     <string name="verify_account_subtitle">To use all features you need to verify your account.\n\nCheck your inbox at %1$s and enter the code that was sent to you below.</string>
@@ -618,6 +627,7 @@
     <string name="report_reason_threats">Threats</string>
     <string name="report_reason_personal">Personal information</string>
     <string name="report_reason_wrong_rating">Should be rated NSFW</string>
+    <string name="report_reason_not_tagged_ai_made">Not tagged as AI made</string>
     <string name="report_reason_other">Other</string>
     <string name="report_additional_information">Additional information</string>
     <string name="report_hide_post">Hide this post permanently</string>
@@ -726,6 +736,7 @@
     <string name="notification_type_faved_post_gif">Liked your GIF</string>
     <string name="notification_type_faved_post_text">Liked your text post</string>
     <string name="notification_type_faved_post_poll">Liked your poll</string>
+    <string name="notification_type_faved_post_multi_image">Liked your multi image post</string>
     <string name="notification_type_faved_post">Liked your post</string>
     <string name="notification_type_followed">Followed you</string>
     <string name="notification_type_unfollowed">Someone unfollowed you</string>
@@ -870,6 +881,8 @@
     <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
     <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
     <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
+    <string name="admin_delete_account_dialog_title" translatable="false">Delete account</string>
+    <string name="admin_delete_account_dialog_message" translatable="false">Mark this user\'s account as pending deletion?</string>
     <string name="ban_user_type_all">Full ban (all below)</string>
     <string name="ban_user_type_comment">Create comments</string>
     <string name="ban_user_type_message">Send messages</string>
@@ -1049,13 +1062,14 @@
 
     <string name="edit_profile_title">Edit your profile</string>
     <string name="edit_profile_name_hint">Name</string>
+    <string name="edit_profile_name_ad_hint">After dark name</string>
     <string name="edit_profile_name_info">Choose a nice name!</string>
+    <string name="edit_profile_name_ad_info">Choose a naughty name!</string>
     <string name="edit_profile_username_hint">Username</string>
-    <string name="edit_profile_presentation_hint">Short presentation</string>
-    <string name="edit_profile_link_custom_hint">Custom website link</string>
-    <string name="edit_profile_link_fa_hint">FurAffinity username</string>
-    <string name="edit_profile_link_da_hint">DeviantArt username</string>
     <string name="edit_profile_about_hint">About me</string>
+    <string name="edit_profile_about_ad_hint">About me (after dark)</string>
+    <string name="edit_profile_bio_info">Introduce yourself! (supports markdown)</string>
+    <string name="edit_profile_bio_ad_info">Introduce your after dark side! (supports markdown)</string>
     <string name="edit_profile_username_info">Other users can mention you with @your_username.\nAllowed characters: a-z A-Z _-. and 0&#8211;9</string>
     <string name="edit_profile_username_invalid">Your username contains invalid characters</string>
     <string name="edit_profile_edit_failed">Failed to update profile</string>
@@ -1066,7 +1080,6 @@
     <string name="edit_profile_removed_background">Background deleted!</string>
     <string name="failed_to_read_file">Failed to read file!</string>
     <string name="not_image_or_gif">Not an image or GIF file!</string>
-    <string name="edit_profile_bio_info">Introduce yourself! (supports markdown)</string>
     <string name="edit_profile_save_changes">Save changes</string>
     <string name="edit_profile_icon_title">Edit icon</string>
     <string name="edit_profile_bg_title">Edit background</string>
@@ -1102,6 +1115,7 @@
     <string name="edit_profile_uploading_error">Error: %1$s</string>
     <string name="edit_profile_edited_profile">Profile updated!</string>
     <string name="edit_profile_edit_ad">Edit after dark (AD/NSFW) profile</string>
+    <string name="edit_profile_edit_ad_help_button">What is after dark</string>
     <string name="edit_profile_after_dark_help">If you are 18+ you can have two profiles. One general that is visible to all users and one adult (NSFW) profile that is only visible to users that are 18+.\n\nYour general profile must be safe for work while the after dark (AD/NSFW) profile can contain explicit and adult material.</string>
     <string name="edit_profile_image_removed">Image removed</string>
     <string name="edit_profile_image_remove_error">Failed to remove: %1$s</string>
@@ -1264,6 +1278,12 @@
     <string name="enter_ip" translatable="false">Enter IP</string>
     <string name="reason">Reason</string>
     <string name="cleanup_error" translatable="false">Error: %1$s</string>
+    <string name="view_profile">View profile</string>
+
+    <string name="deleted_days_ago">Deleted %1$s %2$s ago</string>
+    <string name="deleted_accounts_days_ago">Deleted %1$s %2$s ago</string>
+    <string name="deleted_accounts_deleted_data">Deleted account data for %1$s</string>
+    <string name="deleted_accounts_cancelled">Cancelled account deletion request for %1$s</string>
 
     <string name="modmail_empty_text">You have no Modmail yet!</string>
 
@@ -1282,7 +1302,6 @@
     <string name="discover_users_menu_order_by_level">Highest level</string>
     <string name="discover_users_search_hint">Enter a name or @username</string>
     <string name="discover_users_search_sub_hint">Usernames are case-insensitive. Names are case-sensitive.</string>
-    <string name="discover_users_search_user_clicked_view_profile">View profile</string>
     <string name="discover_users_search_user_clicked_select">Select user</string>
     <string name="discover_users_list_empty">No users found</string>
     <string name="discover_users_search_empty">No users found with a name or username starting with \"%1$s\"</string>
