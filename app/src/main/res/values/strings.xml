@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 28086 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 29004 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -314,6 +314,7 @@
     <string name="post_type_videos">Videos</string>
     <string name="post_type_polls">Polls</string>
     <string name="post_type_texts">Text posts</string>
+    <string name="post_type_multi_images">Multi image posts</string>
 
     <string name="failed_to_get_posts">Failed to get posts: %1$s</string>
 
@@ -461,6 +462,8 @@
 
     <string name="main_verify_email_title">Account verification needed</string>
     <string name="main_verify_email_message">Press to start the verification process</string>
+    <string name="main_verify_email_snackbar_text">Account verification needed</string>
+    <string name="main_verify_email_snackbar_button">Verify</string>
     <string name="main_complete_profile_title">Complete your profile</string>
     <string name="main_complete_profile_message">Change your name, set an icon and more</string>
     <string name="main_update_app_title">App update available!</string>
@@ -1068,8 +1071,8 @@
     <string name="edit_profile_username_hint">Username</string>
     <string name="edit_profile_about_hint">About me</string>
     <string name="edit_profile_about_ad_hint">About me (after dark)</string>
-    <string name="edit_profile_bio_info">Introduce yourself! (supports markdown)</string>
-    <string name="edit_profile_bio_ad_info">Introduce your after dark side! (supports markdown)</string>
+    <string name="edit_profile_bio_info">Introduce yourself!</string>
+    <string name="edit_profile_bio_ad_info">Introduce your after dark side!</string>
     <string name="edit_profile_username_info">Other users can mention you with @your_username.\nAllowed characters: a-z A-Z _-. and 0&#8211;9</string>
     <string name="edit_profile_username_invalid">Your username contains invalid characters</string>
     <string name="edit_profile_edit_failed">Failed to update profile</string>
