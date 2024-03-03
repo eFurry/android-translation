@@ -164,6 +164,7 @@
 
     <string name="upload_add_another">Add another</string>
     <string name="upload_image_too_large">A file you are trying to upload is larger than 100 MB. Crop it or choose a smaller file.</string>
+    <string name="upload_video_too_large">The video you are trying to upload is larger than 100 MB. Compress it or choose a smaller file.</string>
     <string name="upload_image_error">Failed to upload file %1$d of %2$d: %3$s</string>
     <string name="upload_images_empty">You must select at least one file to upload</string>
     <string name="upload_settings_title">Post details</string>
