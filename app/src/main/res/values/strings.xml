@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 29004 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 29609 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -316,6 +316,20 @@
     <string name="post_type_polls">Polls</string>
     <string name="post_type_texts">Text posts</string>
     <string name="post_type_multi_images">Multi image posts</string>
+    <string name="discover_chats">Chats</string>
+    <string name="discover_chats_title">Browse chats</string>
+    <string name="discover_chats_browse">Browse public chats</string>
+    <string name="discover_chats_search">Search chats</string>
+    <string name="discover_chats_adapter_item_body">%1$d members, %2$d messages</string>
+    <string name="discover_chats_menu_order_by">Order chats</string>
+    <string name="discover_chats_menu_order_by_last_message">Recent activity</string>
+    <string name="discover_chats_menu_order_by_member_count">Member count</string>
+    <string name="discover_chats_menu_order_by_message_count">Message count</string>
+    <string name="discover_chats_search_hint">Text to search for</string>
+    <string name="discover_chats_search_sub_hint">The search is case-insensitive</string>
+    <string name="discover_chats_list_empty">No chats found</string>
+    <string name="discover_chats_search_empty">No chats found for \"%1$s\"</string>
+    <string name="discover_chats_search_error">No chats found for \"%1$s\".\n\nError: %2$s</string>
 
     <string name="failed_to_get_posts">Failed to get posts: %1$s</string>
 
@@ -530,6 +544,11 @@
     <string name="chat_control_message_10">chat deleted</string>
     <string name="chat_control_message_11">chat created</string>
     <string name="chat_control_message_12">%1$s changed the group info to %2$s</string>
+    <string name="chat_control_message_13">%1$s changed the group type to public</string>
+    <string name="chat_control_message_14">%1$s changed the group type to private</string>
+    <string name="chat_control_message_15">%1$s changed the group rating to Adult (18+)</string>
+    <string name="chat_control_message_16">%1$s changed the group rating to Safe</string>
+    <string name="chat_control_message_unknown">Unknown message - check for app updates</string>
     <string name="chat_media_message">Media message</string>
     <string name="chat_media_message_with_text">Media message: %1$s</string>
 
@@ -549,8 +568,9 @@
     <string name="chat_role_admin">ADMIN</string>
     <string name="chat_role_left">left</string>
 
-    <string name="chat_admin_join">Join as admin</string>
-    <string name="chat_joined_with_role">Joined with role %1$d</string>
+    <string name="chat_join" >Join chat</string>
+    <string name="chat_admin_join" translatable="false">Join as admin</string>
+    <string name="chat_joined_with_role" translatable="false">Joined with role %1$d</string>
 
     <string name="chat_info_user_option_kick">Kick</string>
     <string name="chat_info_user_option_kick_error">Failed to kick: %1$s</string>
@@ -567,6 +587,9 @@
     <string name="chat_info_user_option_unban">Unban</string>
     <string name="chat_info_user_option_unban_error">Failed to unban: %1$s</string>
     <string name="chat_info_user_option_unban_success">Unbanned %1$s</string>
+    <string name="chat_info_type_public">Public group</string>
+    <string name="chat_info_type_private">Private group</string>
+    <string name="chat_info_rating_adult">Adult (18+)</string>
 
     <string name="chat_error_removed_from_chat">You have been removed from this chat</string>
     <string name="chat_error_does_not_exist">This chat has been deleted</string>
@@ -612,6 +635,16 @@
     <string name="chat_edit_description_hint">Group info / description</string>
     <string name="chat_edit_name_hint">Group name</string>
     <string name="chat_edit_icon_read_error">Failed to read file: %1$s</string>
+    <string name="chat_edit_type">Chat type</string>
+    <string name="chat_edit_type_public">Public</string>
+    <string name="chat_edit_type_private">Private</string>
+    <string name="chat_edit_type_public_desc">Anyone can find and join this chat. The chat history is public.</string>
+    <string name="chat_edit_type_private_desc">Invite only. The chat will not be publicly visible.</string>
+    <string name="chat_edit_rating">Chat rating</string>
+    <string name="chat_edit_rating_safe">Safe</string>
+    <string name="chat_edit_rating_adult">Adult (18+)</string>
+    <string name="chat_edit_rating_safe_desc">Chat contains only Safe content - users of all ages can join.</string>
+    <string name="chat_edit_rating_adult_desc">Chat contains explicit content - only 18+ users can join.</string>
     <string name="chat_edit_error">Failed to edit: %1$s</string>
     <string name="chat_edit_success">Chat edited!</string>
 
@@ -1305,7 +1338,7 @@
     <string name="discover_users_menu_order_by_posts">Most posts made</string>
     <string name="discover_users_menu_order_by_level">Highest level</string>
     <string name="discover_users_search_hint">Enter a name or @username</string>
-    <string name="discover_users_search_sub_hint">Usernames are case-insensitive. Names are case-sensitive.</string>
+    <string name="discover_users_search_sub_hint">The search is case-insensitive.</string>
     <string name="discover_users_search_user_clicked_select">Select user</string>
     <string name="discover_users_list_empty">No users found</string>
     <string name="discover_users_search_empty">No users found with a name or username starting with \"%1$s\"</string>
