@@ -1279,4 +1279,40 @@
     <string name="post_type_texts">文章</string>
     <string name="notification_type_faved_post_multi_image">喜欢了你的多图片帖子</string>
     <string name="edit_profile_birthday_locked">您的生日已锁定。如果需要更改，请与版主联系</string>
+    <string name="discover_chats_search">搜索聊天</string>
+    <string name="discover_chats_search_sub_hint">该搜索不区分大小写</string>
+    <string name="chat_control_message_13">%1$s已将群类型更改为公众群</string>
+    <string name="chat_edit_type">聊天类型</string>
+    <string name="chat_edit_rating_adult_desc">聊天包含18+内容-只有18岁以上的用户可以加入。</string>
+    <string name="chat_edit_type_public_desc">任何人都可以找到并加入此聊天。聊天记录是公开的。</string>
+    <string name="upload_video_too_large">您尝试上载的视频大于100 MB。压缩或选择较小的文件。</string>
+    <string name="discover_chats">聊天</string>
+    <string name="discover_chats_title">浏览聊天</string>
+    <string name="discover_chats_browse">浏览公共聊天</string>
+    <string name="discover_chats_adapter_item_body">%1$d个成员，%2$d条消息</string>
+    <string name="discover_chats_menu_order_by">聊天顺序</string>
+    <string name="discover_chats_menu_order_by_last_message">最近的活动</string>
+    <string name="discover_chats_menu_order_by_member_count">成员数</string>
+    <string name="discover_chats_menu_order_by_message_count">消息数</string>
+    <string name="discover_chats_search_hint">要搜索的文本</string>
+    <string name="discover_chats_list_empty">未找到聊天记录</string>
+    <string name="discover_chats_search_empty">未找到“%1$s”的聊天记录</string>
+    <string name="discover_chats_search_error">未找到“%1$s”的聊天记录。
+\n
+\n错误：%2$s</string>
+    <string name="chat_control_message_14">%1$s已将群类型更改为私群</string>
+    <string name="chat_control_message_15">%1$s将群评级更改为成人级（18+）</string>
+    <string name="chat_control_message_16">%1$s将群分级更改为安全级</string>
+    <string name="chat_control_message_unknown">未知消息-检查应用程序更新</string>
+    <string name="chat_join">加入聊天</string>
+    <string name="chat_info_type_public">公开群</string>
+    <string name="chat_info_type_private">私人群</string>
+    <string name="chat_info_rating_adult">成人级（18+）</string>
+    <string name="chat_edit_type_public">公开</string>
+    <string name="chat_edit_type_private">私人</string>
+    <string name="chat_edit_type_private_desc">仅限邀请。聊天将不会公开可见。</string>
+    <string name="chat_edit_rating">聊天评级</string>
+    <string name="chat_edit_rating_safe">安全级</string>
+    <string name="chat_edit_rating_adult">成人级（18+）</string>
+    <string name="chat_edit_rating_safe_desc">聊天只包含安全的内容-所有年龄的用户都可以加入。</string>
 </resources>
