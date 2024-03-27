@@ -19,10 +19,11 @@
     <string name="action_unban_user">Unban user</string>
     <string name="action_show_logs">Show logs</string>
     <string name="action_show_messages">Show messages</string>
-    <string name="action_add_as_mod">Promote to moderator</string>
-    <string name="action_remove_as_mod">Remove moderator status</string>
-    <string name="action_delete_all_posts">Purge user\'s posts</string>
-    <string name="action_delete_all_comments">Purge user\'s comments</string>
+    <string name="action_add_as_mod" translatable="false">Promote to moderator</string>
+    <string name="action_remove_as_mod" translatable="false">Remove moderator status</string>
+    <string name="action_delete_all_posts" translatable="false">Purge user\'s posts</string>
+    <string name="action_delete_all_comments" translatable="false">Purge user\'s comments</string>
+    <string name="action_delete_all_messages" translatable="false">Purge user\'s messages</string>
     <string name="action_verify_email">Verify email</string>
     <string name="action_delete_account">Delete account</string>
     <string name="action_start_chat">Start a chat</string>
@@ -120,6 +121,33 @@
     <string name="post_category_22">Screenshots</string>
     <string name="post_category_23">Current events</string>
     <string name="post_category_24">Other &amp; random</string>
+
+    <string name="post_theme_19">Not furry</string>
+    <string name="post_theme_20">My art / made by me</string>
+    <string name="post_theme_21">Made with AI</string>
+    <string name="post_theme_0">Blood</string>
+    <string name="post_theme_1">Bondage</string>
+    <string name="post_theme_2">Chubby / obese</string>
+    <string name="post_theme_25">Dating</string>
+    <string name="post_theme_3">Diaper / baby furs</string>
+    <string name="post_theme_4">Drugs (art)</string>
+    <string name="post_theme_5">Feral</string>
+    <string name="post_theme_6">Flashing lights</string>
+    <string name="post_theme_7">Hyper</string>
+    <string name="post_theme_8">Hypnosis</string>
+    <string name="post_theme_9">Inflation</string>
+    <string name="post_theme_10">Macro</string>
+    <string name="post_theme_11">Micro</string>
+    <string name="post_theme_18">My Little Pony / Brony</string>
+    <string name="post_theme_12">Nightmare fuel</string>
+    <string name="post_theme_23">Military / war</string>
+    <string name="post_theme_13">Paws</string>
+    <string name="post_theme_22">POV</string>
+    <string name="post_theme_14">Pregnancy</string>
+    <string name="post_theme_15">Transformation</string>
+    <string name="post_theme_24">Venting</string>
+    <string name="post_theme_16">Vore</string>
+    <string name="post_theme_17">Other fetish</string>
 
     <string name="upload_chooser_title">Create a post</string>
     <string name="upload_chooser_edit_title">Edit post</string>
@@ -428,6 +456,10 @@
         <item quantity="one">day</item>
         <item quantity="other">days</item>
     </plurals>
+    <plurals name="years">
+        <item quantity="one">year</item>
+        <item quantity="other">years</item>
+    </plurals>
     <string name="description">Description</string>
     <string name="optional">optional</string>
     <string name="zero" translatable="false">0</string>
@@ -498,7 +530,11 @@
     <string name="message_error_button_hint">Press to retry</string>
     <string name="message_send">Send message</string>
     <string name="message_send_media">Send media</string>
+    <string name="message_send_video">Send video</string>
     <string name="message_send_error">Failed to send message: %1$s</string>
+    <string name="message_video_compressing">Compressing video&#8230;</string>
+    <string name="message_video_compressing_percentage">Compressing video&#8230; %1$d%%</string>
+    <string name="message_video_compressing_cancelled">Cancelled</string>
     <string name="message_get_error">Failed to get messages: %1$s</string>
     <string name="message_new_messages_below">ᐯ new messages ᐯ</string>
     <string name="message_option_edit_title">Edit message</string>
@@ -916,6 +952,8 @@
     <string name="delete_all_posts_from_dialog_message" translatable="false">Purge this user\'s gallery?</string>
     <string name="delete_all_comments_from_dialog_title" translatable="false">Purge user comments</string>
     <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="delete_all_messages_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_messages_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
     <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
     <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
     <string name="admin_delete_account_dialog_title" translatable="false">Delete account</string>
@@ -1158,6 +1196,10 @@
     <string name="edit_profile_image_remove_error">Failed to remove: %1$s</string>
 
     <string name="toggle_after_dark">Toggle after dark (AD/NSFW) profile</string>
+    <string name="show_account_switcher">Show/hide account switcher</string>
+    <string name="account_switch_add_new">Add account</string>
+    <string name="account_switched_to">Switched to %1$s (@%2$s)</string>
+    <string name="account_switched_failed">Failed to switch: %1$s</string>
 
     <string name="video_error">Playback error: %1$s</string>
     <string name="downloading">Downloading&#8230;</string>
@@ -1166,21 +1208,21 @@
     <string name="settings_consent_title">Consent</string>
 
     <string name="settings_ui_title">UI &amp; localisation</string>
-    <string name="settings_ui_change_theme">Change theme</string>
+    <string name="settings_ui_change_theme">App theme</string>
     <string name="settings_ui_theme_item_light">Light</string>
     <string name="settings_ui_theme_item_dark">Dark</string>
     <string name="settings_ui_theme_item_system">Follow system</string>
 
-    <string name="settings_language_edit_title">Change app language</string>
-    <string name="setting_language_item_en" translatable="false">English (English)</string>
-    <string name="setting_language_item_es" translatable="false">Español (Spanish)</string>
-    <string name="setting_language_item_pl" translatable="false">polski (Polish)</string>
-    <string name="setting_language_item_pt" translatable="false">Português (Portuguese)</string>
-    <string name="setting_language_item_ru" translatable="false">Pусский (Russian)</string>
-    <string name="setting_language_item_it" translatable="false">Italiano (Italian)</string>
-    <string name="setting_language_item_zh_CN" translatable="false">简体中文 (Chinese Simplified)</string>
-    <string name="setting_language_item_tr" translatable="false">Türkçe (Turkish)</string>
-    <string name="setting_language_item_nl" translatable="false">Nederlands (Dutch)</string>
+    <string name="settings_language_edit_title">App language</string>
+    <string name="setting_language_item_en" translatable="false">English</string>
+    <string name="setting_language_item_es" translatable="false">Español</string>
+    <string name="setting_language_item_pl" translatable="false">polski</string>
+    <string name="setting_language_item_pt" translatable="false">Português</string>
+    <string name="setting_language_item_ru" translatable="false">Pусский</string>
+    <string name="setting_language_item_it" translatable="false">Italiano</string>
+    <string name="setting_language_item_zh_CN" translatable="false">简体中文</string>
+    <string name="setting_language_item_tr" translatable="false">Türkçe</string>
+    <string name="setting_language_item_nl" translatable="false">Nederlands</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>
@@ -1267,8 +1309,6 @@
     <string name="delete_account_request_text_notice">Note: once your account has been deleted, your username becomes free for others to use.</string>
 
     <string name="email_not_verified_dialog_message">You need to verify your email address first!\n\nClick on the link that was sent to %1$s and then try again or restart the app.\n\nIf you have not received an email, log out and log in again and you should receive a new one.</string>
-    <string name="email_verification_dialog_title">Email verification</string>
-    <string name="email_verification_dialog_message">Welcome to eFur!\n\nTo confirm your email, click on the link that was sent to %1$s.\n\nIf you have not received an email after five minutes, log out and log in again and you should receive a new one.</string>
 
     <string name="notification_dialog_clear_all_message">Clear all your notifications?</string>
     <string name="notification_clear_all_message_done">Cleared %1$d notifications</string>
