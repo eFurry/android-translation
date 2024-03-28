@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 29609 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 30087 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -533,7 +533,6 @@
     <string name="message_send_video">Send video</string>
     <string name="message_send_error">Failed to send message: %1$s</string>
     <string name="message_video_compressing">Compressing video&#8230;</string>
-    <string name="message_video_compressing_percentage">Compressing video&#8230; %1$d%%</string>
     <string name="message_video_compressing_cancelled">Cancelled</string>
     <string name="message_get_error">Failed to get messages: %1$s</string>
     <string name="message_new_messages_below">ᐯ new messages ᐯ</string>
@@ -740,6 +739,7 @@
 
     <string name="post_deleted_by">Deleted by: %1$s (%2$s)</string>
     <string name="restore">Restore</string>
+    <string name="delete_to_here" translatable="false">Delete to here</string>
     <string name="deleted_score_when_deleted">Favs: %1$d, Comments: %2$d</string>
 
     <string name="post_is_nsfw_in_sfw_mode">This post is rated higher than your max rating!</string>
@@ -1187,6 +1187,7 @@
     <string name="edit_profile_birthday_notice">Your birthdate is never shown to other users. Once set, it can only be changed by a moderator.</string>
     <string name="edit_profile_birthday_locked">Your birthdate is locked. Contact a moderator if you need to change it</string>
     <string name="uploading_dots">Uploading&#8230;</string>
+    <string name="uploading_percentage">Uploading %1$d%%</string>
     <string name="edit_profile_uploading_error">Error: %1$s</string>
     <string name="edit_profile_edited_profile">Profile updated!</string>
     <string name="edit_profile_edit_ad">Edit after dark (AD/NSFW) profile</string>
