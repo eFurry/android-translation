@@ -335,6 +335,17 @@
     <string name="rating">Rating</string>
     <string name="discover_posts_tag_none_found">No posts match the tag %1$s</string>
     <string name="discover_posts_tag_hint">Enter tag</string>
+    <string name="discover_tags_browse">Browse tags</string>
+    <string name="discover_tags_none_found">No tags found</string>
+    <string name="discover_tags_tag_item_post_count">%1$d posts</string>
+    <string name="discover_tags_tag_item_toggle_error" translatable="false">Failed to toggle: %1$s</string>
+    <string name="discover_tags_tag_item_toggle_success" translatable="false">%1$s toggled, safe=%2$b</string>
+    <string name="discover_tags_order_by_recent">Recent activity</string>
+    <string name="discover_tags_order_by_popular">Popularity</string>
+    <plurals name="discover_tags_tag_item_post_count">
+        <item quantity="one">%1$d post</item>
+        <item quantity="other">%1$d posts</item>
+    </plurals>
     <string name="discover_posts">Posts</string>
     <string name="coming_soon">Coming soon!</string>
     <string name="post_types">Post types</string>
@@ -671,6 +682,7 @@
     <string name="chat_edit_name_hint">Group name</string>
     <string name="chat_edit_icon_read_error">Failed to read file: %1$s</string>
     <string name="chat_edit_type">Chat type</string>
+    <string name="chat_edit_title">Edit chat</string>
     <string name="chat_edit_type_public">Public</string>
     <string name="chat_edit_type_private">Private</string>
     <string name="chat_edit_type_public_desc">Anyone can find and join this chat. The chat history is public.</string>
@@ -1238,9 +1250,8 @@
     <string name="content_settings_subtitle">Manage what type of content you want to see in the app. Disable an item to hide all posts in that category</string>
     <string name="content_settings_normal">Standard content</string>
     <string name="visible_by_default">Visible by default. Uncheck to hide.</string>
-    <string name="hidden_by_default">Sensitive content is hidden unless you enable it. Check an item in the list if you want to see or upload posts in that category.</string>
-    <string name="content_settings_sensitive_click_to_show">Show the sensitive content list</string>
-    <string name="content_settings_sensitive">Sensitive content</string>
+    <string name="content_settings_sensitive">Hard kinks &amp; sensitive content</string>
+    <string name="content_settings_sensitive_desc">Can only be managed on the website: %1$s</string>
     <string name="content_settings_empty_fetch_error">Failed to fetch content: %1$s</string>
     <string name="content_settings_missing">Missing a category? Send @Dog a message!</string>
     <string name="content_settings_fetch_error">Failed to fetch preferences: %1$s</string>
