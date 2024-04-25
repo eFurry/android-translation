@@ -956,7 +956,7 @@
     <string name="action_create_group_chat">Начать групповой чат</string>
     <string name="action_clear_history">Очистить историю</string>
     <string name="action_delete_chat">Удалить чат</string>
-    <string name="action_leave_chat">Оставить чат</string>
+    <string name="action_leave_chat">Покинуть чат</string>
     <string name="launcher_save_token_error">Не удалось сэкономить токен: %1$s</string>
     <string name="upload_settings_disable_comments">Отключить комментарии</string>
     <string name="upload_settings_disable_comments_hint">Комментирование будет отключено для этого поста</string>
@@ -1077,9 +1077,9 @@
     <string name="chat_clear_history_positive">Удалить все</string>
     <string name="chat_clear_history_error">Не удалось очистить историю: %1$s</string>
     <string name="chat_clear_history_success">История чата очистилась!</string>
-    <string name="chat_leave_chat_title">Оставить чат</string>
+    <string name="chat_leave_chat_title">Покинуть чат</string>
     <string name="chat_leave_chat_message">Оставьте этот чат?</string>
-    <string name="chat_leave_chat_positive">Оставить чат</string>
+    <string name="chat_leave_chat_positive">Покинуть чат</string>
     <string name="chat_leave_chat_error">Не удалось уйти: %1$s</string>
     <string name="chat_leave_chat_success">Покинул чат</string>
     <string name="chat_delete_chat_title">Удалить чат</string>
