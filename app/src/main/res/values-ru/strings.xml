@@ -296,7 +296,7 @@
 \n%1$s</string>
     <string name="post_media_failed_to_load">Не удалось загрузить. Нажмите, чтобы повторить попытку.</string>
     <string name="post_reposted">%1$s репостов</string>
-    <string name="logged_out">Вышел из сети</string>
+    <string name="logged_out">Выход из сети</string>
     <string name="content_policy">Политика содержания</string>
     <string name="terms_of_service">Условия обслуживания</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
@@ -972,9 +972,9 @@
     <string name="chats_no_messages">Пока нет сообщений</string>
     <string name="chats_no_chats">"Как только вы присоединитесь к чату, он появится здесь.  N  nstart в чате в правом верхнем углу!"</string>
     <string name="chat_toolbar_loading">Загрузка чата…</string>
-    <string name="chat_group_member_count">%1$d Член</string>
-    <string name="chat_group_members_count">%1$d участники</string>
-    <string name="chat_group_members_count_online">%1$d участники, %2$d онлайн</string>
+    <string name="chat_group_member_count">%1$d участник</string>
+    <string name="chat_group_members_count">%1$d участников</string>
+    <string name="chat_group_members_count_online">%1$d участников, %2$d онлайн</string>
     <string name="chat_currently_writing_one">%1$s пишет…</string>
     <string name="chat_currently_writing_two">%1$s и %2$s пишут…</string>
     <string name="chat_currently_writing_three">%1$s, %2$s и %3$s пишут…</string>
@@ -1000,13 +1000,14 @@
     <string name="chat_group_add_members">Добавить участников</string>
     <string name="chat_group_invite_user_error">Не удалось пригласить: %1$s</string>
     <string name="chat_group_invite_user_success">%1$s приглашен!</string>
-    <string name="chat_role_with_last_seen_date">"%1$s  nlast увидел %2$s %3$s назад"</string>
+    <string name="chat_role_with_last_seen_date">%1$s
+\nпоследнее посещение %2$s %3$s назад</string>
     <string name="chat_last_seen_date">Последний раз видели %1$s %2$s назад</string>
     <string name="chat_role_with_online">"%1$s  Online"</string>
     <string name="chat_online">В сети</string>
     <string name="chat_role_owner">владелец</string>
     <string name="chat_role_moderator">Модератор</string>
-    <string name="chat_role_member">член</string>
+    <string name="chat_role_member">участник</string>
     <string name="chat_role_invited">приглашен</string>
     <string name="chat_role_kicked">ударил</string>
     <string name="chat_role_banned">запрещен</string>
@@ -1072,8 +1073,12 @@
     <string name="chat_open_invited_single">"%1$s (%2$s) хочет поговорить с вами.  N  Naccept Invite?"</string>
     <string name="chat_open_invited_group">"Вам было предложено присоединиться к групповому чату \"%1$s \".  N  naccept Invite?"</string>
     <string name="chat_delete_error">Не удалось удалить: %1$s</string>
-    <string name="chat_clear_history_title">Чистая история</string>
-    <string name="chat_clear_history_message">"Удалить все сообщения и носители?  NN Это удалит все в этом чате для всех участников."</string>
+    <string name="chat_clear_history_title">Очистить историю</string>
+    <string name="chat_clear_history_message">Удалить все сообщения и медиа?
+\n
+\nЭто приведет к удалению всего в этом чате для всех участников.
+\n
+\nЭто действие необратимо и может занять несколько минут.</string>
     <string name="chat_clear_history_positive">Удалить все</string>
     <string name="chat_clear_history_error">Не удалось очистить историю: %1$s</string>
     <string name="chat_clear_history_success">История чата очистилась!</string>
@@ -1083,13 +1088,17 @@
     <string name="chat_leave_chat_error">Не удалось уйти: %1$s</string>
     <string name="chat_leave_chat_success">Покинул чат</string>
     <string name="chat_delete_chat_title">Удалить чат</string>
-    <string name="chat_delete_chat_message">Удалите этот чат?</string>
+    <string name="chat_delete_chat_message">Удалить этот чат?
+\n
+\nВсе сообщения и медиа будут удалены, а все участники выгнаны.</string>
     <string name="chat_delete_chat_positive">Удалить чат</string>
     <string name="chat_delete_chat_error">Не удалось удалить: %1$s</string>
     <string name="chat_delete_chat_success">Чат удален!</string>
-    <string name="chat_mute_chat_title">Мореат чат</string>
-    <string name="chat_mute_chat_message">Совместите этот чат?</string>
-    <string name="chat_mute_chat_positive">Немой</string>
+    <string name="chat_mute_chat_title">Заглушить чат</string>
+    <string name="chat_mute_chat_message">Заглушить этот чат?
+\n
+\nВы больше не будете получать push-уведомления о новых сообщениях.</string>
+    <string name="chat_mute_chat_positive">Заглушить</string>
     <string name="chat_mute_chat_error">Не удалось отключиться: %1$s</string>
     <string name="chat_mute_chat_success">Чат приглушен!</string>
     <string name="chat_unmute_chat_title">Нижеречный чат</string>
@@ -1335,13 +1344,26 @@
     <string name="discover_tags_browse">Просмотр тегов</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d постов</item>
-        <item quantity="few"></item>
-        <item quantity="many"></item>
-        <item quantity="other"></item>
+        <item quantity="few"/>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_popular">Популярность</string>
     <string name="discover_tags_order_by_recent">Недавняя активность</string>
     <string name="chat_edit_title">Редактировать чат</string>
     <string name="edit_profile_edit_ad_help_button">Что такое профиль для взрослых</string>
     <string name="edit_profile_bio_ad_info">Расскажите о своем профиле для взрослых!</string>
+    <string name="upload_video_too_large">Размер видео, которое вы пытаетесь загрузить, превышает 100 МБ. Сожмите его или выберите файл меньшего размера.</string>
+    <string name="chat_control_message_15">%1$s изменил рейтинг группы на Для взрослых (18+)</string>
+    <string name="upload_quota_too_many_mb">Вы можете загрузить только %1$d МБ с квотой %2$d. Подождите %3$d минут или выберите файлы меньшего размера!</string>
+    <string name="upload_image_error">Не удалось загрузить файл %1$d из %2$d: %3$s</string>
+    <string name="chat_control_message_14">%1$s изменил тип группы на частную</string>
+    <string name="chat_control_message_16">%1$s изменил рейтинг группы на Безопасный</string>
+    <string name="chat_edit_rating_safe">Безопасный</string>
+    <string name="chat_edit_rating_safe_desc">Чат содержит только безопасный контент - присоединиться могут пользователи всех возрастов.</string>
+    <string name="chat_edit_rating_adult">Для взрослых (18+)</string>
+    <string name="chat_edit_type_public_desc">Любой может найти этот чат и присоединиться к нему. История чата общедоступна.</string>
+    <string name="chat_edit_rating_adult_desc">Чат содержит откровенный контент - присоединиться могут только пользователи 18+.</string>
+    <string name="chat_control_message_13">%1$s изменил тип группы на публичную</string>
+    <string name="chat_info_rating_adult">Для взрослых (18+)</string>
 </resources>
