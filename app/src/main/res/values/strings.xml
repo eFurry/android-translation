@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 30087 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2024 | All Rights Reserved | 30796 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -67,9 +67,8 @@
     <string name="login_username_too_long">Maximum username length is 22 characters</string>
     <string name="login_invalid_email_pw">Invalid email and/or password</string>
     <string name="login_register_accept">Accept both the Privacy Policy and the Terms of Service to register</string>
+    <string name="login_register_set_age">Set your date of birth to register</string>
     <string name="login_register_error">Failed to register: %1$s</string>
-    <string name="login_register_age">I am 13 years or older</string>
-    <string name="login_register_age_error">You must confirm that you are 13 years or older to use this app!</string>
     <string name="login_dialog_consent_country_title">Your location</string>
     <string name="login_dialog_consent_country_message">Are you a resident of the EU/EEA, United Kingdom or the state of California in USA?</string>
     <string name="login_dialog_consent_country_yes">Yes</string>
@@ -692,6 +691,15 @@
     <string name="chat_edit_rating_adult">Adult (18+)</string>
     <string name="chat_edit_rating_safe_desc">Chat contains only Safe content - users of all ages can join.</string>
     <string name="chat_edit_rating_adult_desc">Chat contains explicit content - only 18+ users can join.</string>
+    <string name="chat_edit_invite">Who can invite users</string>
+    <string name="chat_edit_invite_everyone">All members</string>
+    <string name="chat_edit_invite_mods_owner">Mods and owner</string>
+    <string name="chat_edit_invite_owner">Owner only</string>
+    <string name="chat_edit_secure">Chat security</string>
+    <string name="chat_edit_secure_yes">Secure</string>
+    <string name="chat_edit_secure_no">Not secure</string>
+    <string name="chat_edit_secure_yes_desc">Prevent screen captures</string>
+    <string name="chat_edit_secure_no_desc">Allow screen captures</string>
     <string name="chat_edit_error">Failed to edit: %1$s</string>
     <string name="chat_edit_success">Chat edited!</string>
 
@@ -716,6 +724,7 @@
     <string name="report_additional_information">Additional information</string>
     <string name="report_hide_post">Hide this post permanently</string>
     <string name="report_hide_comment">Hide this comment permanently</string>
+    <string name="report_reason_with_text">%1$s: %2$s</string>
 
     <string name="block_settings">Block settings</string>
     <string name="block_title_visibility">Visibility:</string>
@@ -1251,7 +1260,9 @@
     <string name="content_settings_normal">Standard content</string>
     <string name="visible_by_default">Visible by default. Uncheck to hide.</string>
     <string name="content_settings_sensitive">Hard kinks &amp; sensitive content</string>
-    <string name="content_settings_sensitive_desc">Can only be managed on the website: %1$s</string>
+    <string name="content_settings_sensitive_desc">Some kinks can only be managed on the website: %1$s</string>
+    <string name="hidden_by_default">Sensitive content is hidden unless you enable it. Check an item in the list if you want to see or upload posts in that category.</string>
+    <string name="content_settings_sensitive_click_to_show">Show the sensitive content list</string>
     <string name="content_settings_empty_fetch_error">Failed to fetch content: %1$s</string>
     <string name="content_settings_missing">Missing a category? Send @Dog a message!</string>
     <string name="content_settings_fetch_error">Failed to fetch preferences: %1$s</string>
