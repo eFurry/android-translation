@@ -346,7 +346,7 @@
     <string name="message">信息</string>
     <string name="edit">编辑</string>
     <string name="delete">删除</string>
-    <string name="reply">转发</string>
+    <string name="reply">回复</string>
     <plurals name="seconds">
         <item quantity="other">秒</item>
     </plurals>
@@ -1315,4 +1315,50 @@
     <string name="chat_edit_rating_safe">安全级</string>
     <string name="chat_edit_rating_adult">成人级（18+）</string>
     <string name="chat_edit_rating_safe_desc">聊天只包含安全的内容-所有年龄的用户都可以加入。</string>
+    <string name="post_theme_19">非furry</string>
+    <string name="post_theme_8">催眠</string>
+    <string name="content_settings_sensitive_desc">只能在网站上管理：%1$s</string>
+    <string name="post_theme_20">我的作品/由本人制作</string>
+    <string name="post_theme_24">发泄</string>
+    <string name="post_theme_10">巨大体型/宏观的</string>
+    <string name="uploading_percentage">正在上传%1$d%%</string>
+    <string name="message_send_video">发送视频</string>
+    <string name="discover_tags_browse">浏览标签</string>
+    <string name="discover_tags_none_found">找不到标签</string>
+    <plurals name="discover_tags_tag_item_post_count">
+        <item quantity="other">%1$d个帖子</item>
+    </plurals>
+    <string name="discover_tags_order_by_recent">最近的活动</string>
+    <string name="discover_tags_order_by_popular">人气</string>
+    <plurals name="years">
+        <item quantity="other">年</item>
+    </plurals>
+    <string name="message_video_compressing">正在压缩视频…</string>
+    <string name="message_video_compressing_cancelled">取消</string>
+    <string name="chat_edit_title">编辑聊天</string>
+    <string name="show_account_switcher">显示/隐藏帐号切换器</string>
+    <string name="account_switch_add_new">添加帐户</string>
+    <string name="account_switched_to">已切换到%1$s（@%2$s）</string>
+    <string name="account_switched_failed">切换失败：%1$s</string>
+    <string name="post_theme_21">AI创作</string>
+    <string name="post_theme_0">血腥</string>
+    <string name="post_theme_1">束缚</string>
+    <string name="post_theme_2">胖乎乎的/肥胖的</string>
+    <string name="post_theme_25">约会</string>
+    <string name="post_theme_3">尿布/婴儿furry</string>
+    <string name="post_theme_4">毒品（仅限艺术方面）</string>
+    <string name="post_theme_5">野性/纯动物</string>
+    <string name="post_theme_6">闪烁/闪光</string>
+    <string name="post_theme_9">膨胀/变大</string>
+    <string name="post_theme_18">小马宝莉</string>
+    <string name="post_theme_11">微小体型/微观的</string>
+    <string name="post_theme_12">恐怖/惊悚</string>
+    <string name="post_theme_23">军事/战争</string>
+    <string name="post_theme_13">爪子</string>
+    <string name="post_theme_22">第一人称视角</string>
+    <string name="post_theme_14">怀孕</string>
+    <string name="post_theme_15">转变</string>
+    <string name="post_theme_7">兴奋又紧张/亢奋</string>
+    <string name="post_theme_16">吞食</string>
+    <string name="post_theme_17">其他癖好</string>
 </resources>
