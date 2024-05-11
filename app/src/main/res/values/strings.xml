@@ -729,11 +729,12 @@
 
     <string name="block_settings">Block settings</string>
     <string name="block_title_visibility">Visibility:</string>
-    <string name="block_visibility_show_posts">Show this user\'s posts in New &amp; searches</string>
-    <string name="block_title_can">This user can:</string>
-    <string name="block_can_comment_and_reply">Comment on my posts &amp; reply to my comments</string>
-    <string name="block_can_message">Send me messages</string>
-    <string name="block_can_view_profile">View my profile</string>
+    <string name="block_visibility_hide_posts">Hide posts in New &amp; searches</string>
+    <string name="block_title_cant">Block this user from:</string>
+    <string name="block_can_comment_and_reply">Commenting on my posts &amp; replying to my comments</string>
+    <string name="block_can_like">Liking my posts</string>
+    <string name="block_can_message">Sending me messages</string>
+    <string name="block_can_view_profile">Viewing my profile</string>
 
     <string name="block_save_failed">Failed to save block settings: %1$s</string>
     <string name="block_get_failed">Failed to get block settings: %1$s</string>
