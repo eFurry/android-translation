@@ -74,8 +74,8 @@
     <string name="upload_settings_artist_name">原创作者/艺术家</string>
     <string name="launcher_init_parse">正在初始化</string>
     <string name="launcher_creating_guest_account">正在创建游客帐户</string>
-    <string name="launcher_updating_account">提取帐户</string>
-    <string name="launcher_updating_account_error">提取失败
+    <string name="launcher_updating_account">读取帐户</string>
+    <string name="launcher_updating_account_error">读取失败
 \nError: %1$s
 \n
 \n正在重试</string>
@@ -143,7 +143,7 @@
     <string name="login_expired_session">记录已过期，请重新登录！</string>
     <string name="logout_dialog_title">登出？</string>
     <string name="logout_dialog_message">是否确实要登出？</string>
-    <string name="post_category_0">一般的</string>
+    <string name="post_category_0">普通</string>
     <string name="post_category_1">艺术作品（数字）</string>
     <string name="post_category_2">艺术作品（传统）</string>
     <string name="post_category_29">艺术作品（ai）</string>
@@ -394,7 +394,7 @@
     <string name="copy">复制</string>
     <string name="search">搜索</string>
     <string name="new_">新发布</string>
-    <string name="trending">热度榜</string>
+    <string name="trending">热门</string>
     <string name="following">关注</string>
     <string name="followers">粉丝</string>
     <string name="discover">搜索和发现</string>
@@ -641,7 +641,7 @@
     <string name="post_poll_option_click_vote">%1$d票</string>
     <string name="profile_content_favs">查看全部%1$d点赞的帖子</string>
     <string name="profile_followers_item_follower_for">%1$s %2$s的粉丝</string>
-    <string name="content_settings_empty_fetch_error">无法提取内容：%1$s</string>
+    <string name="content_settings_empty_fetch_error">无法读取内容：%1$s</string>
     <string name="delete_account_comments_failed">删除评论失败：%1$s</string>
     <string name="delete_account_request_text_title">永久删除您的 eFurry 帐户</string>
     <plurals name="picker_max_selection_reached">
@@ -736,7 +736,7 @@
     <string name="about_stats_messages">信息：%1$d</string>
     <string name="about_stats_fursonas">兽设：%1$d</string>
     <string name="about_stats_files">文件：%1$d</string>
-    <string name="about_stats_bytes">存储的字节数：%1$d（%2$s GB）</string>
+    <string name="about_stats_bytes">已存储的内存：%1$d（%2$s GB）</string>
     <string name="about_stats_premium">赞助</string>
     <string name="about_stats_premium_months">赞助月数：%1$d</string>
     <string name="about_stats_premium_levels">升级：%1$d</string>
@@ -1024,7 +1024,7 @@
     <plurals name="profile_stats_data_messages_sent">
         <item quantity="other">%1$d已发送的消息</item>
     </plurals>
-    <string name="profile_stats_data_bytes_stored">%1$d存储的字节数 （%2$sMB）</string>
+    <string name="profile_stats_data_bytes_stored">%1$d存储的内存 （%2$sMB）</string>
     <string name="profile_followers_item_following_for">关注 %1$s %2$s</string>
     <string name="profile_followers_unfollow_deleted_title">取消关注？</string>
     <string name="posts_gallery_title">%1$s的画廊</string>
@@ -1373,4 +1373,7 @@
     <string name="chat_edit_secure_yes_desc">禁止群聊内容截图</string>
     <string name="report_reason_with_text">%1$s：%2$s</string>
     <string name="chat_edit_secure">群聊隐私安全</string>
+    <string name="block_visibility_hide_posts">在“新发布”和“搜索与发现”中隐藏其帖子</string>
+    <string name="block_title_cant">禁止此用户：</string>
+    <string name="block_can_like">点赞我的帖子</string>
 </resources>
