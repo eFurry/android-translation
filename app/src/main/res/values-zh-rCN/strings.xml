@@ -74,8 +74,8 @@
     <string name="upload_settings_artist_name">原创作者/艺术家</string>
     <string name="launcher_init_parse">正在初始化</string>
     <string name="launcher_creating_guest_account">正在创建游客帐户</string>
-    <string name="launcher_updating_account">提取帐户</string>
-    <string name="launcher_updating_account_error">提取失败
+    <string name="launcher_updating_account">读取帐户</string>
+    <string name="launcher_updating_account_error">读取失败
 \nError: %1$s
 \n
 \n正在重试</string>
@@ -143,7 +143,7 @@
     <string name="login_expired_session">记录已过期，请重新登录！</string>
     <string name="logout_dialog_title">登出？</string>
     <string name="logout_dialog_message">是否确实要登出？</string>
-    <string name="post_category_0">一般的</string>
+    <string name="post_category_0">普通</string>
     <string name="post_category_1">艺术作品（数字）</string>
     <string name="post_category_2">艺术作品（传统）</string>
     <string name="post_category_29">艺术作品（ai）</string>
@@ -237,7 +237,7 @@
     <string name="discover_posts_tag">按标签查找</string>
     <string name="discover_posts_advanced">高级搜索</string>
     <string name="enter_tags">输入标签</string>
-    <string name="order_by">订购方式</string>
+    <string name="order_by">排序方式</string>
     <string name="order_oldest_first">最老的一个</string>
     <string name="order_newest_first">最新的一个</string>
     <string name="order_least_likes">最少点赞</string>
@@ -394,10 +394,10 @@
     <string name="copy">复制</string>
     <string name="search">搜索</string>
     <string name="new_">新发布</string>
-    <string name="trending">趋势</string>
+    <string name="trending">热门</string>
     <string name="following">关注</string>
     <string name="followers">粉丝</string>
-    <string name="discover">发现</string>
+    <string name="discover">搜索和发现</string>
     <string name="news">更新报告</string>
     <string name="my_profile">我的个人资料</string>
     <string name="others">其他的</string>
@@ -437,7 +437,7 @@
     <string name="error_with_error">错误：%1$s</string>
     <string name="message_error_button_hint">点击以重试</string>
     <string name="message_send">发送消息</string>
-    <string name="message_send_media">发送媒体</string>
+    <string name="message_send_media">发送媒体文件</string>
     <string name="message_send_error">发送消息失败：%1$s</string>
     <string name="message_new_messages_below">ᐯ 新消息 ᐯ</string>
     <string name="message_option_edit_title">编辑消息</string>
@@ -492,18 +492,18 @@
     <string name="chat_admin_join">以管理员身份加入</string>
     <string name="chat_info_user_option_ban_error">封禁失败：%1$s</string>
     <string name="chat_info_user_option_unban_error">解除失败：%1$s</string>
-    <string name="chat_open_error_deleted">此聊天已不存在。</string>
+    <string name="chat_open_error_deleted">此群聊已不存在。</string>
     <string name="chat_mute_chat_message">开启免打扰？
 \n
 \n您将不再收到新消息的推送通知。</string>
-    <string name="chat_unmute_chat_message">是否取消此聊天的免打扰？
+    <string name="chat_unmute_chat_message">是否取消此群聊的免打扰？
 \n
 \n您将收到新邮件的推送通知。</string>
     <string name="share_disabled">已禁用此帖子的共享</string>
     <string name="chat_leave_error">离开失败：%1$s</string>
     <string name="chat_clear_history_message">是否删除所有消息和媒体？
 \n
-\n这将删除所有成员在此聊天中的所有内容。
+\n这将删除所有成员在此群聊中的所有内容。
 \n
 \n此操作是不可逆的，可能需要几分钟才能完成。</string>
     <string name="chat_mute_chat_title">消息免打扰</string>
@@ -529,7 +529,7 @@
     <string name="chat_role_with_online">%1$s
 \n在线</string>
     <string name="chat_online">在线</string>
-    <string name="chat_role_owner">所有者</string>
+    <string name="chat_role_owner">群主</string>
     <string name="chat_role_moderator">管理员</string>
     <string name="chat_role_member">成员</string>
     <string name="chat_joined_with_role">已加入%1$d</string>
@@ -541,15 +541,15 @@
     <string name="chat_info_user_option_promote_to_mod">升级为管理员</string>
     <string name="chat_info_user_option_promote_to_mod_error">升级失败：%1$s</string>
     <string name="chat_info_user_option_promote_to_mod_success">已升级%1$s</string>
-    <string name="chat_info_user_option_demote_from_mod">降级为成员</string>
+    <string name="chat_info_user_option_demote_from_mod">取消管理员</string>
     <string name="chat_info_user_option_demote_from_mod_error">降级失败：%1$s</string>
     <string name="chat_info_user_option_demote_from_mod_success">已降级%1$s</string>
     <string name="chat_info_user_option_unban">解除封禁</string>
     <string name="chat_info_user_option_unban_success">已解除对%1$s的封禁</string>
-    <string name="chat_error_removed_from_chat">您已被从此聊天中删除</string>
-    <string name="chat_error_does_not_exist">此聊天已被删除</string>
-    <string name="chat_open_error_banned">您已被禁止参与此聊天。</string>
-    <string name="chat_open_error_kicked">您已被踢出此聊天。</string>
+    <string name="chat_error_removed_from_chat">您从此群聊中被删除</string>
+    <string name="chat_error_does_not_exist">此群聊已被删除</string>
+    <string name="chat_open_error_banned">您已被禁止参与此群聊。</string>
+    <string name="chat_open_error_kicked">您已被踢出此群聊。</string>
     <string name="chat_open_invited_single">%1$s（%2$s）想与您聊天。
 \n
 \n是否接受邀请？</string>
@@ -566,20 +566,20 @@
     <string name="chat_clear_history_positive">删除所有内容</string>
     <string name="chat_clear_history_error">无法清除历史记录：%1$s</string>
     <string name="chat_clear_history_success">聊天记录已清除！</string>
-    <string name="chat_leave_chat_title">离开聊天</string>
-    <string name="chat_leave_chat_message">离开这个聊天？
+    <string name="chat_leave_chat_title">离开群聊</string>
+    <string name="chat_leave_chat_message">离开这个群聊嘛？
 \n
 \n如果没有邀请，您可能无法再次加入。</string>
-    <string name="chat_leave_chat_positive">离开聊天</string>
+    <string name="chat_leave_chat_positive">离开群聊</string>
     <string name="chat_leave_chat_error">离开失败：%1$s</string>
-    <string name="chat_leave_chat_success">离开了聊天</string>
-    <string name="chat_delete_chat_title">删除聊天</string>
-    <string name="chat_delete_chat_message">删除此聊天？
+    <string name="chat_leave_chat_success">离开了群聊</string>
+    <string name="chat_delete_chat_title">删除群聊</string>
+    <string name="chat_delete_chat_message">删除此群聊？
 \n
-\n所有消息和媒体将被删除，所有成员将被踢。</string>
-    <string name="chat_delete_chat_positive">删除聊天</string>
+\n所有消息和媒体将被删除，所有成员将被移出群聊。</string>
+    <string name="chat_delete_chat_positive">删除群聊</string>
     <string name="chat_delete_chat_error">无法删除：%1$s</string>
-    <string name="chat_delete_chat_success">聊天已删除！</string>
+    <string name="chat_delete_chat_success">群聊已删除！</string>
     <string name="chat_mute_chat_positive">免打扰</string>
     <string name="chat_mute_chat_error">静音失败：%1$s</string>
     <string name="chat_mute_chat_success">免打扰已经开启！</string>
@@ -591,7 +591,7 @@
     <string name="chat_edit_name_hint">群名称</string>
     <string name="chat_edit_icon_read_error">无法读取文件：%1$s</string>
     <string name="chat_edit_error">无法编辑：%1$s</string>
-    <string name="chat_edit_success">聊天已编辑！</string>
+    <string name="chat_edit_success">群聊资料已编辑！</string>
     <string name="copy_text">复制文本</string>
     <string name="share_post_link">分享帖子链接</string>
     <string name="share_media_link">分享媒体链接</string>
@@ -626,7 +626,7 @@
     <string name="add_mod_dialog_message">将此用户提升为管理员？</string>
     <string name="notification_type_banned_make_reports">举报内容封禁 （%1$s %2$s).原因：%3$s</string>
     <string name="profile_content_manage_fursonas">管理我的 兽设</string>
-    <string name="profile_member_since">成员 为%1$s %2$s</string>
+    <string name="profile_member_since">注册于 %1$s %2$s前</string>
     <string name="edit_profile_chip_public_comments_1">在我的个人资料中可见</string>
     <string name="edit_profile_image_remove_error">删除失败：%1$s</string>
     <string name="picker_media_permissions_hint">授予媒体权限以更轻松地
@@ -641,7 +641,7 @@
     <string name="post_poll_option_click_vote">%1$d票</string>
     <string name="profile_content_favs">查看全部%1$d点赞的帖子</string>
     <string name="profile_followers_item_follower_for">%1$s %2$s的粉丝</string>
-    <string name="content_settings_empty_fetch_error">无法提取内容：%1$s</string>
+    <string name="content_settings_empty_fetch_error">无法读取内容：%1$s</string>
     <string name="delete_account_comments_failed">删除评论失败：%1$s</string>
     <string name="delete_account_request_text_title">永久删除您的 eFurry 帐户</string>
     <plurals name="picker_max_selection_reached">
@@ -724,7 +724,7 @@
     <string name="report_post_deleted">此帖子已被删除</string>
     <string name="go_to_post">转到帖子</string>
     <string name="mod_log_post">转到帖子%1$s</string>
-    <string name="mod_log_chat">转到聊天%1$s</string>
+    <string name="mod_log_chat">转到群%1$s</string>
     <string name="mod_log_hide_log">使此日志仅对管理员可见？</string>
     <string name="restore">恢复</string>
     <string name="deleted_score_when_deleted">喜欢：%1$d，评论：%2$d</string>
@@ -736,7 +736,7 @@
     <string name="about_stats_messages">信息：%1$d</string>
     <string name="about_stats_fursonas">兽设：%1$d</string>
     <string name="about_stats_files">文件：%1$d</string>
-    <string name="about_stats_bytes">存储的字节数：%1$d（%2$s GB）</string>
+    <string name="about_stats_bytes">已存储的内存：%1$d（%2$s GB）</string>
     <string name="about_stats_premium">赞助</string>
     <string name="about_stats_premium_months">赞助月数：%1$d</string>
     <string name="about_stats_premium_levels">升级：%1$d</string>
@@ -756,7 +756,7 @@
     <string name="premium_levels_description">升级您的帐户，并在您的名字旁边获得一个徽章（P），以显示您对该应用程序的支持！</string>
     <string name="premium_user_premium_until">赞助活跃（剩余%1$s%2$s）</string>
     <string name="premium_user_no_premium">赞助：未激活</string>
-    <string name="premium_user_level">级别：%1$d</string>
+    <string name="premium_user_level">赞助等级：%1$d</string>
     <string name="premium_error_loading_items">加载项目失败-点击重试</string>
     <string name="premium_error_launching_purchase_flow">无法启动购买：%1$s</string>
     <string name="premium_purchase_flow_completed">购买完成</string>
@@ -921,7 +921,7 @@
     <string name="ban_user_type_comment">发布评论</string>
     <string name="ban_user_type_message">发送消息</string>
     <string name="ban_user_type_post">创建帖子</string>
-    <string name="ban_user_type_start_chat">开始新聊天</string>
+    <string name="ban_user_type_start_chat">开始新的聊天</string>
     <string name="ban_user_type_edit_icon_bg">编辑图标/背景</string>
     <string name="ban_user_type_edit_profile">编辑个人资料</string>
     <string name="ban_user_type_report">举报内容</string>
@@ -974,7 +974,7 @@
     <string name="post_item_comment_desc">查看帖子评论</string>
     <string name="post_item_info_desc">查看帖子信息</string>
     <string name="post_fullscreen_progress">%1$d%% (%2$s/%3$s MB)</string>
-    <string name="media_fullscreen_dialog_body">下载媒体？</string>
+    <string name="media_fullscreen_dialog_body">下载该媒体？</string>
     <string name="profile_title">%1$s的个人资料</string>
     <string name="profile_following">关注</string>
     <string name="profile_posts">帖子</string>
@@ -1019,12 +1019,12 @@
         <item quantity="other">%1$d购买赞助月份</item>
     </plurals>
     <plurals name="profile_stats_data_levels">
-        <item quantity="other">%1$d已购买的帐户级别</item>
+        <item quantity="other">已购买%1$d的赞助等级</item>
     </plurals>
     <plurals name="profile_stats_data_messages_sent">
         <item quantity="other">%1$d已发送的消息</item>
     </plurals>
-    <string name="profile_stats_data_bytes_stored">%1$d存储的字节数 （%2$sMB）</string>
+    <string name="profile_stats_data_bytes_stored">%1$d存储的内存 （%2$sMB）</string>
     <string name="profile_followers_item_following_for">关注 %1$s %2$s</string>
     <string name="profile_followers_unfollow_deleted_title">取消关注？</string>
     <string name="posts_gallery_title">%1$s的画廊</string>
@@ -1279,22 +1279,22 @@
     <string name="post_type_texts">文章</string>
     <string name="notification_type_faved_post_multi_image">喜欢了你的多图片帖子</string>
     <string name="edit_profile_birthday_locked">您的生日已锁定。如果需要更改，请与版主联系</string>
-    <string name="discover_chats_search">搜索聊天</string>
+    <string name="discover_chats_search">搜索群聊</string>
     <string name="discover_chats_search_sub_hint">该搜索不区分大小写</string>
     <string name="chat_control_message_13">%1$s已将群类型更改为公众群</string>
-    <string name="chat_edit_type">聊天类型</string>
-    <string name="chat_edit_rating_adult_desc">聊天包含18+内容-只有18岁以上的用户可以加入。</string>
-    <string name="chat_edit_type_public_desc">任何人都可以找到并加入此聊天。聊天记录是公开的。</string>
+    <string name="chat_edit_type">群聊类型</string>
+    <string name="chat_edit_rating_adult_desc">群聊包含18+内容-只有18岁以上的用户可以加入。</string>
+    <string name="chat_edit_type_public_desc">任何人都可以找到并加入此群聊。聊天记录是公开的。</string>
     <string name="upload_video_too_large">您尝试上载的视频大于100 MB。压缩或选择较小的文件。</string>
     <string name="discover_chats">聊天</string>
-    <string name="discover_chats_title">浏览聊天</string>
-    <string name="discover_chats_browse">浏览公共聊天</string>
+    <string name="discover_chats_title">浏览群聊</string>
+    <string name="discover_chats_browse">浏览公共群聊</string>
     <string name="discover_chats_adapter_item_body">%1$d个成员，%2$d条消息</string>
-    <string name="discover_chats_menu_order_by">聊天顺序</string>
-    <string name="discover_chats_menu_order_by_last_message">最近的活动</string>
-    <string name="discover_chats_menu_order_by_member_count">成员数</string>
-    <string name="discover_chats_menu_order_by_message_count">消息数</string>
-    <string name="discover_chats_search_hint">要搜索的文本</string>
+    <string name="discover_chats_menu_order_by">群聊顺序</string>
+    <string name="discover_chats_menu_order_by_last_message">按最新消息排序</string>
+    <string name="discover_chats_menu_order_by_member_count">按成员数排序</string>
+    <string name="discover_chats_menu_order_by_message_count">按消息数排序</string>
+    <string name="discover_chats_search_hint">要搜索的是</string>
     <string name="discover_chats_list_empty">未找到聊天记录</string>
     <string name="discover_chats_search_empty">未找到“%1$s”的聊天记录</string>
     <string name="discover_chats_search_error">未找到“%1$s”的聊天记录。
@@ -1304,20 +1304,20 @@
     <string name="chat_control_message_15">%1$s将群评级更改为成人级（18+）</string>
     <string name="chat_control_message_16">%1$s将群分级更改为安全级</string>
     <string name="chat_control_message_unknown">未知消息-检查应用程序更新</string>
-    <string name="chat_join">加入聊天</string>
+    <string name="chat_join">加入群聊</string>
     <string name="chat_info_type_public">公开群</string>
     <string name="chat_info_type_private">私人群</string>
     <string name="chat_info_rating_adult">成人级（18+）</string>
     <string name="chat_edit_type_public">公开</string>
     <string name="chat_edit_type_private">私人</string>
-    <string name="chat_edit_type_private_desc">仅限邀请。聊天将不会公开可见。</string>
-    <string name="chat_edit_rating">聊天评级</string>
+    <string name="chat_edit_type_private_desc">仅限邀请加入。群聊将不会公开可见。</string>
+    <string name="chat_edit_rating">群聊的等级</string>
     <string name="chat_edit_rating_safe">安全级</string>
     <string name="chat_edit_rating_adult">成人级（18+）</string>
-    <string name="chat_edit_rating_safe_desc">聊天只包含安全的内容-所有年龄的用户都可以加入。</string>
+    <string name="chat_edit_rating_safe_desc">群聊只包含安全的内容-所有年龄的用户都可以加入。</string>
     <string name="post_theme_19">非furry</string>
     <string name="post_theme_8">催眠</string>
-    <string name="content_settings_sensitive_desc">只能在网站上管理：%1$s</string>
+    <string name="content_settings_sensitive_desc">某些缺陷只能在网站上管理：%1$s</string>
     <string name="post_theme_20">我的作品/由本人制作</string>
     <string name="post_theme_24">发泄</string>
     <string name="post_theme_10">巨大体型/宏观的</string>
@@ -1328,14 +1328,14 @@
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="other">%1$d个帖子</item>
     </plurals>
-    <string name="discover_tags_order_by_recent">最近的活动</string>
+    <string name="discover_tags_order_by_recent">按最新消息排序</string>
     <string name="discover_tags_order_by_popular">人气</string>
     <plurals name="years">
         <item quantity="other">年</item>
     </plurals>
     <string name="message_video_compressing">正在压缩视频…</string>
     <string name="message_video_compressing_cancelled">取消</string>
-    <string name="chat_edit_title">编辑聊天</string>
+    <string name="chat_edit_title">编辑群聊</string>
     <string name="show_account_switcher">显示/隐藏帐号切换器</string>
     <string name="account_switch_add_new">添加帐户</string>
     <string name="account_switched_to">已切换到%1$s（@%2$s）</string>
@@ -1361,4 +1361,19 @@
     <string name="post_theme_7">兴奋又紧张/亢奋</string>
     <string name="post_theme_16">吞食</string>
     <string name="post_theme_17">其他癖好</string>
+    <string name="post_theme_26">吞噬</string>
+    <string name="chat_edit_invite">谁可以邀请其他群成员</string>
+    <string name="chat_edit_secure_no_desc">允许群聊内容截图</string>
+    <string name="login_register_set_age">设置你要注册的出生日期</string>
+    <string name="chat_edit_invite_everyone">所以人</string>
+    <string name="chat_edit_invite_mods_owner">仅限管理和群主</string>
+    <string name="chat_edit_invite_owner">仅限群主</string>
+    <string name="chat_edit_secure_yes">启用</string>
+    <string name="chat_edit_secure_no">不启用</string>
+    <string name="chat_edit_secure_yes_desc">禁止群聊内容截图</string>
+    <string name="report_reason_with_text">%1$s：%2$s</string>
+    <string name="chat_edit_secure">群聊隐私安全</string>
+    <string name="block_visibility_hide_posts">在“新发布”和“搜索与发现”中隐藏其帖子</string>
+    <string name="block_title_cant">禁止此用户：</string>
+    <string name="block_can_like">点赞我的帖子</string>
 </resources>
