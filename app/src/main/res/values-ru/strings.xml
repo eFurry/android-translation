@@ -1061,7 +1061,7 @@
     <string name="chat_control_message_12">%1$s изменил информацию группы на %2$s</string>
     <string name="chat_error_removed_from_chat">Вы были удалены из этого чата</string>
     <string name="action_mute">Заглушить</string>
-    <string name="action_unmute">Моги</string>
+    <string name="action_unmute">Включить уведомления</string>
     <string name="moderators">Модераторы</string>
     <string name="reported_chats">Сообщалось в чатах</string>
     <string name="chat_media_message">СМИ сообщение</string>
@@ -1102,8 +1102,10 @@
     <string name="chat_mute_chat_error">Не удалось отключиться: %1$s</string>
     <string name="chat_mute_chat_success">Чат приглушен!</string>
     <string name="chat_unmute_chat_title">Нижеречный чат</string>
-    <string name="chat_unmute_chat_message">"Значите этот чат?  N  Nyou"</string>
-    <string name="chat_unmute_chat_positive">Моги</string>
+    <string name="chat_unmute_chat_message">Включить уведомления в этом чате?
+\n
+\nВы будете получать push-уведомления о новых сообщениях.</string>
+    <string name="chat_unmute_chat_positive">Включить уведомления</string>
     <string name="chat_unmute_chat_error">Не удалось включить: %1$s</string>
     <string name="chat_unmute_chat_success">Потекайте без разговора!</string>
     <string name="mod_log_chat">Зайдите в чат %1$s</string>
