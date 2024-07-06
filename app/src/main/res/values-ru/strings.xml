@@ -1101,7 +1101,7 @@
     <string name="chat_mute_chat_positive">Заглушить</string>
     <string name="chat_mute_chat_error">Не удалось отключиться: %1$s</string>
     <string name="chat_mute_chat_success">Чат приглушен!</string>
-    <string name="chat_unmute_chat_title">Нижеречный чат</string>
+    <string name="chat_unmute_chat_title">Включить уведомления чата</string>
     <string name="chat_unmute_chat_message">Включить уведомления в этом чате?
 \n
 \nВы будете получать push-уведомления о новых сообщениях.</string>
@@ -1368,4 +1368,14 @@
     <string name="chat_edit_rating_adult_desc">Чат содержит откровенный контент - присоединиться могут только пользователи 18+.</string>
     <string name="chat_control_message_13">%1$s изменил тип группы на публичную</string>
     <string name="chat_info_rating_adult">Для взрослых (18+)</string>
+    <string name="chat_edit_invite_everyone">Все участники</string>
+    <string name="chat_edit_invite_mods_owner">Модеры и владелец</string>
+    <string name="chat_edit_invite">Кто может приглашать пользователей</string>
+    <string name="chat_edit_invite_owner">Только владелец</string>
+    <string name="chat_edit_secure">Безопасность чата</string>
+    <string name="chat_edit_secure_yes">Безопасный</string>
+    <string name="chat_edit_secure_no">Небезопасный</string>
+    <string name="chat_edit_secure_yes_desc">Запрещен захват экрана</string>
+    <string name="chat_edit_secure_no_desc">Разрешен захват экрана</string>
+    <string name="report_reason_with_text">%1$s: %2$s</string>
 </resources>
