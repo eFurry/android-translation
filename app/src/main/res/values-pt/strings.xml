@@ -1080,14 +1080,4 @@
     </plurals>
     <string name="upload_chooser_video_thumbnail_generation_failed">Falhou em criar miniatura</string>
     <string name="profile_stats_data_bytes_stored">%1$d bytes armazenados (%2$s MB)</string>
-    <plurals name="picker_selected_count">
-        <item quantity="one"/>
-        <item quantity="many"/>
-        <item quantity="other"/>
-    </plurals>
-    <plurals name="picker_max_selection_reached">
-        <item quantity="one"/>
-        <item quantity="many"/>
-        <item quantity="other"/>
-    </plurals>
 </resources>
