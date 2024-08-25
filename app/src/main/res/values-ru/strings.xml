@@ -440,7 +440,7 @@
     <string name="block_title_can">Этот пользователь может:</string>
     <string name="block_can_comment_and_reply">Комментировать мои посты и отвечать на мои комментарии</string>
     <string name="block_can_message">Отправлять мне сообщения</string>
-    <string name="block_can_view_profile">Посмотреть мой профиль</string>
+    <string name="block_can_view_profile">Смотреть мой профиль</string>
     <string name="block_save_failed">Не удалось сохранить настройки блокировки: %1$s</string>
     <string name="block_get_failed">Не удалось получить настройки блокировки: %1$s</string>
     <string name="block_save_success">Настройки блокировки обновлены</string>
@@ -1203,7 +1203,7 @@
     <string name="about_stats_fursonas">Фурсон: %1$d</string>
     <string name="about_stats_files">Файлов: %1$d</string>
     <string name="about_stats_premium">Премиум</string>
-    <string name="about_stats_premium_months">Месяцов премиума: %1$d</string>
+    <string name="about_stats_premium_months">Месяцев премиума: %1$d</string>
     <string name="about_stats_premium_levels">Повышений уровня: %1$d</string>
     <string name="settings_ui_change_theme">Изменить тему</string>
     <string name="settings_ui_theme_item_light">Светлая</string>
@@ -1378,4 +1378,14 @@
     <string name="chat_edit_secure_yes_desc">Запрещен захват экрана</string>
     <string name="chat_edit_secure_no_desc">Разрешен захват экрана</string>
     <string name="report_reason_with_text">%1$s: %2$s</string>
+    <string name="block_title_cant">Запретить этому пользователю:</string>
+    <string name="login_register_set_age">Укажите вашу дату рождения для регистрации</string>
+    <string name="post_theme_26">Пасти</string>
+    <string name="discover_chats_search_empty">Не найдено чатов по запросу \"%1$s\"</string>
+    <string name="discover_chats_search_error">Не найдено чатов по запросу \"%1$s\"
+\n
+\nОшибка: %2$s</string>
+    <string name="block_visibility_hide_posts">Скрыть посты в разделе \"Новое\" и поиске</string>
+    <string name="block_can_like">Лайкать мои посты</string>
+    <string name="content_settings_sensitive_click_to_show">Показать список деликатного содержания</string>
 </resources>
