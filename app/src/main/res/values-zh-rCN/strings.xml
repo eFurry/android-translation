@@ -142,7 +142,7 @@
     <string name="register_success">已创建帐户，欢迎使用eFur！</string>
     <string name="login_expired_session">记录已过期，请重新登录！</string>
     <string name="logout_dialog_title">登出？</string>
-    <string name="logout_dialog_message">是否确实要登出？</string>
+    <string name="logout_dialog_message">确定要登出账号？</string>
     <string name="post_category_0">普通</string>
     <string name="post_category_1">艺术作品（数字）</string>
     <string name="post_category_2">艺术作品（传统）</string>
@@ -217,7 +217,7 @@
     <string name="my_fursonas_add_to_title">链接到兽设？</string>
     <string name="my_fursonas_add_to_message">把帖子链接到这个兽设？</string>
     <string name="my_fursonas_delete_title">删除该兽设？</string>
-    <string name="my_fursonas_delete_message">是否确实要删除此兽设？</string>
+    <string name="my_fursonas_delete_message">确定要删除此兽设？</string>
     <string name="my_fursonas_deleted">兽设%1$s已删除</string>
     <string name="my_fursonas_delete_error">删除失败：%1$s</string>
     <string name="my_fursonas_name_empty">未命名</string>
@@ -230,7 +230,7 @@
     <string name="discover_users_start_chat_with">选择要与其聊天的用户</string>
     <string name="discover_users_invite">选择要邀请的用户</string>
     <string name="discover_users_send_gift_to">选择要向其赠送礼品的用户</string>
-    <string name="discover_users_search_searching">搜索ing…</string>
+    <string name="discover_users_search_searching">搜索中…</string>
     <string name="discover_users_search_not_found">未找到用户“%1$s”</string>
     <string name="discover_tags">标签</string>
     <string name="discover_posts_category">按类别查找</string>
@@ -300,7 +300,7 @@
     <string name="comic_view_reorder_message">拖放页面以更改顺序。完成后别忘了按保存图标！</string>
     <string name="comic_view_post_remove_confirm_message">从漫画中删除这一页？</string>
     <string name="my_fursonas_create_title">创建新的兽设</string>
-    <string name="my_fursonas_species_empty">没未设置物种</string>
+    <string name="my_fursonas_species_empty">未设置物种</string>
     <string name="order_most_likes">最多点赞</string>
     <string name="discover_text">这里的东西都还在制作中:)
 \n
@@ -427,7 +427,7 @@
     <string name="main_update_app_error">失败：%1$s</string>
     <string name="main_update_app_failed">更新失败</string>
     <string name="main_update_app_ignore_dialog_title">是否忽略更新？</string>
-    <string name="main_update_app_ignore_dialog_message">是否确实要忽略此更新？</string>
+    <string name="main_update_app_ignore_dialog_message">是否确定要忽略此更新？</string>
     <string name="guest">游客</string>
     <string name="message_a_long_time_ago">很久之前</string>
     <string name="conversation_message_deleted">消息已删除</string>
@@ -442,7 +442,7 @@
     <string name="message_new_messages_below">ᐯ 新消息 ᐯ</string>
     <string name="message_option_edit_title">编辑消息</string>
     <string name="message_option_delete_title">删除信息</string>
-    <string name="message_option_delete_body">你确实你要删除这个消息码？</string>
+    <string name="message_option_delete_body">确定要删除这个消息吗？</string>
     <string name="message_option_delete_error">无法删除消息：%1$s</string>
     <string name="message_option_edit_error">无法编辑消息：%1$s</string>
     <string name="conversation_delete_deleted_success">对话已删除</string>
@@ -466,7 +466,7 @@
     <string name="chat_control_message_4">%1$s已离开</string>
     <string name="chat_control_message_5">%1$s已踢出%2$s</string>
     <string name="chat_control_message_6">%1$s 封禁%2$s</string>
-    <string name="feedback">脸书</string>
+    <string name="feedback">反馈</string>
     <string name="support">支持</string>
     <string name="open_drawer">打开开票人</string>
     <string name="description">描述</string>
@@ -609,7 +609,7 @@
     <string name="notification_type_premium_activated">赞助已激活，%1$d月</string>
     <string name="post_info_hidden">🛡 在新发布中隐藏</string>
     <string name="post_info_favourited_by_view_all">查看全部</string>
-    <string name="edit_profile_name_info">选择一个好听的名字！</string>
+    <string name="edit_profile_name_info">取一个好听的名字吧！</string>
     <string name="edit_profile_username_info">其他用户可以用@your_username提及您。
 \n允许的字符：a-z A-Z _-.和 0-9</string>
     <string name="edit_profile_age_locked_message">您的年龄已锁定。如果需要更改请联系管理员或支持人员</string>
@@ -640,7 +640,7 @@
     <string name="post_tag_blocked_body">屏蔽的标签：%1$s</string>
     <string name="post_poll_option_click_vote">%1$d票</string>
     <string name="profile_content_favs">查看全部%1$d点赞的帖子</string>
-    <string name="profile_followers_item_follower_for">%1$s %2$s的粉丝</string>
+    <string name="profile_followers_item_follower_for">%1$s %2$s前成为了粉丝</string>
     <string name="content_settings_empty_fetch_error">无法读取内容：%1$s</string>
     <string name="delete_account_comments_failed">删除评论失败：%1$s</string>
     <string name="delete_account_request_text_title">永久删除您的 eFurry 帐户</string>
@@ -664,13 +664,13 @@
     <string name="settings_danger_change_email_message">如果您需要更改用于登录帐户的电子邮件地址，可以在此处进行更改。
 \n
 \n当前电子邮件：%1$s</string>
-    <string name="report_resolve_delete_dialog_message">是否确实要删除此评论？</string>
+    <string name="report_resolve_delete_dialog_message">确定要删除此评论？</string>
     <string name="notification_type_notice_notification_disabled_text">您没有收到消息或评论的推送通知。单击此处以允许应用程序发送推送通知。</string>
     <string name="comment_edit_error">无法编辑评论：%1$s</string>
     <string name="ban_user_type_all">全部禁用（禁用功能见下文）</string>
     <string name="post_item_cropped">过长帖子被裁剪，点击查看全图</string>
     <plurals name="profile_stats_data_liked_posts">
-        <item quantity="other">%1$d点赞的帖子</item>
+        <item quantity="other">已点赞%1$d个帖子</item>
     </plurals>
     <string name="profile_followers_unfollow_deleted_message">您想取消关注此已删除的帐户吗？</string>
     <string name="edit_profile_bio_info">自我介绍！（支持 Markdown）</string>
@@ -730,16 +730,16 @@
     <string name="deleted_score_when_deleted">喜欢：%1$d，评论：%2$d</string>
     <string name="post_is_nsfw_in_sfw_mode">此帖子的评分高于您的最高评分！</string>
     <string name="about_stats">统计数据</string>
-    <string name="about_stats_users">用户：%1$d</string>
-    <string name="about_stats_posts">帖子：%1$d</string>
-    <string name="about_stats_comments">评论：%1$d</string>
-    <string name="about_stats_messages">信息：%1$d</string>
-    <string name="about_stats_fursonas">兽设：%1$d</string>
-    <string name="about_stats_files">文件：%1$d</string>
-    <string name="about_stats_bytes">已存储的内存：%1$d（%2$s GB）</string>
+    <string name="about_stats_users">总用户：%1$d名</string>
+    <string name="about_stats_posts">总帖子：%1$d个</string>
+    <string name="about_stats_comments">总评论：%1$d个</string>
+    <string name="about_stats_messages">总信息：%1$d条</string>
+    <string name="about_stats_fursonas">总兽设：%1$d个</string>
+    <string name="about_stats_files">总文件：%1$d个</string>
+    <string name="about_stats_bytes">已存储的内存数：%1$d（%2$s GB）</string>
     <string name="about_stats_premium">赞助</string>
-    <string name="about_stats_premium_months">赞助月数：%1$d</string>
-    <string name="about_stats_premium_levels">升级：%1$d</string>
+    <string name="about_stats_premium_months">总赞助月数：%1$d月</string>
+    <string name="about_stats_premium_levels">总等级：%1$d级</string>
     <string name="contributions_general">如果您有贡献，请给@Dog发送消息！</string>
     <string name="translate_general">您可以帮助将应用程序翻译成另一种语言！</string>
     <string name="support_social">我们有一个不和谐（discord）频道和一个纸飞机（telegram）群!加入与其他用户和管理员聊天，并获得任何帮助。</string>
@@ -797,7 +797,7 @@
     <string name="notification_type_replied">已回复：%1$s</string>
     <string name="notification_type_mentioned_in_comment">在评论中提到您：%1$s</string>
     <string name="notification_type_mod_deleted_post">您的帖子已被管理员删除</string>
-    <string name="notification_type_mod_deleted_comment">您的评论已被版管理员删除</string>
+    <string name="notification_type_mod_deleted_comment">您的评论已被管理员删除</string>
     <string name="notification_type_banned_all">帐户完全封禁（%1$s%2$s）。原因：%3$s</string>
     <string name="notification_type_banned_message">消息被封禁（%1$s%2$s）。原因：%3$s</string>
     <string name="notification_type_banned_post">创建帖子封禁（%1$s%2$s）。原因：%3$s</string>
@@ -954,7 +954,7 @@
     <string name="post_info_content">内容/主题：</string>
     <string name="post_info_view_comic">查看漫画</string>
     <string name="post_info_suggestive">评级为 成熟级</string>
-    <string name="post_info_explicit">评级为成人级</string>
+    <string name="post_info_explicit">评级为 成人级</string>
     <string name="post_info_artist">艺术家：%1$s</string>
     <string name="post_info_source">来源：%1$s</string>
     <string name="post_info_file_size">文件大小：%1$sMB</string>
@@ -1007,25 +1007,25 @@
     <string name="profile_tab_about_presentation">介绍</string>
     <string name="profile_tab_about_stats">统计</string>
     <plurals name="profile_stats_data_likes_received">
-        <item quantity="other">%1$d收到的点赞</item>
+        <item quantity="other">收到了%1$d个点赞</item>
     </plurals>
     <plurals name="profile_stats_data_comments_written">
-        <item quantity="other">%1$d评论数</item>
+        <item quantity="other">已发表%1$d个评论</item>
     </plurals>
     <plurals name="profile_stats_data_comments_received">
-        <item quantity="other">%1$d收到评论</item>
+        <item quantity="other">收到了%1$d个评论</item>
     </plurals>
     <plurals name="profile_stats_data_premium_months">
-        <item quantity="other">%1$d购买赞助月份</item>
+        <item quantity="other">已购买%1$d个赞助月份</item>
     </plurals>
     <plurals name="profile_stats_data_levels">
         <item quantity="other">已购买%1$d的赞助等级</item>
     </plurals>
     <plurals name="profile_stats_data_messages_sent">
-        <item quantity="other">%1$d已发送的消息</item>
+        <item quantity="other">已发送%1$d个消息</item>
     </plurals>
-    <string name="profile_stats_data_bytes_stored">%1$d存储的内存 （%2$sMB）</string>
-    <string name="profile_followers_item_following_for">关注 %1$s %2$s</string>
+    <string name="profile_stats_data_bytes_stored">已存储%1$d内存 （%2$sMB）</string>
+    <string name="profile_followers_item_following_for">关注于 %1$s %2$s前</string>
     <string name="profile_followers_unfollow_deleted_title">取消关注？</string>
     <string name="posts_gallery_title">%1$s的画廊</string>
     <string name="posts_gallery_favs_title">%1$s的最爱</string>
@@ -1193,9 +1193,9 @@
     <string name="modmail_empty_text">您还没有ModMail！</string>
     <string name="discover_users_title">浏览用户</string>
     <string name="discover_users_member_for">%1$s%2$s前加入</string>
-    <string name="discover_users_order_followers_item">%1$d 粉丝</string>
+    <string name="discover_users_order_followers_item">%1$d 个粉丝</string>
     <string name="discover_users_order_likes_item">已收到%1$d个赞</string>
-    <string name="discover_users_order_posts_item">%1$d 帖子</string>
+    <string name="discover_users_order_posts_item">%1$d 个帖子</string>
     <string name="discover_users_menu_order_by">订阅用户</string>
     <string name="discover_users_menu_order_by_newest">最新的一个</string>
     <string name="discover_users_menu_order_by_oldest">最老的一个</string>
@@ -1213,7 +1213,7 @@
     <string name="blocked_none">您没有把任何用户加入黑名单</string>
     <string name="reason">原因</string>
     <string name="upload_progress_file_part">正在上载第%1$d个文件（共%2$d个）…</string>
-    <string name="edit_profile_bio_ad_info">介绍你的黑暗面吧（中二）！</string>
+    <string name="edit_profile_bio_ad_info">在里版主页里介绍你的黑暗面吧！</string>
     <string name="edit_profile_birthday_notice">您的生日不会显示给其他用户。设置后，只能由主持人更改。</string>
     <string name="deleted_accounts_deleted_data">已删除%1$s的帐户数据</string>
     <string name="upload_quota_too_many_mb">您只能上载%1$d MB，上传限制为%2$d。等待%3$d分钟或选择更小的文件！</string>
@@ -1223,9 +1223,9 @@
     <string name="post_type_multi_images">多图片帖子</string>
     <string name="main_complete_profile_message">更改您的姓名，设置图标等</string>
     <string name="edit_profile_name_ad_hint">里用户名</string>
-    <string name="edit_profile_after_dark_help">如果你是18岁以上，你可以有两个配置文件。一个通用配置文件对所有用户可见，一个成人（NSFW）配置文件仅对18岁以上的用户可见。
+    <string name="edit_profile_after_dark_help">如果你是18岁以上，你可以有两个个人资料页面。一个通用页面对所有用户可见，一个成人向（NSFW）个人主页仅对18岁以上的用户可见。
 \n
-\n您的一般个人资料必须是安全的工作，而After Dark（AD/NSFW）个人资料可以包含露骨和成人内容。</string>
+\n您的一般个人资料必须是安全的工作，而After Dark（AD/NSFW），里版个人资料可以包含露骨和成人内容。</string>
     <string name="report_reason_not_tagged_ai_made">未标记为ai制造</string>
     <string name="account_deletions">账户删除</string>
     <string name="messages_user">来自%1$s的消息</string>
@@ -1243,8 +1243,8 @@
     <string name="main_verify_email_snackbar_button">验证</string>
     <string name="main_complete_profile_title">完成您的个人资料</string>
     <string name="plus_number">加+%1$d</string>
-    <string name="edit_profile_name_ad_info">取个调皮的名字！</string>
-    <string name="edit_profile_about_ad_hint">关于我（里版）</string>
+    <string name="edit_profile_name_ad_info">取个调皮点的名字！</string>
+    <string name="edit_profile_about_ad_hint">关于我（里）</string>
     <string name="edit_profile_removed_icon">图标已删除！</string>
     <string name="edit_profile_removed_background">背景已删除！</string>
     <string name="edit_profile_birthday">我的生日：</string>
@@ -1279,7 +1279,7 @@
     <string name="post_type_videos">视频</string>
     <string name="post_type_polls">投票</string>
     <string name="post_type_texts">文章</string>
-    <string name="notification_type_faved_post_multi_image">喜欢了你的多图片帖子</string>
+    <string name="notification_type_faved_post_multi_image">点赞了你的多图片帖子</string>
     <string name="edit_profile_birthday_locked">您的生日已锁定。如果需要更改，请与版主联系</string>
     <string name="discover_chats_search">搜索群聊</string>
     <string name="discover_chats_search_sub_hint">该搜索不区分大小写</string>
