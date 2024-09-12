@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="action_settings">paramètres</string>
+    <string name="action_create">créer</string>
+    <string name="action_clear_all">déboucher tous</string>
+    <string name="action_edit_title">modifier titre</string>
+    <string name="action_view_blocked">Afficher les utilisateurs bloqués</string>
+    <string name="action_report_user">signaler utilisateur</string>
+    <string name="action_block_user">bloquer/débloquer.…</string>
+    <string name="action_ban_user">exclure utilisateur</string>
+    <string name="action_log_out">se déconnecter</string>
+    <string name="action_log_in">se connecter</string>
+    <string name="action_reorder_comic">réorganiser pages</string>
+    <string name="action_delete_comic">supprimer bande dessinée</string>
+    <string name="action_edit_profile">modifier profil</string>
+    <string name="action_unban_user">débloquer utilisateur</string>
+</resources>
