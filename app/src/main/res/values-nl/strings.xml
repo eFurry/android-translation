@@ -1155,7 +1155,7 @@
     <string name="following_posts_dialog_clear_all_message">Wis al uw volgende posts?</string>
     <string name="following_posts_clear_all_message_done">%1$d posts gewist</string>
     <string name="picker_app_name">Kiezer</string>
-    <string name="picker_gallery">Afbeelding/GIF</string>
+    <string name="picker_gallery">Afb./GIF</string>
     <string name="picker_video">Video</string>
     <string name="picker_comic">Strip</string>
     <string name="picker_camera">Camera</string>
@@ -1255,7 +1255,7 @@
     <string name="discover_tags_none_found">Geen tags gevonden</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d posts</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Recente activiteit</string>
     <string name="discover_tags_order_by_popular">Populariteit</string>
