@@ -14,4 +14,14 @@
     <string name="action_delete_comic">supprimer bande dessinée</string>
     <string name="action_edit_profile">modifier profil</string>
     <string name="action_unban_user">débloquer utilisateur</string>
+    <string name="action_show_logs">montrer registre</string>
+    <string name="action_show_messages">montrer message</string>
+    <string name="action_verify_email">vérifier email</string>
+    <string name="action_delete_account">supprimer compte</string>
+    <string name="action_start_chat">commencer un bavarder</string>
+    <string name="action_create_1_1_chat">commencer un 1:1 bavarder</string>
+    <string name="action_create_group_chat">commencer un groupe bavarder</string>
+    <string name="action_clear_history">enlever histoire</string>
+    <string name="action_delete_chat">supprimer bavarder</string>
+    <string name="action_leave_chat">partir bavarder</string>
 </resources>
