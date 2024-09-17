@@ -1239,4 +1239,11 @@
     <string name="search_any_categories">Seçilen kategorilerden herhangi biriyle eşleşin</string>
     <string name="chat_edit_type">Sohbet türü</string>
     <string name="post_theme_2">Tombul / obez</string>
+    <string name="post_type_multi_images">Çoklu görsel postları</string>
+    <string name="post_theme_17">Diğer fetiş</string>
+    <plurals name="discover_tags_tag_item_post_count">
+        <item quantity="one">%1$d gönderiler</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="discover_tags_order_by_recent">Yakın zamanda ki aktivite</string>
 </resources>
