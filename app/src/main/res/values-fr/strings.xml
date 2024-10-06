@@ -403,4 +403,21 @@
     <string name="post_media_failed_to_load_with_error">Le chargement a échoué. Tapez pour réessayer.
 \n
 \n%1$s</string>
+    <string name="post_category_14">comissions</string>
+    <string name="post_category_20">quoi !</string>
+    <string name="post_theme_19">pas furry</string>
+    <string name="post_theme_0">sang</string>
+    <string name="post_theme_9">inflation</string>
+    <string name="post_theme_10">macro</string>
+    <string name="post_theme_11">micro</string>
+    <string name="post_theme_18">mon petit poney/Bronzage</string>
+    <string name="post_theme_12">carburant de cauchemar</string>
+    <string name="post_theme_22">point de vue</string>
+    <string name="post_theme_15">transformation</string>
+    <string name="post_theme_24">ventilation</string>
+    <string name="post_theme_16">vore</string>
+    <string name="upload_image">image</string>
+    <string name="upload_gif">GIF</string>
+    <string name="upload_settings_rating_safe">tout public</string>
+    <string name="upload_settings_rating_suggestive">suggestif</string>
 </resources>
