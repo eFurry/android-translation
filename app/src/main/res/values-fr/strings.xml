@@ -515,4 +515,10 @@
     <string name="main_update_app_failed">Échec de l\'actualisation</string>
     <string name="main_update_app_ignore_dialog_title">Ignorer la mise à jour ?</string>
     <string name="main_update_app_ignore_dialog_message">Êtes-vous sûr de vouloir ignorer cette mise à jour ?</string>
+    <string name="guest">Invité</string>
+    <string name="message_a_long_time_ago">Il y a longtemps</string>
+    <string name="conversation_message_deleted">Messages supprimés</string>
+    <string name="message_last_seen">vu pour la dernière fois %1$s</string>
+    <string name="message_last_seen_online">En ligne</string>
+    <string name="error_message">Erreur, ressayer</string>
 </resources>
