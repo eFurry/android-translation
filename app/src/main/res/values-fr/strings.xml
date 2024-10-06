@@ -456,7 +456,7 @@
     <plurals name="hours">
         <item quantity="one">Heure</item>
         <item quantity="many">Heures</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="deleted_account">Compte supprimé</string>
     <string name="unknown_account">Inconnu</string>
@@ -480,4 +480,6 @@
     <string name="october">Octobre</string>
     <string name="november">Novembre</string>
     <string name="december">Décembre</string>
+    <string name="plus_number">+%1$d</string>
+    <string name="verify_account_title">Vérification de compte</string>
 </resources>
