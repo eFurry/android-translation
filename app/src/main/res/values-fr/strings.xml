@@ -293,8 +293,8 @@
     <string name="discover_tags_none_found">Aucun tag n\'a été trouvé</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d posts</item>
-        <item quantity="many"></item>
-        <item quantity="other"></item>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Activité récente</string>
     <string name="discover_tags_order_by_popular">Popularité</string>
@@ -420,4 +420,10 @@
     <string name="upload_gif">GIF</string>
     <string name="upload_settings_rating_safe">tout public</string>
     <string name="upload_settings_rating_suggestive">suggestif</string>
+    <string name="fursona_view_title">fursona</string>
+    <string name="my_fursonas_description_hint">description</string>
+    <string name="discover_tags">mention</string>
+    <string name="search_any">n\'importe lequel</string>
+    <string name="ok">ok</string>
+    <string name="notifications">notifications</string>
 </resources>
