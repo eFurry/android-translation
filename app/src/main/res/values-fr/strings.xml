@@ -24,8 +24,8 @@
     <string name="action_clear_history">Enlever l\'historique</string>
     <string name="action_delete_chat">Supprimer le bavarder</string>
     <string name="action_leave_chat">Partir du bavarder</string>
-    <string name="action_mute">Enlever le son</string>
-    <string name="action_unmute">Remettre le son</string>
+    <string name="action_mute">Exclure</string>
+    <string name="action_unmute">Demute</string>
     <string name="ad_attribution">Publicité</string>
     <string name="google_play_services_missing_error">Les services Google Play sont nécessaires pour utiliser cette application !</string>
     <string name="launch_subtitle">Se connecter, s\'enregistrer ou continuer en tant qu\'invité</string>
@@ -95,7 +95,7 @@
     <string name="post_category_13">Histoires / textes</string>
     <string name="post_category_25">Questions (Q&amp;R)</string>
     <string name="post_category_15">Enchères / YCH</string>
-    <string name="post_category_16">Produits à adopter</string>
+    <string name="post_category_16">Adoptables</string>
     <string name="post_category_17">Jeux vidéo</string>
     <string name="post_category_18">Films, séries et émissions de télévision</string>
     <string name="post_category_28">Musiques/bruitage</string>
@@ -404,22 +404,22 @@
 \n
 \n%1$s</string>
     <string name="post_category_14">comissions</string>
-    <string name="post_category_20">quoi !</string>
-    <string name="post_theme_19">pas furry</string>
-    <string name="post_theme_0">sang</string>
+    <string name="post_category_20">Quoi !</string>
+    <string name="post_theme_19">Pas furry</string>
+    <string name="post_theme_0">Sang</string>
     <string name="post_theme_9">inflation</string>
     <string name="post_theme_10">macro</string>
     <string name="post_theme_11">micro</string>
-    <string name="post_theme_18">mon petit poney/Bronzage</string>
+    <string name="post_theme_18">My Little Pony / Brony</string>
     <string name="post_theme_12">carburant de cauchemar</string>
-    <string name="post_theme_22">point de vue</string>
-    <string name="post_theme_15">transformation</string>
+    <string name="post_theme_22">Point de vue</string>
+    <string name="post_theme_15">Transformation</string>
     <string name="post_theme_24">ventilation</string>
     <string name="post_theme_16">vore</string>
     <string name="upload_image">image</string>
     <string name="upload_gif">GIF</string>
     <string name="upload_settings_rating_safe">tout public</string>
-    <string name="upload_settings_rating_suggestive">suggestif</string>
+    <string name="upload_settings_rating_suggestive">Suggestif</string>
     <string name="fursona_view_title">fursona</string>
     <string name="my_fursonas_description_hint">description</string>
     <string name="discover_tags">mention</string>
@@ -432,4 +432,10 @@
     <string name="edit">Modifier</string>
     <string name="delete">Supprimer</string>
     <string name="reply">Répondre</string>
+    <string name="post_theme_2">Dodu / obésité</string>
+    <plurals name="minutes">
+        <item quantity="one">minute</item>
+        <item quantity="many">minutes</item>
+        <item quantity="other"></item>
+    </plurals>
 </resources>
