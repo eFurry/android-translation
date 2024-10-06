@@ -498,4 +498,6 @@
     <string name="reset_password_new_password">2. Saisissez votre nouveau mot de passe et le code que vous avez reçu par e-mail ci-dessous.</string>
     <string name="reset_password_password_hint">Saisir le nouveau mot de passe</string>
     <string name="reset_password_email_hint">Saisir l\'adresse e-mail du compte</string>
+    <string name="reset_password_send_reset">Envoyer le code de réinitialisation du mot de passe</string>
+    <string name="reset_password_code_hint">Saisir le code à 8 ou 9 chiffres</string>
 </resources>
