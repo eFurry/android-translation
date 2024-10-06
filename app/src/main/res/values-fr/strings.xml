@@ -420,11 +420,11 @@
     <string name="upload_gif">GIF</string>
     <string name="upload_settings_rating_safe">tout public</string>
     <string name="upload_settings_rating_suggestive">Suggestif</string>
-    <string name="fursona_view_title">fursona</string>
-    <string name="my_fursonas_description_hint">description</string>
-    <string name="discover_tags">mention</string>
+    <string name="fursona_view_title">Fursona</string>
+    <string name="my_fursonas_description_hint">Description</string>
+    <string name="discover_tags">Tags</string>
     <string name="search_any">n\'importe lequel</string>
-    <string name="ok">ok</string>
+    <string name="ok">OK</string>
     <string name="notifications">notifications</string>
     <string name="arrow_right">-&gt;</string>
     <string name="chats">Discussions</string>
@@ -436,21 +436,26 @@
     <plurals name="minutes">
         <item quantity="one">minute</item>
         <item quantity="many">minutes</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="upload_settings_rating_explicit">Explicite</string>
-    <string name="upload_settings_rating_safe_hint">sure - fait pour tout les âges</string>
+    <string name="upload_settings_rating_safe_hint">Sure - fait pour tout les âges</string>
     <string name="upload_settings_rating_suggestive_hint">Suggestif - contenu suggestif, nudité de bon goût/artistique ou thèmes pour adultes</string>
-    <string name="upload_settings_rating_explicit_hint">explicite - contenu adulte</string>
-    <string name="upload_settings_tags">mention</string>
-    <string name="comic_list_pages">pages</string>
+    <string name="upload_settings_rating_explicit_hint">Explicite - contenu adulte</string>
+    <string name="upload_settings_tags">Tags</string>
+    <string name="comic_list_pages">Pages: %1$d</string>
     <string name="fursona_view_user_title">Les fursonas de %1$s</string>
     <plurals name="seconds">
         <item quantity="one">seconde</item>
         <item quantity="many">secondes</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
-    <string name="description">description</string>
+    <string name="description">Description</string>
     <string name="optional">Optionnel</string>
     <string name="discover_users_search_empty">Aucun utilisateur trouvé avec un nom ou un nom d\'utilisateur commençant par « %1$s »</string>
+    <plurals name="hours">
+        <item quantity="one">Heure</item>
+        <item quantity="many">Heures</item>
+        <item quantity="other"></item>
+    </plurals>
 </resources>
