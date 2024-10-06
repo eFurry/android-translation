@@ -458,4 +458,26 @@
         <item quantity="many">Heures</item>
         <item quantity="other"></item>
     </plurals>
+    <string name="deleted_account">Compte supprimé</string>
+    <string name="unknown_account">Inconnu</string>
+    <string name="help">Aide</string>
+    <string name="user">Utilisateur</string>
+    <string name="and">et</string>
+    <string name="info">Information</string>
+    <string name="ban">Bannir</string>
+    <string name="unban">Débloquer</string>
+    <string name="refresh">rafraîchir</string>
+    <string name="account">Compte</string>
+    <string name="january">Janvier</string>
+    <string name="february">Février</string>
+    <string name="march">Mars</string>
+    <string name="april">Avril</string>
+    <string name="may">Mai</string>
+    <string name="june">Juin</string>
+    <string name="july">Juillet</string>
+    <string name="august">Aout</string>
+    <string name="september">Septembre</string>
+    <string name="october">Octobre</string>
+    <string name="november">Novembre</string>
+    <string name="december">Décembre</string>
 </resources>
