@@ -488,4 +488,7 @@
     <string name="verify_account_code_hint">Saisir le code à 6 ou 7 chiffres</string>
     <string name="verify_account_resend_code">Renvoyer le code</string>
     <string name="verify_account_resend_text">Vous n\'avez pas reçu d\'e-mail ? Cliquez sur le bouton ci-dessous pour envoyer un nouveau code</string>
+    <string name="verify_account_resend_code_success">Un code a été envoyé à votre email</string>
+    <string name="verify_account_success">Succès ! Votre compte a été vérifié</string>
+    <string name="verify_account_code">Vérifier le code</string>
 </resources>
