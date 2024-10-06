@@ -482,4 +482,10 @@
     <string name="december">Décembre</string>
     <string name="plus_number">+%1$d</string>
     <string name="verify_account_title">Vérification de compte</string>
+    <string name="verify_account_subtitle">Pour utiliser toutes les fonctionnalités, vous devez vérifier votre compte.
+\n
+\nVérifiez votre boîte de réception à %1$s et saisissez le code qui vous a été envoyé ci-dessous.</string>
+    <string name="verify_account_code_hint">Saisir le code à 6 ou 7 chiffres</string>
+    <string name="verify_account_resend_code">Renvoyer le code</string>
+    <string name="verify_account_resend_text">Vous n\'avez pas reçu d\'e-mail ? Cliquez sur le bouton ci-dessous pour envoyer un nouveau code</string>
 </resources>
