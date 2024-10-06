@@ -502,4 +502,5 @@
     <string name="reset_password_code_hint">Saisir le code à 8 ou 9 chiffres</string>
     <string name="reset_password_resend_code_success">Un code a été envoyé à votre email</string>
     <string name="reset_password_save">Enregistrer le mot de passe du nouveau compte</string>
+    <string name="reset_password_success">Succès! Le mot de passe de votre compte a été modifié</string>
 </resources>
