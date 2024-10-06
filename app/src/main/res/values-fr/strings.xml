@@ -521,4 +521,116 @@
     <string name="message_last_seen">vu pour la dernière fois %1$s</string>
     <string name="message_last_seen_online">En ligne</string>
     <string name="error_message">Erreur, ressayer</string>
+    <string name="error_message_with_error">Erreur, veuillez réessayer : %1$s</string>
+    <string name="error_with_error">Erreur : %1$s</string>
+    <string name="message_error_button_hint">Appuyer sur pour réessayer</string>
+    <string name="message_send">Envoyer un message</string>
+    <string name="message_send_media">Envoyer un média</string>
+    <string name="message_send_video">Envoyer une vidéo</string>
+    <string name="message_send_error">Échec de l\'envoi du message : %1$s</string>
+    <string name="message_video_compressing">Compression de la vidéo…</string>
+    <string name="message_video_compressing_cancelled">Annulé</string>
+    <string name="message_get_error">Échec de la réception des messages : %1$s</string>
+    <string name="message_new_messages_below">ᐯ nouveaux messages ᐯ</string>
+    <string name="message_option_edit_title">Modifier le message</string>
+    <string name="message_option_delete_title">Supprimer le message</string>
+    <string name="message_option_delete_body">Êtes-vous sûr de vouloir supprimer ce message ?</string>
+    <string name="message_option_delete_error">Échec de la suppression du message : %1$s</string>
+    <string name="message_option_edit_error">Échec de l\'édition du message : %1$s</string>
+    <string name="conversation_delete_title">Supprimer la conversation ?</string>
+    <string name="chat_online">en ligne</string>
+    <string name="conversation_delete_deleted_failed">Échec de la suppression de la conversation : %1$s</string>
+    <string name="conversation_delete_deleted_success">Conversation supprimée</string>
+    <string name="chats_no_messages">Aucun message pour l\'instant</string>
+    <string name="chat_toolbar_loading">Chargement du chat…</string>
+    <string name="chat_group_member_count">%1$d membre</string>
+    <string name="chat_group_members_count">%1$d membres</string>
+    <string name="chat_group_members_count_online">%1$d membres, %2$d en ligne</string>
+    <string name="chat_currently_writing_one">%1$s est en train d\'écrire…</string>
+    <string name="chat_currently_writing_two">%1$s et %2$s écrivent…</string>
+    <string name="chat_currently_writing_three">%1$s, %2$s et %3$s écrivent…</string>
+    <string name="chat_currently_writing_four_or_more">%1$s, %2$s et %3$d autres écrivent…</string>
+    <string name="chat_deleted">Discussion supprimée</string>
+    <string name="chat_deleted_dialog_title">Discussion supprimée</string>
+    <string name="chat_deleted_dialog_message">Cette discussion a été supprimée.</string>
+    <string name="chat_self_chat">%1$s (messages enregistrés)</string>
+    <string name="chat_create_group_dialog_title">Créer un groupe de discussion</string>
+    <string name="chat_create_group_dialog_input_hint">Nom du groupe (peut être modifié ultérieurement)</string>
+    <string name="chat_create_group_creating">Créer un groupe…</string>
+    <string name="chat_create_group_created">Groupe créé !</string>
+    <string name="chat_control_message_3">%1$s a rejoint</string>
+    <string name="chat_control_message_4">%1$s quitter</string>
+    <string name="chat_control_message_5">%1$s Expulsé %2$s</string>
+    <string name="chat_control_message_6">%1$s bannissement %2$s</string>
+    <string name="chat_control_message_7">&lt; %1$s &gt;</string>
+    <string name="chat_control_message_9">%1$s a changé l\'icône du groupe</string>
+    <string name="chat_control_message_10">Discussion supprimé</string>
+    <string name="chat_control_message_11">Discussion créée</string>
+    <string name="chat_control_message_12">%1$s a changé les informations du groupe en %2$s</string>
+    <string name="chat_control_message_13">%1$s a changé le type de groupe en public</string>
+    <string name="chat_control_message_15">%1$s a changé la classification du groupe en Adulte (18+)</string>
+    <string name="chat_control_message_16">%1$s a changé l\'évaluation du groupe en Sure</string>
+    <string name="chat_control_message_unknown">Message inconnu - vérifier les mises à jour de l\'application</string>
+    <string name="chat_media_message">Message des médias</string>
+    <string name="chat_group_add_members">Ajouter des membres</string>
+    <string name="chat_group_invite_user_error">Échec de l\'invitation : %1$s</string>
+    <string name="chat_group_invite_user_success">%1$s invités !</string>
+    <string name="chat_role_with_last_seen_date">%1$s
+\nvu pour la dernière fois il y a %2$s %3$s</string>
+    <string name="chat_last_seen_date">Dernière visite il y a %1$s %2$s</string>
+    <string name="chat_role_with_online">%1$s
+\nen ligne</string>
+    <string name="chat_role_moderator">modérateur</string>
+    <string name="chat_role_member">membre</string>
+    <string name="chat_role_invited">invités</string>
+    <string name="chat_role_banned">Banni</string>
+    <string name="chat_role_admin">ADMIN</string>
+    <string name="chat_role_left">quitte</string>
+    <string name="chat_join">Rejoindre la discussion</string>
+    <string name="chat_info_user_option_kick">Exclue</string>
+    <string name="chat_info_user_option_kick_error">Échec de l\'exclusion : %1$s</string>
+    <string name="chat_info_user_option_kick_success">Exclure %1$s</string>
+    <string name="chat_info_user_option_ban">Ban</string>
+    <string name="chat_info_user_option_ban_success">Banni %1$s</string>
+    <string name="chat_info_user_option_promote_to_mod">Promouvoir au poste de modérateur</string>
+    <string name="chat_info_user_option_promote_to_mod_error">Échec de la promotion : %1$s</string>
+    <string name="chat_info_user_option_promote_to_mod_success">Promu %1$s</string>
+    <string name="chat_info_user_option_demote_from_mod">Rétrogradation au rang de membre</string>
+    <string name="chat_info_user_option_demote_from_mod_success">Rétrogradé %1$s</string>
+    <string name="chat_info_user_option_unban">Retirer le bannissement</string>
+    <string name="chat_info_user_option_unban_error">Échec de l\'action : %1$s</string>
+    <string name="chat_info_user_option_unban_success">Non banni %1$s</string>
+    <string name="chat_info_type_public">Groupe public</string>
+    <string name="chat_info_type_private">Groupe privé</string>
+    <string name="chat_info_rating_adult">Adulte (18+)</string>
+    <string name="chat_error_does_not_exist">Cette discussion a été supprimée</string>
+    <string name="chat_open_error_banned">Vous avez été banni de cette discussion.</string>
+    <string name="chat_open_error_kicked">Vous avez été exclu de cette discussion.</string>
+    <string name="chat_open_error_deleted">Cette discussion n\'existe plus.</string>
+    <string name="chat_open_invited_group">Vous avez été invité à rejoindre le groupe de discussion « %1$s ».
+\n
+\nAccepter l\'invitation ?</string>
+    <string name="leave">Quitter</string>
+    <string name="join">Rejoindre</string>
+    <string name="decline">Décliner</string>
+    <string name="chat_open_joining">Rejoindre la discussion…</string>
+    <string name="chat_open_join_error">Échec de l\'adhésion : %1$s</string>
+    <string name="conversation_delete_deleted_account">L\'autre utilisateur a supprimé son compte, voulez-vous supprimer cette discussion ?</string>
+    <string name="conversation_delete">Voulez-vous supprimer cette conversation et tous les messages ?</string>
+    <string name="chat_create_1_1_hint">Commencer un chat avec un autre utilisateur.
+\nSaisissez son nom d\'utilisateur ci-dessous ou accédez à son profil et utilisez le bouton Message pour démarrer une discussion.</string>
+    <string name="chat_info_user_option_demote_from_mod_error">La rétrogradation a échoué : %1$s</string>
+    <string name="chat_open_invited_single">%1$s (%2$s) souhaite discuter avec vous.
+\n
+\nAccepter l\'invitation ?</string>
+    <string name="chat_control_message_8">%1$s a changé le nom du groupe en %2$s</string>
+    <string name="chat_role_kicked">Expulsé</string>
+    <string name="chat_error_removed_from_chat">Vous avez été retiré de cette discussion</string>
+    <string name="chats_no_chats">Une fois que vous aurez rejoint une discussion, il apparaîtra ici.
+\n
+\nCommencez une discussion dans le coin supérieur droit !</string>
+    <string name="chat_control_message_14">%1$s a changé le type de groupe en privé</string>
+    <string name="chat_media_message_with_text">Message multimédia : %1$s</string>
+    <string name="chat_role_owner">Créateur</string>
+    <string name="chat_info_user_option_ban_error">Échec du bannissement : %1$s</string>
 </resources>
