@@ -426,4 +426,9 @@
     <string name="search_any">n\'importe lequel</string>
     <string name="ok">ok</string>
     <string name="notifications">notifications</string>
+    <string name="arrow_right">-&gt;</string>
+    <string name="chats">Discussions</string>
+    <string name="message">Message</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Supprimer</string>
 </resources>
