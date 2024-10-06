@@ -491,4 +491,8 @@
     <string name="verify_account_resend_code_success">Un code a été envoyé à votre email</string>
     <string name="verify_account_success">Succès ! Votre compte a été vérifié</string>
     <string name="verify_account_code">Vérifier le code</string>
+    <string name="reset_password_title">Réinitialiser le mot de passe</string>
+    <string name="reset_password_subtitle">Vous avez oublié le mot de passe de votre compte ?
+\n
+\n1. Saisissez votre adresse électronique ci-dessous pour commencer à créer un nouveau mot de passe.</string>
 </resources>
