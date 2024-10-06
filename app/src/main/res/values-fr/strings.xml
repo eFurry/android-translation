@@ -158,7 +158,6 @@
     <string name="upload_settings_rating_title">Ce poste est classé :</string>
     <string name="upload_settings_hidden">Masquer le message de Nouveau</string>
     <string name="upload_settings_hidden_hint">Le message ne sera pas visible dans la section Nouveau</string>
-    <string name="upload_settings_prevent_downloads"></string>
     <string name="upload_settings_disable_comments">Désactiver les commentaires</string>
     <string name="upload_settings_add_tags">Ajouter jusqu\'à 100 tags décrivant le poste</string>
     <string name="upload_settings_filtering">Filtrage</string>
