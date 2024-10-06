@@ -495,4 +495,6 @@
     <string name="reset_password_subtitle">Vous avez oublié le mot de passe de votre compte ?
 \n
 \n1. Saisissez votre adresse électronique ci-dessous pour commencer à créer un nouveau mot de passe.</string>
+    <string name="reset_password_new_password">2. Saisissez votre nouveau mot de passe et le code que vous avez reçu par e-mail ci-dessous.</string>
+    <string name="reset_password_password_hint">Saisir le nouveau mot de passe</string>
 </resources>
