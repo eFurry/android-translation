@@ -502,5 +502,17 @@
     <string name="reset_password_code_hint">Saisir le code à 8 ou 9 chiffres</string>
     <string name="reset_password_resend_code_success">Un code a été envoyé à votre email</string>
     <string name="reset_password_save">Enregistrer le mot de passe du nouveau compte</string>
-    <string name="reset_password_success">Succès! Le mot de passe de votre compte a été modifié</string>
+    <string name="reset_password_success">Succès ! Le mot de passe de votre compte a été modifié</string>
+    <string name="main_verify_email_title">Vérification du compte nécessaire</string>
+    <string name="main_verify_email_message">Appuyer sur pour lancer la procédure de vérification</string>
+    <string name="main_verify_email_snackbar_text">Vérification du compte nécessaire</string>
+    <string name="main_verify_email_snackbar_button">Vérifier</string>
+    <string name="main_complete_profile_title">Complétez votre profil</string>
+    <string name="main_complete_profile_message">Changez votre nom, définissez une icône et plus encore</string>
+    <string name="main_update_app_title">Mise à jour de l\'application disponible !</string>
+    <string name="main_update_app_message">Appuyer sur le button pour mettre à jour</string>
+    <string name="main_update_app_error">Échec : %1$s</string>
+    <string name="main_update_app_failed">Échec de l\'actualisation</string>
+    <string name="main_update_app_ignore_dialog_title">Ignorer la mise à jour ?</string>
+    <string name="main_update_app_ignore_dialog_message">Êtes-vous sûr de vouloir ignorer cette mise à jour ?</string>
 </resources>
