@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="action_create">Δημιούργησε</string>
+    <string name="action_clear_all">Διαγραφή ολων</string>
+    <string name="action_edit_title">Επεξεργασία τίτλου</string>
+    <string name="action_view_blocked">Δες μπλοκαρισμένους χρήστες</string>
+    <string name="action_report_user">Αναφορά χρήστη</string>
+    <string name="action_ban_user">Αποκλεισμός χρήστη</string>
+    <string name="action_unban_user">Κατάργηση αποκλεισμού χρήστη</string>
+    <string name="action_show_messages">Αποκάλυψη μηνυμάτων</string>
+    <string name="action_delete_account">Διαγραφή λογαριασμού</string>
+    <string name="action_start_chat">Ξεκινά συζήτηση</string>
+    <string name="action_create_1_1_chat">Ξεκινά μια 1:1 συζήτηση</string>
+    <string name="action_create_group_chat">Ξεκινά ομάδα συζήτησης</string>
+    <string name="action_clear_history">Άδειασμα ιστορικού</string>
+    <string name="action_leave_chat">Αποχώρηση από συζήτηση</string>
+    <string name="action_mute">Σίγαση</string>
+    <string name="action_unmute">Κατάργηση σίγασης</string>
+    <string name="ad_attribution">Διαφήμιση</string>
+    <string name="launch_subtitle">Συνδεθείτε, εγγραφείτε ή συνεχίστε ως επισκέπτης</string>
+    <string name="launch_btn_guest">Συνέχεια ως επισκέπτης</string>
+    <string name="launcher_init_parse">Αρχικοποίηση</string>
+    <string name="launcher_creating_guest_account">Δημιουργία λογαριασμού επισκέπτη</string>
+    <string name="launcher_updating_account">Λήψη λογαριασμού</string>
+    <string name="action_show_logs">Δείξε σύνδεσης</string>
+    <string name="launcher_updating_account_error">Λήψη λογαριασμού
+\nΣφάλμα: %1$s
+\n
+\nΕπανάληψη</string>
+    <string name="launcher_fetching_config">Λήψη διαμόρφωσης</string>
+    <string name="action_log_out">Αποσύνδεσου</string>
+    <string name="action_log_in">Σύνδεση</string>
+    <string name="action_reorder_comic">Αναδιοργάνωση σελίδων</string>
+    <string name="action_delete_comic">Διαγραφή κόμικ</string>
+    <string name="action_edit_profile">Επεξεργασία προφίλ</string>
+    <string name="action_delete_chat">Διαγραφή μυνήματος</string>
+    <string name="google_play_services_missing_error">Οι υπηρεσίες Google Play απαιτούνται για τη χρήση αυτής της εφαρμογής!</string>
+    <string name="action_block_user">Μπλόκ/κατάργηση μπλοκ</string>
+    <string name="action_verify_email">Επιβεβαίωση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="launcher_creating_guest_account_error">Δημιουργία λογαριασμού επισκέπτη 
+\nΣφάλμα:%1$s
+\n
+\nΕπανάληψη</string>
+</resources>
