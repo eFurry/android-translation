@@ -68,4 +68,5 @@
     <string name="legal_notice_checkbox">"Συμφωνώ με το "</string>
     <string name="legal_ad_checkbox">Συμφωνώ με εξατομικευμένες διαφημίσεις</string>
     <string name="login_invalid_email">Μη έγκυρη διεύθυνση email</string>
+    <string name="login_dialog_consent_country_message">Είστε κάτοικος του ΕΕ/ΕΟΧ, του Ηνωμένου Βασιλείου ή της Πολιτείας της Καλιφόρνιας στις ΗΠΑ;</string>
 </resources>
