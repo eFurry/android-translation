@@ -4,6 +4,7 @@
     <string name="action_create_1_1_chat">Einen 1:1 Chat starten</string>
     <string name="launcher_fetching_config_error">Fetching configuration
 \nFehler:%1$s
+\n
 \nVersuche Erneut</string>
     <string name="action_reorder_comic">Seiten neuanordnen</string>
     <string name="action_verify_email">Email verifizieren</string>
@@ -41,4 +42,7 @@
 \nVersuche erneut</string>
     <string name="launcher_fetching_config">Konfiguration abrufen</string>
     <string name="action_show_logs">Logs anzeigen</string>
+    <string name="launcher_updating_account_settings">Konto Einstellungen abrufen</string>
+    <string name="launcher_server_status">Serverstatus überprüfen</string>
+    <string name="launcher_reset_button">Abmelden / Zurücksetzen</string>
 </resources>
