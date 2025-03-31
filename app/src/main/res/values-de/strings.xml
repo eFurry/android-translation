@@ -67,5 +67,5 @@
     <string name="login_register_accept">Akzeptiere bitte sowohl die Datenschutzrichtlinie als auch die Servicebedingungen, um sich registrieren zu können</string>
     <string name="login_register_set_age">Gib dein Geburtsdatum ein um dich zu registrieren</string>
     <string name="login_register_error">Registrierung fehlgeschlagen: %1$s</string>
-    <string name="login_dialog_consent_country_title">Dein Standort</string>
+    <string name="login_dialog_consent_country_title">Ihr Standort</string>
 </resources>
