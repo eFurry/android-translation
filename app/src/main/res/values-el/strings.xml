@@ -36,7 +36,7 @@
     <string name="action_edit_profile">Επεξεργασία προφίλ</string>
     <string name="action_delete_chat">Διαγραφή μυνήματος</string>
     <string name="google_play_services_missing_error">Οι υπηρεσίες Google Play απαιτούνται για τη χρήση αυτής της εφαρμογής!</string>
-    <string name="action_block_user">Μπλόκ/κατάργηση μπλοκ</string>
+    <string name="action_block_user">Μπλοκ/ξεμπλοκάρισ…</string>
     <string name="action_verify_email">Επιβεβαίωση ηλεκτρονικού ταχυδρομείου</string>
     <string name="launcher_creating_guest_account_error">Δημιουργία λογαριασμού επισκέπτη 
 \nΣφάλμα:%1$s
