@@ -77,4 +77,8 @@
     <string name="login_dialog_consent_personalised_yes">Ναί</string>
     <string name="login_dialog_consent_personalised_no">Οχι</string>
     <string name="login_dialog_consent_done_title">ιδίωμα?</string>
+    <string name="login_dialog_register_confirm_message">Πρόκειται να καταχωρήσετε έναν λογαριασμό χρησιμοποιώντας %1$s. Ένα email θα αποσταλεί σε αυτή τη διεύθυνση για να το επιβεβαιώσει.
+\n
+\nΣυνεχίζω;</string>
+    <string name="account_needed">Απαιτείται ένας λογαριασμός για την εκτέλεση αυτής της ενέργειας!</string>
 </resources>
