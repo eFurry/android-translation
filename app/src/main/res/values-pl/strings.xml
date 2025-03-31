@@ -300,9 +300,9 @@
     <string name="block_title_visibility">Widoczność:</string>
     <string name="block_visibility_show_posts">Pokaż posty tego użytkownika w sekcji Nowe i w wyszukiwaniach</string>
     <string name="block_title_can">Ten użytkownik może:</string>
-    <string name="block_can_comment_and_reply">Komentowanie na moich postach i odpowiadanie na komentarze</string>
-    <string name="block_can_message">Wysyłanie mi wiadomości</string>
-    <string name="block_can_view_profile">Wyświetlać mój profil</string>
+    <string name="block_can_comment_and_reply">Komentowania pod moimi postami i odpowiadania na moje komentarze</string>
+    <string name="block_can_message">Wysyłania mi wiadomości</string>
+    <string name="block_can_view_profile">Wyświetlania mojego profilu</string>
     <string name="block_save_failed">Nie udało się zapisać ustawień blokowania: %1$s</string>
     <string name="block_get_failed">Nie udało się uzyskać ustawień blokowania: %1$s</string>
     <string name="block_save_success">Zaktualizowano ustawienia blokowania</string>
@@ -523,7 +523,7 @@
     <string name="edit_profile_link_fa_hint">Nazwa użytkownika Fur Affinity</string>
     <string name="edit_profile_link_da_hint">Nazwa użytkownika DeviantArt</string>
     <string name="edit_profile_about_hint">O mnie</string>
-    <string name="edit_profile_bio_info">Przedstaw się!</string>
+    <string name="edit_profile_bio_info">Powiedz coś o sobie!</string>
     <string name="edit_profile_save_changes">Zapisz zmiany</string>
     <string name="edit_profile_icon_title">Edytuj awatar</string>
     <string name="edit_profile_bg_title">Edytuj obraz w tle</string>
@@ -538,14 +538,14 @@
     <string name="edit_profile_chip_public_comments_title">Moje komentarze są:</string>
     <string name="edit_profile_chip_public_comments_1">Widoczne na moim profilu</string>
     <string name="edit_profile_chip_public_comments_2">Prywatne</string>
-    <string name="edit_profile_chip_show_age_title">Chcę widzieć posty zrobione przez:</string>
+    <string name="edit_profile_chip_show_age_title">Chcę widzieć posty opublikowane przez:</string>
     <string name="edit_profile_chip_show_age_1">Wszystkich użytkowników</string>
-    <string name="edit_profile_chip_show_age_2">Użytkowników wieku od 16 lat</string>
-    <string name="edit_profile_chip_show_age_3">Użytkowników wieku od 18 lat</string>
+    <string name="edit_profile_chip_show_age_2">Użytkowników w wieku od 16 lat</string>
+    <string name="edit_profile_chip_show_age_3">Użytkowników w wieku od 18 lat</string>
     <string name="edit_profile_chip_max_rating_title">Pokazuj treści sklasyfikowane maksymalnie jako:</string>
     <string name="edit_profile_chip_max_rating_1">Bezpieczne</string>
-    <string name="edit_profile_chip_max_rating_2">Sugestywne</string>
-    <string name="edit_profile_chip_max_rating_3">Nieodpowiednie</string>
+    <string name="edit_profile_chip_max_rating_2">Sugestywne (18+)</string>
+    <string name="edit_profile_chip_max_rating_3">Nieodpowiednie (18+)</string>
     <string name="edit_profile_age">Mam:</string>
     <string name="edit_profile_age_locked_message">Twój wiek jest zablokowany. Skontaktuj się z moderatorem lub wsparciem technicznym, jeżeli potrzebujesz go zmienić</string>
     <string name="edit_profile_age_lock">Zablokuj wiek</string>
@@ -568,7 +568,7 @@
     <string name="content_filter_mod_delete_mode_title">Pokaż szybkie akcje posta</string>
     <string name="content_filter_mod_delete_mode_summary_on">Szybkie akcje widoczne</string>
     <string name="content_filter_mod_delete_mode_summary_off">Szybkie akcje ukryte</string>
-    <string name="consent_title">Zgoda</string>
+    <string name="consent_title">Zgody</string>
     <string name="consent_reopen_title">Edytuj RODO / CCPA / ustawienia reklam</string>
     <string name="consent_crashlytics_title">Wysyłaj raporty o błędach</string>
     <string name="consent_crashlytics_summary_on">Raporty błędów są zbierane i wysyłane do Firebase Crashlytics</string>
@@ -576,9 +576,9 @@
     <string name="settings_danger_title">Strefa zagrożenia</string>
     <string name="settings_danger_delete_account_title">Usuń dane konta</string>
     <string name="delete_account_title">Usuwanie konta</string>
-    <string name="delete_account_subtitle">Możesz tu usunąć swoje konto i wszystkie jego dane.
+    <string name="delete_account_subtitle">Tutaj możesz usunąć swoje konto oraz wszystkie związane z nim dane.
 \n
-\nTa czynność jest nieodwracalna.</string>
+\nTo działanie jest nieodwracalne.</string>
     <string name="delete_account_account_info">Nazwa użytkownika: %1$s
 \nE-mail: %2$s</string>
     <string name="delete_account_confirmation">Rozumiem zagrożenia</string>
@@ -611,8 +611,8 @@
     <string name="picker_poll">Ankietę</string>
     <string name="picker_select">Wybierz</string>
     <string name="picker_camera_permissions_hint">Uprawnienie do aparatu wymagane</string>
-    <string name="picker_media_permissions_hint">Zezwól uprawnienia multimediów dla łatwiejszego
-\ndostępu do galerii</string>
+    <string name="picker_media_permissions_hint">Zezwól aplikacji na łatwiejszy
+\ndostęp do Galerii urządzenia</string>
     <string name="picker_empty_media">Twoja biblioteka zawartości jest pusta</string>
     <string name="picker_allow">Zezwól</string>
     <string name="picker_select_photo">Wybierz zdjęcie</string>
@@ -636,7 +636,7 @@
     <string name="action_edit_title">Edytuj tytuł</string>
     <string name="action_reorder_comic">Zorganizuj strony</string>
     <string name="action_delete_comic">Usuń komiks</string>
-    <string name="action_ban_user">Zabanuj użytkownika</string>
+    <string name="action_ban_user">Zbanuj użytkownika</string>
     <string name="action_unban_user">Odbanuj użytkownika</string>
     <string name="action_show_logs">Pokaż dzienniki</string>
     <string name="action_add_as_mod">Promować moderatora</string>
@@ -764,7 +764,7 @@
     <string name="post_media_failed_to_load_with_error">Nie udało się załadować.Stuknij, aby spróbować ponownie.
 \n
 \n%1$s</string>
-    <string name="post_media_failed_to_load">Nie udało się załadować.Stuknij, aby spróbować ponownie.</string>
+    <string name="post_media_failed_to_load">Nie udało się załadować. Dotknij, aby spróbować ponownie.</string>
     <string name="post_reposted">%1$s zrepostował</string>
     <string name="followers">Obserwujący</string>
     <string name="about_premium">Premium</string>
@@ -773,7 +773,7 @@
     <string name="recent_messages">Najnowsze wiadomości</string>
     <string name="mod_logs_user">Dzienniki moderacji dla %1$s</string>
     <string name="chats">Rozmowy</string>
-    <string name="deleted_account">Usunięte konto</string>
+    <string name="deleted_account">Konto usunięte</string>
     <string name="unknown_account">Nieznany</string>
     <string name="help">Pomoc</string>
     <string name="user">Użytkownik</string>
@@ -990,9 +990,9 @@
     <string name="user_comments_title">Komentarze %1$s</string>
     <string name="profile_is_adult">Użytkownik ma przynajmniej 18 lat</string>
     <string name="profile_followers_unfollow_deleted_title">Przestać obserwować?</string>
-    <string name="profile_followers_unfollow_deleted_message">Czy chcesz obserwować to usunięte konto?</string>
+    <string name="profile_followers_unfollow_deleted_message">Czy chcesz przestać obserwować to usunięte konto?</string>
     <string name="post">Post</string>
-    <string name="edit_profile_name_hint">Nazwa</string>
+    <string name="edit_profile_name_hint">Wyświetlana nazwa</string>
     <string name="edit_profile_name_info">Wybierz fajną nazwę!</string>
     <string name="edit_profile_username_info">Inni użytkownicy mogą wspomnieć o @twojej_nazwie.
 \nDozwolone znaki: a-z A-Z _-, i 0-9</string>
@@ -1007,7 +1007,7 @@
     <string name="edit_profile_image_removed">Obraz usunięty</string>
     <string name="edit_profile_image_remove_error">Nie udało się usunąć: %1$s</string>
     <string name="toggle_after_dark">Przełącz profil po ciemności (AD/NSFW)</string>
-    <string name="content_filter_block_tags_title">Blokowe tagi</string>
+    <string name="content_filter_block_tags_title">Blokowanie tagów</string>
     <string name="content_filter_block_tags_summary">Zarządzaj moimi zablokowanymi tagami</string>
     <string name="content_filter_block_content_title">Preferencje treści</string>
     <string name="content_filter_block_content_summary">Pokaż/ukryj treść</string>
@@ -1015,31 +1015,31 @@
     <string name="content_settings_normal">Standardowa zawartość</string>
     <string name="visible_by_default">Domyślnie widoczne. Odznacz by ukryć.</string>
     <string name="hidden_by_default">Treści wrażliwe są ukryte, dopóki ich nie włączysz. Zaznacz element na liście, jeśli chcesz zobaczyć lub przesyłać posty w tej kategorii.</string>
-    <string name="content_settings_sensitive">Treść NSFW</string>
+    <string name="content_settings_sensitive">Mocne fetysze i wrażliwe treści NSFW</string>
     <string name="content_settings_empty_fetch_error">Nie udało się załadować treści: %1$s</string>
-    <string name="content_settings_missing">Brakuje kategorii? Wyślij wiadomość @dog!</string>
+    <string name="content_settings_missing">Brakuje Ci kategorii? Wyślij wiadomość do @Dog!</string>
     <string name="content_settings_fetch_error">Nie udało się załadować preferencji: %1$s</string>
     <string name="content_settings_save_error">Nie udało się zaktualizować %1$s: %2$s</string>
     <string name="edit_blocked_tags_title">Moje zablokowane tagi</string>
-    <string name="edit_blocked_tags_body">Oddzielne tagi, które chcesz zablokować za pomocą spacji lub nowej linii. Posty zawierające dowolny z tych tagów zostaną ukryte.</string>
-    <string name="edit_blocked_tags_edit_text_info">Zablokowane tagi</string>
+    <string name="edit_blocked_tags_body">Tagi, które chcesz zablokować oddziel od siebie spacją lub wpisuj od nowego wiersza. Posty zawierające którykolwiek z tych tagów zostaną ukryte.</string>
+    <string name="edit_blocked_tags_edit_text_info">Blokowane tagi</string>
     <string name="edit_blocked_tags_saving">Zapisywanie…</string>
     <string name="edit_blocked_tags_saved">Zapisano listę zablokowanych tagów</string>
     <string name="edit_blocked_tags_save_error">Nie udało się zapisać zablokowanych tagów: %1$s</string>
     <string name="settings_danger_change_email_title">Zmień adres e -mail konta</string>
-    <string name="settings_danger_change_email_message">Jeśli chcesz zmienić adres e -mail używany do zalogowania się na swoje konto, możesz to zrobić tutaj.
+    <string name="settings_danger_change_email_message">Jeśli chcesz zmienić adres e-mail używany do logowania się na swoje konto, możesz to zrobić tutaj.
 \n
-\nObecny email: %1$s</string>
+\nAktualny adres e-mail: %1$s</string>
     <string name="settings_danger_change_email_confirm_title">Potwierdź zmianę e -maila</string>
-    <string name="settings_danger_change_email_confirm_message">Aby potwierdzić zmianę e -maila, wprowadź ponownie nowy e -mail.
+    <string name="settings_danger_change_email_confirm_message">Aby potwierdzić zmianę adresu e-mail, wprowadź nowy adres ponownie.
 \n
-\nObecny email: %1$s
-\nNowy email: %2$s</string>
+\nAktualny adres e-mail: %1$s
+\nNowy adres e-mail: %2$s</string>
     <string name="settings_danger_change_email_hint">Nowy adres email</string>
-    <string name="settings_danger_change_email_no_match">Email nie pasuje</string>
-    <string name="settings_danger_change_email_saving">Zmienianie twojego e -maila…</string>
+    <string name="settings_danger_change_email_no_match">Adresy e-mail się nie zgadzają</string>
+    <string name="settings_danger_change_email_saving">Zmiana adresu e-mail…</string>
     <string name="settings_danger_change_email_saving_error">Nie udało się zmienić e -maila: %1$s</string>
-    <string name="settings_danger_change_email_saving_success">Sukces! Email został zmienony na %1$s</string>
+    <string name="settings_danger_change_email_saving_success">Sukces! Adres e-mail został zmienony na %1$s</string>
     <string name="modmail_empty_text">Nie masz jeszcze modmailu!</string>
     <string name="discover_users_title">Przeglądaj użytkowników</string>
     <string name="discover_users_member_for">Dołączył %1$s %2$s temu</string>
@@ -1054,14 +1054,14 @@
     <string name="discover_users_menu_order_by_likes">Większość polubień otrzymała</string>
     <string name="discover_users_menu_order_by_posts">Większość postów wykonanych</string>
     <string name="discover_users_menu_order_by_level">Najwyższy poziom</string>
-    <string name="discover_users_search_sub_hint">Wyszukiwanie nie rozróżnia wielkości liter.</string>
+    <string name="discover_users_search_sub_hint">Wyszukiwanie nie uwzględnia wielkości liter.</string>
     <string name="discover_users_search_user_clicked_view_profile">Zobacz profil</string>
     <string name="discover_users_search_user_clicked_select">Wybierz użytkownika</string>
     <string name="discover_users_list_empty">Nie znaleziono użytkowników</string>
     <string name="discover_users_search_empty">Żadnych użytkowników o nazwie lub nazwie użytkownika zaczynającej się od \"%1$s \"</string>
-    <string name="discover_users_search_error">Żadnych użytkowników o nazwie lub nazwie użytkownika zaczynającej się od \"%1$s \".
+    <string name="discover_users_search_error">Nie znaleziono użytkowników, których nazwa zaczyna się od \"%1$s \".
 \n
-\nError: %2$s</string>
+\nBłąd: %2$s</string>
     <string name="action_clear_history">Wyczyść historie</string>
     <string name="chat_info_user_option_ban">Zbanuj</string>
     <string name="chat_control_message_12">%1$s zmienił informacje o grupie na %2$s</string>
@@ -1214,15 +1214,15 @@
     <string name="search_any_categories">Dopasuj dowolną z wybranych kategori</string>
     <string name="search_any_themes">Dopasuj dowolny z wybranych rzeczy</string>
     <string name="upload_quota_too_many_mb">Możesz przesłać %1$d MB z %2$d limitu. Odczekaj %3$d minut lub wybierz mniejszy plik!</string>
-    <string name="discover_tags_browse">Szukaj tagi</string>
+    <string name="discover_tags_browse">Szukaj tagów</string>
     <string name="discover_tags_none_found">Nie znaleziono tagów</string>
     <string name="april">Kwiecień</string>
     <string name="chat_join_confirm">Potwierdź że chcesz dołączyć do tego czatu</string>
     <string name="reset_password_new_password">2. Wprowadź twoje nowe hasło i kod otrzymany przez email poniżej.</string>
     <string name="chat_edit_secure_no">Nie bezpieczne</string>
     <string name="edit_profile_about_ad_hint">O mnie (po ciemku)</string>
-    <string name="settings_ui_title">UI i lokalizacja</string>
-    <string name="delete_account_request_text_2_sub">Twoje konto pozostanie dezaktywowane przez miesiąc, zanim przetworzymy Twoją prośbę o usunięcie. W tym czasie, jeśli zmienisz zdanie i chcesz odzyskać konto, musisz nacisnąć przycisk \"Anuluj prośbę o usunięcie konta” lub wysłać e-mail na adres support@efurry.net, aby anulować usunięcie.</string>
+    <string name="settings_ui_title">Interfejs użytkownika i lokalizacja</string>
+    <string name="delete_account_request_text_2_sub">Twoje konto będzie dezaktywowane przez miesiąc, zanim przetworzymy żądanie jego usunięcia. W tym czasie, jeśli zmienisz zdanie i zechcesz je odzyskać, należy nacisnąć przycisk „Anuluj żądanie usunięcia konta” lub wysłać e-mail na adres support@efurry.net, aby anulować usunięcie.</string>
     <string name="chat_edit_secure_no_desc">Zezwól na zrzuty ekranu</string>
     <string name="account_deletions">Usuwanie kont</string>
     <string name="verify_account_subtitle">By użyć wszystkich funkcji musisz zweryfikować swoje konto.
@@ -1230,19 +1230,19 @@
 \nSprawdź swoją skrzynkę %1$s i wprowadź kod który został wysłany do ciebie poniżej.</string>
     <string name="main_verify_email_snackbar_text">Wymagana weryfikacja konta</string>
     <string name="chat_control_message_14">%1$s zmienił typ grupy na prywatny</string>
-    <string name="settings_danger_reset_password_title">Zmień hasło konta</string>
-    <string name="delete_account_messages_confirm">Jesteś pewien? Wszystkie twoje wiadomości zostaną usunięte jeśli potwierdzisz.</string>
-    <string name="delete_account_send_request_confirm">Jesteś pewien? Potwierdzenie de-aktywuje twoje konto. Za 1 miesiąc od teraz wszystkie twoje posty, komentarze, wiadomości i wszystkie inne dane zostaną usunięte.</string>
+    <string name="settings_danger_reset_password_title">Zmień hasło</string>
+    <string name="delete_account_messages_confirm">Czy na pewno? Po potwierdzeniu wszystkie Twoje wiadomości zostaną usunięte.</string>
+    <string name="delete_account_send_request_confirm">Czy na pewno? Potwierdzenie spowoduje dezaktywację Twojego konta. Za miesiąc wszystkie Twoje posty, komentarze, wiadomości i inne dane zostaną usunięte.</string>
     <string name="verify_account_title">Weryfikacja konta</string>
     <string name="verify_account_success">Sukces! Twoje konto zostało zweryfikowane</string>
     <string name="chat_control_message_unknown">Nieznana wiadomość - sprawdź aktualizacje aplikacji</string>
-    <string name="discover_posts_search_sub_hint">Szukaj w tytułach postu, opisach, tekstach, artystach i tagach. Wyszukiwanie nie rozróżnia wielkości liter.</string>
+    <string name="discover_posts_search_sub_hint">Wyszukuj w tytułach postów, opisach, tekstach, twórcach/artystach i tagach. Wyszukiwanie nie uwzględnia wielkości liter.</string>
     <string name="edit_profile_after_dark_help">Jeśli masz 18 lat lub więcej możesz mieć 2 profile. Jeden który jest widoczny dla każdego i ten który jest dla dorosłych (NSFW) który jest widoczny dla użytkowników 18+.
 \n
 \nTwój zwykły profil musi być SFW gdy profil po ciemku (AD/NSFW) może zawierać treści dla dorosłych.</string>
-    <string name="delete_account_messages_success_message">Sukces! Twoje wiadomości zostaną usunięte. To może zająć chwile jeśli masz wiele. Naciśnij na ikonę odświeżenia by sprawdzić progres.</string>
-    <string name="deleted_accounts_cancelled">Anulowano prośbę usunięcia konta przez %1$s</string>
-    <string name="delete_account_loading">Ładowanie…</string>
+    <string name="delete_account_messages_success_message">Sukces! Twoje wiadomości zostaną usunięte. Może to chwilę potrwać, jeśli masz ich dużo. Dotknij ikony odświeżania, aby sprawdzić postęp.</string>
+    <string name="deleted_accounts_cancelled">Anulowano żądanie usunięcia konta dla %1$s</string>
+    <string name="delete_account_loading">Wczytywanie…</string>
     <string name="chat_edit_type">Typ czatu</string>
     <plurals name="years">
         <item quantity="one">rok</item>
@@ -1255,44 +1255,44 @@
     <string name="chat_edit_rating_safe">Bezpieczny</string>
     <string name="edit_profile_name_ad_hint">Nazwa po ciemku</string>
     <string name="edit_profile_name_ad_info">Wybierz niegrzeczną nazwę!</string>
-    <string name="delete_account_send_request_failed">Nie udało się wysłać prośby o usunięcie: %1$s</string>
-    <string name="delete_account_cancel_request_failed">Nie udało się anulować prośby o usunięcie: %1$s</string>
+    <string name="delete_account_send_request_failed">Nie udało się wysłać żądania usunięcia: %1$s</string>
+    <string name="delete_account_cancel_request_failed">Nie udało się anulować żądania usunięcia: %1$s</string>
     <string name="delete_account_refresh_failed">Nie udało się odświeżyć: %1$s</string>
-    <string name="delete_account_request_text_title">Usuwanie twojego konta eFurry na zawsze</string>
-    <string name="delete_account_request_text_1">1. Prośba o usunięcie konta.</string>
-    <string name="delete_account_request_text_1_sub">Po naciśnięciu przycisku \"Wyślij prośbę o usunięcie konta” Twoje konto zostanie dezaktywowane i oznaczone jako oczekujące na usunięcie. Na Twój adres email zostanie wysłana wiadomość potwierdzająca żądanie usunięcia.</string>
+    <string name="delete_account_request_text_title">Trwałe usuwanie Twojego konta eFurry</string>
+    <string name="delete_account_request_text_1">1. Żądanie usunięcia konta.</string>
+    <string name="delete_account_request_text_1_sub">Po naciśnięciu przycisku „Wyślij żądanie usunięcia konta” Twoje konto zostanie dezaktywowane i oznaczone jako oczekujące na usunięcie. Na Twój adres e-mail zostanie wysłana wiadomość potwierdzająca żądanie usunięcia.</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d postów</item>
-        <item quantity="few"/>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="few">%1$d posty</item>
+        <item quantity="many">%1$d postów</item>
+        <item quantity="other">%1$d postów</item>
     </plurals>
     <string name="discover_tags_order_by_recent">Niedawna aktywność</string>
     <string name="discover_tags_order_by_popular">Popularne</string>
     <string name="post_type_images">Obrazy</string>
     <string name="post_type_gifs">GIFy</string>
     <string name="post_type_videos">Filmy</string>
-    <string name="discover_chats_title">Przeszukaj czaty</string>
-    <string name="discover_chats_browse">Przeszukaj publiczne czaty</string>
-    <string name="discover_chats_search">Wyszukaj czaty</string>
+    <string name="discover_chats_title">Przeglądaj czaty</string>
+    <string name="discover_chats_browse">Przeglądaj czaty publiczne</string>
+    <string name="discover_chats_search">Przeszukaj czaty</string>
     <string name="trending">Na czasie</string>
     <string name="edit_profile_edit_ad_help_button">Czym jest po ciemku</string>
     <string name="block_can_like">Polubienie moich postów</string>
     <string name="upload_image_too_large">Plik który próbujesz przesłać waży więcej niż 100 MB. Przytnij go lub wybierz mniejszy plik.</string>
     <string name="block_visibility_hide_posts">Ukryj post w Nowych i wyszukiwaniach</string>
-    <string name="block_title_cant">Zablokuj użytkownika z:</string>
+    <string name="block_title_cant">Zablokuj temu użytkownikowi:</string>
     <string name="delete_account_comments_button">Usuń moje komentarze</string>
     <string name="delete_account_messages_button">Usuń moje wiadomości</string>
-    <string name="delete_account_send_request_button">Wyślij prośbę o usunięcie konta</string>
-    <string name="delete_account_cancel_request_button">Anuluj prośbę usunięcia konta</string>
-    <string name="delete_account_comments_confirm">Jesteś pewien? Wszystkie twoje komentarze zostaną usunięte jeśli potwierdzisz.</string>
-    <string name="delete_account_posts_success_message">Sukces! Twoje posty zostaną usunięte. To może zająć chwile jeśli masz wiele. Naciśnij na ikonę odświeżenia by sprawdzić progres.</string>
-    <string name="delete_account_comments_success_message">Sukces! Twoje komentarze zostaną usunięte. To może zająć chwile jeśli masz wiele. Naciśnij na ikonę odświeżenia by sprawdzić progres.</string>
-    <string name="delete_account_send_request_success_message">Sukces! Twoje konto zostało zaplanowane na usunięcie. Sprawdź swoją skrzynkę po więcej detali. Twoje konto jest obecnie nie aktywne.</string>
-    <string name="delete_account_cancel_request_success_message">Sukces! Twoje konto zostało ponownie aktywowane i nie czeka już na usunięcie.</string>
-    <string name="delete_account_request_text_3">3. Fizyczne usunięcie konta.</string>
-    <string name="delete_account_request_text_3_sub">Gdy minie miesiąc, twoje konto zostanie usunięte z naszych serwerów. Gdy to się stanie zostaniesz powiadomiony przez email.</string>
-    <string name="delete_account_request_text_notice">Notatka: Gdy twoje konto zostanie usunięte, twoja nazwa użytkownika jest wolna dla innych użytku.</string>
+    <string name="delete_account_send_request_button">Wyślij żądanie usunięcia konta</string>
+    <string name="delete_account_cancel_request_button">Anuluj żądanie usunięcia konta</string>
+    <string name="delete_account_comments_confirm">Czy na pewno? Po potwierdzeniu wszystkie Twoje komentarze zostaną usunięte.</string>
+    <string name="delete_account_posts_success_message">Sukces! Twoje posty zostaną usunięte. Może to chwilę potrwać, jeśli masz ich dużo. Dotknij ikony odświeżania, aby sprawdzić postęp.</string>
+    <string name="delete_account_comments_success_message">Sukces! Twoje komentarze zostaną usunięte. Może to chwilę potrwać, jeśli masz ich dużo. Dotknij ikony odświeżania, aby sprawdzić postęp.</string>
+    <string name="delete_account_send_request_success_message">Sukces! Twoje konto oczekuje na usunięcie. Sprawdź swoją skrzynkę odbiorczą, aby uzyskać więcej informacji. Twoje konto zostało dezaktywowane.</string>
+    <string name="delete_account_cancel_request_success_message">Sukces! Twoje konto zostało reaktywowane i nie czeka już na usunięcie.</string>
+    <string name="delete_account_request_text_3">3. Trwałe usunięcie konta.</string>
+    <string name="delete_account_request_text_3_sub">Po upływie miesiąca Twoje konto zostanie usunięte z naszych serwerów. Gdy to nastąpi, otrzymasz powiadomienie na adres e-mail.</string>
+    <string name="delete_account_request_text_notice">Uwaga: po usunięciu konta Twoja nazwa użytkownika stanie się dostępna dla innych.</string>
     <string name="post_type_polls">Ankiety</string>
     <string name="post_type_texts">Ankiety tekstowe</string>
     <string name="post_type_multi_images">Ankiety z wieloma obrazami</string>
@@ -1315,8 +1315,8 @@
     <string name="discover_chats_menu_order_by_last_message">Niedawna aktywność</string>
     <string name="discover_chats_menu_order_by_member_count">Ilość członków</string>
     <string name="discover_chats_menu_order_by_message_count">Ilość wiadomości</string>
-    <string name="discover_chats_search_hint">Wyszukaj tekst dla</string>
-    <string name="discover_chats_search_sub_hint">Wyszukiwanie nie rozróżnia wielkości liter</string>
+    <string name="discover_chats_search_hint">Tekst do wyszukania</string>
+    <string name="discover_chats_search_sub_hint">Wyszukiwanie nie uwzględnia wielkości liter</string>
     <string name="discover_chats_list_empty">Nie znaleziono czatów</string>
     <string name="discover_chats_search_empty">Nie znaleziono czatów dla \"%1$s\"</string>
     <string name="discover_chats_search_error">Nie znaleziono czatów dla \"%1$s\"
@@ -1418,17 +1418,17 @@
     <string name="settings_ui_theme_item_system">Zależne od systemu</string>
     <string name="content_settings_sensitive_desc">Niektóre fetysze mogą być zarządzane na stronie: %1$s</string>
     <string name="content_settings_sensitive_click_to_show">Pokaż listę wrażliwych treści</string>
-    <string name="delete_account_posts_counter">Posty: %1$d</string>
-    <string name="delete_account_comments_counter">Komentarze: %1$d</string>
+    <string name="delete_account_posts_counter">Postów: %1$d</string>
+    <string name="delete_account_comments_counter">Komentarzy: %1$d</string>
     <string name="delete_account_messages_counter">Wiadomości: %1$d</string>
     <string name="delete_account_posts_button">Usuń moje posty</string>
-    <string name="delete_account_posts_confirm">Jesteś pewien? Wszystkie twoje posty zostaną usunięte jeśli potwierdzisz.</string>
-    <string name="delete_account_request_text_2">2. Okres karencji.</string>
+    <string name="delete_account_posts_confirm">Czy na pewno? Po potwierdzeniu wszystkie Twoje posty zostaną usunięte.</string>
+    <string name="delete_account_request_text_2">2. Okres przejściowy.</string>
     <string name="chat_edit_title">Zedytuj czat</string>
     <string name="reason">Powód</string>
-    <string name="view_profile">Zobacz profil</string>
+    <string name="view_profile">Wyświetl profil</string>
     <string name="deleted_days_ago">Usunięto %1$s%2$s temu</string>
-    <string name="deleted_accounts_days_ago">Usunięto %1$s%2$s temu</string>
-    <string name="deleted_accounts_deleted_data">Usunięto dane konta za %1$s</string>
-    <string name="discover_posts_search_hint">Wpisz tekst do wyszukiwania</string>
+    <string name="deleted_accounts_days_ago">Usunięto %1$s %2$s temu</string>
+    <string name="deleted_accounts_deleted_data">Usunięto dane konta dla %1$s</string>
+    <string name="discover_posts_search_hint">Wprowadź tekst do wyszukania</string>
 </resources>
