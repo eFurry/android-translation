@@ -45,4 +45,11 @@
     <string name="launcher_updating_account_settings">Kontoeinstellungen wiederherstellen</string>
     <string name="launcher_server_status">Serverstatus überprüfen</string>
     <string name="launcher_reset_button">Abmelden / Zurücksetzen</string>
+    <string name="launcher_save_token_error">Token konnte nicht gespeichert werden: %1$s</string>
+    <string name="login_title">Willkommen auf eFur!</string>
+    <string name="login_subtitle">Bitte einloggen oder registrieren, um fortzufahren</string>
+    <string name="login_email_text">Email eingeben</string>
+    <string name="login_password_text">Passwort eingeben</string>
+    <string name="login_new_user">Neuer Benutzer? Stadtdessen registrieren</string>
+    <string name="login_reset">Passwort zurücksetzen</string>
 </resources>
