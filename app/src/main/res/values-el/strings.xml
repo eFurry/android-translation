@@ -76,5 +76,5 @@
     <string name="login_dialog_consent_personalised_title">Εξατομικευμένες διαφημίσεις</string>
     <string name="login_dialog_consent_personalised_yes">Ναί</string>
     <string name="login_dialog_consent_personalised_no">Οχι</string>
-    <string name="login_dialog_consent_done_title">ιδίωμα</string>
+    <string name="login_dialog_consent_done_title">ιδίωμα?</string>
 </resources>
