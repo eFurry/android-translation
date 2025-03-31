@@ -89,4 +89,20 @@
     <string name="reset_password_error">Σφάλμα: %1$s</string>
     <string name="reset_password_sent">Ένα email επαναφοράς κωδικού πρόσβασης στάλθηκε στο \"%1$s\"</string>
     <string name="register_success">Λογαριασμός που δημιουργήθηκε, Καλώς ήλθατε στο EFUR!</string>
+    <string name="login_expired_session">Η συνεδρία έληξε, παρακαλώ συνδεθείτε ξανά!</string>
+    <string name="logout_dialog_title">Αποσυνδεθείτε?</string>
+    <string name="logout_dialog_message">Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε?</string>
+    <string name="post_category_0">Γενικός</string>
+    <string name="post_category_1">Έργα τέχνης (ψηφιακό)</string>
+    <string name="post_category_2">Έργα τέχνης (παραδοσιακό)</string>
+    <string name="post_category_3">Φουσκωτά και κοστούμια</string>
+    <string name="post_category_4">Ζώα και κατοικίδια ζώα</string>
+    <string name="post_category_6">Αστεία και μιμίδια</string>
+    <string name="post_category_7">Aww &amp; χαριτωμένο</string>
+    <string name="post_category_8">Φωτογραφία</string>
+    <string name="post_category_9">IRL</string>
+    <string name="post_category_10">Χειροτεχνία και γλυπτική</string>
+    <string name="post_category_11">γραμμή</string>
+    <string name="post_category_12">Ιστορία σε εικόνες</string>
+    <string name="post_category_13">Ιστορίες / κείμενο</string>
 </resources>
