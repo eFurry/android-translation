@@ -223,7 +223,7 @@
     <string name="reported_comments">Zgłoszone komentarze</string>
     <string name="reported_users">Zgłoszeni użytkownicy</string>
     <string name="recent_comments">Najnowsze komentarze</string>
-    <string name="mod_logs">Logi moderacji</string>
+    <string name="mod_logs">Dzienniki moderacji</string>
     <string name="download">Pobierz</string>
     <string name="share">Udostępnij…</string>
     <string name="arrow_right">-&gt;</string>
@@ -771,7 +771,7 @@
     <string name="modmail">Wiadomości do moderatorów</string>
     <string name="cleanup">Posprzątać</string>
     <string name="recent_messages">Najnowsze wiadomości</string>
-    <string name="mod_logs_user">Dzienniki modowe dla %1$s</string>
+    <string name="mod_logs_user">Dzienniki moderacji dla %1$s</string>
     <string name="chats">Rozmowy</string>
     <string name="deleted_account">Usunięte konto</string>
     <string name="unknown_account">Nieznany</string>
@@ -1263,9 +1263,9 @@
     <string name="delete_account_request_text_1_sub">Po naciśnięciu przycisku \"Wyślij prośbę o usunięcie konta” Twoje konto zostanie dezaktywowane i oznaczone jako oczekujące na usunięcie. Na Twój adres email zostanie wysłana wiadomość potwierdzająca żądanie usunięcia.</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d postów</item>
-        <item quantity="few"></item>
-        <item quantity="many"></item>
-        <item quantity="other"></item>
+        <item quantity="few"/>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Niedawna aktywność</string>
     <string name="discover_tags_order_by_popular">Popularne</string>
@@ -1275,7 +1275,7 @@
     <string name="discover_chats_title">Przeszukaj czaty</string>
     <string name="discover_chats_browse">Przeszukaj publiczne czaty</string>
     <string name="discover_chats_search">Wyszukaj czaty</string>
-    <string name="trending">Trendujące</string>
+    <string name="trending">Na czasie</string>
     <string name="edit_profile_edit_ad_help_button">Czym jest po ciemku</string>
     <string name="block_can_like">Polubienie moich postów</string>
     <string name="upload_image_too_large">Plik który próbujesz przesłać waży więcej niż 100 MB. Przytnij go lub wybierz mniejszy plik.</string>
