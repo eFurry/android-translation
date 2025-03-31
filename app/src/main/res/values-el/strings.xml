@@ -81,4 +81,12 @@
 \n
 \nΣυνεχίζω;</string>
     <string name="account_needed">Απαιτείται ένας λογαριασμός για την εκτέλεση αυτής της ενέργειας!</string>
+    <string name="reset_password_dialog_title">Επαναφέρετε κωδικό πρόσβασης</string>
+    <string name="reset_password_dialog_message">Αυτό θα στείλει ένα email επαναφοράς κωδικού πρόσβασης σε \"%1$s\".
+\nΚάντε κλικ στο σύνδεσμο στο email για να επαναφέρετε τον κωδικό πρόσβασής σας
+\n
+\nΘέλετε να συνεχίσετε;</string>
+    <string name="reset_password_error">Σφάλμα: %1$s</string>
+    <string name="reset_password_sent">Ένα email επαναφοράς κωδικού πρόσβασης στάλθηκε στο \"%1$s\"</string>
+    <string name="register_success">Λογαριασμός που δημιουργήθηκε, Καλώς ήλθατε στο EFUR!</string>
 </resources>
