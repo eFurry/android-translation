@@ -58,4 +58,8 @@
     <string name="login_invalid_email">Ungültige Email Adresse</string>
     <string name="login_password_too_short">Die Mindestlänge des Passworts beträgt 8 Zeichen</string>
     <string name="login_username_too_short">Die Mindestlänge des Benutzernamens beträgt 3 Zeichen</string>
+    <string name="launcher_creating_guest_account_error">Gast Konto erstellen
+\nFehler: %1$s
+\n
+\nVersuche erneut</string>
 </resources>
