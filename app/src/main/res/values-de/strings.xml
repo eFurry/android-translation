@@ -65,4 +65,6 @@
     <string name="login_username_too_long">Die maximale Länge des Benutzernamens beträgt 22 Zeichen</string>
     <string name="login_invalid_email_pw">Ungültige E-mail und/oder ungültiges Passwort</string>
     <string name="login_register_accept">Akzeptiere bitte sowohl die Datenschutzrichtlinie als auch die Servicebedingungen, um sich registrieren zu können</string>
+    <string name="login_register_set_age">Gib dein Geburtsdatum ein um dich zu registrieren</string>
+    <string name="login_register_error">Registrierung fehlgeschlagen: %1$s</string>
 </resources>
