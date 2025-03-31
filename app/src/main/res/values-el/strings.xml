@@ -42,4 +42,30 @@
 \nΣφάλμα:%1$s
 \n
 \nΕπανάληψη</string>
+    <string name="launcher_fetching_config_error">Λήψη διαμόρφωσης
+\nΣφάλμα:%1$s
+\n
+\nΓευστικός</string>
+    <string name="launcher_save_token_error">Αποτυχία αποθήκευσης διακριτικού:%1$s</string>
+    <string name="login_password_text">Εισαγάγετε τον κωδικό πρόσβασής σας</string>
+    <string name="legal_notice_launch">Συνεχίζοντας να επιβεβαιώνετε ότι έχετε διαβάσει και συμφωνείτε με τους Όρους Παροχής Υπηρεσιών και την Πολιτική Προστασίας Προσωπικών Δεδομένων:</string>
+    <string name="login_password_too_short">Το ελάχιστο μήκος κωδικού πρόσβασης είναι 8 χαρακτήρες</string>
+    <string name="login_register_accept">Αποδεχτείτε τόσο την Πολιτική Προστασίας Προσωπικών Δεδομένων όσο και τους Όρους Παροχής Υπηρεσιών</string>
+    <string name="login_username_too_short">Το ελάχιστο μήκος ονόματος χρήστη είναι 3 χαρακτήρες</string>
+    <string name="login_username_too_long">Το μέγιστο μήκος ονόματος χρήστη είναι 22 χαρακτήρες</string>
+    <string name="login_invalid_email_pw">Μη έγκυρο email και/ή κωδικός πρόσβασης</string>
+    <string name="login_register_set_age">Ρυθμίστε την ημερομηνία γέννησής σας για εγγραφή</string>
+    <string name="login_register_error">Αποτυχία εγγραφής: %1$s</string>
+    <string name="login_dialog_consent_country_title">Η τοποθεσία σας</string>
+    <string name="launcher_updating_account_settings">Λήψη ρυθμίσεων λογαριασμού</string>
+    <string name="launcher_server_status">Ελέγξτε την κατάσταση του διακομιστή</string>
+    <string name="launcher_reset_button">Αποσύνδεση / επαναφορά</string>
+    <string name="login_title">Καλώς ήλθατε στο Efur!</string>
+    <string name="login_subtitle">Συνδεθείτε ή εγγραφείτε για να συνεχίσετε</string>
+    <string name="login_email_text">Εισαγάγετε το email σας</string>
+    <string name="login_reset">Επαναφέρετε κωδικό πρόσβασης</string>
+    <string name="login_new_user">Νέος χρήστης; Εγγραφή αντ \'αυτού</string>
+    <string name="legal_notice_checkbox">"Συμφωνώ με το "</string>
+    <string name="legal_ad_checkbox">Συμφωνώ με εξατομικευμένες διαφημίσεις</string>
+    <string name="login_invalid_email">Μη έγκυρη διεύθυνση email</string>
 </resources>
