@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="action_log_out">Abmelden</string>
+    <string name="action_create_1_1_chat">Einen 1:1 Chat starten</string>
+    <string name="launcher_fetching_config_error">Fetching configuration
+\nFehler:%1$s
+\nVersuche Erneut</string>
+    <string name="action_reorder_comic">Seiten neuanordnen</string>
+    <string name="action_verify_email">Email verifizieren</string>
+    <string name="google_play_services_missing_error">Zur Nutzung dieser App sind die Google Play-Dienste erforderlich!</string>
+    <string name="action_log_in">Anmelden</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_create">Erstellen</string>
+    <string name="action_clear_all">Alles leeren</string>
+    <string name="action_edit_title">Titel bearbeiten</string>
+    <string name="action_delete_comic">Comic löschen</string>
+    <string name="action_edit_profile">Profil bearbeiten</string>
+    <string name="action_view_blocked">Blockierte Nutzer anzeigen</string>
+    <string name="action_report_user">Benutzer melden</string>
+    <string name="action_block_user">Blockieren/Entblocken…</string>
+    <string name="action_ban_user">Benutzer bannen</string>
+    <string name="action_unban_user">Benutzer entbannen</string>
+    <string name="action_show_messages">Nachrichten anzeigen</string>
+    <string name="action_delete_account">Konto löschen</string>
+    <string name="action_start_chat">Einen Chat starten</string>
+    <string name="action_create_group_chat">Einen Gruppenchat starten</string>
+    <string name="action_clear_history">Verlauf löschen</string>
+    <string name="action_delete_chat">Chat löschen</string>
+    <string name="action_leave_chat">Chat verlassen</string>
+    <string name="action_mute">Stummschalten</string>
+    <string name="action_unmute">Stummschaltung aufheben</string>
+    <string name="ad_attribution">Werbung</string>
+    <string name="launch_subtitle">Anmelden, registrieren oder als Gast fortfahren</string>
+    <string name="launch_btn_guest">Weiter als Gast</string>
+    <string name="launcher_init_parse">Initialisierung</string>
+    <string name="launcher_creating_guest_account">Gast Konto erstellen</string>
+    <string name="launcher_updating_account">Konto wird abgerufen</string>
+    <string name="launcher_updating_account_error">Konto wird abgerufen
+\nFehler: %1$s
+\n
+\nVersuche erneut</string>
+    <string name="launcher_fetching_config">Konfiguration abrufen</string>
+    <string name="action_show_logs">Logs anzeigen</string>
+</resources>
