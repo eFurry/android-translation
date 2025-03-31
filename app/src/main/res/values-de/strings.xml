@@ -68,4 +68,13 @@
     <string name="login_register_set_age">Gib dein Geburtsdatum ein um dich zu registrieren</string>
     <string name="login_register_error">Registrierung fehlgeschlagen: %1$s</string>
     <string name="login_dialog_consent_country_title">Ihr Standort</string>
+    <string name="login_dialog_consent_country_message">Bist du in der EU/im EWR, im Vereinigten Königreich oder im US-Bundesstaat Kalifornien ansässig?</string>
+    <string name="login_dialog_consent_country_yes">Ja</string>
+    <string name="login_dialog_consent_country_no">Nein</string>
+    <string name="login_dialog_consent_age_title">Zustimmung</string>
+    <string name="login_dialog_consent_personalised_title">Personalisierte Werbung</string>
+    <string name="login_dialog_consent_personalised_message">Die App enthält Werbung. Möchtest du, dass diese personalisiert (für dich relevant) ist?</string>
+    <string name="login_dialog_consent_personalised_yes">Ja</string>
+    <string name="login_dialog_consent_personalised_no">Nein</string>
+    <string name="login_dialog_consent_done_title">Registrieren?</string>
 </resources>
