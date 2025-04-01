@@ -267,4 +267,11 @@
     <string name="post_theme_24">Entlüftung</string>
     <string name="post_theme_16">Vore</string>
     <string name="my_comics_add_to_title">Zum Comic hinzufügen</string>
+    <string name="comic_view_post_long_press_set_thumb">Als Comic-Vorschaubild festlegen</string>
+    <string name="comic_view_post_long_press_remove">Aus dem Comic entfernen</string>
+    <string name="comic_view_post_remove_confirm_title">Entfernen?</string>
+    <string name="comic_view_post_remove_confirm_message">Diese Seite aus dem Comic entfernen?</string>
+    <string name="comic_view_post_remove_removed">Seite entfernt</string>
+    <string name="comic_view_post_remove_error">Entfernen fehlgeschlagen: %1$s</string>
+    <string name="comic_view_post_set_thumb_updated">Vorschaubild aktualisiert</string>
 </resources>
