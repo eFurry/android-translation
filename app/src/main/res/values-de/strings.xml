@@ -282,7 +282,7 @@
     <string name="my_fursonas_create_hint">Name</string>
     <string name="my_fursonas_species_hint">Arten</string>
     <string name="my_fursonas_description_hint">Beschreibung</string>
-    <string name="my_fursonas_add_to_message">Den Beitrag mit dieser Fursona verlinken?</string>
+    <string name="my_fursonas_add_to_message">Den Beitrag mit diesem Fursona verlinken?</string>
     <string name="my_fursonas_delete_title">Fursona löschen?</string>
     <string name="my_fursonas_add_to_title">Link zu Fursona?</string>
     <string name="my_fursonas_delete_message">Sind Sie sicher, dass Sie diese Fursona löschen wollen?</string>
@@ -296,4 +296,18 @@
 \n
 \nHier werden Sie nach Tags, Beiträgen, Benutzern und mehr suchen können</string>
     <string name="my_fursonas_description_empty">Keine Beschreibung eingestellt</string>
+    <string name="discover_users">Benutzer</string>
+    <string name="discover_users_search_searching">Suche…</string>
+    <string name="discover_tags">tags</string>
+    <string name="order_random">Zufällig</string>
+    <string name="search_all">ALLE</string>
+    <string name="search_any">JEDE</string>
+    <string name="rating">Bewertung</string>
+    <string name="discover_posts">Beiträge</string>
+    <string name="post_type_images">Bilder</string>
+    <string name="post_type_gifs">GIFs</string>
+    <string name="post_type_videos">Videos</string>
+    <string name="post_type_polls">Umfragen</string>
+    <string name="discover_chats">Chats</string>
+    <string name="discover_tags_order_by_popular">Popularität</string>
 </resources>
