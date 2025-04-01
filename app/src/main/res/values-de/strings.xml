@@ -310,4 +310,61 @@
     <string name="post_type_polls">Umfragen</string>
     <string name="discover_chats">Chats</string>
     <string name="discover_tags_order_by_popular">Popularität</string>
+    <string name="discover_users_browse">Benutzer durchsuchen</string>
+    <string name="discover_users_search">Benutzer suchen</string>
+    <string name="discover_posts_search">Beitrag Suchen</string>
+    <string name="discover_users_start_chat_with">Benutzer zum Chatten auswählen</string>
+    <string name="discover_users_invite">Benutzer zum Einladen auswählen</string>
+    <string name="discover_users_send_gift_to">Benutzer für Geschenk auswählen</string>
+    <string name="discover_users_search_not_found">Benutzer „%1$s“ nicht gefunden</string>
+    <string name="discover_posts_category">Suche nach Kategorie</string>
+    <string name="discover_posts_tag">Suche nach Tag</string>
+    <string name="discover_posts_advanced">Erweiterte Suche</string>
+    <string name="enter_tags">Tags eingeben</string>
+    <string name="order_by">Bestellung von</string>
+    <string name="order_newest_first">Neuestes zuerst</string>
+    <string name="order_oldest_first">Älteste zuerst</string>
+    <string name="order_most_likes">Meiste Likes</string>
+    <string name="order_least_likes">Wenigste Likes</string>
+    <string name="discover_posts_advanced_enter_tags_details">Geben Sie die Tags durch ein Leerzeichen getrennt ein.
+\nBeispiel: „dog digital_art“ sucht nach Beiträgen, die die beiden Tags ‚dog‘ und ‚digital_art‘ enthalten.</string>
+    <string name="discover_posts_advanced_default_categories">Alle Kategorien</string>
+    <string name="discover_posts_advanced_default_content_safe">Alle Themen</string>
+    <string name="discover_posts_advanced_default_content_sensitive">Alle sensiblen Themen</string>
+    <string name="search_ratings">Bewertete Beiträge</string>
+    <string name="search_categories">In Kategorien</string>
+    <string name="search_content_safe">Mit Inhalten/Themen</string>
+    <string name="search_content_sensitive">Mit sensiblen Inhalten/Themen</string>
+    <string name="search_any_categories">Entspricht einer der ausgewählten Kategorien</string>
+    <string name="search_any_themes">Entspricht einem der ausgewählten Themen</string>
+    <string name="search_any_sensitive_themes">Entspricht einem der ausgewählten sensiblen Themen</string>
+    <string name="search_result">Suchergebnis</string>
+    <string name="discover_posts_tag_none_found">Keine Beiträge entsprechen dem Tag %1$s</string>
+    <string name="discover_posts_text_none_found">Keine Einträge gefunden für %1$s</string>
+    <string name="discover_posts_tag_hint">Tag eingeben</string>
+    <string name="discover_tags_browse">Tags durchsuchen</string>
+    <string name="discover_tags_none_found">Keine Tags gefunden</string>
+    <plurals name="discover_tags_tag_item_post_count">
+        <item quantity="one">%1$d Beiträge</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="discover_tags_order_by_recent">Neueste Aktivitäten</string>
+    <string name="coming_soon">Demnächst!</string>
+    <string name="post_type_texts">Textbeiträge</string>
+    <string name="post_type_multi_images">Beiträge mit mehreren Bildern</string>
+    <string name="discover_chats_title">Chats durchsuchen</string>
+    <string name="discover_chats_browse">Öffentliche Chats durchsuchen</string>
+    <string name="discover_chats_search">Chats suchen</string>
+    <string name="discover_chats_adapter_item_body">%1$d Mitglieder, %2$d Nachrichten</string>
+    <string name="discover_chats_menu_order_by_last_message">Neueste Aktivitäten</string>
+    <string name="discover_chats_menu_order_by_member_count">Anzahl der Mitglieder</string>
+    <string name="discover_chats_menu_order_by_message_count">Anzahl der Nachrichten</string>
+    <string name="discover_chats_search_hint">Zu suchender Text</string>
+    <string name="discover_chats_search_sub_hint">Bei der Suche wird die Groß- und Kleinschreibung nicht berücksichtigt.</string>
+    <string name="discover_chats_list_empty">Keine Chats gefunden</string>
+    <string name="discover_chats_search_empty">Keine Chats für „%1$s“ gefunden</string>
+    <string name="discover_chats_search_error">Keine Chats für „%1$s“ gefunden.
+\n
+\nFehler: %2$s</string>
+    <string name="failed_to_get_posts">Beiträge können nicht abgerufen werden: %1$s</string>
 </resources>
