@@ -277,4 +277,12 @@
     <string name="comic_view_post_set_thumb_error">Thumb kann nicht gesetzt werden: %1$s</string>
     <string name="comic_view_add_page">Seite Hinzufügen</string>
     <string name="fursona_view_title">Fursona</string>
+    <string name="fursona_view_user_title">%1$s\'s fursonas</string>
+    <string name="my_fursonas_create_title">Erstelle eine neue Fursona</string>
+    <string name="my_fursonas_create_hint">Name</string>
+    <string name="my_fursonas_species_hint">Arten</string>
+    <string name="my_fursonas_description_hint">Beschreibung</string>
+    <string name="my_fursonas_add_to_message">Den Beitrag mit dieser Fursona verlinken?</string>
+    <string name="my_fursonas_delete_title">Fursona löschen?</string>
+    <string name="my_fursonas_add_to_title">Link zu Fursona?</string>
 </resources>
