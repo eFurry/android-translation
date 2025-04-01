@@ -274,4 +274,7 @@
     <string name="comic_view_post_remove_removed">Seite entfernt</string>
     <string name="comic_view_post_remove_error">Entfernen fehlgeschlagen: %1$s</string>
     <string name="comic_view_post_set_thumb_updated">Vorschaubild aktualisiert</string>
+    <string name="comic_view_post_set_thumb_error">Thumb kann nicht gesetzt werden: %1$s</string>
+    <string name="comic_view_add_page">Seite Hinzufügen</string>
+    <string name="fursona_view_title">Fursona</string>
 </resources>
