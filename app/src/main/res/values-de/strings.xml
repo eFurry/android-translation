@@ -110,7 +110,7 @@
     <string name="post_category_25">Fragen (Q&amp;A)</string>
     <string name="post_category_14">Provisionen</string>
     <string name="post_category_16">Adoptables</string>
-    <string name="post_category_17">Gaming</string>
+    <string name="post_category_17">Spielen</string>
     <string name="post_category_18">Filme, Serien &amp; TV Shows</string>
     <string name="post_category_28">Musik</string>
     <string name="post_category_19">Reisen &amp; Orte</string>
@@ -125,7 +125,7 @@
     <string name="post_theme_21">Mit KI gemacht</string>
     <string name="post_theme_0">Blut</string>
     <string name="post_theme_2">Dick</string>
-    <string name="post_theme_25">Dating</string>
+    <string name="post_theme_25">Partnersuche</string>
     <string name="post_theme_5">Wild</string>
     <string name="post_theme_6">Blinkende Lichter</string>
     <string name="post_theme_8">Hypnose</string>
@@ -214,4 +214,53 @@
     <string name="upload_settings_rating_suggestive_hint">Anzüglich – anzügliche Inhalte, geschmackvolle/künstlerische Nacktheit oder Themen für Erwachsene</string>
     <string name="upload_settings_hidden_hint">Der Beitrag wird nicht in der Neu Sektion angezeigt</string>
     <string name="upload_settings_content_normal_dialog_title">Beitrag auswählen</string>
+    <string name="upload_chooser_quota_restock">Ihr Kontingent wird in %1$d Minuten wieder aufgefüllt</string>
+    <string name="upload_settings_content_sensitive">Sensibler Inhalt/Thema</string>
+    <string name="upload_settings_content_sensitive_dialog_title">Sensiblen Inhalt auswählen</string>
+    <string name="upload_settings_content_sensitive_none_selected">Kein sensibler Inhalt ausgewählt</string>
+    <string name="upload_settings_content_sensitive_none_enabled">Du hast keine sensiblen Inhalte aktiviert.
+\n
+\nAktualisiere deine Einstellungen unter Einstellungen-&gt;Inhaltseinstellungen</string>
+    <string name="upload_settings_categories_remaining">Du kannst maximal 3 Kategorien auswählen</string>
+    <string name="upload_settings_tags">Tags</string>
+    <string name="upload_settings_tags_hint">Gebe einen Tag ein</string>
+    <string name="upload_settings_tags_too_many">Du kannst nicht mehr als 100 Tags hinzufügen</string>
+    <string name="upload_settings_poll_question_title">Frage zur Umfrage</string>
+    <string name="upload_settings_poll_question_hint">Frage eine Frage</string>
+    <string name="upload_settings_poll_answers">Antwortoptionen</string>
+    <string name="upload_settings_poll_option">Option</string>
+    <string name="upload_settings_poll_settings">Einstellungen</string>
+    <string name="upload_settings_poll_settings_type">Mehrfache Antworten</string>
+    <string name="upload_settings_comic_switch">Dieser Beitrag is ein Teil eines Comics</string>
+    <string name="upload_settings_comic_button">Wähle einen Comic aus</string>
+    <string name="upload_post_created">Beitrag erstellt!</string>
+    <string name="upload_post_edited">Beitrag bearbeitet!</string>
+    <string name="upload_no_rating_selected">Wähle eine Beitragsbewertung aus!</string>
+    <string name="my_comics_title">Meine Comics</string>
+    <string name="my_comics_create_title">Erstelle ein neues Comic</string>
+    <string name="my_comics_create_hint">Name des Comics</string>
+    <string name="my_comics_create_created">Comic erstellt!</string>
+    <string name="my_comics_add_to_message">Den Beitrag zu diesem Comic hinzufügen?</string>
+    <string name="my_comics_add_to_error">Beitrag kann nicht hinzugefügt werden: %1$s</string>
+    <string name="my_comics_add_to_success">Beitrag zu %1$s hinzugefügt</string>
+    <string name="comic_list_pages">Seiten: %1$d</string>
+    <string name="comic_view_get_error">Comic konnte nicht abgerufen werden: %1$s</string>
+    <string name="comic_view_title">Comic</string>
+    <string name="comic_view_desc">Seiten: %1$d
+\nErstellt von %2$s</string>
+    <string name="comic_view_edit_title">Neuer Titel</string>
+    <string name="comic_view_edit_title_error">Titel kann nicht aktualisiert werden: %1$s</string>
+    <string name="comic_view_edit_title_success">Titel aktualisiert</string>
+    <string name="comic_view_reorder_success">Seitenanordnung aktualisiert!</string>
+    <string name="comic_view_delete_title">Comic löschen?</string>
+    <string name="comic_view_delete_error">Comic konnte nicht gelöscht werden: %1$s</string>
+    <string name="comic_view_delete_success">Comic gelöscht</string>
+    <string name="comic_view_reorder_title">Comic zurückrufen</string>
+    <string name="comic_view_reorder_message">Durch Ziehen und Ablegen kannst du die Reihenfolge der Seiten ändern. Vergiss nicht, auf das Speichersymbol zu drücken, wenn du fertig bist!</string>
+    <string name="upload_settings_poll_option_add">Füge eine Option hinzu…</string>
+    <string name="comic_view_reorder_error">Nachbestellung fehlgeschlagen: %1$s</string>
+    <string name="comic_list_desc">Aktualisiert vor %1$s %2$s, erstellt vor %3$s %4$s</string>
+    <string name="comic_view_delete_message">Sind Sie sicher, dass Sie diesen Comic löschen wollen?
+\nDie Beiträge werden nicht gelöscht.</string>
+    <string name="upload_settings_comic_switch_hint">Der Beitrag wird zu dem von dir ausgewählten Comic hinzugefügt</string>
 </resources>
