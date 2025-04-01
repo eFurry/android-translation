@@ -285,4 +285,15 @@
     <string name="my_fursonas_add_to_message">Den Beitrag mit dieser Fursona verlinken?</string>
     <string name="my_fursonas_delete_title">Fursona löschen?</string>
     <string name="my_fursonas_add_to_title">Link zu Fursona?</string>
+    <string name="my_fursonas_delete_message">Sind Sie sicher, dass Sie diese Fursona löschen wollen?</string>
+    <string name="my_fursonas_deleted">Fursona %1$s gelöscht</string>
+    <string name="my_fursonas_delete_error">Löschen fehlgeschlagen: %1$s</string>
+    <string name="my_fursonas_name_empty">Unbenannt</string>
+    <string name="my_fursonas_species_empty">Keine Arten festgelegt</string>
+    <string name="my_fursonas_edit_error">Speichern fehlgeschlagen: %1$s</string>
+    <string name="my_fursonas_edit_success">Fursona gespeichert</string>
+    <string name="discover_text">Dieser Bereich ist noch in Arbeit :)
+\n
+\nHier werden Sie nach Tags, Beiträgen, Benutzern und mehr suchen können</string>
+    <string name="my_fursonas_description_empty">Keine Beschreibung eingestellt</string>
 </resources>
