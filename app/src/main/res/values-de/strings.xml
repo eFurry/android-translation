@@ -263,4 +263,8 @@
     <string name="comic_view_delete_message">Sind Sie sicher, dass Sie diesen Comic löschen wollen?
 \nDie Beiträge werden nicht gelöscht.</string>
     <string name="upload_settings_comic_switch_hint">Der Beitrag wird zu dem von dir ausgewählten Comic hinzugefügt</string>
+    <string name="post_theme_26">Maws</string>
+    <string name="post_theme_24">Entlüftung</string>
+    <string name="post_theme_16">Vore</string>
+    <string name="my_comics_add_to_title">Zum Comic hinzufügen</string>
 </resources>
