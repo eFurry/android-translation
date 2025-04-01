@@ -346,7 +346,7 @@
     <string name="discover_tags_none_found">Keine Tags gefunden</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d Beiträge</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Neueste Aktivitäten</string>
     <string name="coming_soon">Demnächst!</string>
@@ -417,4 +417,31 @@
     <string name="description">Beschreibung</string>
     <string name="unknown_account">Unbekannt</string>
     <string name="message">Nachricht</string>
+    <string name="post_not_found">Dieser Beitrag wurde nicht gefunden</string>
+    <string name="post_media_failed_to_load_with_error">Konnte nicht geladen werden. Tippen um es erneut zu versuchen.
+\n
+\n%1$s</string>
+    <string name="post_media_failed_to_load">Konnte nicht geladen werden. Tippen um es erneut zu versuchen.</string>
+    <string name="logged_out">Abgemeldet</string>
+    <string name="content_policy">Inhaltliche Politik</string>
+    <string name="terms_of_service">Bedingungen der Dienstleistung</string>
+    <string name="privacy_policy">Datenschutzbestimmungen</string>
+    <string name="main_press_back_again_to_exit">Drücke zum Beenden erneut die Zurück-Taste!</string>
+    <string name="login_or_register">Anmelden oder registrieren</string>
+    <string name="login_instead">Anmeldung stattdessen</string>
+    <string name="about_support">Über &amp; Unterstützung</string>
+    <string name="open_drawer">Schublade öffnen</string>
+    <string name="close_drawer">Schublade schließen</string>
+    <string name="close_reply">Antwort schließen</string>
+    <string name="deleted_posts">Gelöschte Beiträge</string>
+    <string name="account_deletions">Kontolöschungen</string>
+    <string name="reported_posts">Gemeldete Beiträge</string>
+    <string name="reported_comments">Gemeldete Kommentare</string>
+    <string name="reported_users">Gemeldete Benutzer</string>
+    <string name="reported_chats">Gemeldete Chats</string>
+    <string name="recent_comments">Neueste Kommentare</string>
+    <string name="recent_messages">Neueste Nachrichten</string>
+    <string name="mod_logs">Moderations-Logs</string>
+    <string name="mod_logs_user">Mod-Logs für %1$s</string>
+    <string name="messages_user">Nachrichten von %1$s</string>
 </resources>
