@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="action_log_in">Masuk</string>
+    <string name="action_create">Membuat</string>
+    <string name="action_clear_all">Hapus semua</string>
+    <string name="action_edit_title">Edit judul</string>
+    <string name="action_reorder_comic">Menyusun ulang halaman</string>
+    <string name="action_delete_comic">Menghapus komik</string>
+    <string name="action_edit_profile">Edit profil</string>
+    <string name="action_report_user">Laporkan pengguna</string>
+    <string name="action_block_user">Blokir/buka blokir…</string>
+    <string name="action_ban_user">Melarang pengguna</string>
+    <string name="action_unban_user">Membuka blokir pengguna</string>
+    <string name="action_show_logs">Tampilkan log</string>
+    <string name="action_show_messages">Tampilkan pesan</string>
+    <string name="action_verify_email">Verifikasi email</string>
+    <string name="action_start_chat">Memulai obrolan</string>
+    <string name="action_create_1_1_chat">Memulai obrolan 1:1</string>
+    <string name="action_create_group_chat">Memulai obrolan grup</string>
+    <string name="action_clear_history">Hapus riwayat</string>
+    <string name="action_delete_chat">Menghapus obrolan</string>
+    <string name="action_leave_chat">Tinggalkan obrolan</string>
+    <string name="action_mute">Bisu</string>
+    <string name="action_unmute">Bunyikan</string>
+    <string name="ad_attribution">Iklan</string>
+    <string name="launch_subtitle">Masuk, daftar, atau lanjutkan sebagai tamu</string>
+    <string name="launch_btn_guest">Lanjutkan sebagai tamu</string>
+    <string name="launcher_init_parse">Inisialisasi</string>
+    <string name="launcher_creating_guest_account">Membuat akun tamu</string>
+    <string name="launcher_updating_account">Mengambil akun</string>
+    <string name="launcher_updating_account_error">Mengambil akun
+\nKesalahan: %1$s
+\n
+\nMencoba kembali</string>
+    <string name="launcher_fetching_config">Mengambil konfigurasi</string>
+    <string name="action_log_out">Keluar</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_delete_account">Menghapus akun</string>
+    <string name="google_play_services_missing_error">Layanan Google Play diperlukan untuk menggunakan aplikasi ini!</string>
+    <string name="action_view_blocked">Melihat pengguna yang diblokir</string>
+    <string name="launcher_creating_guest_account_error">Membuat akun tamu
+\nKesalahan: %1$s
+\n
+\nMencoba kembali</string>
+</resources>
