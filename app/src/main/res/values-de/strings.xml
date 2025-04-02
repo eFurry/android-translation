@@ -67,7 +67,7 @@
     <string name="login_register_accept">Akzeptiere bitte sowohl die Datenschutzrichtlinie als auch die Servicebedingungen, um sich registrieren zu können</string>
     <string name="login_register_set_age">Gib dein Geburtsdatum ein um dich zu registrieren</string>
     <string name="login_register_error">Registrierung fehlgeschlagen: %1$s</string>
-    <string name="login_dialog_consent_country_title">Ihr Standort</string>
+    <string name="login_dialog_consent_country_title">Dein Standort</string>
     <string name="login_dialog_consent_country_message">Bist du in der EU/EWR, im Vereinigten Königreich oder im US-Bundesstaat Kalifornien ansässig?</string>
     <string name="login_dialog_consent_country_yes">Ja</string>
     <string name="login_dialog_consent_country_no">Nein</string>
@@ -79,7 +79,7 @@
     <string name="login_dialog_consent_done_title">Registrieren?</string>
     <string name="logout_dialog_message">Bist du dir sicher das du dich abmelden willst?</string>
     <string name="post_theme_9">Inflation</string>
-    <string name="upload_picker_quota_text_loading">Quote wird abgerufen …</string>
+    <string name="upload_picker_quota_text_loading">Kontigent wird abgerufen …</string>
     <string name="upload_quota_too_many_mb">Du kannst nur %1$d MB mit einem Kontingent von %2$d hochladen. Warte %3$d Minuten oder wähle kleinere Dateien!</string>
     <string name="login_dialog_register_confirm_message">Du bist dabei ein Konto mit %1$s zu erstellen. Eine Email wird an diese Adresse gesendet um es zu bestätigen.
 \n
@@ -423,15 +423,15 @@
 \n%1$s</string>
     <string name="post_media_failed_to_load">Konnte nicht geladen werden. Tippen um es erneut zu versuchen.</string>
     <string name="logged_out">Abgemeldet</string>
-    <string name="content_policy">Inhaltliche Politik</string>
-    <string name="terms_of_service">Bedingungen der Dienstleistung</string>
+    <string name="content_policy">Inhaltsrichtlinien</string>
+    <string name="terms_of_service">Nutzungsbedingungen</string>
     <string name="privacy_policy">Datenschutzbestimmungen</string>
     <string name="main_press_back_again_to_exit">Drücke zum Beenden erneut die Zurück-Taste!</string>
     <string name="login_or_register">Anmelden oder registrieren</string>
     <string name="login_instead">Anmeldung stattdessen</string>
     <string name="about_support">Über &amp; Unterstützung</string>
     <string name="open_drawer">Schublade öffnen</string>
-    <string name="close_drawer">Schublade schließen</string>
+    <string name="close_drawer">Menü schließen</string>
     <string name="close_reply">Antwort schließen</string>
     <string name="deleted_posts">Gelöschte Beiträge</string>
     <string name="account_deletions">Kontolöschungen</string>
@@ -501,4 +501,134 @@
     <string name="main_verify_email_snackbar_button">Verifizieren</string>
     <string name="chat_unmute_chat_positive">Stummschaltung Aufheben</string>
     <string name="chat_edit_rating_safe">Sicher</string>
+    <string name="search_all_any">Angleichen
+\nALLE/JEDE</string>
+    <string name="my_profile">Mein Profil</string>
+    <plurals name="seconds">
+        <item quantity="one">Sekunde</item>
+        <item quantity="other">Sekunden</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">Minute</item>
+        <item quantity="other">Minuten</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">Stunde</item>
+        <item quantity="other">Stunden</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">Tag</item>
+        <item quantity="other">Tage</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">Jahr</item>
+        <item quantity="other">Jahre</item>
+    </plurals>
+    <string name="deleted_account">Gelöschtes Konto</string>
+    <string name="verify_account_title">Kontoverifikation</string>
+    <string name="verify_account_subtitle">Um alle Funktionen nutzen zu können, musst du dein Konto verifizieren.
+\n
+\nPrüfe deinen Posteingang bei %1$s und gebe den Code ein, der dir unten zugesandt wurde.</string>
+    <string name="verify_account_code_hint">6- oder 7-stelligen Code eingeben</string>
+    <string name="verify_account_resend_code">Code erneut senden</string>
+    <string name="verify_account_resend_text">Hast du keine E-Mail erhalten? Klicke auf die Schaltfläche unten, um einen neuen Code zu senden</string>
+    <string name="verify_account_resend_code_success">Ein Code wurde dir per E-Mail gesendet</string>
+    <string name="verify_account_code">Code verifizieren</string>
+    <string name="verify_account_success">Erfolgreich! Dein Konto wurde verifiziert</string>
+    <string name="reset_password_title">Passwort zurücksetzen</string>
+    <string name="reset_password_subtitle">Hast du dein Passwort für dein Konto vergessen?
+\n
+\n1. Gib Sie unten deine E-Mail-Adresse ein, um ein neues Passwort zu erstellen.</string>
+    <string name="reset_password_new_password">2. Gebe dein neues Passwort ein und den Code den du per E-Mail bekommen hast.</string>
+    <string name="reset_password_password_hint">Neues Passwort eingeben</string>
+    <string name="reset_password_email_hint">Konto E-Mail eingeben</string>
+    <string name="reset_password_send_reset">Code zum Zurücksetzen des Passworts senden</string>
+    <string name="reset_password_code_hint">8- oder 9-stelligen Code eingeben</string>
+    <string name="reset_password_resend_code_success">Ein Code wurde dir per E-Mail geschickt</string>
+    <string name="reset_password_save">Neues Passwort speichern</string>
+    <string name="reset_password_success">Erfolgreich! Dein Passwort wurde geändert</string>
+    <string name="main_verify_email_title">Konto Verifikation benötigt</string>
+    <string name="main_verify_email_message">Drücke, um den Verifizierungsprozess zu starten</string>
+    <string name="main_verify_email_snackbar_text">Konto Verifikation benötigt</string>
+    <string name="main_complete_profile_title">Vervollständige Dein Profil</string>
+    <string name="main_complete_profile_message">Ändere deinen Namen, legeein Symbol fest und mehr</string>
+    <string name="main_update_app_title">App-Update verfügbar!</string>
+    <string name="main_update_app_message">Zum Aktualisieren drücken</string>
+    <string name="main_update_app_error">Fehlgeschlagen: %1$s</string>
+    <string name="main_update_app_failed">Update fehlgeschlagen</string>
+    <string name="main_update_app_ignore_dialog_title">Update ignorieren?</string>
+    <string name="main_update_app_ignore_dialog_message">Bist Du sicher, dass du dieses Update ignorieren willst?</string>
+    <string name="about_stats">Statistik</string>
+    <string name="about_stats_premium">Premium</string>
+    <string name="premium_purchased_item_activate_dialog_myself">Ich</string>
+    <string name="premium_purchased_item_activate_dialog_gift">Geschenk</string>
+    <string name="activate">Aktivieren</string>
+    <string name="anon_username">Benutzername</string>
+    <string name="anon_name">Name</string>
+    <string name="user_level">x%1$d</string>
+    <string name="example">Beispiel</string>
+    <string name="notification_type_new_below">Neu</string>
+    <string name="comment_separator">~</string>
+    <string name="delete_title">Löschen?</string>
+    <string name="comment_act_title">Kommentare</string>
+    <string name="comment_thread_act_title">Antworten</string>
+    <string name="hide">Verstecken</string>
+    <string name="report_sending">Melde…</string>
+    <string name="edit_edit">Bearbeite…</string>
+    <string name="ban_user_duration_permanent">Permanent</string>
+    <string name="unban_user_dialog_positive">Enbannen</string>
+    <string name="ban_user_dialog_positive">Bannen</string>
+    <string name="post_poll_vote">Abstimmen</string>
+    <string name="post_poll_error_button">Erneut versuchen</string>
+    <string name="post_rating_explicit">EXPLIZIT</string>
+    <string name="post_rating_safe">SICHER</string>
+    <string name="post_info_content">Beiträge / Themen:</string>
+    <string name="post_info_tags">Tags:</string>
+    <string name="profile_posts">Beiträge</string>
+    <string name="profile_following">Folge ich</string>
+    <string name="profile_followers">Follower</string>
+    <string name="at_symbol">\@</string>
+    <string name="at_username">\@%1$s</string>
+    <string name="profile_tab_about_presentation">Präsentation</string>
+    <string name="profile_tab_about_stats">Statistik</string>
+    <string name="profile_followers_unfollow_deleted_title">Entfolgen?</string>
+    <string name="post">Beitrag</string>
+    <string name="edit_profile_name_hint">Name</string>
+    <string name="edit_profile_username_hint">Benutzername</string>
+    <string name="edit_profile_image_option_remove">Entfernen</string>
+    <string name="edit_profile_settings">Einstellungen</string>
+    <string name="edit_profile_chip_public_favourites_4">Privat</string>
+    <string name="edit_profile_chip_public_comments_2">Privat</string>
+    <string name="edit_profile_chip_max_rating_1">Sicher</string>
+    <string name="downloading">Herunterladen…</string>
+    <string name="settings_consent_title">Zustimmen</string>
+    <string name="settings_ui_theme_item_light">Hell</string>
+    <string name="settings_ui_theme_item_dark">Dunkel</string>
+    <string name="consent_title">Zustimmen</string>
+    <string name="delete_account_loading">Laden…</string>
+    <string name="picker_video">Video</string>
+    <string name="picker_comic">Comic</string>
+    <string name="picker_camera">Kamera</string>
+    <string name="picker_title">Erstellen</string>
+    <string name="picker_poll">Umfrage</string>
+    <string name="picker_select">Auswählen</string>
+    <string name="picker_allow">Erlauben</string>
+    <string name="reason">Grund</string>
+    <string name="post_info_in_category2">Kategorien:</string>
+    <string name="edit_profile_chip_public_favourites_1">Öffentlich</string>
+    <string name="premium">Premium</string>
+    <string name="activated">Aktiviert</string>
+    <string name="notification_type_old_below">älter</string>
+    <string name="uploading_dots">Hochladen…</string>
+    <string name="edit_blocked_tags_saving">Speichern…</string>
+    <string name="report">Melden</string>
+    <string name="edit_mod">Moderation…</string>
+    <string name="post_rating_suggestive">ANZÜGLICH</string>
+    <string name="profile_content_about">Über</string>
+    <string name="profile_tab_about">Über</string>
+    <string name="comment_title">Kommentare</string>
+    <string name="follow">Folgen</string>
+    <string name="delete_account_deleting">Löschen…</string>
+    <string name="picker_gallery">Bild/GIF</string>
+    <string name="picker_text">Geschichte</string>
 </resources>
