@@ -647,7 +647,7 @@
     <string name="message_option_delete_title">Nachricht löschen</string>
     <string name="message_option_delete_body">Bist du sicher, dass du diese Nachricht löschen möchtest?</string>
     <string name="message_option_edit_error">Nachricht kann nicht bearbeitet werden: %1$s</string>
-    <string name="conversation_delete_title">Gespräch löschen?</string>
+    <string name="conversation_delete_title">Konversation löschen?</string>
     <string name="conversation_delete">Möchtest du diese Unterhaltung und alle Nachrichten löschen?</string>
     <string name="conversation_delete_deleted_failed">Konversation konnte nicht gelöscht werden: %1$s</string>
     <string name="conversation_delete_deleted_success">Konversation gelöscht</string>
@@ -690,4 +690,25 @@
     <string name="chat_group_members_count_online">%1$d Mitglieder, %2$d online</string>
     <string name="error_message_with_error">Fehler, bitte erneut versuchen: %1$s</string>
     <string name="conversation_delete_deleted_account">Der andere Benutzer hat sein Konto gelöscht, möchtest du diesen Chat löschen?</string>
+    <string name="chat_media_message">Bild Nachricht</string>
+    <string name="chat_group_add_members">Mitglied hinzufügen</string>
+    <string name="chat_group_invite_user_success">%1$s eingeladen!</string>
+    <string name="chat_role_with_online">%1$s
+\nonline</string>
+    <string name="chat_join">Chat beitereten</string>
+    <string name="chat_info_user_option_kick_success">%1$s Rausgeworfen</string>
+    <string name="chat_info_user_option_ban_success">%1$s gebannt</string>
+    <string name="chat_info_user_option_promote_to_mod_success">%1$s hochgestuft</string>
+    <string name="chat_info_user_option_demote_from_mod_success">%1$s abgestuft</string>
+    <string name="chat_info_user_option_unban_success">%1$s Entbannt</string>
+    <string name="chat_info_type_public">Öffentliche Gruppe</string>
+    <string name="chat_info_type_private">Private Gruppe</string>
+    <string name="chat_info_rating_adult">Erwachsene (18+)</string>
+    <string name="chat_open_joining">Trete Chat bei…</string>
+    <string name="chat_clear_history_title">Verlauf leeren</string>
+    <string name="chat_clear_history_positive">Alles löschen</string>
+    <string name="chat_leave_chat_title">Chat verlassen</string>
+    <string name="chat_leave_chat_positive">Chat verlassen</string>
+    <string name="chat_delete_chat_title">Chat löschen</string>
+    <string name="chat_delete_chat_positive">Chat löschen</string>
 </resources>
