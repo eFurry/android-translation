@@ -54,7 +54,7 @@
     <string name="login_dialog_consent_personalised_yes">Tak</string>
     <string name="login_dialog_consent_personalised_no">Nie</string>
     <string name="login_dialog_consent_done_title">Utworzyć konto?</string>
-    <string name="login_dialog_register_confirm_message">Zamierzasz stworzyć konto, używając adresu %1$s. Na ten adres zostanie wysłana wiadomość e-mail w celu potwierdzenia.
+    <string name="login_dialog_register_confirm_message">Zamierzasz utworzyć konto, używając adresu %1$s. Na ten adres zostanie wysłana wiadomość e-mail w celu potwierdzenia.
 \n
 \nKontynuować?</string>
     <string name="account_needed">Do wykonania tej akcji wymagane jest konto!</string>
@@ -489,13 +489,13 @@
     <string name="post_info_description">Opis: %1$s</string>
     <string name="post_info_background_desc">Obraz tła autora</string>
     <string name="post_info_favourited_by">Ilość polubień: %1$d</string>
-    <string name="post_item_like_desc">Polub ten post</string>
+    <string name="post_item_like_desc">Polub posta</string>
     <string name="post_item_fav_desc">Dodaj post do ulubionych</string>
     <string name="post_item_comment_desc">Zobacz komentarze do posta</string>
     <string name="post_item_info_desc">Wyświetl informacje o wpisie</string>
     <string name="post_item_cropped">Długie posty są przycinane. Dotknij, aby wyświetlić pełny rozmiar</string>
     <string name="post_fullscreen_progress">%1$d%% (%2$s/%3$s MB)</string>
-    <string name="media_fullscreen_dialog_body">Pobrać multimedia?</string>
+    <string name="media_fullscreen_dialog_body">Pobrać plik?</string>
     <string name="profile_title">Profil użytkownika %1$s</string>
     <string name="profile_followers">obserwujących</string>
     <string name="profile_following">obserwowanych</string>
@@ -509,11 +509,11 @@
     <string name="profile_tab_about_presentation">O mnie</string>
     <string name="profile_tab_about_stats">Statystyki</string>
     <string name="profile_followers_item_follower_for">Obserwuje od %1$s %2$s</string>
-    <string name="profile_followers_item_following_for">Obserwuje od %1$s %2$s</string>
+    <string name="profile_followers_item_following_for">Obserwujesz od %1$s %2$s</string>
     <string name="posts_gallery_title">Galeria użytkownika %1$s</string>
     <string name="posts_gallery_favs_title">Ulubione %1$s</string>
     <string name="posts_tag_search">Posty z tagiem: %1$s</string>
-    <string name="posts_category_search">Posty w %1$s</string>
+    <string name="posts_category_search">Posty z kategorii %1$s</string>
     <string name="posts_single_post_title">Post użytkownika %1$s</string>
     <string name="post_is_nsfw">Ten post jest NSFW!</string>
     <string name="edit_profile_title">Edytuj swój profil</string>
@@ -966,10 +966,10 @@
     <string name="post_info_tag_block_error">Nie udało się zablokować Tag %1$s: %2$s</string>
     <string name="liked_post_liked_ago">%1$s %2$s temu</string>
     <string name="liked_post_title">Polubiony przez</string>
-    <string name="profile_content_error">Nie udało się uzyskać profilu. Kliknij aby spróbować ponownie</string>
+    <string name="profile_content_error">Nie udało się załadować profilu. Dotknij, aby spróbować ponownie</string>
     <string name="profile_content_about">O</string>
-    <string name="profile_content_posts">Zobacz wszystkie %1$d Posty</string>
-    <string name="profile_content_favs">Zobacz wszystkie %1$d polubionych postów posty</string>
+    <string name="profile_content_posts">Zobacz wszystkie posty (%1$d)</string>
+    <string name="profile_content_favs">Zobacz wszystkie polubione posty (%1$d)</string>
     <string name="profile_content_favs_private">%1$d Prywatnie lubiane posty</string>
     <string name="profile_content_comments">Zobacz wszystkie %1$d komentarze</string>
     <string name="profile_content_comments_private">%1$d Prywatne komentarze</string>
@@ -987,18 +987,18 @@
     <string name="profile_gallery_menu_show_polls">Pokaż ankiety</string>
     <string name="profile_gallery_menu_show_videos">Pokaż filmy</string>
     <string name="profile_gallery_menu_show_comics">Pokaż komiksy</string>
-    <string name="user_comments_title">Komentarze %1$s</string>
-    <string name="profile_is_adult">Użytkownik ma przynajmniej 18 lat</string>
+    <string name="user_comments_title">Komentarze od %1$s</string>
+    <string name="profile_is_adult">Użytkownik ma conajmniej 18 lat</string>
     <string name="profile_followers_unfollow_deleted_title">Przestać obserwować?</string>
     <string name="profile_followers_unfollow_deleted_message">Czy chcesz przestać obserwować to usunięte konto?</string>
     <string name="post">Post</string>
     <string name="edit_profile_name_hint">Wyświetlana nazwa</string>
-    <string name="edit_profile_name_info">Wybierz fajną nazwę!</string>
-    <string name="edit_profile_username_info">Inni użytkownicy mogą wspomnieć o @twojej_nazwie.
-\nDozwolone znaki: a-z A-Z _-, i 0-9</string>
+    <string name="edit_profile_name_info">Wybierz grzeczną nazwę!</string>
+    <string name="edit_profile_username_info">Inni użytkownicy mogą oznaczać Cię jako @twoja_nazwa.
+\nDozwolone znaki: a-z, A-Z, _-. i 0–9</string>
     <string name="edit_profile_username_invalid">Twoja nazwa użytkownika zawiera nieprawidłowe znaki</string>
     <string name="edit_profile_edit_failed">Nie udało się zaktualizować profilu</string>
-    <string name="edit_profile_edit_username_taken">Błąd: ta nazwa użytkownika już istnieję!</string>
+    <string name="edit_profile_edit_username_taken">Błąd: nazwa użytkownika jest już zajęta!</string>
     <string name="edit_profile_edit_error">Błąd, spróbuj ponownie!</string>
     <string name="edit_profile_upload_icon_error">Nie udało się przesłać obrazu: %1$s</string>
     <string name="failed_to_read_file">Nie udało się odczytać pliku!</string>
@@ -1129,10 +1129,10 @@
         <item quantity="other">%1$d polubionych postów</item>
     </plurals>
     <plurals name="profile_stats_data_likes_received">
-        <item quantity="one">Otrzymano %1$d polubienie</item>
-        <item quantity="few">Otrzymano %1$d polubień</item>
-        <item quantity="many">Otrzymano %1$d polubień</item>
-        <item quantity="other">Otrzymano %1$d polubień</item>
+        <item quantity="one">Otrzymane %1$d polubienie</item>
+        <item quantity="few">Otrzymane %1$d polubienia</item>
+        <item quantity="many">Otrzymane %1$d polubień</item>
+        <item quantity="other">Otrzymane %1$d polubień</item>
     </plurals>
     <plurals name="profile_stats_data_comments_written">
         <item quantity="one">%1$d komentarz został napisany</item>
@@ -1141,22 +1141,22 @@
         <item quantity="other">%1$d komentarzy napisanych</item>
     </plurals>
     <plurals name="profile_stats_data_comments_received">
-        <item quantity="one">Otrzymano %1$d komentarz</item>
-        <item quantity="few">Otrzymano %1$d komentarzy</item>
-        <item quantity="many">Otrzymano %1$d komentarzy</item>
-        <item quantity="other">Otrzymano %1$d komentarzy</item>
+        <item quantity="one">Otrzymany %1$d komentarz</item>
+        <item quantity="few">Otrzymane %1$d komentarze</item>
+        <item quantity="many">Otrzymane %1$d komentarzy</item>
+        <item quantity="other">Otrzymane %1$d komentarzy</item>
     </plurals>
     <plurals name="profile_stats_data_premium_months">
-        <item quantity="one">Kupiono %1$d miesiąc premium</item>
-        <item quantity="few">Kupiono %1$d miesięcy premium</item>
-        <item quantity="many">Kupiono %1$d miesięcy premium</item>
-        <item quantity="other">Kupiono %1$d miesięcy premium</item>
+        <item quantity="one">Zakupiony %1$d miesiąc Premium</item>
+        <item quantity="few">Zakupione %1$d miesiące Premium</item>
+        <item quantity="many">Zakupione %1$d miesięcy Premium</item>
+        <item quantity="other">Zakupione %1$d miesięcy Premium</item>
     </plurals>
     <plurals name="profile_stats_data_levels">
-        <item quantity="one">Kupiono %1$d poziom konta</item>
-        <item quantity="few">Kupiono %1$d poziomów konta</item>
-        <item quantity="many">Kupiono %1$d poziomów konta</item>
-        <item quantity="other">Kupiono %1$d poziomów konta</item>
+        <item quantity="one">Zakupiony %1$d poziom konta</item>
+        <item quantity="few">Zakupione %1$d poziomy konta</item>
+        <item quantity="many">Zakupione %1$d poziomów konta</item>
+        <item quantity="other">Zakupione %1$d poziomów konta</item>
     </plurals>
     <plurals name="profile_stats_data_messages_sent">
         <item quantity="one">%1$d wiadomość wysłana</item>
@@ -1165,7 +1165,7 @@
         <item quantity="other">%1$d wiadomości wysłanych</item>
     </plurals>
     <string name="upload_chooser_video_thumbnail_generation_failed">Nie udało się stworzyć miniatury</string>
-    <string name="profile_stats_data_bytes_stored">Przechowano %1$d bajtów (%2$s MB)</string>
+    <string name="profile_stats_data_bytes_stored">Przechowuje %1$d bajtów (%2$s MB)</string>
     <string name="action_show_messages">Pokaż wiadomości</string>
     <string name="action_delete_account">Usuń konto</string>
     <string name="post_theme_22">Punkt widzenia</string>
@@ -1220,7 +1220,7 @@
     <string name="chat_join_confirm">Potwierdź że chcesz dołączyć do tego czatu</string>
     <string name="reset_password_new_password">2. Wprowadź twoje nowe hasło i kod otrzymany przez email poniżej.</string>
     <string name="chat_edit_secure_no">Nie bezpieczne</string>
-    <string name="edit_profile_about_ad_hint">O mnie (po ciemku)</string>
+    <string name="edit_profile_about_ad_hint">O mnie (After Dark)</string>
     <string name="settings_ui_title">Interfejs użytkownika i lokalizacja</string>
     <string name="delete_account_request_text_2_sub">Twoje konto będzie dezaktywowane przez miesiąc, zanim przetworzymy żądanie jego usunięcia. W tym czasie, jeśli zmienisz zdanie i zechcesz je odzyskać, należy nacisnąć przycisk „Anuluj żądanie usunięcia konta” lub wysłać e-mail na adres support@efurry.net, aby anulować usunięcie.</string>
     <string name="chat_edit_secure_no_desc">Zezwól na zrzuty ekranu</string>
@@ -1253,8 +1253,8 @@
     <string name="chat_edit_type_public_desc">Każdy może znaleźć i dołączyć ten czat. Historia czatu jest publiczna.</string>
     <string name="chat_edit_rating">Ocena czatu</string>
     <string name="chat_edit_rating_safe">Bezpieczny</string>
-    <string name="edit_profile_name_ad_hint">Nazwa po ciemku</string>
-    <string name="edit_profile_name_ad_info">Wybierz niegrzeczną nazwę!</string>
+    <string name="edit_profile_name_ad_hint">Wyświetlana nazwa AD</string>
+    <string name="edit_profile_name_ad_info">Wybierz pikantną nazwę!</string>
     <string name="delete_account_send_request_failed">Nie udało się wysłać żądania usunięcia: %1$s</string>
     <string name="delete_account_cancel_request_failed">Nie udało się anulować żądania usunięcia: %1$s</string>
     <string name="delete_account_refresh_failed">Nie udało się odświeżyć: %1$s</string>
@@ -1397,8 +1397,8 @@
     <string name="about_stats_premium_months">Miesiąców Premium: %1$d</string>
     <string name="notification_type_faved_post_multi_image">Lubi Twój wielo obrazowy post</string>
     <string name="profile_content_error_unfollow">Przestań obserwować użytkownika</string>
-    <string name="profile_content_error_unfollow_done">Sukces, już nie obserwujesz tego użytkownika</string>
-    <string name="edit_profile_bio_ad_info">Przedstaw się po ciemnej stronię!</string>
+    <string name="profile_content_error_unfollow_done">Sukces! Przestałeś obserwować tego użytkownika</string>
+    <string name="edit_profile_bio_ad_info">Powiedz coś o swojej \"ciemnej stronie\"! ;)</string>
     <string name="edit_profile_birthday_hidden_show">Ukryto, dotknij aby wyświetlić</string>
     <string name="edit_profile_birthday_year_button">Wybierz rok</string>
     <string name="edit_profile_birthday_month_button">Wybierz miesiąc</string>
