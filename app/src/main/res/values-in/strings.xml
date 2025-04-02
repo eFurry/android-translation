@@ -42,4 +42,17 @@
 \nKesalahan: %1$s
 \n
 \nMencoba kembali</string>
+    <string name="login_dialog_consent_country_yes">Ya</string>
+    <string name="login_dialog_consent_country_no">Tidak</string>
+    <string name="login_dialog_consent_age_title">Persetujuan</string>
+    <string name="login_dialog_consent_personalised_title">Iklan yang dipersonalisasi</string>
+    <string name="login_dialog_consent_personalised_yes">Ya</string>
+    <string name="login_dialog_consent_personalised_no">Tidak</string>
+    <string name="login_dialog_consent_done_title">Daftar?</string>
+    <string name="login_dialog_register_confirm_message">Anda akan mendaftarkan akun dengan menggunakan %1$s. Email akan dikirim ke alamat ini untuk mengonfirmasinya.
+\n
+\nLanjutkan?</string>
+    <string name="account_needed">Diperlukan akun untuk melakukan tindakan ini!</string>
+    <string name="login_dialog_consent_country_message">Apakah Anda penduduk EU/EEA, Inggris, atau negara bagian California di Amerika Serikat?</string>
+    <string name="login_dialog_consent_personalised_message">Aplikasi ini berisi iklan. Apakah Anda ingin iklan tersebut dipersonalisasi (relevan dengan Anda)?</string>
 </resources>
