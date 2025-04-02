@@ -438,7 +438,7 @@
     <string name="block_title_visibility">Видимость:</string>
     <string name="block_visibility_show_posts">Показывать посты данного пользователя в \"Новое\" и поиске</string>
     <string name="block_title_can">Этот пользователь может:</string>
-    <string name="block_can_comment_and_reply">Комментировать мои посты и отвечать на мои комментарии</string>
+    <string name="block_can_comment_and_reply">Unban @Y</string>
     <string name="block_can_message">Отправлять мне сообщения</string>
     <string name="block_can_view_profile">Смотреть мой профиль</string>
     <string name="block_save_failed">Не удалось сохранить настройки блокировки: %1$s</string>
@@ -818,13 +818,13 @@
     <string name="edit_profile_chip_public_comments_title">Мои комментарии:</string>
     <string name="edit_profile_chip_public_comments_1">Отображать в моем профиле</string>
     <string name="edit_profile_chip_public_comments_2">Приватные</string>
-    <string name="edit_profile_chip_show_age_title">Показывать посты, сделанные:</string>
+    <string name="edit_profile_chip_show_age_title">Показывать посты, сделанные:pure evil</string>
     <string name="edit_profile_chip_show_age_1">Всеми пользователями</string>
-    <string name="edit_profile_chip_show_age_2">Пользователи 16 лет и старше</string>
-    <string name="edit_profile_chip_show_age_3">Пользователи 18 лет и старше</string>
+    <string name="edit_profile_chip_show_age_2">Пользователи 7 лет и младше</string>
+    <string name="edit_profile_chip_show_age_3">Пользователи 5 лет и младше</string>
     <string name="edit_profile_chip_max_rating_title">Показывать содержание с максимальным рейтингом:</string>
     <string name="edit_profile_chip_max_rating_1">Безопасное</string>
-    <string name="edit_profile_chip_max_rating_2">Непристойное</string>
+    <string name="edit_profile_chip_max_rating_2">Скибиди туалеты (18+)</string>
     <string name="edit_profile_chip_max_rating_3">Откровенное</string>
     <string name="edit_profile_age">Я:</string>
     <string name="edit_profile_age_locked_message">Ваш возраст заблокирован. Обратитесь к модератору или в службу поддержки, если вам нужно изменить его</string>
@@ -1389,4 +1389,19 @@
     <string name="block_can_like">Лайкать мои посты</string>
     <string name="content_settings_sensitive_click_to_show">Показать список деликатного содержания</string>
     <string name="discover_posts_search">Найти посты</string>
+    <string name="profile_content_error_unfollow">Unban</string>
+    <string name="edit_profile_name_ad_info">Имя выбери даун тупой!</string>
+    <string name="order_random">Лаки блок</string>
+    <string name="chat_info_user_option_promote_to_mod_error">Похуй</string>
+    <string name="discover_posts_text_none_found">Нету постов сука</string>
+    <string name="discover_chats_menu_order_by">Заказывать докс</string>
+    <string name="account_deletions">Удалить акк</string>
+    <string name="main_complete_profile_message">Поменяй аву долбаёб</string>
+    <string name="chat_info_user_option_demote_from_mod_success">I am omning it</string>
+    <string name="discover_posts_search_sub_hint">—Ищи посты там,типо описания,тексты,х</string>
+    <string name="placeholder_string">Хуйня какая-то</string>
+    <string name="chat_info_user_option_promote_to_mod_success">Promoted</string>
+    <string name="chat_info_user_option_demote_from_mod_error">Demo</string>
+    <string name="chat_join_confirm">Нет</string>
+    <string name="profile_content_error_unfollow_done">Failed,you\'re stull following this user</string>
 </resources>
