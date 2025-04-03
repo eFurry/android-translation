@@ -1362,4 +1362,5 @@
     <string name="delete_account_request_text_1_sub">Коли натиснете \"Відправити запит видалення аккаунта\" ваш аккаунт буде деактивовано і позначено на видалення. Вам надійде лист підтвердження.</string>
     <string name="modmail_empty_text">У вас щє нема повідомлень для модераторів!</string>
     <string name="discover_users_menu_order_by">Групувати користувачів</string>
+    <string name="discover_posts_search_sub_hint">Шукати в назвах постів, описах, тексті, авторах та тегах. Пошук не чутливий до розміру літер (А=а).</string>
 </resources>
