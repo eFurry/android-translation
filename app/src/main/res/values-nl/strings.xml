@@ -1350,4 +1350,13 @@
     <string name="content_settings_sensitive_desc">Sommige kinks kunnen alleen worden beheerd op de website: %1$s</string>
     <string name="delete_account_posts_confirm">Weet u het zeker? Al uw posts worden verwijderd als u bevestigt.</string>
     <string name="delete_account_send_request_confirm">Weet u het zeker? Door te bevestigen wordt uw account gedeactiveerd. Over een maand worden al uw posts, reacties, berichten en alle andere data verwijderd.</string>
+    <string name="discover_posts_search">Zoeken naar berichten</string>
+    <string name="discover_posts_search_sub_hint">Zoek in posttitels, beschrijvingen, teksten, artiesten en tags. Het zoeken is hoofdletterongevoelig.</string>
+    <string name="discover_posts_text_none_found">Geen berichten gevonden voor %1$s</string>
+    <string name="order_random">Willekeurig</string>
+    <string name="placeholder_string">%1$s</string>
+    <string name="chat_join_confirm">Bevestig dat je aan deze chat wilt deelnemen</string>
+    <string name="profile_content_error_unfollow">Gebruiker ontvolgen</string>
+    <string name="profile_content_error_unfollow_done">Succes, je volgt deze gebruiker niet langer</string>
+    <string name="discover_posts_search_hint">Voer tekst in om te zoeken naar</string>
 </resources>

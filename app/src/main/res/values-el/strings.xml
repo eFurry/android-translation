@@ -36,10 +36,73 @@
     <string name="action_edit_profile">Επεξεργασία προφίλ</string>
     <string name="action_delete_chat">Διαγραφή μυνήματος</string>
     <string name="google_play_services_missing_error">Οι υπηρεσίες Google Play απαιτούνται για τη χρήση αυτής της εφαρμογής!</string>
-    <string name="action_block_user">Μπλόκ/κατάργηση μπλοκ</string>
+    <string name="action_block_user">Μπλοκ/ξεμπλοκάρισ…</string>
     <string name="action_verify_email">Επιβεβαίωση ηλεκτρονικού ταχυδρομείου</string>
     <string name="launcher_creating_guest_account_error">Δημιουργία λογαριασμού επισκέπτη 
 \nΣφάλμα:%1$s
 \n
 \nΕπανάληψη</string>
+    <string name="launcher_fetching_config_error">Λήψη διαμόρφωσης
+\nΣφάλμα:%1$s
+\n
+\nΓευστικός</string>
+    <string name="launcher_save_token_error">Αποτυχία αποθήκευσης διακριτικού:%1$s</string>
+    <string name="login_password_text">Εισαγάγετε τον κωδικό πρόσβασής σας</string>
+    <string name="legal_notice_launch">Συνεχίζοντας να επιβεβαιώνετε ότι έχετε διαβάσει και συμφωνείτε με τους Όρους Παροχής Υπηρεσιών και την Πολιτική Προστασίας Προσωπικών Δεδομένων:</string>
+    <string name="login_password_too_short">Το ελάχιστο μήκος κωδικού πρόσβασης είναι 8 χαρακτήρες</string>
+    <string name="login_register_accept">Αποδεχτείτε τόσο την Πολιτική Προστασίας Προσωπικών Δεδομένων όσο και τους Όρους Παροχής Υπηρεσιών</string>
+    <string name="login_username_too_short">Το ελάχιστο μήκος ονόματος χρήστη είναι 3 χαρακτήρες</string>
+    <string name="login_username_too_long">Το μέγιστο μήκος ονόματος χρήστη είναι 22 χαρακτήρες</string>
+    <string name="login_invalid_email_pw">Μη έγκυρο email και/ή κωδικός πρόσβασης</string>
+    <string name="login_register_set_age">Ρυθμίστε την ημερομηνία γέννησής σας για εγγραφή</string>
+    <string name="login_register_error">Αποτυχία εγγραφής: %1$s</string>
+    <string name="login_dialog_consent_country_title">Η τοποθεσία σας</string>
+    <string name="launcher_updating_account_settings">Λήψη ρυθμίσεων λογαριασμού</string>
+    <string name="launcher_server_status">Ελέγξτε την κατάσταση του διακομιστή</string>
+    <string name="launcher_reset_button">Αποσύνδεση / επαναφορά</string>
+    <string name="login_title">Καλώς ήλθατε στο Efur!</string>
+    <string name="login_subtitle">Συνδεθείτε ή εγγραφείτε για να συνεχίσετε</string>
+    <string name="login_email_text">Εισαγάγετε το email σας</string>
+    <string name="login_reset">Επαναφέρετε κωδικό πρόσβασης</string>
+    <string name="login_new_user">Νέος χρήστης; Εγγραφή αντ \'αυτού</string>
+    <string name="legal_notice_checkbox">"Συμφωνώ με το "</string>
+    <string name="legal_ad_checkbox">Συμφωνώ με εξατομικευμένες διαφημίσεις</string>
+    <string name="login_invalid_email">Μη έγκυρη διεύθυνση email</string>
+    <string name="login_dialog_consent_country_message">Είστε κάτοικος του ΕΕ/ΕΟΧ, του Ηνωμένου Βασιλείου ή της Πολιτείας της Καλιφόρνιας στις ΗΠΑ;</string>
+    <string name="login_dialog_consent_country_yes">Ναί</string>
+    <string name="login_dialog_consent_country_no">Οχι</string>
+    <string name="login_dialog_consent_age_title">Συγκατάθεση</string>
+    <string name="login_dialog_consent_personalised_message">Η εφαρμογή περιέχει διαφημίσεις. Θέλετε να είναι εξατομικευμένα (σχετικά με εσάς);</string>
+    <string name="login_dialog_consent_personalised_title">Εξατομικευμένες διαφημίσεις</string>
+    <string name="login_dialog_consent_personalised_yes">Ναί</string>
+    <string name="login_dialog_consent_personalised_no">Οχι</string>
+    <string name="login_dialog_consent_done_title">ιδίωμα?</string>
+    <string name="login_dialog_register_confirm_message">Πρόκειται να καταχωρήσετε έναν λογαριασμό χρησιμοποιώντας %1$s. Ένα email θα αποσταλεί σε αυτή τη διεύθυνση για να το επιβεβαιώσει.
+\n
+\nΣυνεχίζω;</string>
+    <string name="account_needed">Απαιτείται ένας λογαριασμός για την εκτέλεση αυτής της ενέργειας!</string>
+    <string name="reset_password_dialog_title">Επαναφέρετε κωδικό πρόσβασης</string>
+    <string name="reset_password_dialog_message">Αυτό θα στείλει ένα email επαναφοράς κωδικού πρόσβασης σε \"%1$s\".
+\nΚάντε κλικ στο σύνδεσμο στο email για να επαναφέρετε τον κωδικό πρόσβασής σας
+\n
+\nΘέλετε να συνεχίσετε;</string>
+    <string name="reset_password_error">Σφάλμα: %1$s</string>
+    <string name="reset_password_sent">Ένα email επαναφοράς κωδικού πρόσβασης στάλθηκε στο \"%1$s\"</string>
+    <string name="register_success">Λογαριασμός που δημιουργήθηκε, Καλώς ήλθατε στο EFUR!</string>
+    <string name="login_expired_session">Η συνεδρία έληξε, παρακαλώ συνδεθείτε ξανά!</string>
+    <string name="logout_dialog_title">Αποσυνδεθείτε?</string>
+    <string name="logout_dialog_message">Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε?</string>
+    <string name="post_category_0">Γενικός</string>
+    <string name="post_category_1">Έργα τέχνης (ψηφιακό)</string>
+    <string name="post_category_2">Έργα τέχνης (παραδοσιακό)</string>
+    <string name="post_category_3">Φουσκωτά και κοστούμια</string>
+    <string name="post_category_4">Ζώα και κατοικίδια ζώα</string>
+    <string name="post_category_6">Αστεία και μιμίδια</string>
+    <string name="post_category_7">Aww &amp; χαριτωμένο</string>
+    <string name="post_category_8">Φωτογραφία</string>
+    <string name="post_category_9">IRL</string>
+    <string name="post_category_10">Χειροτεχνία και γλυπτική</string>
+    <string name="post_category_11">γραμμή</string>
+    <string name="post_category_12">Ιστορία σε εικόνες</string>
+    <string name="post_category_13">Ιστορίες / κείμενο</string>
 </resources>
