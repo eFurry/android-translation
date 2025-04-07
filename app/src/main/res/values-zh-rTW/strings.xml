@@ -10,4 +10,5 @@
     <string name="action_delete_comic">Erase</string>
     <string name="action_edit_profile">Delete the furry pfp</string>
     <string name="action_view_blocked">Don\'t click</string>
+    <string name="action_report_user">Hornify user</string>
 </resources>
