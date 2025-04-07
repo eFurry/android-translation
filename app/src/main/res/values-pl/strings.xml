@@ -59,12 +59,12 @@
 \nKontynuować?</string>
     <string name="account_needed">Do wykonania tej akcji wymagane jest konto!</string>
     <string name="reset_password_dialog_title">Odzyskiwanie hasła</string>
-    <string name="reset_password_dialog_message">Spowoduje to wysłanie e-maila umożliwiającego zmianę hasła na adres „%1$s”.
-\nKliknij link w e-mailu, aby zmienić hasło.
+    <string name="reset_password_dialog_message">Na adres \"%1$s\" zostanie wysłany e-mail z linkiem do zresetowania hasła.
+\nKliknij link w wiadomości, aby ustawić nowe hasło.
 \n
 \nCzy chcesz kontynuować?</string>
     <string name="reset_password_error">Błąd: %1$s</string>
-    <string name="reset_password_sent">E-mail resetujący hasło został wysłany na adres \"%1$s\"</string>
+    <string name="reset_password_sent">Na adres \"%1$s\" wysłano wiadomość z instrukcją zmiany hasła</string>
     <string name="register_success">Konto utworzone, witamy na eFur!</string>
     <string name="logout_dialog_title">Wylogować?</string>
     <string name="logout_dialog_message">Czy na pewno chcesz się wylogować?</string>
@@ -120,7 +120,7 @@
     <string name="crop">Przytnij</string>
     <string name="upload_text_content_hint">Treść posta</string>
     <string name="upload_text_too_short_error">Wpisz tytuł lub jakąś treść!</string>
-    <string name="upload_policy_text">"Pamiętaj, aby przestrzegać "</string>
+    <string name="upload_policy_text">"Pamiętaj, że obowiązuje "</string>
     <string name="upload_poll_too_short_question">Napisz dłuższe zapytanie!</string>
     <string name="upload_poll_not_enough_options">Dodaj co najmniej dwie opcje</string>
     <string name="upload_settings_title">Szczegóły dotyczące posta</string>
@@ -200,7 +200,7 @@
     <string name="social">Społeczność</string>
     <string name="feedback">Opinia</string>
     <string name="translate">Tłumaczenia</string>
-    <string name="contributors">Uczestnicy</string>
+    <string name="contributors">Współtwórcy</string>
     <string name="notifications">Powiadomienia</string>
     <string name="settings">Ustawienia</string>
     <string name="support">Pomoc</string>
@@ -588,9 +588,9 @@
     <string name="delete_account_deleting">Usuwanie…</string>
     <string name="email_not_verified_dialog_message">Najpierw musisz zweryfikować swój adres e-mail!
 \n
-\nKliknij przycisk z linkiem, który został wysłany na adres %1$s i spróbuj ponownie lub zrestartuj aplikację.
+\nKliknij w link, który został wysłany na %1$s, a następnie spróbuj ponownie lub zrestartuj aplikację.
 \n
-\nJeżeli nie otrzymałeś wiadomości e-mail, wyloguj się i zaloguj ponownie, a powinieneś otrzymać nową.</string>
+\nJeśli nie otrzymałeś(-aś) e-maila, wyloguj się i zaloguj ponownie, aby otrzymać nowy.</string>
     <string name="email_verification_dialog_title">Weryfikacja adresu e-mail</string>
     <string name="email_verification_dialog_message">Witamy na eFur!
 \n
@@ -645,14 +645,14 @@
     <string name="action_delete_all_comments">Oczyść komentarze użytkownika</string>
     <string name="action_verify_email">Zweryfikuj adres e-mail</string>
     <string name="action_start_chat">Rozpocznij czat</string>
-    <string name="action_create_1_1_chat">Rozpocznij czat 1: 1</string>
-    <string name="action_create_group_chat">Rozpocznij czat grupowy</string>
+    <string name="action_create_1_1_chat">Rozpocznij czat prywatny</string>
+    <string name="action_create_group_chat">Utwórz czat grupowy</string>
     <string name="action_delete_chat">Usuń czat</string>
     <string name="action_leave_chat">Wyjdź z czatu</string>
     <string name="launcher_reset_button">Wyloguj się / zresetuj</string>
     <string name="launcher_save_token_error">Nie udało się załadować tokenu: %1$s</string>
     <string name="legal_ad_checkbox">Zgadzam się na spersonalizowane reklamy</string>
-    <string name="login_invalid_email_pw">Nieprawidłowy e -mail i/lub hasło</string>
+    <string name="login_invalid_email_pw">Błędny e-mail i/lub hasło</string>
     <string name="login_register_error">Nie udało się zarejestrować: %1$s</string>
     <string name="login_register_age">Mam 13 lat lub starsze</string>
     <string name="login_register_age_error">Musisz potwierdzić, że masz 13 lat lub starsze, aby korzystać z tej aplikacji!</string>
@@ -1024,22 +1024,22 @@
     <string name="edit_blocked_tags_body">Tagi, które chcesz zablokować oddziel od siebie spacją lub wpisuj od nowego wiersza. Posty zawierające którykolwiek z tych tagów zostaną ukryte.</string>
     <string name="edit_blocked_tags_edit_text_info">Blokowane tagi</string>
     <string name="edit_blocked_tags_saving">Zapisywanie…</string>
-    <string name="edit_blocked_tags_saved">Lista blokowania tagów została zapisana.</string>
+    <string name="edit_blocked_tags_saved">Lista blokowania tagów została zapisana</string>
     <string name="edit_blocked_tags_save_error">Nie udało się zapisać blokowanych tagów: %1$s</string>
-    <string name="settings_danger_change_email_title">Zmień adres e -mail konta</string>
+    <string name="settings_danger_change_email_title">Zmień adres e-mail do konta</string>
     <string name="settings_danger_change_email_message">Jeśli chcesz zmienić adres e-mail używany do logowania się na swoje konto, możesz to zrobić tutaj.
 \n
 \nAktualny adres e-mail: %1$s</string>
-    <string name="settings_danger_change_email_confirm_title">Potwierdź zmianę e -maila</string>
+    <string name="settings_danger_change_email_confirm_title">Potwierdź zmianę adresu e-mail</string>
     <string name="settings_danger_change_email_confirm_message">Aby potwierdzić zmianę adresu e-mail, wprowadź nowy adres ponownie.
 \n
 \nAktualny adres e-mail: %1$s
 \nNowy adres e-mail: %2$s</string>
     <string name="settings_danger_change_email_hint">Nowy adres email</string>
-    <string name="settings_danger_change_email_no_match">Adresy e-mail się nie zgadzają</string>
+    <string name="settings_danger_change_email_no_match">Adresy e-mail się nie pokrywają</string>
     <string name="settings_danger_change_email_saving">Zmiana adresu e-mail…</string>
-    <string name="settings_danger_change_email_saving_error">Nie udało się zmienić e -maila: %1$s</string>
-    <string name="settings_danger_change_email_saving_success">Sukces! Adres e-mail został zmienony na %1$s</string>
+    <string name="settings_danger_change_email_saving_error">Nie udało się zmienić adresu e-mail: %1$s</string>
+    <string name="settings_danger_change_email_saving_success">Sukces! Adres e-mail został zmieniony na %1$s</string>
     <string name="modmail_empty_text">Nie masz jeszcze modmailu!</string>
     <string name="discover_users_title">Przeglądaj użytkowników</string>
     <string name="discover_users_member_for">Dołączył %1$s %2$s temu</string>
@@ -1297,7 +1297,7 @@
     <string name="post_type_texts">Ankiety tekstowe</string>
     <string name="post_type_multi_images">Posty z wieloma obrazkami</string>
     <string name="discover_chats">Czaty</string>
-    <string name="about_stats_premium_levels">Poniesionych poziomów: %1$d</string>
+    <string name="about_stats_premium_levels">Podniesionych poziomów: %1$d</string>
     <string name="edit_profile_removed_icon">Awatar został usunięty</string>
     <string name="edit_profile_removed_background">Tło profilowe zostało usunięte</string>
     <string name="post_types">Typy postów</string>
@@ -1346,11 +1346,11 @@
     <string name="verify_account_resend_code_success">Kod został wysłany na twój email</string>
     <string name="verify_account_code">Zweryfikuj kod</string>
     <string name="reset_password_title">Zresetuj hasło</string>
-    <string name="reset_password_subtitle">Zapomniałeś(aś) hasła do swojego konta?
+    <string name="reset_password_subtitle">Zapomniałeś(-aś) hasła?
 \n
-\n1. Wprowadź swój adres e-mail poniżej, aby rozpocząć tworzenie nowego hasła.</string>
+\n1. Wprowadź swój adres e-mail, aby utworzyć nowe.</string>
     <string name="reset_password_password_hint">Wprowadź nowe hasło</string>
-    <string name="reset_password_email_hint">Wpisz adres e-mail powiązany z kontem</string>
+    <string name="reset_password_email_hint">Wprowadź adres e-mail powiązany z kontem</string>
     <string name="reset_password_send_reset">Wyślij kod resetowania hasła</string>
     <string name="reset_password_code_hint">Wprowadź kod składający się z 8 lub 9 cyfr</string>
     <string name="reset_password_resend_code_success">Kod został wysłany na Twój adres e-mail</string>
