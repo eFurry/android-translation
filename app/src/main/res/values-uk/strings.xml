@@ -42,7 +42,7 @@
     <string name="login_password_text">Введіть ваш пароль</string>
     <string name="login_reset">Збросити пароль</string>
     <string name="legal_notice_checkbox">"Я погоджуюся з "</string>
-    <string name="legal_ad_checkbox">Я погоджуюся з персоналізацією рекламою</string>
+    <string name="legal_ad_checkbox">Я погоджуюся з персоналізацією реклами</string>
     <string name="login_invalid_email">Невірна адреса пошти</string>
     <string name="login_password_too_short">Мінімальна довжина пароля - 8 символів</string>
     <string name="login_username_too_short">Мінімальна довжина імені користувача - 3 символи</string>
@@ -66,7 +66,7 @@
     <string name="login_expired_session">Сесія закінчилася, будь ласка увійдіть щє раз!</string>
     <string name="logout_dialog_title">Вийти?</string>
     <string name="logout_dialog_message">Ви впевнені що хочете вийти з аккаунта?</string>
-    <string name="post_category_0">Загальна</string>
+    <string name="post_category_0">Загальне</string>
     <string name="post_category_1">Цифрова художня робота</string>
     <string name="post_category_2">Традиційна художня робота</string>
     <string name="post_category_3">Фурс\'юти та костюми</string>
@@ -79,7 +79,7 @@
     <string name="post_category_25">Питання і відповіді</string>
     <string name="post_category_14">Замовлення</string>
     <string name="post_category_15">Аукціони / YCH</string>
-    <string name="post_category_16">Придбання</string>
+    <string name="post_category_16">Придбання/отримання</string>
     <string name="post_category_30">Одяг та макіяж</string>
     <string name="post_category_17">Ігри</string>
     <string name="post_category_28">Музика</string>
