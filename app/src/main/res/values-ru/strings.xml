@@ -1389,7 +1389,6 @@
     <string name="block_can_like">Лайкать мои посты</string>
     <string name="content_settings_sensitive_click_to_show">Показать список деликатного содержания</string>
     <string name="discover_posts_search">Найти посты</string>
-    <string name="profile_content_error_unfollow"></string>
     <string name="edit_profile_name_ad_info">Выбери озорное имя!</string>
     <string name="order_random">Случайный</string>
     <string name="chat_info_user_option_promote_to_mod_error">Акция не удалась: %1$s</string>
@@ -1397,7 +1396,6 @@
     <string name="discover_chats_menu_order_by">Заказать чаты</string>
     <string name="account_deletions">Удалить акк</string>
     <string name="main_complete_profile_message">Измените свое имя, установите значок и т. д.</string>
-    <string name="chat_info_user_option_demote_from_mod_success"></string>
     <string name="discover_posts_search_sub_hint">Поиск в заголовках постов, описаниях, текстах, исполнителях и тегах. Поиск нечувствителен к регистру.</string>
     <string name="placeholder_string">%1$s</string>
     <string name="chat_info_user_option_promote_to_mod_success">Продвинут %1$s</string>
