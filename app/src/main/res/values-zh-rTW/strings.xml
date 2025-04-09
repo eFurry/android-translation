@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_log_out">GET TF OUT</string>
-    <string name="action_edit_title">CORRECT YOUR MISERABLE MISTAKES</string>
-    <string name="action_log_in">GET IN,FOLK</string>
-    <string name="action_settings">Some things,cool</string>
-    <string name="action_create">CREATE THY CREATIONS</string>
-    <string name="action_clear_all">DEMOLISH EVERYTHIN\'</string>
-    <string name="action_reorder_comic">SMART TEXT</string>
-    <string name="action_delete_comic">Erase</string>
-    <string name="action_edit_profile">Delete the furry pfp</string>
-    <string name="action_view_blocked">Don\'t click</string>
-    <string name="action_report_user">Hornify user</string>
+    <string name="action_log_out"></string>
+    <string name="action_edit_title"></string>
+    <string name="action_log_in"></string>
+    <string name="action_settings"></string>
+    <string name="action_create"></string>
+    <string name="action_clear_all"></string>
+    <string name="action_reorder_comic"></string>
+    <string name="action_delete_comic"></string>
+    <string name="action_edit_profile"></string>
+    <string name="action_view_blocked"></string>
+    <string name="action_report_user"></string>
 </resources>
