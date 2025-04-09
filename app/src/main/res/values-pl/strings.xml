@@ -129,11 +129,11 @@
     <string name="upload_settings_artist_name">Oryginalny twórca/artysta</string>
     <string name="upload_settings_source">Link do źródła (https://…)</string>
     <string name="upload_settings_rating_title">Ten post jest klasyfikowany jako:</string>
-    <string name="upload_settings_rating_safe">Bezpieczny (SFW)</string>
+    <string name="upload_settings_rating_safe">SFW</string>
     <string name="upload_settings_rating_suggestive">Sugestywny</string>
-    <string name="upload_settings_rating_explicit">Nieodpowiedni (NSFW)</string>
+    <string name="upload_settings_rating_explicit">NSFW</string>
     <string name="upload_settings_rating_safe_hint">Bezpieczny (SFW) - odpowiedni dla każdego przedziału wiekowego.</string>
-    <string name="upload_settings_rating_suggestive_hint">Sugestywny - sugestywna treść, gustowna/artystyczna nagość lub podteksty dla dojrzałych osób</string>
+    <string name="upload_settings_rating_suggestive_hint">Sugestywny - sugestywna treść, gustowna/artystyczna nagość lub podteksty dla dojrzałych osób (18+)</string>
     <string name="upload_settings_rating_explicit_hint">Nieodpowiedni (NSFW) - treści dla dorosłych.</string>
     <string name="upload_settings_hidden">Ukryj posta z sekcji Nowe</string>
     <string name="upload_settings_hidden_hint">Post nie będzie widoczny w sekcji Nowe</string>
@@ -810,7 +810,7 @@
     <string name="chat_create_group_dialog_input_hint">Nazwa grupy (można zmienić później)</string>
     <string name="chat_create_group_creating">Tworzenie grupy…</string>
     <string name="chat_create_group_created">Grupa stworzona!</string>
-    <string name="chat_control_message_3">%1$s dołączył</string>
+    <string name="chat_control_message_3">%1$s dołącza</string>
     <string name="chat_control_message_4">%1$s opuszcza czat</string>
     <string name="chat_control_message_5">%1$s wyrzuca %2$s</string>
     <string name="chat_control_message_6">%1$s banuje %2$s</string>
@@ -1042,7 +1042,7 @@
     <string name="settings_danger_change_email_saving_success">Sukces! Adres e-mail został zmieniony na %1$s</string>
     <string name="modmail_empty_text">Nie masz jeszcze modmailu!</string>
     <string name="discover_users_title">Przeglądaj użytkowników</string>
-    <string name="discover_users_member_for">Dołączył %1$s %2$s temu</string>
+    <string name="discover_users_member_for">Dołączył(a) %1$s %2$s temu</string>
     <string name="discover_users_order_followers_item">%1$d Obserwatorzy</string>
     <string name="discover_users_order_likes_item">%1$d polubienia otrzymane</string>
     <string name="discover_users_order_posts_item">%1$d Posty</string>
@@ -1225,9 +1225,9 @@
     <string name="delete_account_request_text_2_sub">Twoje konto będzie dezaktywowane przez miesiąc, zanim przetworzymy żądanie jego usunięcia. W tym czasie, jeśli zmienisz zdanie i zechcesz je odzyskać, należy nacisnąć przycisk „Anuluj żądanie usunięcia konta” lub wysłać e-mail na adres support@efurry.net, aby anulować usunięcie.</string>
     <string name="chat_edit_secure_no_desc">Zezwala na zrzuty ekranu</string>
     <string name="account_deletions">Usuwanie kont</string>
-    <string name="verify_account_subtitle">By użyć wszystkich funkcji musisz zweryfikować swoje konto.
+    <string name="verify_account_subtitle">Aby uzyskać dostęp do wszystkich funkcji, musisz zweryfikować swoje konto.
 \n
-\nSprawdź swoją skrzynkę %1$s i wprowadź kod który został wysłany do ciebie poniżej.</string>
+\nSprawdź skrzynkę odbiorczą na adresie %1$s i wprowadź kod, który otrzymałeś.</string>
     <string name="main_verify_email_snackbar_text">Wymagana weryfikacja konta</string>
     <string name="chat_control_message_14">%1$s zmienia typ czatu na Prywatny</string>
     <string name="settings_danger_reset_password_title">Zmień hasło</string>
@@ -1340,11 +1340,11 @@
     <string name="december">Grudzień</string>
     <string name="plus_number">+%1$d</string>
     <string name="placeholder_string">%1$s</string>
-    <string name="verify_account_code_hint">Wpisz 6 lub 7 cyfrowy kod</string>
-    <string name="verify_account_resend_code">Wyślij kod ponownie</string>
-    <string name="verify_account_resend_text">Nie dostałeś emailu? Kliknij przycisk poniżej aby wysłać nowy kod</string>
-    <string name="verify_account_resend_code_success">Kod został wysłany na twój email</string>
-    <string name="verify_account_code">Zweryfikuj kod</string>
+    <string name="verify_account_code_hint">Wprowadź kod złożony z 6 lub 7 cyfr</string>
+    <string name="verify_account_resend_code">Prześlij kod ponownie</string>
+    <string name="verify_account_resend_text">Nie dotarł do Ciebie e-mail? Wyślij nowy kod, wybierając opcję poniżej</string>
+    <string name="verify_account_resend_code_success">Kod został wysłany na Twój adres e-mail</string>
+    <string name="verify_account_code">Kod weryfikacyjny</string>
     <string name="reset_password_title">Zresetuj hasło</string>
     <string name="reset_password_subtitle">Zapomniałeś(-aś) hasła?
 \n
