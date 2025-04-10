@@ -288,7 +288,7 @@
 \n
 \nПомилка: %2$s</string>
     <string name="failed_to_get_posts">Помилка отримання постів: %1$s</string>
-    <string name="post_info_none">Нема</string>
+    <string name="post_info_none">Нема інформації</string>
     <string name="post_not_found">Не знайдено пост</string>
     <string name="post_media_failed_to_load">Помилка завантажити. Натисніть щоб спробувати щє.</string>
     <string name="post_reposted">%1$s перепубліковано</string>
@@ -302,7 +302,7 @@
     <string name="cancel">Припинити</string>
     <string name="ok">Ок</string>
     <string name="copy">Скопіювати</string>
-    <string name="search">Шукати</string>
+    <string name="search">Пошук</string>
     <string name="new_">Нове</string>
     <string name="trending">Тренди</string>
     <string name="followers">Послідовники</string>
@@ -332,9 +332,9 @@
     <string name="deleted_posts">Видалені пости</string>
     <string name="account_deletions">Видалення аккаунта</string>
     <string name="cleanup">Прибирання</string>
-    <string name="reported_posts">Пости зі скаргами</string>
-    <string name="reported_users">Користувачі зі скаргами</string>
-    <string name="reported_chats">Розмови зі скаргами</string>
+    <string name="reported_posts">Скарги на пости</string>
+    <string name="reported_users">Скарги на користувачів</string>
+    <string name="reported_chats">Скарги на розмови</string>
     <string name="recent_comments">Нещодавні коментарі</string>
     <string name="recent_messages">Нещодавні повідомлення</string>
     <string name="mod_logs_user">Журнал модерації для %1$s</string>
@@ -347,28 +347,28 @@
     <string name="delete">Видалити</string>
     <string name="reply">Відповісти</string>
     <plurals name="seconds">
-        <item quantity="one">Секунда</item>
-        <item quantity="few">Секунди</item>
-        <item quantity="many">Секунд</item>
-        <item quantity="other">Секунд</item>
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунди</item>
+        <item quantity="many">секунд</item>
+        <item quantity="other">секунд</item>
     </plurals>
     <plurals name="hours">
-        <item quantity="one">Година</item>
-        <item quantity="few">Години</item>
-        <item quantity="many">Годин</item>
-        <item quantity="other">Годин</item>
+        <item quantity="one">година</item>
+        <item quantity="few">години</item>
+        <item quantity="many">годин</item>
+        <item quantity="other">годин</item>
     </plurals>
     <plurals name="days">
-        <item quantity="one">День</item>
-        <item quantity="few">Дні</item>
-        <item quantity="many">Днів</item>
-        <item quantity="other">Днів</item>
+        <item quantity="one">день</item>
+        <item quantity="few">дні</item>
+        <item quantity="many">днів</item>
+        <item quantity="other">днів</item>
     </plurals>
     <plurals name="years">
-        <item quantity="one">Рік</item>
-        <item quantity="few">Роки</item>
-        <item quantity="many">Років</item>
-        <item quantity="other">Років</item>
+        <item quantity="one">рік</item>
+        <item quantity="few">роки</item>
+        <item quantity="many">років</item>
+        <item quantity="other">років</item>
     </plurals>
     <string name="description">Опис</string>
     <string name="optional">Не обов\'язкове</string>
@@ -402,7 +402,7 @@
     <string name="reset_password_new_password">2. Введіть новий пароль та код що отримали в листі.</string>
     <string name="reset_password_password_hint">Введіть новий пароль</string>
     <string name="reset_password_email_hint">Введіть пошту аккаунта</string>
-    <string name="reset_password_send_reset">Відправити Кот зміни пароля</string>
+    <string name="reset_password_send_reset">Відправити код зміни пароля</string>
     <string name="reset_password_code_hint">Введіть 8- або 9-значний код</string>
     <string name="reset_password_resend_code_success">Код відправлено на пошту</string>
     <string name="reset_password_save">Зберегти новий пароль</string>
@@ -580,7 +580,7 @@
     <string name="discover_posts_tag_none_found">Нема постів з тегом %1$s</string>
     <string name="discover_tags_order_by_recent">Нещодавна активність</string>
     <string name="close_reply">Закрити відповідь</string>
-    <string name="reported_comments">Коментарі зі скаргами</string>
+    <string name="reported_comments">Скарги на коментарі</string>
     <string name="april">Квітень</string>
     <string name="reset_password_success">Ваш пароль змінено!</string>
     <string name="main_complete_profile_title">Завершити профіль</string>
@@ -611,10 +611,10 @@
     <string name="administration">Адміністрація</string>
     <string name="notifications">Повідомлення</string>
     <plurals name="minutes">
-        <item quantity="one">Хвилина</item>
-        <item quantity="few">Хвилини</item>
-        <item quantity="many">Хвилин</item>
-        <item quantity="other">Хвилин</item>
+        <item quantity="one">хвилина</item>
+        <item quantity="few">хвилини</item>
+        <item quantity="many">хвилин</item>
+        <item quantity="other">хвилин</item>
     </plurals>
     <string name="error_message_with_error">Помилка, спробуйте щє раз: %1$s</string>
     <string name="chat_info_user_option_demote_from_mod_error">Помилка пониження: %1$s</string>
@@ -700,8 +700,8 @@
     <string name="chat_info_user_option_ban_error">Помилка бану: %1$s</string>
     <string name="chat_open_error_banned">Вас заблоковано в цій розмові.</string>
     <string name="upload_chooser_video_thumbnail_generation_failed">Помилка створення мініатюри</string>
-    <string name="open_drawer">Відкрити малювальник</string>
-    <string name="close_drawer">Закрити малювальник</string>
+    <string name="open_drawer">Відкрити меню</string>
+    <string name="close_drawer">Закрити меню</string>
     <string name="chat_edit_type_public_desc">Будь-хто може знайти та приєднатися до цієї розмови. Історія цієї розмови відкрита.</string>
     <string name="chat_edit_type_private_desc">Лише за запрошенням. Ця розмова не у відкритому доступі.</string>
     <string name="chat_edit_rating_safe">Безпечний</string>
