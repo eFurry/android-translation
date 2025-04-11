@@ -1167,4 +1167,24 @@
     <string name="account_switch_add_new">اضافه کردن حساب</string>
     <string name="account_switched_to">به %1$s (@%2$s) تغییر حساب داده شد</string>
     <string name="account_switched_failed">خطا در جابه جایی حساب: %1$s</string>
+    <string name="content_filter_block_content_summary">نمایش/پنهان کردن محتوا</string>
+    <string name="settings_ui_theme_item_system">مطابق سیستم</string>
+    <string name="content_filter_rating_title">حداکثر رده بندی محتوا</string>
+    <string name="report_reported_by">گزارش شده توسط: %1$s (%2$s) , %3$s%4$s پیش</string>
+    <string name="video_error">خطا در پخش: %1$s</string>
+    <string name="downloading">در حال دانلود…</string>
+    <string name="download_error_storage_permission_required">دسترسی به حافظه ذخیره سازی مورد نیاز است !</string>
+    <string name="settings_consent_title">رضایت</string>
+    <string name="settings_ui_title">رابط کاربری و شخصی سازی</string>
+    <string name="settings_ui_change_theme">تم برنامه</string>
+    <string name="settings_ui_theme_item_light">روشن</string>
+    <string name="settings_ui_theme_item_dark">تاریک</string>
+    <string name="settings_language_edit_title">زبان برنامه</string>
+    <string name="content_filter_title">فیلتر محتوا</string>
+    <string name="content_filter_block_tags_title">مسدود سازی تگ ها</string>
+    <string name="content_filter_block_tags_summary">مدیریت برچسب های مسدود شده من</string>
+    <string name="content_filter_block_content_title">ترجیحات محتوا</string>
+    <string name="content_filter_mod_delete_mode_summary_off">میانبر های سریع پنهان</string>
+    <string name="content_filter_mod_delete_mode_summary_on">میانبر های سریع در دسترس</string>
+    <string name="content_filter_mod_delete_mode_title">نمایش میانبر های سریع پست</string>
 </resources>
