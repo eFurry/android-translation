@@ -198,7 +198,7 @@
     <string name="moderation">Moderacja</string>
     <string name="administration">Administracja</string>
     <string name="social">Społeczność</string>
-    <string name="feedback">Opinia</string>
+    <string name="feedback">Informacje zwrotne</string>
     <string name="translate">Tłumaczenia</string>
     <string name="contributors">Współtwórcy</string>
     <string name="notifications">Powiadomienia</string>
@@ -761,14 +761,14 @@
     <string name="search_result">Wynik wyszukiwania</string>
     <string name="rating">Ocena</string>
     <string name="failed_to_get_posts">Nie udało się zdobyć postów: %1$s</string>
-    <string name="post_media_failed_to_load_with_error">Nie udało się załadować.Stuknij, aby spróbować ponownie.
+    <string name="post_media_failed_to_load_with_error">Nie udało się załadować. Dotknij, aby spróbować ponownie.
 \n
 \n%1$s</string>
     <string name="post_media_failed_to_load">Nie udało się załadować. Dotknij, aby spróbować ponownie.</string>
     <string name="post_reposted">%1$s zrepostował</string>
     <string name="followers">Obserwujący</string>
     <string name="about_premium">Premium</string>
-    <string name="modmail">Wiadomości do moderatorów</string>
+    <string name="modmail">Wiadomości z moderacją</string>
     <string name="cleanup">Posprzątać</string>
     <string name="recent_messages">Najnowsze wiadomości</string>
     <string name="mod_logs_user">Dzienniki moderacji dla %1$s</string>
@@ -821,7 +821,7 @@
     <string name="chat_control_message_11">Czat utworzony</string>
     <string name="chat_group_add_members">Dodaj członków</string>
     <string name="chat_group_invite_user_error">Nie udało się zaprosić: %1$s</string>
-    <string name="chat_group_invite_user_success">%1$s zaproszony!</string>
+    <string name="chat_group_invite_user_success">Zaproszono %1$s!</string>
     <string name="chat_role_with_last_seen_date">%1$s
 \nostatnio widziano %2$s %3$s temu</string>
     <string name="chat_last_seen_date">Ostatnio widziano %1$s %2$s temu</string>
@@ -831,7 +831,7 @@
     <string name="chat_role_owner">właściciel</string>
     <string name="chat_role_moderator">moderator</string>
     <string name="chat_role_member">członek</string>
-    <string name="chat_role_invited">zaproszony</string>
+    <string name="chat_role_invited">zaproszono</string>
     <string name="chat_role_kicked">wyrzucono</string>
     <string name="chat_role_banned">zbanowano</string>
     <string name="chat_role_left">opuszczono</string>
@@ -934,7 +934,7 @@
     <string name="edit_category">Edytuj kategorię</string>
     <string name="post_info_menu_add_to_comic">Dodaj do komiksu</string>
     <string name="post_info_menu_add_to">Dodać do</string>
-    <string name="unban_user_type_title">Zakaz usunięcia</string>
+    <string name="unban_user_type_title">Ban do zniesienia</string>
     <string name="ban_user_type_title">Wybierz rodzaj bana</string>
     <string name="unban_user_dialog_positive">Odbanuj</string>
     <string name="delete_all_comments_from_dialog_title">Oczyść komentarze użytkownika</string>
@@ -973,9 +973,9 @@
     <string name="profile_content_favs_private">%1$d Prywatnie lubiane posty</string>
     <string name="profile_content_comments">Zobacz wszystkie %1$d komentarze</string>
     <string name="profile_content_comments_private">%1$d Prywatne komentarze</string>
-    <string name="profile_content_following">Zobacz wszystkie %1$d następujące</string>
+    <string name="profile_content_following">Zobacz wszystkich %1$d obserwowowanych</string>
     <string name="profile_content_following_private">Prywatnie obserwowanie %1$d</string>
-    <string name="profile_content_followers">Zobacz wszystkie %1$d obserwujących</string>
+    <string name="profile_content_followers">Zobacz wszystkich %1$d obserwujących</string>
     <string name="profile_content_fursonas">Zobacz wszystkie fursony</string>
     <string name="profile_content_manage_fursonas">Zarządzaj moimi fursonami</string>
     <string name="at_symbol">\@</string>
