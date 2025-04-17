@@ -1189,4 +1189,147 @@
     <string name="content_settings_subtitle">مدیریت کنید که چه محتوایی را می خواهید در این برنامه ببینید. یک مورد را غیرفعال کنید تا تمام پست های آن دسته بندی پنهان شوند</string>
     <string name="content_settings_normal">محتوای استاندارد</string>
     <string name="visible_by_default">قابل مشاهده به صورت پیش فرض. تیک را بردارید تا پنهان شود.</string>
+    <string name="edit_blocked_tags_save_error">خطا در ذخیره برچسب های مسدود شده : %1$s</string>
+    <string name="consent_crashlytics_summary_on">گزارش‌های خرابی جمع‌آوری شده و به Firebase Crashlytics ارسال می‌شوند</string>
+    <string name="settings_danger_reset_password_title">تغییر گذرواژه حساب کاربری</string>
+    <string name="settings_danger_change_email_saving_error">خطا در تغییر ایمیل : %1$s</string>
+    <string name="settings_danger_change_email_message">اگر نیاز به تغییر آدرس ایمیلی دارید که برای ورود به حساب کاربری خود استفاده می‌کنید ، می‌توانید اینجا این کار را انجام دهید.
+\n
+\nایمیل فعلی : %1$s</string>
+    <string name="delete_account_posts_confirm">آیا مطمئن هستید ؟ تمام پست‌های شما هنگام تأیید حذف خواهند شد.</string>
+    <string name="delete_account_send_request_confirm">آیا مطمئن هستید ؟ تأیید این عمل حساب کاربری شما را غیرفعال می‌کند. یک ماه دیگر تمام پست‌ها، نظرات، پیام‌ها و تمام داده‌های دیگر شما حذف خواهند شد.</string>
+    <string name="delete_account_subtitle">در اینجا می‌توانید حساب کاربری خود و تمام داده‌های آن را حذف کنید.
+\n
+\nاین عمل غیرقابل بازگشت است.</string>
+    <string name="delete_account_posts_success_message">موفق ! پست‌های شما حذف خواهند شد. این ممکن است مدتی طول بکشد اگر پست‌های زیادی داشته باشید. برای بررسی پیشرفت، روی نماد بروزرسانی کلیک کنید.</string>
+    <string name="delete_account_request_text_1">۱. درخواست حذف حساب کاربری.</string>
+    <string name="delete_account_messages_button">حذف تمام پیام های من</string>
+    <string name="delete_account_deleting">در حال حذف…</string>
+    <string name="delete_account_request_text_1_sub">وقتی دکمه \"ارسال درخواست حذف حساب کاربری\" را بزنید ، حساب شما غیرفعال شده و در صف حذف قرار می گیرد. یک ایمیل نیز برای تأیید این درخواست به صندوق ورودی ایمیل شما ارسال خواهد شد.</string>
+    <string name="delete_account_request_text_2_sub">حساب کاربری شما به مدت یک ماه غیرفعال باقی می‌ماند پیش از آنکه درخواست حذف انجام شود. در این مدت، اگر نظرتان عوض شد و خواستید حسابتان را برگردانید، باید دکمه \"لغو درخواست حذف حساب کاربری\" را بزنید یا یک ایمیل به support@efurry.net بفرستید تا حذف حساب لغو شود.</string>
+    <string name="content_settings_fetch_error">خطا در دریافت تنظیمات ترجیحات : %1$s</string>
+    <string name="email_not_verified_dialog_message">ابتدا باید آدرس ایمیل خود را تأیید کنید !
+\n
+\nروی لینکی که به %1$s ارسال شده کلیک کنید و سپس دوباره تلاش کنید یا برنامه را دوباره اجرا کنید.
+\n
+\nاگر ایمیلی دریافت نکرده‌اید ، از حساب خود خارج شوید و دوباره وارد شوید تا یک ایمیل جدید برایتان ارسال شود.</string>
+    <string name="delete_account_send_request_success_message">موفق ! حساب کاربری شما در صف حذف قرار گرفت. برای جزئیات بیشتر، صندوق ورودی ایمیل خود را بررسی کنید. حساب کاربری شما اکنون غیرفعال شده است.</string>
+    <plurals name="picker_max_selection_reached">
+        <item quantity="one">فقط می‌توانید %d تصویر انتخاب کنید</item>
+        <item quantity="other">فقط می‌توانید %d تصویر انتخاب کنید</item>
+    </plurals>
+    <string name="content_settings_sensitive">تمایلات شدید و محتوای حساس</string>
+    <string name="content_settings_sensitive_desc">برخی تمایلات فقط از طریق وب سایت قابل مدیریت هستند : %1$s</string>
+    <string name="hidden_by_default">محتوای حساس پنهان است مگر اینکه آن را فعال کنید. اگر می‌خواهید پست‌هایی در آن دسته ببینید یا آپلود کنید ، یک مورد را در فهرست تیک بزنید.</string>
+    <string name="content_settings_sensitive_click_to_show">نمایش فهرست محتوای حساس</string>
+    <string name="content_settings_empty_fetch_error">خطا در دریافت محتوا : %1$s</string>
+    <string name="content_settings_missing">دسته بندی ای جا افتاده ؟ به Dog@ پیام بفرستید !</string>
+    <string name="content_settings_save_error">خطا در بروزرسانی %1$s : %2$s</string>
+    <string name="edit_blocked_tags_title">برچسب های مسدود شده من</string>
+    <string name="edit_blocked_tags_body">برچسب‌هایی را که می‌خواهید مسدود شوند با فاصله یا خط جدید جدا کنید. پست‌هایی که حاوی هر یک از این برچسب‌ها باشند، پنهان خواهند شد.</string>
+    <string name="edit_blocked_tags_edit_text_info">برچسب های مسدود شده</string>
+    <string name="edit_blocked_tags_saving">در حال ذخیره…</string>
+    <string name="edit_blocked_tags_saved">فهرست برچسب‌های مسدودشده ذخیره شد</string>
+    <string name="consent_title">موافقت</string>
+    <string name="consent_reopen_title">ویرایش تنظیمات حریم خصوصی و تبلیغات</string>
+    <string name="consent_crashlytics_title">ارسال گزارش های خرابی</string>
+    <string name="consent_crashlytics_summary_off">گزارش‌های خرابی غیرفعال شده‌اند و به Firebase Crashlytics ارسال نمی‌شوند</string>
+    <string name="settings_danger_title">منطقه خطر</string>
+    <string name="settings_danger_change_email_title">تغییر آدرس ایمیل حساب کاربری</string>
+    <string name="settings_danger_change_email_confirm_title">تایید تغییر آدرس ایمیل</string>
+    <string name="settings_danger_change_email_confirm_message">برای تأیید تغییر ایمیل ، لطفاً ایمیل جدید را دوباره وارد کنید.
+\n
+\nایمیل فعلی : %1$s
+\nایمیل جدید : %2$s</string>
+    <string name="settings_danger_change_email_hint">آدرس ایمیل جدید</string>
+    <string name="settings_danger_change_email_no_match">ایمیل مطابقت ندارد</string>
+    <string name="settings_danger_change_email_saving">در حال تغییر ایمیل شما…</string>
+    <string name="settings_danger_change_email_saving_success">موفق ! ایمیل به %1$s تغییر یافت</string>
+    <string name="settings_danger_delete_account_title">حذف اطلاعات حساب کاربری</string>
+    <string name="delete_account_title">حذف حساب کاربری</string>
+    <string name="delete_account_account_info">نام کاربری : %1$s
+\nایمیل : %2$s</string>
+    <string name="delete_account_confirmation">متوجه عواقب هستم</string>
+    <string name="delete_account_posts_counter">تعداد پست ها : %1$d</string>
+    <string name="delete_account_comments_counter">تعداد نظرات : %1$d</string>
+    <string name="delete_account_messages_counter">تعداد پیام ها : %1$d</string>
+    <string name="delete_account_posts_button">حذف تمام پست های من</string>
+    <string name="delete_account_comments_button">حذف تمام نظرات من</string>
+    <string name="delete_account_send_request_button">ارسال درخواست حذف حساب کاربری</string>
+    <string name="delete_account_cancel_request_button">لغو کردن درخواست حذف حساب کاربری</string>
+    <string name="delete_account_comments_confirm">آیا مطمئن هستید ؟ تمام نظرات شما هنگام تأیید حذف خواهند شد.</string>
+    <string name="delete_account_messages_confirm">آیا مطمئن هستید ؟ تمام پیام های شما هنگام تأیید حذف خواهند شد.</string>
+    <string name="delete_account_comments_success_message">موفق ! نظرات شما حذف خواهند شد. این ممکن است مدتی طول بکشد اگر نظرات زیادی نوشته باشید. برای بررسی پیشرفت، روی نماد بروزرسانی کلیک کنید.</string>
+    <string name="delete_account_messages_success_message">موفق ! پیام های شما حذف خواهند شد. این ممکن است مدتی طول بکشد اگر پیام های زیادی نوشته باشید. برای بررسی پیشرفت، روی نماد بروزرسانی کلیک کنید.</string>
+    <string name="delete_account_cancel_request_success_message">موفق ! حساب کاربری شما دوباره فعال شده و دیگر در صف حذف قرار ندارد.</string>
+    <string name="delete_account_comments_failed">خطا در حذف نظرات : %1$s</string>
+    <string name="delete_account_posts_failed">خطا در حذف پست ها : %1$s</string>
+    <string name="delete_account_messages_failed">خطا در حذف پیام ها : %1$s</string>
+    <string name="delete_account_send_request_failed">خطا در ارسال درخواست حذف : %1$s</string>
+    <string name="delete_account_cancel_request_failed">خطا در لغو کردن درخواست حذف : %1$s</string>
+    <string name="delete_account_refresh_failed">خطا در بروزرسانی : %1$s</string>
+    <string name="delete_account_loading">در حال بارگذاری…</string>
+    <string name="delete_account_request_text_title">حذف دائمی حساب کاربری eFurry شما</string>
+    <string name="delete_account_request_text_2">۲. دوره مهلت بازگشت.</string>
+    <string name="delete_account_request_text_3">۳. حذف فیزیکی حساب کاربری.</string>
+    <string name="delete_account_request_text_3_sub">پس از گذشت یک ماه، حساب کاربری شما از سرورهای ما حذف خواهد شد. پس از انجام این عملیات، از طریق ایمیل به شما اطلاع داده می‌شود.</string>
+    <string name="delete_account_request_text_notice">توجه : پس از حذف حساب کاربری، نام کاربری شما آزاد شده و دیگران می‌توانند از آن استفاده کنند.</string>
+    <string name="notification_clear_all_message_done">%1$d اعلان حذف شد</string>
+    <string name="notification_dialog_clear_all_message">حذف کردن تمام اعلان ها ؟</string>
+    <string name="following_posts_dialog_clear_all_message">حذف کردن تمام پست های دنبال شوندگان ؟</string>
+    <string name="following_posts_clear_all_message_done">%1$d پست حذف شد</string>
+    <string name="picker_app_name">انتخاب گر</string>
+    <string name="picker_gallery">عکس / گیف</string>
+    <string name="picker_video">ویدئو</string>
+    <string name="picker_comic">کمیک</string>
+    <string name="picker_camera">دوربین</string>
+    <string name="picker_text">داستان</string>
+    <string name="picker_title">ایجاد</string>
+    <string name="picker_poll">نظرسنجی</string>
+    <string name="picker_select">انتخاب</string>
+    <string name="picker_camera_permissions_hint">دسترسی دوربین مورد نیاز است</string>
+    <string name="picker_media_permissions_hint">اجازه دسترسی به رسانه برای دسترسی راحت‌تر
+\nبه گالری</string>
+    <string name="picker_empty_media">گالری شما خالی است</string>
+    <string name="picker_allow">اجازه دادن</string>
+    <string name="picker_select_photo">انتخاب عکس</string>
+    <string name="picker_no_camera">برنامه دوربین نصب نشده است</string>
+    <plurals name="picker_selected_count">
+        <item quantity="one">%d عکس انتخاب شده</item>
+        <item quantity="other">%d عکس انتخاب شده</item>
+    </plurals>
+    <string name="blocked_title">کاربران مسدود شده</string>
+    <string name="blocked_item_for">مسدود شده در %1$s %2$s پیش</string>
+    <string name="blocked_get_error">خطا : %1$s</string>
+    <string name="blocked_none">شما هیچ کاربری را مسدود نکرده اید</string>
+    <string name="reason">دلیل</string>
+    <string name="view_profile">مشاهده پروفایل</string>
+    <string name="deleted_days_ago">حذف شده در %1$s %2$s روز پیش</string>
+    <string name="deleted_accounts_days_ago">حذف شده در %1$s %2$s روز پیش</string>
+    <string name="deleted_accounts_deleted_data">اطلاعات حساب کاربری حذف‌ شده برای %1$s</string>
+    <string name="deleted_accounts_cancelled">درخواست حذف حساب کاربری برای %1$s لغو شد</string>
+    <string name="modmail_empty_text">هنوز هیچ پیامی به ناظران ارسال نکردید !</string>
+    <string name="discover_users_title">مرور کاربران</string>
+    <string name="discover_users_member_for">ملحق شده در %1$s %2$s روز پیش</string>
+    <string name="discover_users_order_followers_item">%1$d دنبال کننده</string>
+    <string name="discover_users_order_likes_item">%1$d لایک دریافت شده</string>
+    <string name="discover_users_order_posts_item">%1$d پست</string>
+    <string name="discover_users_order_level_item">سطح %1$d</string>
+    <string name="discover_users_menu_order_by">مرتب سازی کاربران</string>
+    <string name="discover_users_menu_order_by_newest">جدید</string>
+    <string name="discover_users_menu_order_by_oldest">قدیمی</string>
+    <string name="discover_users_menu_order_by_followers">بیشترین دنبال کننده</string>
+    <string name="discover_users_menu_order_by_likes">بیشترین لایک دریافت شده</string>
+    <string name="discover_users_menu_order_by_posts">بیشترین پست ها</string>
+    <string name="discover_users_menu_order_by_level">بالاترین سطح</string>
+    <string name="discover_users_search_hint">یک نام یا @نام‌کاربری وارد کنید</string>
+    <string name="discover_users_search_sub_hint">جستجو حساس به حروف بزرگ و کوچک نیست.</string>
+    <string name="discover_users_search_user_clicked_select">انتخاب کاربر</string>
+    <string name="discover_users_list_empty">هیچ کاربری پیدا نشد</string>
+    <string name="discover_users_search_empty">هیچ کاربری با نام یا نام‌کاربری که با \"%1$s\" شروع شود پیدا نشد</string>
+    <string name="discover_users_search_error">هیچ کاربری با نام یا نام‌کاربری که با \"%1$s\" شروع شود پیدا نشد.
+\n
+\nخطا : %2$s</string>
+    <string name="discover_posts_search_hint">متنی را برای جستجو وارد کنید</string>
+    <string name="discover_posts_search_sub_hint">جستجو در عناوین پست‌ها، توضیحات، متون، هنرمندان و برچسب‌ها. جستجو حساس به حروف بزرگ و کوچک نیست.</string>
 </resources>
