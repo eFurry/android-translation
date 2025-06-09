@@ -760,7 +760,7 @@
     <string name="search_any">KAŻDY</string>
     <string name="search_result">Wynik wyszukiwania</string>
     <string name="rating">Ocena</string>
-    <string name="failed_to_get_posts">Nie udało się zdobyć postów: %1$s</string>
+    <string name="failed_to_get_posts">Nie udało się pozyskać postów: %1$s</string>
     <string name="post_media_failed_to_load_with_error">Nie udało się załadować. Dotknij, aby spróbować ponownie.
 \n
 \n%1$s</string>
