@@ -22,8 +22,8 @@
     <string name="action_create_1_1_chat">Commencer un 1:1 bavarder</string>
     <string name="action_create_group_chat">Commencer un groupe bavarder</string>
     <string name="action_clear_history">Enlever l\'historique</string>
-    <string name="action_delete_chat">Supprimer le bavarder</string>
-    <string name="action_leave_chat">Partir du bavarder</string>
+    <string name="action_delete_chat">Supprimer le chat</string>
+    <string name="action_leave_chat">Partir du chat</string>
     <string name="action_mute">Exclure</string>
     <string name="action_unmute">Demute</string>
     <string name="ad_attribution">Publicité</string>
@@ -117,7 +117,7 @@
     <string name="post_theme_26">Mâchoires</string>
     <string name="post_theme_13">Pattes</string>
     <string name="post_theme_14">Grossesse</string>
-    <string name="post_theme_17">Autres fétichisme</string>
+    <string name="post_theme_17">Autre fétiche</string>
     <string name="upload_chooser_title">Créer un poste</string>
     <string name="upload_chooser_edit_title">Modifier le poste</string>
     <string name="upload_chooser_crop_image">Recadrer l\'image</string>
@@ -347,7 +347,7 @@
     <string name="feedback">Retour d\'information</string>
     <string name="translate">Traduire</string>
     <string name="contributors">Les contributeurs :3</string>
-    <string name="moderators">Les modérateurs</string>
+    <string name="moderators">Les membres du staff</string>
     <string name="settings">Paramètres</string>
     <string name="support">Support</string>
     <string name="about_premium">Premium</string>
@@ -403,20 +403,20 @@
     <string name="post_media_failed_to_load_with_error">Le chargement a échoué. Tapez pour réessayer.
 \n
 \n%1$s</string>
-    <string name="post_category_14">comissions</string>
-    <string name="post_category_20">Quoi !</string>
+    <string name="post_category_14">Comissions</string>
+    <string name="post_category_20">WTF</string>
     <string name="post_theme_19">Aucun lien avec le furry</string>
     <string name="post_theme_0">Gore et sang</string>
-    <string name="post_theme_9">inflation</string>
-    <string name="post_theme_10">macro</string>
-    <string name="post_theme_11">micro</string>
+    <string name="post_theme_9">Inflation</string>
+    <string name="post_theme_10">Macro</string>
+    <string name="post_theme_11">Micro</string>
     <string name="post_theme_18">My Little Pony / Brony</string>
     <string name="post_theme_12">carburant de cauchemar</string>
-    <string name="post_theme_22">Point de vue</string>
+    <string name="post_theme_22">POV</string>
     <string name="post_theme_15">Transformation / Réincarnation</string>
     <string name="post_theme_24">ventilation</string>
-    <string name="post_theme_16">vore</string>
-    <string name="upload_image">image</string>
+    <string name="post_theme_16">Vore</string>
+    <string name="upload_image">Image</string>
     <string name="upload_gif">GIF</string>
     <string name="upload_settings_rating_safe">Tout public</string>
     <string name="upload_settings_rating_suggestive">Suggestif</string>
@@ -425,7 +425,7 @@
     <string name="discover_tags">Tags</string>
     <string name="search_any">n\'importe lequel</string>
     <string name="ok">OK</string>
-    <string name="notifications">notifications</string>
+    <string name="notifications">Notifications</string>
     <string name="arrow_right">-&gt;</string>
     <string name="chats">Chats</string>
     <string name="message">Message</string>
@@ -475,7 +475,7 @@
     <string name="may">Mai</string>
     <string name="june">Juin</string>
     <string name="july">Juillet</string>
-    <string name="august">Aout</string>
+    <string name="august">Août</string>
     <string name="september">Septembre</string>
     <string name="october">Octobre</string>
     <string name="november">Novembre</string>
