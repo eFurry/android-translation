@@ -11,16 +11,16 @@
     <string name="action_log_out">Se déconnecter</string>
     <string name="action_log_in">Se connecter</string>
     <string name="action_reorder_comic">Réorganiser la pages</string>
-    <string name="action_delete_comic">Supprimer la bande dessinée</string>
+    <string name="action_delete_comic">Supprimer le comique</string>
     <string name="action_edit_profile">Modifier le profil</string>
     <string name="action_unban_user">Débannir l\'utilisateur</string>
     <string name="action_show_logs">Montrer les registres</string>
     <string name="action_show_messages">Montrer les messages</string>
     <string name="action_verify_email">Vérifier l\'email</string>
     <string name="action_delete_account">Supprimer le compte</string>
-    <string name="action_start_chat">Commencer un bavarder</string>
-    <string name="action_create_1_1_chat">Commencer un 1:1 bavarder</string>
-    <string name="action_create_group_chat">Commencer un groupe bavarder</string>
+    <string name="action_start_chat">Commencer un chat</string>
+    <string name="action_create_1_1_chat">Commencer un 1:1 chat</string>
+    <string name="action_create_group_chat">Commencer un groupe de chat</string>
     <string name="action_clear_history">Enlever l\'historique</string>
     <string name="action_delete_chat">Supprimer le chat</string>
     <string name="action_leave_chat">Partir du chat</string>
@@ -34,14 +34,18 @@
     <string name="launcher_creating_guest_account">Création d\'un compte d\'invité</string>
     <string name="launcher_updating_account_error">Récupérer le compte
 \nErreur: %1$s
+\n
 \nRéessayer</string>
     <string name="launcher_updating_account">Récupérer le compte</string>
     <string name="launcher_fetching_config">Recherche de configuration</string>
     <string name="launcher_fetching_config_error">Recherche de configuration
+\n
 \nErreur: %1$s
+\n
 \nRéessayer</string>
     <string name="launcher_creating_guest_account_error">Création d\'un compte d\'invité
 \nErreur: %1$s
+\n
 \nRéessayer</string>
     <string name="launcher_updating_account_settings">Récupérer les paramètres du compte</string>
     <string name="launcher_server_status">Vérifier le statut du serveur</string>
@@ -106,7 +110,7 @@
     <string name="post_category_23">Actualité</string>
     <string name="post_theme_20">Mon art / créé par moi</string>
     <string name="post_theme_21">Réalisé avec l\'IA</string>
-    <string name="post_theme_1">Collage</string>
+    <string name="post_theme_1">Bondage</string>
     <string name="post_theme_25">Rencontres</string>
     <string name="post_theme_3">Couches / bébé furs</string>
     <string name="post_theme_4">Drogues (art)</string>
@@ -232,11 +236,11 @@
     <string name="comic_view_edit_title_success">Titre mise à jour</string>
     <string name="comic_view_reorder_error">N\'a pas réussi à passer une nouvelle commande : %1$s</string>
     <string name="comic_view_reorder_success">Mise à jour de l\'ordre des pages !</string>
-    <string name="comic_view_delete_title">Supprimer la comique ?</string>
+    <string name="comic_view_delete_title">Supprimer le comique ?</string>
     <string name="comic_view_delete_message">Êtes-vous sûr de vouloir supprimer cette comique ?
 \nLes posts ne seront pas supprimés.</string>
     <string name="comic_view_delete_success">Comique supprimée</string>
-    <string name="comic_view_reorder_title">Réorganiser la comique</string>
+    <string name="comic_view_reorder_title">Réorganiser le comique</string>
     <string name="comic_view_post_long_press_set_thumb">Définir comme vignette de comique</string>
     <string name="comic_view_post_long_press_remove">Retirer de la comique</string>
     <string name="comic_view_post_remove_confirm_title">Retirer ?</string>
@@ -287,14 +291,14 @@
     <string name="search_any_sensitive_themes">Correspondre à l\'un des thèmes sensibles sélectionnés</string>
     <string name="search_all">TOUS</string>
     <string name="search_result">Résultat de la recherche</string>
-    <string name="rating">Evaluation</string>
+    <string name="rating">Évaluation</string>
     <string name="discover_posts_tag_hint">Entrer le tag</string>
     <string name="discover_tags_browse">Parcourir les tags</string>
     <string name="discover_tags_none_found">Aucun tag n\'a été trouvé</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d poste</item>
         <item quantity="many">%1$d postes</item>
-        <item quantity="other">%1$d post</item>
+        <item quantity="other"></item>
     </plurals>
     <string name="discover_tags_order_by_recent">Activité récente</string>
     <string name="discover_tags_order_by_popular">Popularité</string>
@@ -337,7 +341,7 @@
     <string name="new_">Nouveau</string>
     <string name="trending">Tendance</string>
     <string name="followers">Abonnés</string>
-    <string name="following">Abonner à</string>
+    <string name="following">Vos suivis</string>
     <string name="discover">Découvrir</string>
     <string name="news">Actualités</string>
     <string name="my_profile">Mon profil</string>
@@ -347,7 +351,7 @@
     <string name="feedback">Retour d\'information</string>
     <string name="translate">Traduire</string>
     <string name="contributors">Les contributeurs :3</string>
-    <string name="moderators">Les membres du staff :D</string>
+    <string name="moderators">Les membres du Staff :D</string>
     <string name="settings">Paramètres</string>
     <string name="support">Support</string>
     <string name="about_premium">Premium</string>
@@ -379,11 +383,11 @@
     <string name="discover_posts_category">Rechercher par catégorie</string>
     <string name="search_any_categories">Correspondre à l\'une des catégories sélectionnées</string>
     <string name="discover_chats_search">Recherche dans les chats</string>
-    <string name="comic_view_delete_error">Échec de la suppression de la bande dessinée: %1$s</string>
+    <string name="comic_view_delete_error">Échec de la suppression du comique: %1$s</string>
     <string name="my_fursonas_delete_message">Êtes-vous sûr de vouloir supprimer ce fursona ?</string>
     <string name="discover_text">Cette zone est en cours de développement :)
 \n
-\nVous pourrez y rechercher des tags, des postes, des utilisateurs, etc...</string>
+\nVous pourrez y rechercher des tags, des postes, des utilisateurs, etc</string>
     <string name="post_type_texts">Postes de texte</string>
     <string name="discover_posts_tag_none_found">Aucun postes ne correspond au tag %1$s</string>
     <string name="moderation">Modération</string>
@@ -414,7 +418,7 @@
     <string name="post_theme_12">Nightmare fuel</string>
     <string name="post_theme_22">POV</string>
     <string name="post_theme_15">Transformation / Réincarnation</string>
-    <string name="post_theme_24">ventilation</string>
+    <string name="post_theme_24">Traumatisme / dépression</string>
     <string name="post_theme_16">Vore</string>
     <string name="upload_image">Image</string>
     <string name="upload_gif">GIF</string>
@@ -423,7 +427,7 @@
     <string name="fursona_view_title">Fursona</string>
     <string name="my_fursonas_description_hint">Description</string>
     <string name="discover_tags">Tags</string>
-    <string name="search_any">n\'importe lequel</string>
+    <string name="search_any">N\'IMPORTE LEQUEL</string>
     <string name="ok">OK</string>
     <string name="notifications">Notifications</string>
     <string name="arrow_right">-&gt;</string>
@@ -456,7 +460,7 @@
     <plurals name="hours">
         <item quantity="one">Heure</item>
         <item quantity="many">Heures</item>
-        <item quantity="other">Hrs, Hr</item>
+        <item quantity="other">Heures</item>
     </plurals>
     <string name="deleted_account">Compte supprimé</string>
     <string name="unknown_account">Inconnu</string>
@@ -660,7 +664,7 @@
         <item quantity="many">%1$d mois des premiums achetés</item>
         <item quantity="other">%1$d mois du premium acheté</item>
     </plurals>
-    <string name="profile_followers_item_following_for">Suivi for %1$s %2$s</string>
+    <string name="profile_followers_item_following_for">Suit depuis %1$s %2$s</string>
     <string name="edit_profile_chip_show_age_title">Je veux voir les postes de:</string>
     <string name="content_filter_mod_delete_mode_title">Afficher les actions rapides du poste</string>
     <string name="hidden_by_default">Le contenu sensible est masqué à moins que vous ne l\'activiez. Cochez un élément de la liste si vous souhaitez voir ou télécharger des messages dans cette catégorie.</string>
@@ -860,7 +864,7 @@
     <plurals name="days">
         <item quantity="one">Jour</item>
         <item quantity="many">Jours</item>
-        <item quantity="other">Jr, Jrs</item>
+        <item quantity="other">Jours</item>
     </plurals>
     <string name="chat_edit_secure_yes_desc">Autoriser les captures d\'écrans</string>
     <string name="about_general">Bienvenue au projet eFur !
@@ -872,7 +876,7 @@
     <string name="premium_purchased_item_activate_dialog_message">Voulez-vous activer cet achat pour votre propre compte ou l\'offrir à quelqu\'un d\'autre ?
 \n
 \n%1$s x %2$d</string>
-    <string name="notification_type_faved_post_video">J\'ai aimé la vidéo</string>
+    <string name="notification_type_faved_post_video">À aimé la vidéo</string>
     <string name="notification_type_commented_post">Commenter: %1$s</string>
     <string name="notification_type_banned_post">Bannissement de création poste (%1$s %2$s). Raison : %3$s</string>
     <string name="notification_type_banned_edit_icon_bg">Bannissement de modification d\'icône/arrière-plan (%1$s %2$s). Raison : %3$s</string>
@@ -1057,12 +1061,12 @@
     <string name="anon_username">Nom d\'utilisateur</string>
     <string name="user_level">x%1$d</string>
     <string name="example">Exemple</string>
-    <string name="notification_type_faved_post_image">J\'ai aimé l\'image</string>
-    <string name="notification_type_faved_post_gif">J\'ai aimé le GIF</string>
-    <string name="notification_type_faved_post_text">J\'ai aimé le poste écrit</string>
-    <string name="notification_type_faved_post_poll">J\'ai aimé le sondage</string>
-    <string name="notification_type_faved_post_multi_image">J\'ai aimé le poste sur les images multiples</string>
-    <string name="notification_type_faved_post">J\'ai aimé le poste</string>
+    <string name="notification_type_faved_post_image">À aimé l\'image</string>
+    <string name="notification_type_faved_post_gif">À aimé le GIF</string>
+    <string name="notification_type_faved_post_text">À aimé le poste écrit</string>
+    <string name="notification_type_faved_post_poll">À aimé le sondage</string>
+    <string name="notification_type_faved_post_multi_image">À aimé le poste sur les images multiples</string>
+    <string name="notification_type_faved_post">À aimé le poste</string>
     <string name="notification_type_followed">S\'est abonné à vous</string>
     <string name="notification_type_unfollowed">Quelqu\'un ne vous suit plus</string>
     <string name="notification_type_replied">A répondu: %1$s</string>
@@ -1216,7 +1220,7 @@
     <string name="post_fullscreen_progress">%1$d%% (%2$s/%3$s Mo)</string>
     <string name="media_fullscreen_dialog_body">Télécharger le média ?</string>
     <string name="profile_title">Le profil de %1$s</string>
-    <string name="profile_following">À suivi</string>
+    <string name="profile_following">Suivis</string>
     <string name="profile_followers">Abonnés</string>
     <string name="profile_content_error">Échec de l\'obtention du profil. Cliquez pour réessayer</string>
     <string name="profile_content_error_unfollow">Se désabonner de cette utilisateur</string>
@@ -1226,13 +1230,13 @@
     <string name="profile_content_favs_private">%1$d postes privés aimés</string>
     <string name="profile_content_comments">Voir tous les %1$d commentaires</string>
     <string name="profile_content_comments_private">%1$d commentaires privés</string>
-    <string name="profile_content_following_private">Suivi privé de %1$d</string>
-    <string name="profile_content_following">Voir tous les %1$d suivi</string>
+    <string name="profile_content_following_private">Suivis privé de %1$d</string>
+    <string name="profile_content_following">Voir tous les %1$d suivis</string>
     <string name="profile_content_fursonas">Voir tous les foursonas</string>
     <string name="profile_content_manage_fursonas">Gérer mes fursonas</string>
     <string name="at_symbol">\@</string>
     <string name="user_comments_title">Les commentaires de %1$s</string>
-    <string name="profile_member_since">Membre pour %1$s %2$s</string>
+    <string name="profile_member_since">Membre depuis %1$s %2$s</string>
     <string name="profile_is_adult">L\'utilisateur a 18 ans ou plus</string>
     <string name="profile_banned_until">Banni jusqu\'à %1$s (%2$s %3$s)</string>
     <string name="profile_mod_icon_mod">Cet utilisateur est un modérateur</string>
