@@ -159,7 +159,7 @@
     <string name="upload_settings_post_description">Description du poste</string>
     <string name="upload_settings_artist_name">Créateur original/artiste</string>
     <string name="upload_settings_source">Lien vers la source (https://...)</string>
-    <string name="upload_settings_rating_title">Ce poste est classé :</string>
+    <string name="upload_settings_rating_title">Ce poste est classé:</string>
     <string name="upload_settings_hidden">Masquer le poste de Nouveau</string>
     <string name="upload_settings_hidden_hint">Le poste ne sera pas visible dans la section Nouveau</string>
     <string name="upload_settings_disable_comments">Désactiver les commentaires</string>
@@ -186,7 +186,7 @@
     <string name="upload_settings_poll_settings_type">Plusieurs réponses</string>
     <string name="upload_settings_comic_button">Choisir une bande dessinée</string>
     <string name="upload_post_created">Poste créé !</string>
-    <string name="upload_settings_comic_switch">Ce poste fait partie d\'une bande dessinée</string>
+    <string name="upload_settings_comic_switch">Ce poste fait partie d\'un comique</string>
     <string name="login_username_too_short">La longueur minimale du nom d\'utilisateur est de 3 caractères</string>
     <string name="login_username_too_long">La longueur maximale du nom d\'utilisateur est de 22 caractères</string>
     <string name="login_dialog_consent_country_title">Votre lieu de résidence</string>
@@ -298,7 +298,7 @@
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d poste</item>
         <item quantity="many">%1$d postes</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Activité récente</string>
     <string name="discover_tags_order_by_popular">Popularité</string>
@@ -310,7 +310,7 @@
     <string name="post_type_videos">Vidéos</string>
     <string name="post_type_polls">Sondages</string>
     <string name="post_type_multi_images">Postes à images multiples</string>
-    <string name="discover_chats">Discussions</string>
+    <string name="discover_chats">Chats</string>
     <string name="discover_chats_title">Parcourir les chats</string>
     <string name="discover_chats_browse">Parcourir les chats publiques</string>
     <string name="discover_chats_adapter_item_body">%1$d membres, %2$d messages</string>
@@ -458,9 +458,9 @@
     <string name="optional">Optionnel</string>
     <string name="discover_users_search_empty">Aucun utilisateur trouvé avec un nom ou un nom d\'utilisateur commençant par « %1$s »</string>
     <plurals name="hours">
-        <item quantity="one">Heure</item>
-        <item quantity="many">Heures</item>
-        <item quantity="other">Heures</item>
+        <item quantity="one">heure</item>
+        <item quantity="many">heures</item>
+        <item quantity="other">heures</item>
     </plurals>
     <string name="deleted_account">Compte supprimé</string>
     <string name="unknown_account">Inconnu</string>
@@ -721,9 +721,9 @@
     <string name="discover_users_menu_order_by_oldest">Le plus ancien en premier</string>
     <string name="discover_users_search_sub_hint">La recherche est insensible à la casse.</string>
     <plurals name="profile_stats_data_liked_posts">
-        <item quantity="one">%1$d a aimé le poste</item>
-        <item quantity="many">%1$d a aimé les postes</item>
-        <item quantity="other">%1$d a aimé le post</item>
+        <item quantity="one">%1$d j’aime sur un poste</item>
+        <item quantity="many">%1$d j’aime sur des postes</item>
+        <item quantity="other">%1$d j’aime sur des postes</item>
     </plurals>
     <plurals name="profile_stats_data_comments_received">
         <item quantity="one">%1$d commentaire reçu</item>
@@ -771,12 +771,12 @@
     <string name="settings_danger_reset_password_title">Modifier le mot de passe du compte</string>
     <string name="settings_danger_change_email_message">Si vous devez changer l\'adresse électronique utilisée pour vous connecter à votre compte, vous pouvez le faire ici.
 \n
-\nAdresse électronique actuelle: %1$s</string>
+\nE-mail actuelle: %1$s</string>
     <string name="settings_danger_change_email_confirm_title">Confirmer la modification de l\'adresse e-mail</string>
     <string name="settings_danger_change_email_confirm_message">Pour confirmer le changement d\'adresse électronique, veuillez saisir à nouveau la nouvelle adresse.
 \n
-\nCourriel actuel: %1$s
-\nNouvel email: %2$s</string>
+\nE-mail actuel: %1$s
+\nNouvel e-mail: %2$s</string>
     <string name="settings_danger_change_email_hint">Nouvelle adresse électronique</string>
     <string name="settings_danger_change_email_no_match">L\'adresse électronique ne correspond pas</string>
     <string name="settings_danger_change_email_saving">Changer votre adresse électronique…</string>
