@@ -213,7 +213,7 @@
     <string name="upload_settings_content_sensitive_none_selected">Aucun contenu sensible n\'a été sélectionné</string>
     <string name="upload_settings_categories_none_selected">Aucune catégorie sélectionnée</string>
     <string name="upload_settings_tags_too_many">Vous ne pouvez pas ajouter plus de 100 tags</string>
-    <string name="upload_settings_comic_switch_hint">Le poste sera ajouté à la bande dessinée que vous avez sélectionnée</string>
+    <string name="upload_settings_comic_switch_hint">Le poste sera ajouté au comique que vous avez sélectionnée</string>
     <string name="upload_settings_prevent_downloads_hint">S\'efforce raisonnablement d\'empêcher le téléchargement du média d\'affichage par d\'autres utilisateurs</string>
     <string name="upload_settings_poll_option">Paramètres</string>
     <string name="upload_post_edited">Poste modifié !</string>
@@ -238,7 +238,7 @@
     <string name="comic_view_reorder_success">Mise à jour de l\'ordre des pages !</string>
     <string name="comic_view_delete_title">Supprimer le comique ?</string>
     <string name="comic_view_delete_message">Êtes-vous sûr de vouloir supprimer cette comique ?
-\nLes posts ne seront pas supprimés.</string>
+\nLes postes ne seront pas supprimés.</string>
     <string name="comic_view_delete_success">Comique supprimée</string>
     <string name="comic_view_reorder_title">Réorganiser le comique</string>
     <string name="comic_view_post_long_press_set_thumb">Définir comme vignette de comique</string>
@@ -351,11 +351,11 @@
     <string name="feedback">Retour d\'information</string>
     <string name="translate">Traduire</string>
     <string name="contributors">Les contributeurs :3</string>
-    <string name="moderators">Les membres du Staff :D</string>
+    <string name="moderators">Les modérateurs :D</string>
     <string name="settings">Paramètres</string>
     <string name="support">Support</string>
     <string name="about_premium">Premium</string>
-    <string name="modmail">Signaler au membre du staff</string>
+    <string name="modmail">Signaler aux modérateurs</string>
     <string name="about">À propos</string>
     <string name="upload">Télécharger</string>
     <string name="continue_">Continuer</string>
@@ -901,7 +901,7 @@
     <string name="report_reason_personal">Information personnelle</string>
     <string name="report_hide_comment">Masquer ce commentaire de façon permanente</string>
     <string name="block_can_comment_and_reply">Commenter mes poste et répondre à mes commentaires</string>
-    <string name="support_social">Nous avons un canal Discord et un groupe Telegram ! Rejoignez-nous pour discuter avec d\'autres utilisateurs et modérateurs et obtenir de l\'aide sur n\'importe quel sujet.</string>
+    <string name="support_social">Nous avons un canal Discord et un groupe Telegram ! Rejoignez-nous pour discuter avec d\'autres utilisateurs et modérateur, pour obtenir de l\'aide sur n\'importe quel sujet.</string>
     <string name="premium_purchases_description">Vos achats récents. Une fois qu\'un achat est effectué, vous devez soit l\'activer pour votre propre compte, soit l\'offrir à quelqu\'un d\'autre.</string>
     <string name="premium_purchased_item_activate_activated_self">Succès ! Votre achat a été activé !</string>
     <string name="notification_type_unbanned_post">Le bannissement créer des postes a été levée ou a expiré</string>
