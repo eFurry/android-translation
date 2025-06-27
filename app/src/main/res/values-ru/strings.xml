@@ -527,7 +527,7 @@
     <string name="notification_type_faved_post_image">Понравилось ваше изображение</string>
     <string name="notification_type_faved_post_video">Понравилось ваше видео</string>
     <string name="notification_type_faved_post_gif">Понравилось ваше GIF</string>
-    <string name="notification_type_faved_post_text">Понравился ваш тестовый пост</string>
+    <string name="notification_type_faved_post_text">Понравился ваш текстовый пост</string>
     <string name="notification_type_faved_post_poll">Понравился ваш опрос</string>
     <string name="notification_type_faved_post_comic">Понравился ваш комикс</string>
     <string name="notification_type_faved_post">Понравился ваш пост</string>
