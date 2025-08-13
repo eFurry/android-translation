@@ -1022,7 +1022,7 @@
     <string name="about_stats_premium">Premium</string>
     <string name="about_stats_premium_months">Mois de premium: %1$d</string>
     <string name="about_stats_premium_levels">Montée des niveaux: %1$d</string>
-    <string name="contributions_general">Si vous contribuez, envoyez un message à @Dog !</string>
+    <string name="contributions_general">Si vous vouliez contribuez, envoyez un message à @Dog !</string>
     <string name="translate_general">Vous pouvez aider à traduire l\'application dans une autre langue !</string>
     <string name="support_general">Vous souhaitez contacter un administrateur ou obtenir de l\'aide sur l\'application ? Envoyez un e-mail à support@efurry.net ou contactez l\'un des modérateurs ci-dessous !</string>
     <string name="support_social_not_logged_in">Enregistrez d\'abord un compte</string>
