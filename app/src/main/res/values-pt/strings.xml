@@ -1349,7 +1349,7 @@
     <string name="account_switched_failed">Falha ao trocar: %1$s</string>
     <string name="edit_profile_after_dark_help">Se você tiver 18 anos ou mais, poderá ter dois perfis. Um geral, visível para todos os usuários, e um adulto (NSFW), visível apenas para usuários com 18 anos ou mais.\n\nSeu perfil geral deve ser adequado para todos os públicos, enquanto o perfil adulto (AD/NSFW) pode conter material explícito e para adultos.</string>
     <string name="about_stats_posts">Postagens: %1$d</string>
-    <string name="post_theme_26">Mandíbulas</string>
+    <string name="post_theme_26">Bocas</string>
     <string name="ban">Banir</string>
     <string name="activated">Ativado</string>
 </resources>
