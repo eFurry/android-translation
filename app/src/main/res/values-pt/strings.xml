@@ -1237,7 +1237,7 @@
     <string name="account_switched_to">Trocado para %1$s (@%2$s)</string>
     <string name="settings_ui_change_theme">Tema do app</string>
     <string name="settings_ui_theme_item_light">Claro</string>
-    <string name="post_theme_19">Não Furry</string>
+    <string name="post_theme_19">Não-furry</string>
     <string name="post_theme_3">fralda/furry bebês</string>
     <string name="post_theme_5">Feral</string>
     <string name="post_theme_11">Micro</string>
@@ -1246,8 +1246,8 @@
     <string name="upload_no_rating_selected">Selecione uma avaliação para a postagem!</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d postagens</item>
-        <item quantity="many"></item>
-        <item quantity="other"></item>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_chats_browse">Navegar pelos chats públicos</string>
     <string name="discover_chats_search">Pesquisar chats</string>
