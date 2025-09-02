@@ -6,25 +6,19 @@
     <string name="action_create">Criar</string>
     <string name="action_clear_all">Limpar tudo</string>
     <string name="action_edit_profile">Editar perfil</string>
-    <string name="action_view_blocked">Ver utilizadores bloqueados</string>
-    <string name="action_report_user">Denunciar utilizador</string>
+    <string name="action_view_blocked">Ver usuários bloqueados</string>
+    <string name="action_report_user">Denunciar usuário</string>
     <string name="action_block_user">Bloquear/desbloquear…</string>
     <string name="ad_attribution">Anúncio</string>
     <string name="google_play_services_missing_error">Os serviços do Google Play são necessários para usar este app!</string>
     <string name="launch_subtitle">Fazer login, registar-se ou continuar como convidado</string>
     <string name="launch_btn_guest">Continuar como convidado</string>
     <string name="launcher_init_parse">Inicializando</string>
-    <string name="launcher_creating_guest_account">criando conta de convidado</string>
-    <string name="launcher_creating_guest_account_error">criando conta de convidado
-\nErro: %1$s
-\n
-\nVoltar a tentar</string>
-    <string name="launcher_updating_account">buscando conta</string>
-    <string name="launcher_updating_account_error">buscando conta
-\nerro: %1$s
-\n
-\nVoltar a tentar</string>
-    <string name="launcher_server_status">verificar estatuto do servidor</string>
+    <string name="launcher_creating_guest_account">Criando conta de convidado</string>
+    <string name="launcher_creating_guest_account_error">Criando conta de convidado\nErro: %1$s\n\nVoltar a tentar</string>
+    <string name="launcher_updating_account">Buscando conta</string>
+    <string name="launcher_updating_account_error">Buscando conta\nErro: %1$s\n\nVoltar a tentar</string>
+    <string name="launcher_server_status">Verificar status do servidor</string>
     <string name="login_title">Bem vindo ao eFur!</string>
     <string name="login_subtitle">Por favor faça login ou registre-se para continuar</string>
     <string name="login_email_text">Coloque o seu email</string>
@@ -497,18 +491,18 @@
     <string name="action_edit_title">Editar título</string>
     <string name="action_reorder_comic">Páginas de reordenação</string>
     <string name="action_delete_comic">Excluir quadrinhos</string>
-    <string name="action_ban_user">Ban Usuário</string>
-    <string name="action_unban_user">Perdeu a sorte número r</string>
-    <string name="action_show_logs">Mostre logs</string>
+    <string name="action_ban_user">Banir Usuário</string>
+    <string name="action_unban_user">Desbanir usuário</string>
+    <string name="action_show_logs">Mostrar registros</string>
     <string name="action_add_as_mod">Promover para o moderador</string>
     <string name="action_remove_as_mod">Remova o status do moderador</string>
     <string name="action_delete_all_posts">Postagens de Purge User \\</string>
     <string name="action_delete_all_comments">Purge os comentários do usuário</string>
     <string name="action_verify_email">Verificar e-mail</string>
-    <string name="action_start_chat">Comece um bate -papo</string>
-    <string name="action_create_1_1_chat">Inicie um chat 1: 1</string>
-    <string name="action_create_group_chat">Comece um bate -papo em grupo</string>
-    <string name="action_clear_history">Apagar o histórico</string>
+    <string name="action_start_chat">Iniciar uma conversa</string>
+    <string name="action_create_1_1_chat">Iniciar um chat 1:1</string>
+    <string name="action_create_group_chat">Iniciar uma conversa em grupo</string>
+    <string name="action_clear_history">Apagar histórico</string>
     <string name="action_delete_chat">Excluir chat</string>
     <string name="action_leave_chat">Sair do chat</string>
     <string name="launcher_fetching_config">Buscar configuração</string>
@@ -1072,7 +1066,7 @@
     </plurals>
     <string name="upload_chooser_video_thumbnail_generation_failed">Falhou em criar miniatura</string>
     <string name="profile_stats_data_bytes_stored">%1$d bytes armazenados (%2$s MB)</string>
-    <string name="action_show_messages">Exibir mensagens</string>
+    <string name="action_show_messages">Mostrar mensagens</string>
     <string name="login_register_set_age">Define sua data de nascimento para se registrar</string>
     <string name="post_category_30">Roupas &amp; maquiagem</string>
     <string name="post_category_31">Carros &amp; veículos</string>
@@ -1115,7 +1109,7 @@
     <string name="main_verify_email_title">Verificação de conta necessária</string>
     <string name="chat_control_message_13">%1$s alterou o tipo do grupo para público</string>
     <string name="discover_chats_search_error">Nenhum chat encontrado para “%1$s”.\n\nErro: %2$s</string>
-    <string name="upload_quota_too_many_mb">Você pode enviar apenas %1$d MB com %2$d . Espere %3$d minutos ou escolha arquivos menores!</string>
+    <string name="upload_quota_too_many_mb">Você só pode enviar %1$d MB com uma cota de %2$d. Aguarde %3$d minutos ou escolha arquivos menores!</string>
     <string name="discover_tags_browse">Navegar pelas tags</string>
     <string name="message_video_compressing">Processando vídeo…</string>
     <string name="delete_account_comments_button">Excluir meus comentários</string>
@@ -1279,7 +1273,7 @@
     <string name="search_categories">Em categorias</string>
     <string name="search_content_safe">Com conteúdo/temas</string>
     <string name="search_content_sensitive">Com conteúdo/temas sensíveis</string>
-    <string name="search_any_categories">Escolha qualquer uma das categorias selecionadas</string>
+    <string name="search_any_categories">Escolha qualquer das categorias selhecionadas</string>
     <string name="search_any_themes">Escolha qualquer um dos temas selecionados</string>
     <string name="search_any_sensitive_themes">Escolha qualquer um dos temas sensíveis selecionados</string>
     <string name="post_type_multi_images">Postagens com várias imagens</string>
