@@ -1115,7 +1115,7 @@
     <string name="main_verify_email_title">Verificação de conta necessária</string>
     <string name="chat_control_message_13">%1$s alterou o tipo do grupo para público</string>
     <string name="discover_chats_search_error">Nenhum chat encontrado para “%1$s”.\n\nErro: %2$s</string>
-    <string name="upload_quota_too_many_mb">Você só pode enviar %1$d MB com uma cota de %2$d. Aguarde %3$d minutos ou escolha arquivos menores!</string>
+    <string name="upload_quota_too_many_mb">Você pode enviar apenas %1$d MB com %2$d . Espere %3$d minutos ou escolha arquivos menores!</string>
     <string name="discover_tags_browse">Navegar pelas tags</string>
     <string name="message_video_compressing">Processando vídeo…</string>
     <string name="delete_account_comments_button">Excluir meus comentários</string>
