@@ -1107,7 +1107,7 @@
     <string name="delete_account_posts_confirm">Você tem certeza? Todas as suas publicações serão excluídas quando confirmar.</string>
     <string name="delete_account_refresh_failed">Falha ao atualizar: %1$s</string>
     <string name="delete_account_request_text_2_sub">Sua conta permanecerá desativada por um mês antes de processarmos sua solicitação de exclusão. Durante esse período, se você mudar de ideia e quiser sua conta de volta, precisará pressionar o botão \"Cancelar solicitação de exclusão de conta\" ou enviar um e-mail para support@efurry.net para cancelar a exclusão.</string>
-    <string name="post_theme_18">My Litte Pony / Brony</string>
+    <string name="post_theme_18">My Little Pony / Brony</string>
     <string name="discover_posts_text_none_found">Nenhuma postagem encontrada ao pesquisar por %1$s</string>
     <string name="discover_tags_none_found">Nenhuma tag encontrada</string>
     <string name="account_deletions">Exclusões de contas</string>
@@ -1261,7 +1261,7 @@
     <string name="about_stats_premium">Premium</string>
     <string name="discover_chats_list_empty">Nenhum chat encontrado</string>
     <string name="post_theme_22">POV</string>
-    <string name="post_theme_24">Desabafo</string>
+    <string name="post_theme_24">Venting</string>
     <string name="post_theme_16">Vore</string>
     <string name="edit_profile_birthday_month_button">Selecionar mês</string>
     <string name="edit_profile_birthday_year_dialog_title">Selecionar ano de nascimento</string>
