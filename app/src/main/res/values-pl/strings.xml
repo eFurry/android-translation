@@ -199,7 +199,7 @@
     <string name="administration">Administracja</string>
     <string name="social">Społeczność</string>
     <string name="feedback">Informacje zwrotne</string>
-    <string name="translate">Tłumaczenia</string>
+    <string name="translate">Przetłumacz</string>
     <string name="contributors">Współtwórcy</string>
     <string name="notifications">Powiadomienia</string>
     <string name="settings">Ustawienia</string>
@@ -865,7 +865,7 @@
     <string name="premium_description">Kup eFurry Premium, aby usunąć wszystkie reklamy w aplikacji i zyskać większy limit przesyłania plików.</string>
     <string name="premium_levels">Podnieś poziom</string>
     <string name="premium_levels_description">Podnieś poziom swojego konta i zdobądź odznakę przy swjej nazwie, która pokaże Twoje wsparcie dla aplikacji!</string>
-    <string name="premium_user_premium_until">Premium: aktywny (%1$s %2$s pozostałe)</string>
+    <string name="premium_user_premium_until">Premium: aktywne (pozostało %1$s %2$s)</string>
     <string name="premium_user_no_premium">Premium: Nie aktywny</string>
     <string name="premium_user_level">Poziom konta: %1$d</string>
     <string name="premium_error_loading_items">Nie udało się załadować pozycji - dotknij, aby ponowić</string>
