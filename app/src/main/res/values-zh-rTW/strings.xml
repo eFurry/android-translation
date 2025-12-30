@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_log_out">GET TF OUT</string>
-    <string name="action_edit_title">CORRECT YOUR MISERABLE MISTAKES</string>
-    <string name="action_log_in">GET IN,FOLK</string>
-    <string name="action_settings">Some things,cool</string>
-    <string name="action_create">CREATE THY CREATIONS</string>
-    <string name="action_clear_all">DEMOLISH EVERYTHIN\'</string>
-    <string name="action_reorder_comic">SMART TEXT</string>
-    <string name="action_delete_comic">Erase</string>
-    <string name="action_edit_profile">Delete the furry pfp</string>
-    <string name="action_view_blocked">Don\'t click</string>
-</resources>
+    </resources>

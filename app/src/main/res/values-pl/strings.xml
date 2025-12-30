@@ -59,12 +59,12 @@
 \nKontynuować?</string>
     <string name="account_needed">Do wykonania tej akcji wymagane jest konto!</string>
     <string name="reset_password_dialog_title">Odzyskiwanie hasła</string>
-    <string name="reset_password_dialog_message">Spowoduje to wysłanie e-maila umożliwiającego zmianę hasła na adres „%1$s”.
-\nKliknij link w e-mailu, aby zmienić hasło.
+    <string name="reset_password_dialog_message">Na adres \"%1$s\" zostanie wysłany e-mail z linkiem do zresetowania hasła.
+\nKliknij link w wiadomości, aby ustawić nowe hasło.
 \n
 \nCzy chcesz kontynuować?</string>
     <string name="reset_password_error">Błąd: %1$s</string>
-    <string name="reset_password_sent">E-mail resetujący hasło został wysłany na adres \"%1$s\"</string>
+    <string name="reset_password_sent">Na adres \"%1$s\" wysłano wiadomość z instrukcją zmiany hasła</string>
     <string name="register_success">Konto utworzone, witamy na eFur!</string>
     <string name="logout_dialog_title">Wylogować?</string>
     <string name="logout_dialog_message">Czy na pewno chcesz się wylogować?</string>
@@ -120,7 +120,7 @@
     <string name="crop">Przytnij</string>
     <string name="upload_text_content_hint">Treść posta</string>
     <string name="upload_text_too_short_error">Wpisz tytuł lub jakąś treść!</string>
-    <string name="upload_policy_text">"Pamiętaj, aby przestrzegać "</string>
+    <string name="upload_policy_text">"Pamiętaj, że obowiązuje "</string>
     <string name="upload_poll_too_short_question">Napisz dłuższe zapytanie!</string>
     <string name="upload_poll_not_enough_options">Dodaj co najmniej dwie opcje</string>
     <string name="upload_settings_title">Szczegóły dotyczące posta</string>
@@ -129,11 +129,11 @@
     <string name="upload_settings_artist_name">Oryginalny twórca/artysta</string>
     <string name="upload_settings_source">Link do źródła (https://…)</string>
     <string name="upload_settings_rating_title">Ten post jest klasyfikowany jako:</string>
-    <string name="upload_settings_rating_safe">Bezpieczny (SFW)</string>
+    <string name="upload_settings_rating_safe">SFW</string>
     <string name="upload_settings_rating_suggestive">Sugestywny</string>
-    <string name="upload_settings_rating_explicit">Nieodpowiedni (NSFW)</string>
+    <string name="upload_settings_rating_explicit">NSFW</string>
     <string name="upload_settings_rating_safe_hint">Bezpieczny (SFW) - odpowiedni dla każdego przedziału wiekowego.</string>
-    <string name="upload_settings_rating_suggestive_hint">Sugestywny - sugestywna treść, gustowna/artystyczna nagość lub podteksty dla dojrzałych osób</string>
+    <string name="upload_settings_rating_suggestive_hint">Sugestywny - sugestywna treść, gustowna/artystyczna nagość lub podteksty dla dojrzałych osób (18+)</string>
     <string name="upload_settings_rating_explicit_hint">Nieodpowiedni (NSFW) - treści dla dorosłych.</string>
     <string name="upload_settings_hidden">Ukryj posta z sekcji Nowe</string>
     <string name="upload_settings_hidden_hint">Post nie będzie widoczny w sekcji Nowe</string>
@@ -198,9 +198,9 @@
     <string name="moderation">Moderacja</string>
     <string name="administration">Administracja</string>
     <string name="social">Społeczność</string>
-    <string name="feedback">Opinia</string>
-    <string name="translate">Tłumaczenia</string>
-    <string name="contributors">Uczestnicy</string>
+    <string name="feedback">Informacje zwrotne</string>
+    <string name="translate">Przetłumacz</string>
+    <string name="contributors">Współtwórcy</string>
     <string name="notifications">Powiadomienia</string>
     <string name="settings">Ustawienia</string>
     <string name="support">Pomoc</string>
@@ -588,9 +588,9 @@
     <string name="delete_account_deleting">Usuwanie…</string>
     <string name="email_not_verified_dialog_message">Najpierw musisz zweryfikować swój adres e-mail!
 \n
-\nKliknij przycisk z linkiem, który został wysłany na adres %1$s i spróbuj ponownie lub zrestartuj aplikację.
+\nKliknij w link, który został wysłany na %1$s, a następnie spróbuj ponownie lub zrestartuj aplikację.
 \n
-\nJeżeli nie otrzymałeś wiadomości e-mail, wyloguj się i zaloguj ponownie, a powinieneś otrzymać nową.</string>
+\nJeśli nie otrzymałeś(-aś) e-maila, wyloguj się i zaloguj ponownie, aby otrzymać nowy.</string>
     <string name="email_verification_dialog_title">Weryfikacja adresu e-mail</string>
     <string name="email_verification_dialog_message">Witamy na eFur!
 \n
@@ -645,14 +645,14 @@
     <string name="action_delete_all_comments">Oczyść komentarze użytkownika</string>
     <string name="action_verify_email">Zweryfikuj adres e-mail</string>
     <string name="action_start_chat">Rozpocznij czat</string>
-    <string name="action_create_1_1_chat">Rozpocznij czat 1: 1</string>
-    <string name="action_create_group_chat">Rozpocznij czat grupowy</string>
+    <string name="action_create_1_1_chat">Rozpocznij czat prywatny</string>
+    <string name="action_create_group_chat">Utwórz czat grupowy</string>
     <string name="action_delete_chat">Usuń czat</string>
     <string name="action_leave_chat">Wyjdź z czatu</string>
     <string name="launcher_reset_button">Wyloguj się / zresetuj</string>
     <string name="launcher_save_token_error">Nie udało się załadować tokenu: %1$s</string>
     <string name="legal_ad_checkbox">Zgadzam się na spersonalizowane reklamy</string>
-    <string name="login_invalid_email_pw">Nieprawidłowy e -mail i/lub hasło</string>
+    <string name="login_invalid_email_pw">Błędny e-mail i/lub hasło</string>
     <string name="login_register_error">Nie udało się zarejestrować: %1$s</string>
     <string name="login_register_age">Mam 13 lat lub starsze</string>
     <string name="login_register_age_error">Musisz potwierdzić, że masz 13 lat lub starsze, aby korzystać z tej aplikacji!</string>
@@ -760,15 +760,15 @@
     <string name="search_any">KAŻDY</string>
     <string name="search_result">Wynik wyszukiwania</string>
     <string name="rating">Ocena</string>
-    <string name="failed_to_get_posts">Nie udało się zdobyć postów: %1$s</string>
-    <string name="post_media_failed_to_load_with_error">Nie udało się załadować.Stuknij, aby spróbować ponownie.
+    <string name="failed_to_get_posts">Nie udało się pozyskać postów: %1$s</string>
+    <string name="post_media_failed_to_load_with_error">Nie udało się załadować. Dotknij, aby spróbować ponownie.
 \n
 \n%1$s</string>
     <string name="post_media_failed_to_load">Nie udało się załadować. Dotknij, aby spróbować ponownie.</string>
     <string name="post_reposted">%1$s zrepostował</string>
     <string name="followers">Obserwujący</string>
     <string name="about_premium">Premium</string>
-    <string name="modmail">Wiadomości do moderatorów</string>
+    <string name="modmail">Wiadomości z moderacją</string>
     <string name="cleanup">Posprzątać</string>
     <string name="recent_messages">Najnowsze wiadomości</string>
     <string name="mod_logs_user">Dzienniki moderacji dla %1$s</string>
@@ -810,7 +810,7 @@
     <string name="chat_create_group_dialog_input_hint">Nazwa grupy (można zmienić później)</string>
     <string name="chat_create_group_creating">Tworzenie grupy…</string>
     <string name="chat_create_group_created">Grupa stworzona!</string>
-    <string name="chat_control_message_3">%1$s dołączył</string>
+    <string name="chat_control_message_3">%1$s dołącza</string>
     <string name="chat_control_message_4">%1$s opuszcza czat</string>
     <string name="chat_control_message_5">%1$s wyrzuca %2$s</string>
     <string name="chat_control_message_6">%1$s banuje %2$s</string>
@@ -821,7 +821,7 @@
     <string name="chat_control_message_11">Czat utworzony</string>
     <string name="chat_group_add_members">Dodaj członków</string>
     <string name="chat_group_invite_user_error">Nie udało się zaprosić: %1$s</string>
-    <string name="chat_group_invite_user_success">%1$s zaproszony!</string>
+    <string name="chat_group_invite_user_success">Zaproszono %1$s!</string>
     <string name="chat_role_with_last_seen_date">%1$s
 \nostatnio widziano %2$s %3$s temu</string>
     <string name="chat_last_seen_date">Ostatnio widziano %1$s %2$s temu</string>
@@ -831,7 +831,7 @@
     <string name="chat_role_owner">właściciel</string>
     <string name="chat_role_moderator">moderator</string>
     <string name="chat_role_member">członek</string>
-    <string name="chat_role_invited">zaproszony</string>
+    <string name="chat_role_invited">zaproszono</string>
     <string name="chat_role_kicked">wyrzucono</string>
     <string name="chat_role_banned">zbanowano</string>
     <string name="chat_role_left">opuszczono</string>
@@ -865,7 +865,7 @@
     <string name="premium_description">Kup eFurry Premium, aby usunąć wszystkie reklamy w aplikacji i zyskać większy limit przesyłania plików.</string>
     <string name="premium_levels">Podnieś poziom</string>
     <string name="premium_levels_description">Podnieś poziom swojego konta i zdobądź odznakę przy swjej nazwie, która pokaże Twoje wsparcie dla aplikacji!</string>
-    <string name="premium_user_premium_until">Premium: aktywny (%1$s %2$s pozostałe)</string>
+    <string name="premium_user_premium_until">Premium: aktywne (pozostało %1$s %2$s)</string>
     <string name="premium_user_no_premium">Premium: Nie aktywny</string>
     <string name="premium_user_level">Poziom konta: %1$d</string>
     <string name="premium_error_loading_items">Nie udało się załadować pozycji - dotknij, aby ponowić</string>
@@ -934,7 +934,7 @@
     <string name="edit_category">Edytuj kategorię</string>
     <string name="post_info_menu_add_to_comic">Dodaj do komiksu</string>
     <string name="post_info_menu_add_to">Dodać do</string>
-    <string name="unban_user_type_title">Zakaz usunięcia</string>
+    <string name="unban_user_type_title">Ban do zniesienia</string>
     <string name="ban_user_type_title">Wybierz rodzaj bana</string>
     <string name="unban_user_dialog_positive">Odbanuj</string>
     <string name="delete_all_comments_from_dialog_title">Oczyść komentarze użytkownika</string>
@@ -973,9 +973,9 @@
     <string name="profile_content_favs_private">%1$d Prywatnie lubiane posty</string>
     <string name="profile_content_comments">Zobacz wszystkie %1$d komentarze</string>
     <string name="profile_content_comments_private">%1$d Prywatne komentarze</string>
-    <string name="profile_content_following">Zobacz wszystkie %1$d następujące</string>
+    <string name="profile_content_following">Zobacz wszystkich %1$d obserwowowanych</string>
     <string name="profile_content_following_private">Prywatnie obserwowanie %1$d</string>
-    <string name="profile_content_followers">Zobacz wszystkie %1$d obserwujących</string>
+    <string name="profile_content_followers">Zobacz wszystkich %1$d obserwujących</string>
     <string name="profile_content_fursonas">Zobacz wszystkie fursony</string>
     <string name="profile_content_manage_fursonas">Zarządzaj moimi fursonami</string>
     <string name="at_symbol">\@</string>
@@ -1024,25 +1024,25 @@
     <string name="edit_blocked_tags_body">Tagi, które chcesz zablokować oddziel od siebie spacją lub wpisuj od nowego wiersza. Posty zawierające którykolwiek z tych tagów zostaną ukryte.</string>
     <string name="edit_blocked_tags_edit_text_info">Blokowane tagi</string>
     <string name="edit_blocked_tags_saving">Zapisywanie…</string>
-    <string name="edit_blocked_tags_saved">Lista blokowania tagów została zapisana.</string>
+    <string name="edit_blocked_tags_saved">Lista blokowania tagów została zapisana</string>
     <string name="edit_blocked_tags_save_error">Nie udało się zapisać blokowanych tagów: %1$s</string>
-    <string name="settings_danger_change_email_title">Zmień adres e -mail konta</string>
+    <string name="settings_danger_change_email_title">Zmień adres e-mail do konta</string>
     <string name="settings_danger_change_email_message">Jeśli chcesz zmienić adres e-mail używany do logowania się na swoje konto, możesz to zrobić tutaj.
 \n
 \nAktualny adres e-mail: %1$s</string>
-    <string name="settings_danger_change_email_confirm_title">Potwierdź zmianę e -maila</string>
+    <string name="settings_danger_change_email_confirm_title">Potwierdź zmianę adresu e-mail</string>
     <string name="settings_danger_change_email_confirm_message">Aby potwierdzić zmianę adresu e-mail, wprowadź nowy adres ponownie.
 \n
 \nAktualny adres e-mail: %1$s
 \nNowy adres e-mail: %2$s</string>
     <string name="settings_danger_change_email_hint">Nowy adres email</string>
-    <string name="settings_danger_change_email_no_match">Adresy e-mail się nie zgadzają</string>
+    <string name="settings_danger_change_email_no_match">Adresy e-mail się nie pokrywają</string>
     <string name="settings_danger_change_email_saving">Zmiana adresu e-mail…</string>
-    <string name="settings_danger_change_email_saving_error">Nie udało się zmienić e -maila: %1$s</string>
-    <string name="settings_danger_change_email_saving_success">Sukces! Adres e-mail został zmienony na %1$s</string>
+    <string name="settings_danger_change_email_saving_error">Nie udało się zmienić adresu e-mail: %1$s</string>
+    <string name="settings_danger_change_email_saving_success">Sukces! Adres e-mail został zmieniony na %1$s</string>
     <string name="modmail_empty_text">Nie masz jeszcze modmailu!</string>
     <string name="discover_users_title">Przeglądaj użytkowników</string>
-    <string name="discover_users_member_for">Dołączył %1$s %2$s temu</string>
+    <string name="discover_users_member_for">Dołączył(a) %1$s %2$s temu</string>
     <string name="discover_users_order_followers_item">%1$d Obserwatorzy</string>
     <string name="discover_users_order_likes_item">%1$d polubienia otrzymane</string>
     <string name="discover_users_order_posts_item">%1$d Posty</string>
@@ -1225,9 +1225,9 @@
     <string name="delete_account_request_text_2_sub">Twoje konto będzie dezaktywowane przez miesiąc, zanim przetworzymy żądanie jego usunięcia. W tym czasie, jeśli zmienisz zdanie i zechcesz je odzyskać, należy nacisnąć przycisk „Anuluj żądanie usunięcia konta” lub wysłać e-mail na adres support@efurry.net, aby anulować usunięcie.</string>
     <string name="chat_edit_secure_no_desc">Zezwala na zrzuty ekranu</string>
     <string name="account_deletions">Usuwanie kont</string>
-    <string name="verify_account_subtitle">By użyć wszystkich funkcji musisz zweryfikować swoje konto.
+    <string name="verify_account_subtitle">Aby uzyskać dostęp do wszystkich funkcji, musisz zweryfikować swoje konto.
 \n
-\nSprawdź swoją skrzynkę %1$s i wprowadź kod który został wysłany do ciebie poniżej.</string>
+\nSprawdź skrzynkę odbiorczą na adresie %1$s i wprowadź kod, który otrzymałeś.</string>
     <string name="main_verify_email_snackbar_text">Wymagana weryfikacja konta</string>
     <string name="chat_control_message_14">%1$s zmienia typ czatu na Prywatny</string>
     <string name="settings_danger_reset_password_title">Zmień hasło</string>
@@ -1297,7 +1297,7 @@
     <string name="post_type_texts">Ankiety tekstowe</string>
     <string name="post_type_multi_images">Posty z wieloma obrazkami</string>
     <string name="discover_chats">Czaty</string>
-    <string name="about_stats_premium_levels">Poniesionych poziomów: %1$d</string>
+    <string name="about_stats_premium_levels">Podniesionych poziomów: %1$d</string>
     <string name="edit_profile_removed_icon">Awatar został usunięty</string>
     <string name="edit_profile_removed_background">Tło profilowe zostało usunięte</string>
     <string name="post_types">Typy postów</string>
@@ -1340,17 +1340,17 @@
     <string name="december">Grudzień</string>
     <string name="plus_number">+%1$d</string>
     <string name="placeholder_string">%1$s</string>
-    <string name="verify_account_code_hint">Wpisz 6 lub 7 cyfrowy kod</string>
-    <string name="verify_account_resend_code">Wyślij kod ponownie</string>
-    <string name="verify_account_resend_text">Nie dostałeś emailu? Kliknij przycisk poniżej aby wysłać nowy kod</string>
-    <string name="verify_account_resend_code_success">Kod został wysłany na twój email</string>
-    <string name="verify_account_code">Zweryfikuj kod</string>
+    <string name="verify_account_code_hint">Wprowadź kod złożony z 6 lub 7 cyfr</string>
+    <string name="verify_account_resend_code">Prześlij kod ponownie</string>
+    <string name="verify_account_resend_text">Nie dotarł do Ciebie e-mail? Wyślij nowy kod, wybierając opcję poniżej</string>
+    <string name="verify_account_resend_code_success">Kod został wysłany na Twój adres e-mail</string>
+    <string name="verify_account_code">Kod weryfikacyjny</string>
     <string name="reset_password_title">Zresetuj hasło</string>
-    <string name="reset_password_subtitle">Zapomniałeś(aś) hasła do swojego konta?
+    <string name="reset_password_subtitle">Zapomniałeś(-aś) hasła?
 \n
-\n1. Wprowadź swój adres e-mail poniżej, aby rozpocząć tworzenie nowego hasła.</string>
+\n1. Wprowadź swój adres e-mail, aby utworzyć nowe.</string>
     <string name="reset_password_password_hint">Wprowadź nowe hasło</string>
-    <string name="reset_password_email_hint">Wpisz adres e-mail powiązany z kontem</string>
+    <string name="reset_password_email_hint">Wprowadź adres e-mail powiązany z kontem</string>
     <string name="reset_password_send_reset">Wyślij kod resetowania hasła</string>
     <string name="reset_password_code_hint">Wprowadź kod składający się z 8 lub 9 cyfr</string>
     <string name="reset_password_resend_code_success">Kod został wysłany na Twój adres e-mail</string>

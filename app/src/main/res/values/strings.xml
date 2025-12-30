@@ -1256,6 +1256,9 @@
     <string name="setting_language_item_nl" translatable="false">Nederlands</string>
     <string name="setting_language_item_fr" translatable="false">French</string>
     <string name="setting_language_item_el" translatable="false">Greek</string>
+    <string name="setting_language_item_de" translatable="false">Deutsche</string>
+    <string name="setting_language_item_uk" translatable="false">Українська</string>
+    <string name="setting_language_item_fa" translatable="false">فارسی</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>

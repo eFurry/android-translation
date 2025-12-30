@@ -318,7 +318,7 @@
     <string name="discover_users_send_gift_to">Benutzer für Geschenk auswählen</string>
     <string name="discover_users_search_not_found">Benutzer „%1$s“ nicht gefunden</string>
     <string name="discover_posts_category">Suche nach Kategorie</string>
-    <string name="discover_posts_tag">Suche nach Tag</string>
+    <string name="discover_posts_tag">Nach bestimmten Tag suchen</string>
     <string name="discover_posts_advanced">Erweiterte Suche</string>
     <string name="enter_tags">Tags eingeben</string>
     <string name="order_by">Sortieren nach</string>
@@ -665,15 +665,14 @@
     <string name="chat_deleted">Gelöschter Chat</string>
     <string name="chat_deleted_dialog_title">Chat gelöscht</string>
     <string name="chat_deleted_dialog_message">Dieser Chat wurde gelöscht.</string>
-    <string name="chat_create_1_1_hint">Beginne einen Chat mit einem anderen Benutzer.
-\nGebe unten den Benutzernamen ein oder gehe zu ihrem Profil und verwende die Schaltfläche Nachricht, um einen Chat zu starten</string>
+    <string name="chat_create_1_1_hint">Beginne einen Chat mit einem anderen Benutzer.\nGebe unten den Benutzernamen ein oder gehe zu ihrem Profil und verwende die Schaltfläche Nachricht, um einen Chat zu starten</string>
     <string name="chat_self_chat">%1$s (gespeicherte Nachrichten)</string>
     <string name="chat_create_group_dialog_title">Einen Gruppenchat erstellen</string>
     <string name="chat_create_group_dialog_input_hint">Gruppenname (kann später geändert werden)</string>
     <string name="chat_create_group_creating">Gruppe erstellen…</string>
     <string name="chat_create_group_created">Gruppe erstellt!</string>
     <string name="chat_control_message_3">%1$s beigetreten</string>
-    <string name="chat_control_message_4">%1$s verlassen</string>
+    <string name="chat_control_message_4">%1$s hat verlassen</string>
     <string name="chat_control_message_5">%1$s hat %2$s gekickt</string>
     <string name="chat_control_message_6">%1$s hat %2$s gebannt</string>
     <string name="chat_control_message_7">&lt; %1$s &gt;</string>
@@ -681,7 +680,7 @@
     <string name="chat_control_message_9">%1$s hat das Gruppensymbol geändert</string>
     <string name="chat_control_message_10">Chat gelöscht</string>
     <string name="chat_control_message_11">Chat erstellt</string>
-    <string name="chat_control_message_12">%1$s hat die Gruppeninfo auf %2$s geändert</string>
+    <string name="chat_control_message_12">%1$s hat die Gruppeninfo zu %2$s geändert</string>
     <string name="chat_control_message_13">%1$s hat den Gruppentyp auf öffentlich geändert</string>
     <string name="chat_control_message_14">%1$s hat den Gruppentyp auf privat geändert</string>
     <string name="chat_control_message_15">%1$s hat die Gruppeneinstufung auf Erwachsene (18+) geändert</string>
@@ -711,4 +710,15 @@
     <string name="chat_leave_chat_positive">Chat verlassen</string>
     <string name="chat_delete_chat_title">Chat löschen</string>
     <string name="chat_delete_chat_positive">Chat löschen</string>
+    <string name="chat_control_message_16">%1$s hat die Gruppeneinstufung zu Sicher geändert</string>
+    <string name="chat_control_message_unknown">Unbekannte Nachricht - Schaue nach App Updates</string>
+    <string name="chat_media_message_with_text">Bild Nachricht: %1$s</string>
+    <string name="chat_group_invite_user_error">Fehler beim Einladen: %1$s</string>
+    <string name="chat_role_with_last_seen_date">%1$s\nZuletzt vor %2$s %3$s gesehen</string>
+    <string name="chat_last_seen_date">Zuletzt vor %1$s %2$s gesehen</string>
+    <string name="chat_info_user_option_kick_error">Fehler beim Kicken: %1$s</string>
+    <string name="chat_info_user_option_promote_to_mod">Zum Moderator befördern</string>
+    <string name="chat_info_user_option_promote_to_mod_error">Beförderung fehlgeschlagen: %1$s</string>
+    <string name="chat_info_user_option_demote_from_mod">Auf Member runterstufen</string>
+    <string name="chat_info_user_option_ban_error">Fehler beim Bannen: %1$s</string>
 </resources>
