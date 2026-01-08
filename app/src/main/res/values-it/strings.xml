@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_log_out">Log out</string>
+    <string name="action_log_out">disconnettersi</string>
     <string name="action_log_in">Log in</string>
     <string name="action_settings">Impostazioni</string>
     <string name="action_create">Crea</string>
     <string name="action_clear_all">Elimina tutto</string>
-    <string name="action_edit_title">Edita il titolo</string>
+    <string name="action_edit_title">Modifica titolo</string>
     <string name="action_reorder_comic">Riordina le pagine</string>
     <string name="action_delete_comic">Elimina album</string>
-    <string name="action_edit_profile">Modifica il profiloe</string>
-    <string name="action_view_blocked">Guarda gli utenti bloccati</string>
+    <string name="action_edit_profile">Modifica il profilo</string>
+    <string name="action_view_blocked">Visualizza gli utenti bloccati</string>
     <string name="action_report_user">Riporta utente</string>
     <string name="action_block_user">Blocca/Sblocca…</string>
     <string name="action_ban_user">Banna utente</string>
-    <string name="action_unban_user">Unbanna utente</string>
-    <string name="action_show_logs">Guarda i logs</string>
+    <string name="action_unban_user">Riattivare utente</string>
+    <string name="action_show_logs">Mostra i registri</string>
     <string name="action_add_as_mod">Promuovi a moderatore</string>
     <string name="action_remove_as_mod">Rimuovi stato di moderatore</string>
     <string name="action_delete_all_posts">Elimina i post dell\'utente</string>
@@ -33,37 +33,28 @@
     <string name="launch_subtitle">Login, registrati o continua come Ospite</string>
     <string name="launch_btn_guest">Continua come Ospite</string>
     <string name="launcher_init_parse">Avviamento</string>
-    <string name="launcher_creating_guest_account">Crea un account da Ospite</string>
-    <string name="launcher_creating_guest_account_error">Creazione account Ospite
-\nError: %1$s
-\n
-\nRetrying</string>
-    <string name="launcher_updating_account">Recupera account</string>
-    <string name="launcher_updating_account_error">Recupera account
-\nError: %1$s
-\n
-\nRetrying</string>
-    <string name="launcher_fetching_config">Recupera configurazione</string>
-    <string name="launcher_fetching_config_error">Recupera configurazione
-\nError: %1$s
-\n
-\nRetrying</string>
-    <string name="launcher_updating_account_settings">Recupera impostazioni account</string>
+    <string name="launcher_creating_guest_account">Creazione di un account ospite</string>
+    <string name="launcher_creating_guest_account_error">Creazione account Ospite \nErrore: %1$s \n \nRiprova</string>
+    <string name="launcher_updating_account">Recupero dell\'account</string>
+    <string name="launcher_updating_account_error">Recuperando l\'account\nErrore: %1$s\n\nRiprova</string>
+    <string name="launcher_fetching_config">Recupero della configurazione</string>
+    <string name="launcher_fetching_config_error">Recuperando la configurazione \nErrore: %1$s \n \nRiprova</string>
+    <string name="launcher_updating_account_settings">Recupero delle impostazioni dell\'account</string>
     <string name="launcher_server_status">Guarda lo stato del server</string>
-    <string name="launcher_reset_button">Log out / resetta</string>
-    <string name="launcher_save_token_error">Failed to save token: %1$s</string>
+    <string name="launcher_reset_button">Esci / resetta</string>
+    <string name="launcher_save_token_error">Impossibile salvare il token: %1$s</string>
     <string name="login_title">Benvenuto su eFur!</string>
-    <string name="login_subtitle">Perfavore fai il login o registrati per continuare</string>
+    <string name="login_subtitle">Per favore fai il login o registrati per continuare</string>
     <string name="login_email_text">Inserisci e-mail</string>
     <string name="login_password_text">Inserisci la Password</string>
     <string name="login_reset">Resetta password</string>
     <string name="login_new_user">Nuovo utente? Registrati!</string>
     <string name="legal_notice_launch">Continuando confermi di aver letto e accettato i Termini di servizio e l\'Informativa sulla privacy:</string>
-    <string name="legal_notice_checkbox">"Accetto i "</string>
+    <string name="legal_notice_checkbox">"Sono d\'accordo con il "</string>
     <string name="legal_ad_checkbox">Accetto la pubblicità personalizzata</string>
     <string name="login_invalid_email">E-mail non valida</string>
     <string name="login_password_too_short">La password deve contenere almeno 8 caratteri</string>
-    <string name="login_username_too_short">Minimo lettere richieste per il nome utante è di 3</string>
+    <string name="login_username_too_short">Minimo lettere richieste per il nome utente è di 3</string>
     <string name="login_username_too_long">Il massimo di lettere per il nome utente è di 22</string>
     <string name="login_invalid_email_pw">E-mail o passwordd non valido</string>
     <string name="login_register_accept">Accetta sia l\'Informativa sulla Privacy che i Termini di Servizio per registrarti</string>
@@ -1287,8 +1278,8 @@
     <string name="discover_tags_none_found">Nessun tag trovato</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d post</item>
-        <item quantity="many"></item>
-        <item quantity="other"></item>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Attività recenti</string>
     <string name="discover_tags_order_by_popular">Popolarità</string>
