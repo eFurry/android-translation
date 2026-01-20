@@ -98,10 +98,10 @@
     <string name="post_category_7">Aww &amp; carino</string>
     <string name="post_category_8">Fotografia</string>
     <string name="post_category_9">IRL</string>
-    <string name="post_category_10">Creazione &amp; scoltura</string>
+    <string name="post_category_10">Creazione &amp; scultura</string>
     <string name="post_category_11">Disegn</string>
     <string name="post_category_12">Album</string>
-    <string name="post_category_13">Storie / text</string>
+    <string name="post_category_13">Storie / testo</string>
     <string name="post_category_25">Domande (Q&amp;A)</string>
     <string name="post_category_26">Votazioni</string>
     <string name="post_category_14">Commissioni</string>
@@ -111,11 +111,11 @@
     <string name="post_category_18">Film, serie &amp; Programmi TV</string>
     <string name="post_category_28">Musica</string>
     <string name="post_category_19">Viaggi &amp; places</string>
-    <string name="post_category_20">Ma che ca...</string>
+    <string name="post_category_20">WTF</string>
     <string name="post_category_21">Cibo &amp; ricette</string>
     <string name="post_category_22">Screenshots</string>
     <string name="post_category_23">Eventi attuali</string>
-    <string name="post_category_24">Altro &amp; a caso</string>
+    <string name="post_category_24">Altro &amp; casuale</string>
     <string name="upload_chooser_title">Crea un post</string>
     <string name="upload_chooser_edit_title">Edita un post</string>
     <string name="upload_chooser_crop_image">Ritaglia immagine</string>
