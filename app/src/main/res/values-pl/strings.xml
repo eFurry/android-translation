@@ -287,7 +287,7 @@
     <string name="report_reason_spam">Spam</string>
     <string name="report_reason_hate_speech">Mowa nienawiści</string>
     <string name="report_reason_harassment">Nękanie</string>
-    <string name="report_reason_impersonation">Podszywanie się za kogoś innego</string>
+    <string name="report_reason_impersonation">Podszywanie się pod kogoś innego</string>
     <string name="report_reason_illegal_content">Niedozwolone treści</string>
     <string name="report_reason_threats">Groźby</string>
     <string name="report_reason_personal">Prywatne informacje</string>
@@ -326,9 +326,7 @@
     <string name="post_deleted_by">Usunięte przez: %1$s (%2$s)</string>
     <string name="deleted_score_when_deleted">Ulubione: %1$d, Komentarze: %2$d</string>
     <string name="post_is_nsfw_in_sfw_mode">Ten post ma ocenę wyższą niż Twój maksymalny limit!</string>
-    <string name="about_general">Zapraszamy do udziału w projekcie eFur!
-\n
-\nPrzestrzeni społecznościowej do dzielenia się i cieszenia ze wszystkich spraw, związanych z furry ~</string>
+    <string name="about_general">Witamy w projekcie eFur! \n \nW przestrzeni społecznościowej do dzielenia się i czerpania radości ze wszystkich futrzanych rzeczy ~</string>
     <string name="about_stats">Statystyki</string>
     <string name="feedback_general">Masz uwagi lub sugestie dotyczące ulepszenia aplikacji? Oceń aplikację w Sklepie Google Play, wyślij e-mail na adres feedback@efurry.net lub dołącz do nas na Discordzie i podziel się swoimi przemyśleniami!</string>
     <string name="contributions_general">Jeżeli masz wkład, wyślij wiadomość do @Dog!</string>
@@ -864,7 +862,7 @@
     <string name="premium">Premium</string>
     <string name="premium_description">Kup eFurry Premium, aby usunąć wszystkie reklamy w aplikacji i zyskać większy limit przesyłania plików.</string>
     <string name="premium_levels">Podnieś poziom</string>
-    <string name="premium_levels_description">Podnieś poziom swojego konta i zdobądź odznakę przy swjej nazwie, która pokaże Twoje wsparcie dla aplikacji!</string>
+    <string name="premium_levels_description">Podnoś poziom konta i zdobywaj odznaki (łapki), które pokażą Twoje wsparcie dla aplikacji przy Twojej nazwie!</string>
     <string name="premium_user_premium_until">Premium: aktywne (pozostało %1$s %2$s)</string>
     <string name="premium_user_no_premium">Premium: Nie aktywny</string>
     <string name="premium_user_level">Poziom konta: %1$d</string>
