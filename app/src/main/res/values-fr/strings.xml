@@ -563,7 +563,7 @@
     <string name="chat_create_group_creating">Créer un groupe…</string>
     <string name="chat_create_group_created">Groupe créé !</string>
     <string name="chat_control_message_3">%1$s a rejoint</string>
-    <string name="chat_control_message_4">%1$s quitter</string>
+    <string name="chat_control_message_4">%1$s à quitter</string>
     <string name="chat_control_message_5">%1$s Expulsé %2$s</string>
     <string name="chat_control_message_6">%1$s bannissement %2$s</string>
     <string name="chat_control_message_7">&lt; %1$s &gt;</string>
