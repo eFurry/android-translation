@@ -24,7 +24,7 @@
     <string name="action_clear_history">Enlever l\'historique</string>
     <string name="action_delete_chat">Supprimer le chat</string>
     <string name="action_leave_chat">Partir du chat</string>
-    <string name="action_mute">Exclure</string>
+    <string name="action_mute">Sourdine</string>
     <string name="action_unmute">Demute</string>
     <string name="ad_attribution">Publicité</string>
     <string name="google_play_services_missing_error">Les services Google Play sont nécessaires pour utiliser cette application !</string>
