@@ -1242,7 +1242,7 @@
     <string name="profile_mod_icon_mod">Cet utilisateur est un modérateur</string>
     <string name="profile_tab_about_presentation">Présentation</string>
     <string name="profile_stats_data_bytes_stored">%1$d octets stockés (%2$s Mo)</string>
-    <string name="profile_followers_item_follower_for">Abonnés pour %1$s %2$s</string>
+    <string name="profile_followers_item_follower_for">Abonnés depuis %1$s %2$s</string>
     <string name="profile_followers_unfollow_deleted_title">Se désabonner ?</string>
     <string name="profile_followers_unfollow_deleted_message">Voulez-vous annuler le suivi de ce compte supprimé ?</string>
     <string name="posts_gallery_title">Galerie de %1$s</string>
