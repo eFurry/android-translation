@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_log_out">disconnettersi</string>
+    <string name="action_log_out">Disconnettersi</string>
     <string name="action_log_in">Log in</string>
     <string name="action_settings">Impostazioni</string>
     <string name="action_create">Crea</string>
@@ -10,7 +10,7 @@
     <string name="action_delete_comic">Elimina album</string>
     <string name="action_edit_profile">Modifica il profilo</string>
     <string name="action_view_blocked">Visualizza gli utenti bloccati</string>
-    <string name="action_report_user">Riporta utente</string>
+    <string name="action_report_user">Segnala utente</string>
     <string name="action_block_user">Blocca/Sblocca…</string>
     <string name="action_ban_user">Banna utente</string>
     <string name="action_unban_user">Riattivare utente</string>
@@ -30,9 +30,9 @@
     <string name="action_unmute">Togli silenziamento</string>
     <string name="ad_attribution">Pubblicità</string>
     <string name="google_play_services_missing_error">Servono i servizi Google play per usare questa app!</string>
-    <string name="launch_subtitle">Login, registrati o continua come Ospite</string>
+    <string name="launch_subtitle">Accedi, registrati o continua come Ospite</string>
     <string name="launch_btn_guest">Continua come Ospite</string>
-    <string name="launcher_init_parse">Avviamento</string>
+    <string name="launcher_init_parse">Inizializzazione in corso</string>
     <string name="launcher_creating_guest_account">Creazione di un account ospite</string>
     <string name="launcher_creating_guest_account_error">Creazione account Ospite \nErrore: %1$s \n \nRiprova</string>
     <string name="launcher_updating_account">Recupero dell\'account</string>
@@ -44,19 +44,19 @@
     <string name="launcher_reset_button">Esci / resetta</string>
     <string name="launcher_save_token_error">Impossibile salvare il token: %1$s</string>
     <string name="login_title">Benvenuto su eFur!</string>
-    <string name="login_subtitle">Per favore fai il login o registrati per continuare</string>
+    <string name="login_subtitle">Per favore accedi o registrati per continuare</string>
     <string name="login_email_text">Inserisci e-mail</string>
     <string name="login_password_text">Inserisci la Password</string>
     <string name="login_reset">Resetta password</string>
-    <string name="login_new_user">Nuovo utente? Registrati!</string>
+    <string name="login_new_user">Nuovo utente? Registrati</string>
     <string name="legal_notice_launch">Continuando confermi di aver letto e accettato i Termini di servizio e l\'Informativa sulla privacy:</string>
     <string name="legal_notice_checkbox">"Sono d\'accordo con il "</string>
     <string name="legal_ad_checkbox">Accetto la pubblicità personalizzata</string>
     <string name="login_invalid_email">E-mail non valida</string>
     <string name="login_password_too_short">La password deve contenere almeno 8 caratteri</string>
-    <string name="login_username_too_short">Minimo lettere richieste per il nome utente è di 3</string>
+    <string name="login_username_too_short">La lunghezza minima del nome utente è di 3 caratteri</string>
     <string name="login_username_too_long">Il massimo di lettere per il nome utente è di 22</string>
-    <string name="login_invalid_email_pw">E-mail o passwordd non valido</string>
+    <string name="login_invalid_email_pw">E-mail e/o password non valido</string>
     <string name="login_register_accept">Accetta sia l\'Informativa sulla Privacy che i Termini di Servizio per registrarti</string>
     <string name="login_register_error">Registrazione fallita: %1$s</string>
     <string name="login_register_age">Ho più di 13 anni</string>
@@ -1219,7 +1219,7 @@
     <string name="block_visibility_hide_posts">Nascondi i post in Nuovo e ricerche</string>
     <string name="block_title_cant">Blocca questo utente da:</string>
     <string name="action_show_messages">Mostra messaggi</string>
-    <string name="action_delete_account">Eliminare account</string>
+    <string name="action_delete_account">Elimina account</string>
     <string name="login_register_set_age">Imposta la tua data di nascita per registrarti</string>
     <string name="post_category_30">Abbigliamento e trucco</string>
     <string name="post_theme_0">Sangue</string>
