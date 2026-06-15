@@ -84,8 +84,8 @@
     <string name="reset_password_sent">È stata inviata un\'e-mail di reimpostazione della password a \"%1$s\"</string>
     <string name="register_success">Account creato, benvenuto su eFur!</string>
     <string name="login_expired_session">Sessione scaduta, effettua nuovamente l\'accesso!</string>
-    <string name="logout_dialog_title">Log out?</string>
-    <string name="logout_dialog_message">Sei sicuro di voler uscire?</string>
+    <string name="logout_dialog_title">Disconnettere?</string>
+    <string name="logout_dialog_message">Sei sicuro di disconnettere?</string>
     <string name="post_category_0">Generale</string>
     <string name="post_category_1">Arte (Digitale)</string>
     <string name="post_category_2">Arte (Tradizionale)</string>
@@ -97,9 +97,9 @@
     <string name="post_category_6">Divertente &amp; meme</string>
     <string name="post_category_7">Aww &amp; carino</string>
     <string name="post_category_8">Fotografia</string>
-    <string name="post_category_9">IRL</string>
+    <string name="post_category_9">Dal vivo</string>
     <string name="post_category_10">Creazione &amp; scultura</string>
-    <string name="post_category_11">Disegn</string>
+    <string name="post_category_11">Disegni</string>
     <string name="post_category_12">Album</string>
     <string name="post_category_13">Storie / testo</string>
     <string name="post_category_25">Domande (Q&amp;A)</string>
@@ -107,10 +107,10 @@
     <string name="post_category_14">Commissioni</string>
     <string name="post_category_15">Aste / YCH</string>
     <string name="post_category_16">Adottabili</string>
-    <string name="post_category_17">Gaming</string>
+    <string name="post_category_17">Giochi</string>
     <string name="post_category_18">Film, serie &amp; Programmi TV</string>
     <string name="post_category_28">Musica</string>
-    <string name="post_category_19">Viaggi &amp; places</string>
+    <string name="post_category_19">Viaggi &amp; luoghi</string>
     <string name="post_category_20">WTF</string>
     <string name="post_category_21">Cibo &amp; ricette</string>
     <string name="post_category_22">Screenshots</string>
