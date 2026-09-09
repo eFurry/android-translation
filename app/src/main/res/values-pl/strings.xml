@@ -31,12 +31,12 @@
 \nPonawianie próby</string>
     <string name="launcher_updating_account_settings">Ładowanie ustawień konta</string>
     <string name="launcher_server_status">Sprawdź status serwera</string>
-    <string name="login_title">Witamy na eFur!</string>
-    <string name="login_subtitle">Prosimy, zaloguj się lub zarejestruj się, aby kontynuować</string>
+    <string name="login_title">Witaj na eFur!</string>
+    <string name="login_subtitle">Zaloguj się lub zarejestruj, aby kontynuować</string>
     <string name="login_email_text">Wprowadź swój e-mail</string>
     <string name="login_password_text">Wprowadź swoje hasło</string>
     <string name="login_reset">Zresetuj hasło</string>
-    <string name="login_new_user">Jesteś nowym użytkownikiem? Zamiast tego zarejestruj się</string>
+    <string name="login_new_user">Nie masz konta? Zarejestruj się</string>
     <string name="legal_notice_launch">Kontynuując, potwierdzasz, że przeczytałeś(-aś) i akceptujesz Warunki świadczenia usług oraz Politykę prywatności:</string>
     <string name="legal_notice_checkbox">"Akceptuję "</string>
     <string name="login_invalid_email">Błędny adres e-mail</string>
@@ -181,7 +181,7 @@
     <string name="register">Zarejestruj się</string>
     <string name="login">Zaloguj się</string>
     <string name="login_or_register">Zaloguj się lub zarejestruj</string>
-    <string name="login_instead">Zamiast tego zaloguj się</string>
+    <string name="login_instead">Masz konto? Zaloguj się</string>
     <string name="cancel">Anuluj</string>
     <string name="ok">OK</string>
     <string name="copy">Kopiuj</string>
@@ -567,7 +567,7 @@
     <string name="consent_reopen_title">Edytuj RODO / CCPA / ustawienia reklam</string>
     <string name="consent_crashlytics_title">Wysyłaj raporty o błędach</string>
     <string name="consent_crashlytics_summary_on">Raporty błędów są zbierane i wysyłane do Firebase Crashlytics</string>
-    <string name="consent_crashlytics_summary_off">Raporty błędów nie są zbierane i nie będą wysyłane do Firebase Crashlytics</string>
+    <string name="consent_crashlytics_summary_off">Raporty błędów są wyłączone i nie będą wysyłane do Firebase Crashlytics</string>
     <string name="settings_danger_title">Strefa zagrożenia</string>
     <string name="settings_danger_delete_account_title">Usuń dane konta</string>
     <string name="delete_account_title">Usuwanie konta</string>
@@ -598,7 +598,7 @@
     <string name="picker_comic">Komiks</string>
     <string name="picker_camera">Zrób zdjęcie</string>
     <string name="picker_text">Relację</string>
-    <string name="picker_title">Stwórz</string>
+    <string name="picker_title">Utwórz</string>
     <string name="picker_poll">Ankietę</string>
     <string name="picker_select">Wybierz</string>
     <string name="picker_camera_permissions_hint">Uprawnienie do aparatu wymagane</string>
@@ -625,7 +625,7 @@
     <string name="blocked_get_error">Błąd: %1$s</string>
     <string name="blocked_none">Nikogo jeszcze nie blokujesz</string>
     <string name="action_edit_title">Edytuj tytuł</string>
-    <string name="action_reorder_comic">Zorganizuj strony</string>
+    <string name="action_reorder_comic">Organizuj strony</string>
     <string name="action_delete_comic">Usuń komiks</string>
     <string name="action_ban_user">Zbanuj użytkownika</string>
     <string name="action_unban_user">Odbanuj użytkownika</string>
@@ -658,7 +658,7 @@
     <string name="upload_rating_error_age_safe">Twoje konto jest ustawione tylko na treść Bezpieczną (SFW)</string>
     <string name="upload_rating_error_age_suggestive">Twoje konto jest ustawione tylko na treść Bezpieczną (SFW) i Sugestywną</string>
     <string name="upload_settings_disable_comments">Wyłącz komentarze</string>
-    <string name="upload_settings_disable_comments_hint">Komentowanie będzie wyłączone dla tego postu</string>
+    <string name="upload_settings_disable_comments_hint">Komentowanie będzie wyłączone dla tego posta</string>
     <string name="upload_settings_content_normal">Rodzaj treści/tematyka</string>
     <string name="upload_settings_content_normal_dialog_title">Wybierz treść</string>
     <string name="upload_settings_content_normal_none_selected">Brak wybranego rodzaju treści/tematyki</string>
@@ -698,7 +698,7 @@
 \nPost nie zostanie usunięty.</string>
     <string name="comic_view_delete_error">Nie udało się usunąć komiksu: %1$s</string>
     <string name="comic_view_delete_success">Komiks usunięty</string>
-    <string name="comic_view_reorder_title">Zorganizuj komiks</string>
+    <string name="comic_view_reorder_title">Organizuj komiks</string>
     <string name="comic_view_reorder_message">Przeciągnij i upuść strony, aby zmienić ich kolejność. Nie zapomnij dotknąć ikony zapisu po zakończeniu!</string>
     <string name="comic_view_post_long_press_set_thumb">Ustawione jako miniaturę komiksu</string>
     <string name="comic_view_post_long_press_remove">Usuń z komiksu</string>
@@ -756,7 +756,7 @@
     <string name="post_reposted">%1$s zrepostowane</string>
     <string name="followers">Obserwujący</string>
     <string name="about_premium">Premium</string>
-    <string name="modmail">Wiadomości z moderacją</string>
+    <string name="modmail">Kontakt z moderacją</string>
     <string name="cleanup">Posprzątać</string>
     <string name="recent_messages">Najnowsze wiadomości</string>
     <string name="mod_logs_user">Dzienniki moderacji dla %1$s</string>
@@ -908,7 +908,7 @@
     <string name="notification_type_level_up_received">Podarowuje Ci %1$d poziom(y)</string>
     <string name="notification_delete_message">Usuń to powiadomienie?</string>
     <string name="notification_delete_error">Nie udało się usunąć: %1$s</string>
-    <string name="post_comments_disabled">Komentarze zostały wyłączone w tym poście</string>
+    <string name="post_comments_disabled">Komentowanie tego posta zostało wyłączone</string>
     <string name="comment_edit">Edytuj komentarz</string>
     <string name="comment_edited">Komentarz edytowany</string>
     <string name="comment_edit_error">Nie udało się edytować komentarza: %1$s</string>
@@ -994,9 +994,9 @@
     <string name="content_filter_block_content_title">Preferencje treści</string>
     <string name="content_filter_block_content_summary">Pokaż/ukryj treść</string>
     <string name="content_settings_subtitle">Zarządzaj tym, jakie treści chcesz widzieć w aplikacji. Wyłącz opcję, aby ukryć wszystkie posty w tej kategorii</string>
-    <string name="content_settings_normal">Standardowa zawartość</string>
+    <string name="content_settings_normal">Podstawowa zawartość</string>
     <string name="visible_by_default">Domyślnie widoczne. Odznacz, aby ukryć.</string>
-    <string name="hidden_by_default">Treści wrażliwe są ukryte, dopóki ich nie włączysz. Zaznacz opcję na liście, aby wyświetlać lub przesyłać posty z tej kategorii.</string>
+    <string name="hidden_by_default">Treści wrażliwe są ukryte, dopóki ich nie włączysz.\nZaznacz opcję na liście, aby wyświetlać lub przesyłać posty z tej kategorii.</string>
     <string name="content_settings_sensitive">Mocne fetysze i wrażliwe treści NSFW</string>
     <string name="content_settings_empty_fetch_error">Nie udało się pobrać zawartości: %1$s</string>
     <string name="content_settings_missing">Brakuje Ci kategorii? Wyślij wiadomość do @Dog!</string>
@@ -1284,7 +1284,7 @@
     <string name="chat_info_user_option_promote_to_mod">Awansuj na moderatora</string>
     <string name="chat_info_user_option_demote_from_mod">Zdegraduj do członka</string>
     <string name="chat_info_user_option_demote_from_mod_error">Nie udało się zdegradować: %1$s</string>
-    <string name="edit_profile_birthday">Moja data urodzenia:</string>
+    <string name="edit_profile_birthday">Twoja data urodzenia:</string>
     <string name="upload_image_error">Nie udało się przesłać pliku %1$d z %2$d: %3$s</string>
     <string name="reset_password_save">Zapisz nowe hasło do konta</string>
     <string name="discover_posts_text_none_found">Nie znaleziono postów szukając %1$s</string>
