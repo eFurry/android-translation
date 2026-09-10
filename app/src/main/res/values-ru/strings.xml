@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
-    <string name="action_log_out">Выйти</string>
+    <string name="action_log_out">Выйти из аккаунта</string>
     <string name="action_log_in">Войти</string>
     <string name="action_settings">Настройки</string>
     <string name="action_create">Создать</string>
@@ -11,9 +11,9 @@
     <string name="action_edit_profile">Редактировать профиль</string>
     <string name="action_view_blocked">Показать заблокированых пользователей</string>
     <string name="action_report_user">Пожаловаться на пользователя</string>
-    <string name="action_block_user">Заблокировать пользователя</string>
-    <string name="action_ban_user">Заблокировать пользователя</string>
-    <string name="action_unban_user">Разблокировать пользователя</string>
+    <string name="action_block_user">Заблокировать/разблокировать…</string>
+    <string name="action_ban_user">Забанить пользователя</string>
+    <string name="action_unban_user">Разбанить пользователя</string>
     <string name="action_show_logs">Показать журнал</string>
     <string name="action_add_as_mod">Повысить до модератора</string>
     <string name="action_remove_as_mod">Удалить статус модератора</string>
@@ -26,20 +26,11 @@
     <string name="launch_btn_guest">Продолжить как гость</string>
     <string name="launcher_init_parse">Инициализация</string>
     <string name="launcher_creating_guest_account">Создание гостевой учетной записи</string>
-    <string name="launcher_creating_guest_account_error">Создание гостевой учетной записи
-\nОшибка: %1$s
-\n
-\nПовторите ещё раз</string>
+    <string name="launcher_creating_guest_account_error">Создание гостевой учетной записи \nОшибка: %1$s \n \nНовая попытка</string>
     <string name="launcher_updating_account">Получение аккаунта</string>
-    <string name="launcher_updating_account_error">Получение аккаунта
-\nОшибка: %1$s
-\n
-\nПовторите ещё раз</string>
+    <string name="launcher_updating_account_error">Получение аккаунта \nОшибка: %1$s \n \nНовая попытка</string>
     <string name="launcher_fetching_config">Получение конфигурации</string>
-    <string name="launcher_fetching_config_error">Получение конфигурации
-\nОшибка: %1$s
-\n
-\nПовторите ещё раз</string>
+    <string name="launcher_fetching_config_error">Получение конфигурации \nОшибка: %1$s \n \nНовая попытка</string>
     <string name="launcher_updating_account_settings">Получение настроек аккаунта</string>
     <string name="launcher_server_status">Проверить статус сервера</string>
     <string name="launcher_reset_button">Выход / сброс</string>
@@ -49,37 +40,32 @@
     <string name="login_password_text">Введите свой пароль</string>
     <string name="login_reset">Сброс пароля</string>
     <string name="login_new_user">Новый пользователь? Зарегистрируйтесь</string>
-    <string name="legal_notice_launch">Продолжая, вы подтверждаете, что прочитали и согласны с условиями обслуживания и политикой конфиденциальности:</string>
+    <string name="legal_notice_launch">Продолжая, вы подтверждаете, что прочитали и согласны с Условиями Обслуживания и Политикой Конфиденциальности:</string>
     <string name="legal_notice_checkbox">"Я согласен с "</string>
     <string name="legal_ad_checkbox">Я согласен на персонализированную рекламу</string>
     <string name="login_invalid_email">Неверный адрес электронной почты</string>
     <string name="login_password_too_short">Минимальная длина пароля 8 символов</string>
     <string name="login_username_too_short">Минимальная длина имени пользователя 3 символа</string>
-    <string name="login_username_too_long">Максимальная длина имени пользователя — 22 символа.</string>
+    <string name="login_username_too_long">Максимальная длина имени пользователя — 22 символа</string>
     <string name="login_invalid_email_pw">Неверный адрес электронной почты и/или пароль</string>
-    <string name="login_register_accept">Примите как Политику конфиденциальности, так и Условия обслуживания, чтобы зарегистрироваться</string>
-    <string name="login_register_error">Не удалось зарегистрироваться: %1$s</string>
+    <string name="login_register_accept">Принять Политику конфиденциальности и Условия обслуживания, чтобы зарегистрироваться</string>
+    <string name="login_register_error">Ошибка зарегистрироваться: %1$s</string>
     <string name="login_register_age">Мне 13 лет или старше</string>
     <string name="login_register_age_error">Вы должны подтвердить, что вам 13 лет или старше для использования этого приложения!</string>
     <string name="login_dialog_consent_country_title">Ваше местоположение</string>
     <string name="login_dialog_consent_country_message">Вы являетесь резидентом ЕС/ЕЭЗ, Великобритании или штата Калифорния в США?</string>
     <string name="login_dialog_consent_country_yes">Да</string>
     <string name="login_dialog_consent_country_no">Нет</string>
-    <string name="login_dialog_consent_age_title">Согласие</string>
+    <string name="login_dialog_consent_age_title">Согласиться</string>
     <string name="login_dialog_consent_personalised_title">Персонализированная реклама</string>
-    <string name="login_dialog_consent_personalised_message">Приложение содержит рекламу. Вы хотите, чтобы они были персонализированы (релевантны для вас)?</string>
+    <string name="login_dialog_consent_personalised_message">Приложение содержит рекламу. Вы хотите, чтобы она была персонализирована (релевантна для вас)?</string>
     <string name="login_dialog_consent_personalised_yes">Да</string>
     <string name="login_dialog_consent_personalised_no">Нет</string>
     <string name="login_dialog_consent_done_title">Зарегестрироваться?</string>
-    <string name="login_dialog_register_confirm_message">Вы собираетесь зарегистрировать аккаунт, используя %1$s. На этот адрес будет отправлено письмо для подтверждения.
-\n
-\nПродолжать?</string>
+    <string name="login_dialog_register_confirm_message">Вы собираетесь зарегистрировать аккаунт, используя %1$s. На этот адрес будет отправлено письмо для подтверждения. \n \nПродолжить?</string>
     <string name="account_needed">Для выполнения этого действия необходим аккаунт!</string>
     <string name="reset_password_dialog_title">Сброс пароля</string>
-    <string name="reset_password_dialog_message">Это отправит электронное письмо для сброса пароля на \"%1$s\".
-\nНажмите на ссылку в письме, чтобы сбросить пароль
-\n
-\nВы хотите продолжить?</string>
+    <string name="reset_password_dialog_message">Это отправит электронное письмо для сброса пароля на \"%1$s\".\nНажмите на ссылку в письме, чтобы сбросить пароль\n\nВы хотите продолжить?</string>
     <string name="reset_password_error">Ошибка: %1$s</string>
     <string name="reset_password_sent">Письмо для сброса пароля было отправлено на \"%1$s\"</string>
     <string name="register_success">Аккаунт создан, добро пожаловать в eFur!</string>
@@ -110,7 +96,7 @@
     <string name="post_category_17">Игры</string>
     <string name="post_category_18">Фильмы, сериалы и телешоу</string>
     <string name="post_category_28">Музыка</string>
-    <string name="post_category_19">Путешествия и различные локации</string>
+    <string name="post_category_19">Путешествия и локации</string>
     <string name="post_category_20">WTF</string>
     <string name="post_category_21">Еда и рецепты</string>
     <string name="post_category_22">Скриншоты</string>
@@ -123,7 +109,7 @@
     <string name="upload_picker_quota_text">Квота: %1$d — сброс через %2$d мин</string>
     <string name="upload_chooser_quota_title">Оставшаяся квота</string>
     <string name="upload_chooser_quota_restock">Ваша квота пополняется через %1$d минут</string>
-    <string name="upload_chooser_crop_error">Произошла ошибка при кадрировании изображения, повторите попытку.</string>
+    <string name="upload_chooser_crop_error">Произошла ошибка при обрезке изображения, повторите попытку</string>
     <string name="upload_chooser_comic_not_allowed">Вы не можете добавить комикс в комикс!</string>
     <string name="upload_chooser_invalid_file">Недопустимый файл!</string>
     <string name="upload_chooser_video_copy_failed">Не удалось прочитать видео: %1$s</string>
@@ -146,8 +132,8 @@
     <string name="upload_text_content_hint">Содержание поста</string>
     <string name="upload_text_too_short_error">Напишите заголовок или какое-либо содержание!</string>
     <string name="upload_policy_text">"Не забывайте следить за "</string>
-    <string name="upload_rating_error_age_safe">Ваш аккаунт настроен только на безопасное содержание</string>
-    <string name="upload_rating_error_age_suggestive">Ваш аккаунт настроен только на безопасное и непристойное содержание</string>
+    <string name="upload_rating_error_age_safe">Ваш аккаунт настроен только на Безопасное содержание</string>
+    <string name="upload_rating_error_age_suggestive">Ваш аккаунт настроен только на Безопасное и Сомнительное содержание</string>
     <string name="upload_poll_too_short_question">Напишите более длинный вопрос!</string>
     <string name="upload_poll_not_enough_options">Добавьте не менее двух вариантов</string>
     <string name="upload_settings_title">Подробности поста</string>
@@ -157,13 +143,13 @@
     <string name="upload_settings_source">Ссылка на источник (https://…)</string>
     <string name="upload_settings_rating_title">Рейтинг поста:</string>
     <string name="upload_settings_rating_safe">Безопасное</string>
-    <string name="upload_settings_rating_suggestive">Непристойное</string>
+    <string name="upload_settings_rating_suggestive">Сомнительное</string>
     <string name="upload_settings_rating_explicit">Откровенное</string>
     <string name="upload_settings_rating_safe_hint">Безопасное - подходит для всех возрастов.</string>
-    <string name="upload_settings_rating_suggestive_hint">Непристойное - непристойное содержание/художественная нагота или темы для взрослых</string>
+    <string name="upload_settings_rating_suggestive_hint">Сомнительное - непристойное содержание/художественная нагота или темы для взрослых</string>
     <string name="upload_settings_rating_explicit_hint">Откровенное - содержание для взрослых.</string>
     <string name="upload_settings_hidden">Скрыть пост из \"Новое\"</string>
-    <string name="upload_settings_hidden_hint">Пост будет виден только вашим подписчикам и в вашем профиле</string>
+    <string name="upload_settings_hidden_hint">Пост не будет видно в разделе Новое</string>
     <string name="upload_settings_prevent_downloads">Запретить скачивания</string>
     <string name="upload_settings_prevent_downloads_hint">Содержимое поста не будет доступно для скачивания другим пользователям</string>
     <string name="upload_settings_add_tags">Введите до 100 тегов, описывающих пост</string>
@@ -173,10 +159,10 @@
     <string name="upload_settings_categories">Категории</string>
     <string name="upload_settings_categories_dialog_title">Выберите категории</string>
     <string name="upload_settings_categories_none_selected">Категории не выбраны</string>
-    <string name="upload_settings_content_normal">Содержимое/тема (необязательно)</string>
+    <string name="upload_settings_content_normal">Содержимое/тема</string>
     <string name="upload_settings_content_normal_dialog_title">Выберите содержимое</string>
     <string name="upload_settings_content_normal_none_selected">Содержание/тема не выбраны</string>
-    <string name="upload_settings_content_sensitive">Деликатное содержимое/тема (необязательно)</string>
+    <string name="upload_settings_content_sensitive">Деликатное содержимое/тема</string>
     <string name="upload_settings_content_sensitive_dialog_title">Выберите деликатное содержание</string>
     <string name="upload_settings_content_sensitive_none_selected">Деликатное содержимое не выбрано</string>
     <string name="upload_settings_content_sensitive_none_enabled">Вы не включили деликатное содержимое.
@@ -186,7 +172,7 @@
     <string name="upload_settings_tags">Теги</string>
     <string name="upload_settings_tags_hint">Введите тег</string>
     <string name="upload_settings_tags_too_many">Вы не можете добавить более 100 тегов</string>
-    <string name="upload_settings_poll_question_title">Вопрос опроса</string>
+    <string name="upload_settings_poll_question_title">Вопрос для опроса</string>
     <string name="upload_settings_poll_question_hint">Задайте вопрос</string>
     <string name="upload_settings_poll_answers">Варианты ответа</string>
     <string name="upload_settings_poll_option">Вариант</string>
@@ -220,8 +206,7 @@
     <string name="comic_view_reorder_error">Не удалось переупорядочить: %1$s</string>
     <string name="comic_view_reorder_success">Порядок страниц обновлен!</string>
     <string name="comic_view_delete_title">Удалить комикс?</string>
-    <string name="comic_view_delete_message">Вы уверены, что хотите удалить этот комикс?
-\nПосты не будут удалены.</string>
+    <string name="comic_view_delete_message">Вы уверены, что хотите удалить этот комикс?\nПосты не будут удалены.</string>
     <string name="comic_view_delete_error">Не удалось удалить комикс: %1$s</string>
     <string name="comic_view_delete_success">Комикс удален</string>
     <string name="comic_view_reorder_title">Переупорядочить комикс</string>
@@ -241,7 +226,7 @@
     <string name="fursona_view_user_title">Фурсоны %1$s</string>
     <string name="my_fursonas_create_title">Создать новую фурсону</string>
     <string name="my_fursonas_create_hint">Имя</string>
-    <string name="my_fursonas_species_hint">Виды</string>
+    <string name="my_fursonas_species_hint">Вид</string>
     <string name="my_fursonas_description_hint">Описание</string>
     <string name="my_fursonas_add_to_title">Ссылка на фурсону?</string>
     <string name="my_fursonas_add_to_message">Связать пост с этой фурсоной?</string>
@@ -249,14 +234,12 @@
     <string name="my_fursonas_delete_message">Вы уверены, что хотите удалить эту фурсону?</string>
     <string name="my_fursonas_deleted">Фурсона %1$s удалена</string>
     <string name="my_fursonas_delete_error">Не удалось удалить: %1$s</string>
-    <string name="my_fursonas_name_empty">Безымянный</string>
-    <string name="my_fursonas_species_empty">Виды не установлены</string>
+    <string name="my_fursonas_name_empty">Без имени</string>
+    <string name="my_fursonas_species_empty">Вид не установлен</string>
     <string name="my_fursonas_description_empty">Описание не задано</string>
     <string name="my_fursonas_edit_error">Не удалось сохранить: %1$s</string>
     <string name="my_fursonas_edit_success">Фурсона сохранена</string>
-    <string name="discover_text">Эта область находится в стадии разработки :)
-\n
-\nЗдесь вы сможете искать теги, сообщения, пользователей и многое другое.</string>
+    <string name="discover_text">Эта область находится в стадии разработки :)\n\nЗдесь вы сможете искать теги, сообщения, пользователей и многое другое</string>
     <string name="discover_users">Пользователи</string>
     <string name="discover_users_browse">Просмотр пользователей</string>
     <string name="discover_users_search">Поиск по имени пользователя</string>
@@ -273,15 +256,13 @@
     <string name="order_oldest_first">Сначала старые</string>
     <string name="order_most_likes">Наибольшее количество лайков</string>
     <string name="order_least_likes">Наименьшее количество лайков</string>
-    <string name="discover_posts_advanced_enter_tags_details">Введите теги, разделенные пробелом.
-\nПример: \"dog digital_art\" будет искать посты, содержащие оба тега \"dog\" и \"digital_art\".</string>
+    <string name="discover_posts_advanced_enter_tags_details">Введите теги, разделенные пробелом.\nПример: \"dog digital_art\" будет искать посты, содержащие оба тега \"dog\" и \"digital_art\"</string>
     <string name="discover_posts_advanced_default_categories">Все категории</string>
     <string name="discover_posts_advanced_default_content_safe">Все темы</string>
     <string name="discover_posts_advanced_default_content_sensitive">Все деликатные темы</string>
-    <string name="search_all_any">Соответствие
-\nВСЕ/ОПРЕДЕЛЕННЫЕ</string>
+    <string name="search_all_any">Соответствие\nВСЕ/ЛЮБЫЕ</string>
     <string name="search_all">ВСЕ</string>
-    <string name="search_any">ОПРЕДЕЛЕННЫЕ</string>
+    <string name="search_any">ЛЮБЫЕ</string>
     <string name="search_result">Результат поиска</string>
     <string name="rating">Рейтинг</string>
     <string name="discover_posts_tag_none_found">Нет постов, соответствующих тегу %1$s</string>
@@ -289,26 +270,26 @@
     <string name="discover_posts">Посты</string>
     <string name="coming_soon">Скоро появится!</string>
     <string name="failed_to_get_posts">Не удалось получить посты: %1$s</string>
-    <string name="post_info_none">Отсутствует</string>
+    <string name="post_info_none">Нету информации</string>
     <string name="post_not_found">Этот пост не найден</string>
     <string name="post_media_failed_to_load_with_error">Не удалось загрузить. Нажмите, чтобы повторить попытку.
 \n
 \n%1$s</string>
     <string name="post_media_failed_to_load">Не удалось загрузить. Нажмите, чтобы повторить попытку.</string>
     <string name="post_reposted">%1$s репостов</string>
-    <string name="logged_out">Выход из сети</string>
+    <string name="logged_out">Выход выполнен</string>
     <string name="content_policy">Политика содержания</string>
-    <string name="terms_of_service">Условия обслуживания</string>
+    <string name="terms_of_service">Условия Обслуживания</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
     <string name="divider_horizontal">|</string>
     <string name="allowed_digits">01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</string>
     <string name="main_press_back_again_to_exit">Нажмите кнопку «Назад» еще раз, чтобы выйти!</string>
     <string name="register">Зарегистрироваться</string>
-    <string name="login">Авторизоваться</string>
+    <string name="login">Войти</string>
     <string name="login_or_register">Войти или зарегистрироваться</string>
     <string name="login_instead">Войти вместо этого</string>
     <string name="cancel">Отмена</string>
-    <string name="ok">ОК</string>
+    <string name="ok">Ок</string>
     <string name="copy">Копировать</string>
     <string name="search">Поиск</string>
     <string name="new_">Новое</string>
@@ -320,7 +301,7 @@
     <string name="others">Другие</string>
     <string name="moderation">Модерация</string>
     <string name="administration">Администрация</string>
-    <string name="social">Социальные сети</string>
+    <string name="social">Общественное</string>
     <string name="feedback">Обратная связь</string>
     <string name="translate">Перевод</string>
     <string name="contributors">Авторы</string>
@@ -329,7 +310,7 @@
     <string name="support">Поддержка</string>
     <string name="about_support">Информация и поддержка</string>
     <string name="about_premium">Премиум</string>
-    <string name="modmail">Modmail</string>
+    <string name="modmail">Почта модерации</string>
     <string name="about">О проекте</string>
     <string name="upload">Загрузить</string>
     <string name="continue_">Продолжить</string>
@@ -474,7 +455,7 @@
     <string name="feedback_general">Есть отзывы или предложения по улучшению приложения? Оставьте оценку в Play Store, отправьте электронное письмо по адресу feedback@efurry.net или присоединитесь к Discord и поделитесь там своими мыслями!</string>
     <string name="contributions_general">Если вы внесли свой вклад, отправьте @Dog сообщение!</string>
     <string name="translate_general">Вы можете помочь перевести приложение на другой язык!</string>
-    <string name="support_general">Нужно связаться с администратором или нужна помощь с приложением? Отправьте электронное письмо по адресу support@efurry.net или нажмите кнопку ниже, чтобы отправить сообщение прямо в приложении.</string>
+    <string name="support_general">Нужно связаться с администратором или нужна помощь с приложением? Отправьте электронное письмо по адресу support@efurry.net или свяжитесь с одним из модераторов ниже!</string>
     <string name="support_social">У нас есть Discord-сервер и группа в Telegram! Присоединяйся, чтобы общаться с другими пользователями и модераторами и получать помощь по любому вопросу.</string>
     <string name="support_social_not_logged_in">Сначала зарегистрируйте аккаунт</string>
     <string name="discord">Discord</string>
@@ -737,7 +718,7 @@
     <string name="post_item_fav_desc">Понравился твой пост</string>
     <string name="post_item_comment_desc">Посмотреть комментарии к посту</string>
     <string name="post_item_info_desc">Посмотреть информацию о посте</string>
-    <string name="post_item_cropped">Длинные сообщения обрезаются, нажмите, чтобы просмотреть в полном размере.</string>
+    <string name="post_item_cropped">Длинные сообщения обрезаются, нажмите чтобы просмотреть в полном размере</string>
     <string name="post_fullscreen_progress">%1$d%% (%2$s/%3$s МБ)</string>
     <string name="media_fullscreen_dialog_body">Скачать медиа?</string>
     <string name="profile_title">Профиль %1$s</string>
@@ -803,7 +784,7 @@
     <string name="edit_profile_upload_icon_error">Не удалось загрузить изображение: %1$s</string>
     <string name="failed_to_read_file">Не удалось прочитать файл!</string>
     <string name="not_image_or_gif">Не является изображением или GIF-файлом!</string>
-    <string name="edit_profile_bio_info">Расскажите о себе! (поддерживается разметка)</string>
+    <string name="edit_profile_bio_info">Расскажите о себе!</string>
     <string name="edit_profile_save_changes">Сохранить изменения</string>
     <string name="edit_profile_icon_title">Редактировать значок</string>
     <string name="edit_profile_bg_title">Изменить фон</string>
@@ -818,14 +799,14 @@
     <string name="edit_profile_chip_public_comments_title">Мои комментарии:</string>
     <string name="edit_profile_chip_public_comments_1">Отображать в моем профиле</string>
     <string name="edit_profile_chip_public_comments_2">Приватные</string>
-    <string name="edit_profile_chip_show_age_title">Показывать посты, сделанные:</string>
+    <string name="edit_profile_chip_show_age_title">Я хочу видеть посты, созданные:</string>
     <string name="edit_profile_chip_show_age_1">Всеми пользователями</string>
     <string name="edit_profile_chip_show_age_2">Пользователи 16 лет и старше</string>
     <string name="edit_profile_chip_show_age_3">Пользователи 18 лет и старше</string>
     <string name="edit_profile_chip_max_rating_title">Показывать содержание с максимальным рейтингом:</string>
     <string name="edit_profile_chip_max_rating_1">Безопасное</string>
     <string name="edit_profile_chip_max_rating_2">Непристойное (18+)</string>
-    <string name="edit_profile_chip_max_rating_3">Откровенное</string>
+    <string name="edit_profile_chip_max_rating_3">Откровенное (18+)</string>
     <string name="edit_profile_age">Я:</string>
     <string name="edit_profile_age_locked_message">Ваш возраст заблокирован. Обратитесь к модератору или в службу поддержки, если вам нужно изменить его</string>
     <string name="edit_profile_age_lock">Заблокировать возраст</string>
@@ -843,7 +824,7 @@
     <string name="downloading">Скачивание…</string>
     <string name="download_error_storage_permission_required">Требуется разрешение на хранение!</string>
     <string name="settings_consent_title">Соглашения</string>
-    <string name="settings_language_edit_title">Изменить язык приложения</string>
+    <string name="settings_language_edit_title">Язык приложения</string>
     <string name="content_filter_title">Фильтр содержания</string>
     <string name="content_filter_rating_title">Максимальный рейтинг содержания</string>
     <string name="content_filter_block_tags_title">Блокировка тегов</string>
@@ -860,7 +841,7 @@
     <string name="content_settings_normal">Стандартное содержание</string>
     <string name="visible_by_default">Видимо по умолчанию. Снимите флажок, чтобы скрыть.</string>
     <string name="hidden_by_default">Скрыто по умолчанию. Установите флажок, чтобы показать.</string>
-    <string name="content_settings_sensitive">NSFW содержание</string>
+    <string name="content_settings_sensitive">Особые фетиши и NSFW содержание</string>
     <string name="content_settings_empty_fetch_error">Не удалось получить содержимое: %1$s</string>
     <string name="content_settings_missing">Отсутствует категория? Отправьте @Dog сообщение!</string>
     <string name="content_settings_fetch_error">Не удалось получить настройки: %1$s</string>
@@ -874,7 +855,7 @@
     <string name="consent_title">Согласие</string>
     <string name="consent_reopen_title">Изменить GDPR / CCPA / настройки рекламы</string>
     <string name="consent_crashlytics_title">Отправлять отчеты о сбоях</string>
-    <string name="consent_crashlytics_summary_on">Отчеты о сбоях собираются и отправляются в Firebase Crashlytics.</string>
+    <string name="consent_crashlytics_summary_on">Отчеты о сбоях собираются и отправляются в Firebase Crashlytics</string>
     <string name="consent_crashlytics_summary_off">Отчеты о сбоях отключены и не отправляются в Firebase Crashlytics</string>
     <string name="settings_danger_title">Опасная зона</string>
     <string name="settings_danger_change_email_title">Изменить адрес электронной почты аккаунта</string>
@@ -952,17 +933,17 @@
     <string name="blocked_none">Вы не заблокировали ни одного пользователя</string>
     <string name="modmail_empty_text">У вас еще нет Modmail!</string>
     <string name="action_start_chat">Начать чат</string>
-    <string name="action_create_1_1_chat">Начать чат 1:1</string>
+    <string name="action_create_1_1_chat">Начать личный чат</string>
     <string name="action_create_group_chat">Начать групповой чат</string>
     <string name="action_clear_history">Очистить историю</string>
     <string name="action_delete_chat">Удалить чат</string>
     <string name="action_leave_chat">Покинуть чат</string>
-    <string name="launcher_save_token_error">Не удалось сэкономить токен: %1$s</string>
+    <string name="launcher_save_token_error">Не удалось сохранить токен: %1$s</string>
     <string name="upload_settings_disable_comments">Отключить комментарии</string>
     <string name="upload_settings_disable_comments_hint">Комментирование будет отключено для этого поста</string>
-    <string name="discover_users_start_chat_with">Выберите пользователя, чтобы общаться с</string>
+    <string name="discover_users_start_chat_with">Выберите пользователя для общения</string>
     <string name="discover_users_invite">Выберите пользователя, чтобы пригласить</string>
-    <string name="discover_users_send_gift_to">Выберите пользователя, чтобы подарить</string>
+    <string name="discover_users_send_gift_to">Выберите пользователя для подарка</string>
     <string name="chats">Чаты</string>
     <string name="unknown_account">Неизвестный</string>
     <string name="and">и</string>
@@ -970,7 +951,7 @@
     <string name="message_last_seen_online">В сети</string>
     <string name="message_send_media">Отправить СМИ</string>
     <string name="chats_no_messages">Пока нет сообщений</string>
-    <string name="chats_no_chats">"Как только вы присоединитесь к чату, он появится здесь.  N  nstart в чате в правом верхнем углу!"</string>
+    <string name="chats_no_chats">Как только вы присоединитесь к чату, он появится здесь.\n\nНачните чат в правом верхнем углу!</string>
     <string name="chat_toolbar_loading">Загрузка чата…</string>
     <string name="chat_group_member_count">%1$d участник</string>
     <string name="chat_group_members_count">%1$d участников</string>
@@ -982,7 +963,7 @@
     <string name="chat_deleted">Удаленный чат</string>
     <string name="chat_deleted_dialog_title">Чат удален</string>
     <string name="chat_deleted_dialog_message">Этот чат был удален.</string>
-    <string name="chat_create_1_1_hint">"Запустите чат с другим пользователем.  Nenter их имя пользователя ниже или перейдите в их профиль и используйте кнопку «Сообщение», чтобы запустить чат"</string>
+    <string name="chat_create_1_1_hint">Запустите чат с другим пользователем.\nВведите их имя пользователя ниже или перейдите в их профиль и используйте кнопку «Сообщение», чтобы запустить чат</string>
     <string name="chat_self_chat">%1$s (сохраненные сообщения)</string>
     <string name="chat_create_group_dialog_title">Создать групповой чат</string>
     <string name="chat_create_group_dialog_input_hint">Название группы (можно изменить позже)</string>
@@ -1003,7 +984,7 @@
     <string name="chat_role_with_last_seen_date">%1$s
 \nпоследнее посещение %2$s %3$s назад</string>
     <string name="chat_last_seen_date">Последний раз видели %1$s %2$s назад</string>
-    <string name="chat_role_with_online">"%1$s  Online"</string>
+    <string name="chat_role_with_online">%1$s\nонлайн</string>
     <string name="chat_online">В сети</string>
     <string name="chat_role_owner">владелец</string>
     <string name="chat_role_moderator">Модератор</string>
@@ -1052,12 +1033,12 @@
     <string name="discover_users_menu_order_by_likes">Наибольшее количество полученных лайков</string>
     <string name="discover_users_menu_order_by_posts">Наибольшее количество постов</string>
     <string name="discover_users_menu_order_by_level">Наивысший уровень</string>
-    <string name="discover_users_search_sub_hint">Имена пользователей нечувствительны к регистру. Имена чувствительны к регистру.</string>
+    <string name="discover_users_search_sub_hint">Поиск не чувствителен к регистру (А=а).</string>
     <string name="discover_users_search_user_clicked_view_profile">Просмотреть профиль</string>
     <string name="discover_users_search_user_clicked_select">Выберите пользователя</string>
     <string name="discover_users_list_empty">Пользователи не найдены</string>
     <string name="discover_users_search_empty">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \"</string>
-    <string name="discover_users_search_error">"Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \".  N  nerror: %2$s"</string>
+    <string name="discover_users_search_error">Пользователи не найдены с именем или именем пользователя, которые начинаются на \"%1$s \".\n\nОшибка: %2$s</string>
     <string name="chat_control_message_12">%1$s изменил информацию группы на %2$s</string>
     <string name="chat_error_removed_from_chat">Вы были удалены из этого чата</string>
     <string name="action_mute">Заглушить</string>
@@ -1070,8 +1051,8 @@
     <string name="chat_admin_join">Присоединяйтесь как администратор</string>
     <string name="chat_joined_with_role">Присоединился к роле %1$d</string>
     <string name="chat_error_does_not_exist">Этот чат был удален</string>
-    <string name="chat_open_invited_single">"%1$s (%2$s) хочет поговорить с вами.  N  Naccept Invite?"</string>
-    <string name="chat_open_invited_group">"Вам было предложено присоединиться к групповому чату \"%1$s \".  N  naccept Invite?"</string>
+    <string name="chat_open_invited_single">%1$s (%2$s) хочет поговорить с вами.\n\nПрисоединиться?</string>
+    <string name="chat_open_invited_group">Вам было предложено присоединиться к групповому чату \"%1$s \".\n\nПринять приглашение?</string>
     <string name="chat_delete_error">Не удалось удалить: %1$s</string>
     <string name="chat_clear_history_title">Очистить историю</string>
     <string name="chat_clear_history_message">Удалить все сообщения и медиа?
@@ -1083,7 +1064,7 @@
     <string name="chat_clear_history_error">Не удалось очистить историю: %1$s</string>
     <string name="chat_clear_history_success">История чата очистилась!</string>
     <string name="chat_leave_chat_title">Покинуть чат</string>
-    <string name="chat_leave_chat_message">Оставьте этот чат?</string>
+    <string name="chat_leave_chat_message">Оставить этот чат?\n\nВы не сможете зайти без приглашения.</string>
     <string name="chat_leave_chat_positive">Покинуть чат</string>
     <string name="chat_leave_chat_error">Не удалось уйти: %1$s</string>
     <string name="chat_leave_chat_success">Покинул чат</string>
@@ -1168,7 +1149,7 @@
 \n1. Введите свой адрес электронной почты ниже, чтобы приступить к созданию нового пароля.</string>
     <string name="verify_account_resend_text">Вы не получили электронное письмо? Нажмите на кнопку ниже, чтобы отправить новый код</string>
     <string name="search_ratings">Рейтинг постов</string>
-    <string name="delete_account_cancel_request_success_message">Успех! Ваш аккаунт был повторно активирована и больше не находится в очереди на удаление.</string>
+    <string name="delete_account_cancel_request_success_message">Успех! Ваш аккаунт был повторно активирован и больше не находится в очереди на удаление.</string>
     <string name="reset_password_new_password">2. Введите свой новый пароль и код, полученный по электронной почте ниже.</string>
     <string name="verify_account_subtitle">Чтобы использовать все функции, вам необходимо подтвердить свой аккаунт.
 \n
@@ -1205,7 +1186,7 @@
     <string name="about_stats_premium">Премиум</string>
     <string name="about_stats_premium_months">Месяцев премиума: %1$d</string>
     <string name="about_stats_premium_levels">Повышений уровня: %1$d</string>
-    <string name="settings_ui_change_theme">Изменить тему</string>
+    <string name="settings_ui_change_theme">Тема приложения</string>
     <string name="settings_ui_theme_item_light">Светлая</string>
     <string name="settings_ui_theme_item_dark">Темная</string>
     <string name="settings_ui_theme_item_system">Как в системе</string>
@@ -1234,7 +1215,7 @@
     <string name="upload_image_too_large">Размер файла, который вы пытаетесь загрузить, превышает 100 МБ. Обрежьте его или выберите файл меньшего размера.</string>
     <string name="upload_no_rating_selected">Выберите рейтинг публикации!</string>
     <string name="post_type_polls">Опросы</string>
-    <string name="post_category_31">Автомобили и транспортные средства</string>
+    <string name="post_category_31">Машины и транспорт</string>
     <string name="january">Январь</string>
     <string name="edit_profile_birthday_notice">Дата вашего рождения никогда не будет показана другим пользователям. После установки она может быть изменена только модератором.</string>
     <string name="delete_account_comments_confirm">Вы уверены? Все ваши комментарии будут удалены после вашего подтверждения.</string>
@@ -1260,7 +1241,7 @@
     <string name="november">Ноябрь</string>
     <string name="december">Декабрь</string>
     <string name="plus_number">+%1$d</string>
-    <string name="verify_account_code">Код подтверждения</string>
+    <string name="verify_account_code">Подтвердить код</string>
     <string name="edit_profile_removed_background">Фон удален!</string>
     <string name="edit_profile_birthday">Дата моего рождения:</string>
     <string name="edit_profile_birthday_year_button">Выберите год</string>
@@ -1270,7 +1251,7 @@
     <string name="edit_profile_birthday_age_years">Возраст: %1$d лет</string>
     <string name="edit_profile_birthday_locked">Дата вашего рождения заблокирована. Свяжитесь с модератором, если вам нужно изменить ее</string>
     <string name="delete_account_messages_confirm">Вы уверены? Все ваши сообщения будут удалены после вашего подтверждения.</string>
-    <string name="post_theme_19">Не фурри</string>
+    <string name="post_theme_19">Не Фурри</string>
     <string name="chat_edit_type_public">Публичный</string>
     <string name="post_theme_20">Мой арт / сделано мной</string>
     <string name="post_theme_3">Подгузники / детские меха</string>
@@ -1304,26 +1285,26 @@
     <string name="discover_chats_list_empty">Чаты не найдены</string>
     <string name="post_theme_21">Сделано с помощью ИИ</string>
     <string name="post_theme_0">Кровь</string>
-    <string name="post_theme_1">Бондаж</string>
+    <string name="post_theme_1">Связывание, удержание</string>
     <string name="post_theme_2">Пухлые / страдающие ожирением</string>
-    <string name="post_theme_25">Знакомства</string>
-    <string name="post_theme_4">Наркотики (арт)</string>
-    <string name="post_theme_5">Одичавшие</string>
+    <string name="post_theme_25">Знакомства / свидания</string>
+    <string name="post_theme_4">Наркотики (только изображения)</string>
+    <string name="post_theme_5">Одичавшие / дикие</string>
     <string name="post_theme_6">Мигающие огни</string>
     <string name="post_theme_7">Гипер</string>
     <string name="post_theme_8">Гипноз</string>
-    <string name="post_theme_9">Инфляция</string>
+    <string name="post_theme_9">Инфляция (увеличение)</string>
     <string name="post_theme_10">Макро</string>
     <string name="post_theme_11">Микро</string>
     <string name="post_theme_18">My Little Pony / Брони</string>
     <string name="post_theme_12">Кошмарное топливо</string>
     <string name="post_theme_23">Военные / война</string>
     <string name="post_theme_13">Лапки</string>
-    <string name="post_theme_22">Точка зрения</string>
+    <string name="post_theme_22">Вид от первого лица</string>
     <string name="post_theme_14">Беременность</string>
     <string name="post_theme_15">Трансформация</string>
     <string name="post_theme_24">Выплеск / высказывание</string>
-    <string name="post_theme_16">Вор</string>
+    <string name="post_theme_16">Поглощение / съедание</string>
     <string name="post_theme_17">Другой фетиш</string>
     <string name="messages_user">Сообщения от %1$s</string>
     <plurals name="years">
@@ -1345,10 +1326,10 @@
 \nВаш общий профиль должен быть безопасным для работы, в то время как профиль для взрослых (AD/NSFW) может содержать непристойные или откровенные материалы для взрослых.</string>
     <string name="discover_tags_browse">Просмотр тегов</string>
     <plurals name="discover_tags_tag_item_post_count">
-        <item quantity="one">%1$d постов</item>
-        <item quantity="few"/>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="one">%1$d пост</item>
+        <item quantity="few">%1$d поста</item>
+        <item quantity="many">%1$d постов</item>
+        <item quantity="other">%1$d постов</item>
     </plurals>
     <string name="discover_tags_order_by_popular">Популярность</string>
     <string name="discover_tags_order_by_recent">Недавняя активность</string>
@@ -1388,18 +1369,35 @@
     <string name="block_visibility_hide_posts">Скрыть посты в разделе \"Новое\" и поиске</string>
     <string name="block_can_like">Лайкать мои посты</string>
     <string name="content_settings_sensitive_click_to_show">Показать список деликатного содержания</string>
-    <string name="discover_posts_search">Найти посты</string>
+    <string name="discover_posts_search">Искать посты</string>
     <string name="edit_profile_name_ad_info">Выбери озорное имя!</string>
-    <string name="order_random">Случайный</string>
-    <string name="chat_info_user_option_promote_to_mod_error">Акция не удалась: %1$s</string>
+    <string name="order_random">Случайно</string>
+    <string name="chat_info_user_option_promote_to_mod_error">Не удалось повысить: %1$s</string>
     <string name="discover_posts_text_none_found">По запросу %1$s сообщений не найдено</string>
-    <string name="discover_chats_menu_order_by">Заказать чаты</string>
+    <string name="discover_chats_menu_order_by">Группировать чаты</string>
     <string name="account_deletions">Удалить акк</string>
-    <string name="main_complete_profile_message">Измените свое имя, установите значок и т. д.</string>
+    <string name="main_complete_profile_message">Измените свое имя, установите иконку и прочее</string>
     <string name="discover_posts_search_sub_hint">Поиск в заголовках постов, описаниях, текстах, исполнителях и тегах. Поиск нечувствителен к регистру.</string>
     <string name="placeholder_string">%1$s</string>
     <string name="chat_info_user_option_promote_to_mod_success">Продвинут %1$s</string>
     <string name="chat_info_user_option_demote_from_mod_error">Понижение не удалось: %1$s</string>
     <string name="chat_join_confirm">Подтвердите, что вы хотите присоединиться к этому чату</string>
     <string name="profile_content_error_unfollow_done">Успех, вы больше не подписаны на этого пользователя</string>
+    <string name="delete_account_send_request_confirm">Вы уверены? Подтверждение деактивирует аккаунт. Все посты, комментарии, сообщения и другие данные будут удалены через месяц.</string>
+    <string name="profile_content_error_unfollow">Отписаться</string>
+    <string name="chat_info_user_option_demote_from_mod_success">%1$s Понижен в должности</string>
+    <string name="content_settings_sensitive_desc">Особые случаи можно настроить только тут: %1$s</string>
+    <string name="delete_account_request_text_title">Удалить аккаунт навсегда</string>
+    <string name="delete_account_request_text_1">1. Запрос удаления аккаунта.</string>
+    <string name="delete_account_request_text_1_sub">Когда вы нажмёте \"Отправить запрос удаления аккаунта\" ваш аккаунт будет деактивирован и отправлен на удаление. Вы получите письмо для подтверждения.</string>
+    <string name="delete_account_request_text_2">2. Период.</string>
+    <string name="delete_account_request_text_2_sub">Ваш аккаунт останется деактивированным на месяц. В это время вы можете нажать \"Отменить запрос удаления аккаунта\" или отправить письмо на support@efurry.net для отмены.</string>
+    <string name="delete_account_request_text_3">3. Физическое удаление аккаунта.</string>
+    <string name="delete_account_request_text_3_sub">Через месяц вам ваш аккаунт будет удалён с серверов. Вам прийдёт письмо.</string>
+    <string name="delete_account_request_text_notice">Когда ваш аккаунт будет удалён ваше имя пользователя освободится.</string>
+    <string name="deleted_days_ago">Удалено %1$s %2$s назад</string>
+    <string name="deleted_accounts_days_ago">Удалено %1$s %2$s назад</string>
+    <string name="deleted_accounts_deleted_data">Удалено данные аккаунта %1$s</string>
+    <string name="deleted_accounts_cancelled">Отменено запрос удаления аккаунта %1$s</string>
+    <string name="discover_posts_search_hint">Введите текст поиска</string>
 </resources>
