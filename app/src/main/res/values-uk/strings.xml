@@ -8,8 +8,8 @@
     <string name="action_edit_profile">Редагувати профіль</string>
     <string name="action_view_blocked">Переглянути заблокованих користувачів</string>
     <string name="action_block_user">Заблокувати/розблокувати…</string>
-    <string name="action_ban_user">Заблокувати користувача</string>
-    <string name="action_unban_user">Розблокувати користувача</string>
+    <string name="action_ban_user">Забанити користувача</string>
+    <string name="action_unban_user">Розбанити користувача</string>
     <string name="action_show_logs">Показати журнал</string>
     <string name="action_verify_email">Підтвердити пошту</string>
     <string name="action_delete_account">Видалити аккаунт</string>
@@ -225,7 +225,7 @@
     <string name="my_fursonas_edit_error">Помилка збереження: %1$s</string>
     <string name="my_fursonas_edit_success">Фурсону збережено</string>
     <string name="discover_users">Користувачі</string>
-    <string name="discover_users_browse">Шукати користувачів</string>
+    <string name="discover_users_browse">Переглянути користувачів</string>
     <string name="discover_users_search">Шукати користувачів</string>
     <string name="discover_posts_search">Шукати пости</string>
     <string name="discover_users_start_chat_with">Оберіть користувача для розмови</string>
@@ -582,7 +582,7 @@
     <string name="close_reply">Закрити відповідь</string>
     <string name="reported_comments">Скарги на коментарі</string>
     <string name="april">Квітень</string>
-    <string name="reset_password_success">Ваш пароль змінено!</string>
+    <string name="reset_password_success">Успіх! Ваш пароль змінено</string>
     <string name="main_complete_profile_title">Завершити профіль</string>
     <string name="message_video_compressing_cancelled">Відмінено</string>
     <string name="message_option_delete_title">Видалити повідомлення</string>
@@ -638,7 +638,7 @@
     <string name="my_fursonas_create_title">Створити фурсону</string>
     <string name="discover_users_invite">Оберіть користувача для запрошення</string>
     <string name="message">Повідомлення</string>
-    <string name="verify_account_success">Ваш аккаунт підтверджено!</string>
+    <string name="verify_account_success">Успіх! Ваш аккаунт підтверджено</string>
     <string name="reset_password_subtitle">Забули пароль?
 \n
 \n1. Введіть пошту щоб створити новий пароль.</string>
@@ -686,7 +686,7 @@
 \nЦе видалить усе в розмові для усіх учасників.
 \n
 \nЦю дію неможливо скасувати і займе деякий час.</string>
-    <string name="chat_leave_chat_success">Вийти з розмови</string>
+    <string name="chat_leave_chat_success">Вийшов з розмови</string>
     <string name="chat_unmute_chat_success">Відмінено заглушення розмови!</string>
     <string name="chats_no_chats">Коли ви приєднається до чату він з\'явиться тут.
 \n
@@ -801,7 +801,7 @@
     <string name="premium_purchased_item_activate_dialog_myself">Я (особисто)</string>
     <string name="premium_purchased_item_activate_dialog_gift">Подарувати</string>
     <string name="premium_purchased_item_activate_error">Помилка активації: %1$s</string>
-    <string name="premium_purchased_item_activate_activated_gift">Вашу покупку успішно подаровано %1$s!</string>
+    <string name="premium_purchased_item_activate_activated_gift">Успіх! Вашу покупку успішно подаровано %1$s</string>
     <string name="premium_purchased_item_activate_activated_self">Вашу покупку активовано!</string>
     <string name="premium_unactivated_below">У вас є не активована покупка</string>
     <string name="activate">Активувати</string>
@@ -819,8 +819,7 @@
     <string name="notification_type_commented_post">Прокоментував (-ла): %1$s</string>
     <string name="notification_type_replied">Відповів (-ла): %1$s</string>
     <string name="notification_type_mod_deleted_comment">Ваш коментар було видалено модератором</string>
-    <string name="notification_type_banned_all">Повне блокування аккаунта (%1$s %2$s).
-\nПричина: %3$s</string>
+    <string name="notification_type_banned_all">Повне блокування аккаунта (%1$s %2$s). Причина: %3$s</string>
     <string name="notification_type_banned_comment">Бан коментування (%1$s %2$s). Причина: %3$s</string>
     <string name="notification_type_banned_post">Бан створення постів (%1$s %2$s). Причина: %3$s</string>
     <string name="notification_type_banned_start_chat">Бан початку розмов (%1$s %2$s). Причина: %3$s</string>
@@ -1118,7 +1117,7 @@
     <string name="settings_danger_change_email_no_match">Не співпадає</string>
     <string name="settings_danger_change_email_saving">Зміна пошти…</string>
     <string name="settings_danger_change_email_saving_error">Помилка зміни пошти: %1$s</string>
-    <string name="settings_danger_change_email_saving_success">Змінено пошту на %1$s!</string>
+    <string name="settings_danger_change_email_saving_success">Успіх! Змінено пошту на %1$s</string>
     <string name="delete_account_title">Видалення аккаунта</string>
     <string name="delete_account_subtitle">Ви можете видалити акаунт або усі дані 
 \n
@@ -1189,7 +1188,7 @@
     <string name="deleted_days_ago">Видалено %1$s %2$s тому назад</string>
     <string name="deleted_accounts_deleted_data">Видалено дані для аккаунта %1$s</string>
     <string name="deleted_accounts_cancelled">Відмінено запит видалення аккаунта для %1$s</string>
-    <string name="discover_users_title">Шукати користувачів</string>
+    <string name="discover_users_title">Переглядати користувачів</string>
     <string name="discover_users_member_for">Приєднався (-лась) %1$s %2$s тому назад</string>
     <string name="discover_users_order_followers_item">%1$d послідовників</string>
     <string name="discover_users_order_likes_item">%1$d лайків отримано</string>
@@ -1230,12 +1229,12 @@
     <string name="edit_profile_chip_public_favourites_2">Сховати Непристойне</string>
     <string name="edit_profile_chip_public_comments_1">Видимі в профілі</string>
     <string name="settings_language_edit_title">Мова застосунку</string>
-    <string name="edit_blocked_tags_body">Розділяйте теги пробілом чи новою строкою</string>
+    <string name="edit_blocked_tags_body">Розділяйте теги пробілом чи новою строкою. Пости з будь-яким з цих тегів будуть приховані.</string>
     <string name="consent_crashlytics_summary_off">Повідомлення про збій деактивовані і не відправляються до Firebase Crashlytics</string>
     <string name="delete_account_confirmation">Я розумію риски</string>
     <string name="delete_account_posts_confirm">Ви впевнені? Всі пости будуть видалені.</string>
     <string name="discover_users_menu_order_by_posts">Найбільше постів створено</string>
-    <string name="discover_users_search_sub_hint">Пошук не чутливий до розміру літер (А=а)</string>
+    <string name="discover_users_search_sub_hint">Пошук не чутливий до розміру літер (А=а).</string>
     <string name="report_reason_hate_speech">Розпалювання ненависті</string>
     <string name="report_additional_information">Додаткова інформація</string>
     <string name="mod_log_post">Перейти до посту %1$s</string>
@@ -1252,7 +1251,7 @@
     <string name="ban_user_type_edit_profile">Змінювати профіль</string>
     <string name="post_content_blocked_body">Заблоковане наповнення: %1$s</string>
     <string name="post_poll_option_click_votes">%1$d голосів</string>
-    <string name="posts_scrolling_empty_following">Підписуйтесь на користувачів щоб бачити їх пости тут!</string>
+    <string name="posts_scrolling_empty_following">Відслідковуваних постів поки нема,\nпідписуйтесь на користувачів щоб бачити їх нові пости тут!</string>
     <string name="post_item_comment_desc">Переглянути коментарі</string>
     <string name="profile_followers_item_follower_for">Послідовник %1$s %2$s</string>
     <string name="edit_profile_bio_ad_info">Представте себе (18+)!</string>
@@ -1289,7 +1288,7 @@
     </plurals>
     <string name="edit_profile_username_invalid">Неправильні символи в імені користувача</string>
     <string name="edit_profile_removed_background">Задній фон видалено!</string>
-    <string name="content_settings_subtitle">Налаштуйте ещо ви не хочете бачити.</string>
+    <string name="content_settings_subtitle">Налаштуйте те що ви хочете бачити. Вимкніть щоб приховати усі пости в цій категорії</string>
     <string name="hidden_by_default">Особливе наповнення приховане за замовчуванням. Змініть якщо хочете бачити.</string>
     <string name="delete_account_messages_button">Видалити мої повідомлення</string>
     <string name="delete_account_request_text_title">Назавжди видалити аккаунт</string>
@@ -1338,9 +1337,7 @@
     <string name="comment_deleted_placeholder_by_moderator">Цей коментар було видалено модератором</string>
     <string name="report_failed">Помилка відправки скарги: %1$s</string>
     <string name="post_info_favourited_by_view_all">Переглянути усі</string>
-    <string name="post_info_tag_block_message">Заблокувати тег \"%1$s\"?
-\n
-\nПости з цим тегом будуть приховані.</string>
+    <string name="post_info_tag_block_message">Заблокувати тег \"%1$s\"?\nПости з цим тегом будуть приховані.</string>
     <string name="profile_member_since">Учасник вже %1$s %2$s</string>
     <plurals name="profile_stats_data_likes_received">
         <item quantity="one">%1$d лайк отримано</item>
