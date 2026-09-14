@@ -95,10 +95,10 @@
     <string name="action_ban_user">封禁用户</string>
     <string name="action_unban_user">解除用户封禁</string>
     <string name="action_show_logs">显示日志</string>
-    <string name="action_add_as_mod">晋升为管理员</string>
-    <string name="action_remove_as_mod">删除管理员状态</string>
-    <string name="action_delete_all_posts">删除用户的帖子</string>
-    <string name="action_delete_all_comments">删除用户的注释</string>
+    <string name="action_add_as_mod" translatable="false">Promote to moderator</string>
+    <string name="action_remove_as_mod" translatable="false">Remove moderator status</string>
+    <string name="action_delete_all_posts" translatable="false">Purge user\'s posts</string>
+    <string name="action_delete_all_comments" translatable="false">Purge user\'s comments</string>
     <string name="action_verify_email">验证电子邮件</string>
     <string name="action_start_chat">开始一个聊天吧</string>
     <string name="action_create_1_1_chat">开始搜索用户与其单独聊天</string>
@@ -372,7 +372,7 @@
     <string name="content_policy">内容策略</string>
     <string name="terms_of_service">服务条款</string>
     <string name="privacy_policy">隐私政策</string>
-    <string name="divider_horizontal">"| "</string>
+    <string name="divider_horizontal" translatable="false">|</string>
     <string name="main_press_back_again_to_exit">再点击一遍返回以退出!</string>
     <string name="register">注册</string>
     <string name="login">登录</string>
@@ -478,7 +478,7 @@
     <string name="chats_no_chats">一旦你加入聊天，它就会出现在这里。
 \n
 \n在右上角开始聊天！</string>
-    <string name="chat_admin_join">以管理员身份加入</string>
+    <string name="chat_admin_join" translatable="false">Join as admin</string>
     <string name="chat_info_user_option_ban_error">封禁失败：%1$s</string>
     <string name="chat_info_user_option_unban_error">解除失败：%1$s</string>
     <string name="chat_open_error_deleted">此聊天/群聊已不存在。</string>
@@ -521,7 +521,7 @@
     <string name="chat_role_owner">群主</string>
     <string name="chat_role_moderator">管理员</string>
     <string name="chat_role_member">成员</string>
-    <string name="chat_joined_with_role">已加入%1$d</string>
+    <string name="chat_joined_with_role" translatable="false">Joined with role %1$d</string>
     <string name="chat_info_user_option_kick">移除</string>
     <string name="chat_info_user_option_kick_error">踢出失败：%1$s</string>
     <string name="chat_info_user_option_kick_success">已踢出%1$s</string>
@@ -611,7 +611,7 @@
 \n%1$s X%2$d</string>
     <string name="notification_type_banned_comment">评论被封禁（%1$s%2$s）。原因：%3$s</string>
     <string name="comment_alt_post">转到帖子</string>
-    <string name="add_mod_dialog_message">将此用户提升为管理员？</string>
+    <string name="add_mod_dialog_message" translatable="false">Promote this user to a moderator?</string>
     <string name="notification_type_banned_make_reports">举报内容封禁 （%1$s %2$s).原因：%3$s</string>
     <string name="profile_content_manage_fursonas">管理我的 兽设</string>
     <string name="profile_member_since">注册于 %1$s %2$s前</string>
@@ -623,7 +623,7 @@
     <string name="premium_description">购买eFurry Premium以删除应用程序中的所有广告，并获得更多的上传配额。</string>
     <string name="notification_type_mentioned_in_post">­在一个帖子里提到了你</string>
     <string name="notification_type_banned_start_chat">开始新聊天封禁（%1$s%2$s）。原因：%3$s</string>
-    <string name="post_info_menu_remove_from_news">从新发布中删除</string>
+    <string name="post_info_menu_remove_from_news" translatable="false">Remove from News</string>
     <string name="post_tag_blocked_body">屏蔽的标签：%1$s</string>
     <string name="post_poll_option_click_vote">%1$d票</string>
     <string name="profile_content_favs">查看全部%1$d点赞的帖子</string>
@@ -639,8 +639,8 @@
     <string name="notification_type_banned_edit_icon_bg">编辑图标/背景封禁（%1$s%2$s）。原因：%3$s</string>
     <string name="post_comments_disabled">此帖子的评论已被禁用</string>
     <string name="post_delete_message">删除此帖子？操作无法撤消。</string>
-    <string name="post_info_menu_add_to_news_message">将此帖子添加到“新发布”中？</string>
-    <string name="post_info_menu_remove_from_news_message">从“新发布”中删除此帖子？</string>
+    <string name="post_info_menu_add_to_news_message" translatable="false">Add this post to the News section?</string>
+    <string name="post_info_menu_remove_from_news_message" translatable="false">Remove this post from the News section?</string>
     <string name="unban_user_dialog_positive">解除封禁</string>
     <string name="notification_type_unbanned_start_chat">开始新的聊天封禁解除或过期</string>
     <string name="posts_scrolling_empty_following">这里是空的，
@@ -855,11 +855,11 @@
     <string name="report_sending">举报中…</string>
     <string name="edit_edit">编辑…</string>
     <string name="edit_mod">适度…</string>
-    <string name="post_info_menu_add_to_news">添加到新发布</string>
-    <string name="post_info_menu_recreate_thumbnail">重新创建缩略图</string>
-    <string name="post_info_menu_recreate_thumbnail_message">重新创建缩略图？</string>
-    <string name="post_info_menu_swap_width_height">交换宽度/高度</string>
-    <string name="post_info_menu_swap_width_height_message">交换宽度/高度？</string>
+    <string name="post_info_menu_add_to_news" translatable="false">Add to News</string>
+    <string name="post_info_menu_recreate_thumbnail" translatable="false">Recreate thumbnail</string>
+    <string name="post_info_menu_recreate_thumbnail_message" translatable="false">Recreate the thumbnail?</string>
+    <string name="post_info_menu_swap_width_height" translatable="false">Swap width/height</string>
+    <string name="post_info_menu_swap_width_height_message" translatable="false">Swap the width/height?</string>
     <string name="post_tag_blocked_title">帖子隐藏</string>
     <string name="post_info_menu_hide_post">隐藏帖子</string>
     <string name="post_info_menu_add_to_comic">添加到漫画</string>
@@ -885,15 +885,15 @@
     <string name="ban_user_dialog_positive">封禁</string>
     <string name="unban_user_dialog_title">解除用户封禁</string>
     <string name="unban_user_dialog_message">解除封禁？</string>
-    <string name="remove_mod_dialog_title">解除管理员</string>
-    <string name="remove_mod_dialog_message">解除此用户的管理员？</string>
-    <string name="add_mod_dialog_title">添加管理员</string>
-    <string name="delete_all_posts_from_dialog_title">清除用户画廊</string>
-    <string name="delete_all_posts_from_dialog_message">清除此用户的画廊？</string>
-    <string name="delete_all_comments_from_dialog_title">清除用户评论</string>
-    <string name="delete_all_comments_from_dialog_message">清除此用户的评论？</string>
-    <string name="admin_verify_email_dialog_title">验证电子邮件</string>
-    <string name="admin_verify_email_dialog_message">手动验证此用户的电子邮件？</string>
+    <string name="remove_mod_dialog_title" translatable="false">Remove moderator</string>
+    <string name="remove_mod_dialog_message" translatable="false">Remove this user\'s moderator status?</string>
+    <string name="add_mod_dialog_title" translatable="false">Add moderator</string>
+    <string name="delete_all_posts_from_dialog_title" translatable="false">Purge user gallery</string>
+    <string name="delete_all_posts_from_dialog_message" translatable="false">Purge this user\'s gallery?</string>
+    <string name="delete_all_comments_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
+    <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
     <string name="ban_user_type_comment">发布评论</string>
     <string name="ban_user_type_message">发送消息</string>
     <string name="ban_user_type_post">创建帖子</string>
@@ -1345,4 +1345,44 @@
     <string name="discover_posts_search_hint">输入要搜索的文本</string>
     <string name="order_random">随意事物</string>
     <string name="discover_posts_text_none_found">未找到帖子%1$s</string>
+    <string name="setting_language_item_de" translatable="false">Deutsche</string>
+    <string name="setting_language_item_uk" translatable="false">Українська</string>
+    <string name="setting_language_item_fa" translatable="false">فارسی</string>
+    <string name="cleanup_deleted_messages" translatable="false">Delete deleted messages</string>
+    <string name="cleanup_deleted_chats" translatable="false">Delete deleted chats</string>
+    <string name="cleanup_old_control_messages" translatable="false">Delete old control messages</string>
+    <string name="cleanup_old_like_notifications" translatable="false">Delete old liked notifications</string>
+    <string name="cleanup_old_installations" translatable="false">Delete old installations</string>
+    <string name="cleanup_unban_ip" translatable="false">Unban IP</string>
+    <string name="enter_ip" translatable="false">Enter IP</string>
+    <string name="cleanup_error" translatable="false">Error: %1$s</string>
+    <string name="post_date_posted_categories" translatable="false">%1$s%2$s</string>
+    <string name="action_delete_all_messages" translatable="false">Purge user\'s messages</string>
+    <string name="delete_all_messages_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_messages_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="delete_to_here" translatable="false">Delete to here</string>
+    <string name="discover_tags_tag_item_toggle_error" translatable="false">Failed to toggle: %1$s</string>
+    <string name="discover_tags_tag_item_toggle_success" translatable="false">%1$s toggled, safe=%2$b</string>
+    <string name="setting_language_item_fr" translatable="false">French</string>
+    <string name="setting_language_item_el" translatable="false">Greek</string>
+    <string name="post_poll_option_percentage" translatable="false">%1$d%%</string>
+    <string name="cleanup_old_following_posts" translatable="false">Delete old following posts</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="app_name_main" translatable="false">eFur</string>
+    <string name="app_name_debug" translatable="false">eFur dev</string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) © eFur 2024 | All Rights Reserved | 30796 SLOC</string>
+    <string name="chats_unread_many" translatable="false">%1$d+</string>
+    <string name="posts_comic" translatable="false">%1$s</string>
+    <string name="setting_language_item_en" translatable="false">English</string>
+    <string name="setting_language_item_es" translatable="false">Español</string>
+    <string name="setting_language_item_pl" translatable="false">Polski</string>
+    <string name="setting_language_item_pt" translatable="false">Português</string>
+    <string name="setting_language_item_ru" translatable="false">Pусский</string>
+    <string name="setting_language_item_it" translatable="false">Italiano</string>
+    <string name="cleanup_ban_ip" translatable="false">Ban IP</string>
+    <string name="setting_language_item_zh_CN" translatable="false">简体中文</string>
+    <string name="setting_language_item_tr" translatable="false">Türkçe</string>
+    <string name="setting_language_item_nl" translatable="false">Nederlands</string>
+    <string name="admin_delete_account_dialog_title" translatable="false">Delete account</string>
+    <string name="admin_delete_account_dialog_message" translatable="false">Mark this user\'s account as pending deletion?</string>
 </resources>
