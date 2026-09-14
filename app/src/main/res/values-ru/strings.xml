@@ -50,8 +50,6 @@
     <string name="login_invalid_email_pw">Неверный адрес электронной почты и/или пароль</string>
     <string name="login_register_accept">Принять Политику конфиденциальности и Условия обслуживания, чтобы зарегистрироваться</string>
     <string name="login_register_error">Ошибка зарегистрироваться: %1$s</string>
-    <string name="login_register_age">Мне 13 лет или старше</string>
-    <string name="login_register_age_error">Вы должны подтвердить, что вам 13 лет или старше для использования этого приложения!</string>
     <string name="login_dialog_consent_country_title">Ваше местоположение</string>
     <string name="login_dialog_consent_country_message">Вы являетесь резидентом ЕС/ЕЭЗ, Великобритании или штата Калифорния в США?</string>
     <string name="login_dialog_consent_country_yes">Да</string>
@@ -75,11 +73,8 @@
     <string name="post_category_0">Основное</string>
     <string name="post_category_1">Художественная работа (цифровое)</string>
     <string name="post_category_2">Художественная работа (традиционное)</string>
-    <string name="post_category_29">Художественная работа (AI)</string>
     <string name="post_category_3">Фурсьюты и костюмы</string>
     <string name="post_category_4">Животные и питомцы</string>
-    <string name="post_category_5">GIF</string>
-    <string name="post_category_27">Видео</string>
     <string name="post_category_6">Приколы и мемы</string>
     <string name="post_category_7">Милое и очаровательное</string>
     <string name="post_category_8">Фотография</string>
@@ -89,7 +84,6 @@
     <string name="post_category_12">Комиксы</string>
     <string name="post_category_13">История / текст</string>
     <string name="post_category_25">Вопросы (Q&amp;A)</string>
-    <string name="post_category_26">Опрос</string>
     <string name="post_category_14">Выполнение заказов</string>
     <string name="post_category_15">Аукционы / YCH</string>
     <string name="post_category_16">Адопт</string>
@@ -192,14 +186,12 @@
     <string name="my_comics_add_to_message">Добавить пост в этот комикс?</string>
     <string name="my_comics_add_to_error">Не удалось добавить пост: %1$s</string>
     <string name="my_comics_add_to_success">Пост добавлен в %1$s</string>
-    <string name="comic_list_draft">ЧЕРНОВИК</string>
     <string name="comic_list_pages">Страниц: %1$d</string>
     <string name="comic_list_desc">Обновлено %1$s %2$s назад, создано %3$s %4$s назад</string>
     <string name="comic_view_get_error">Не удалось получить комикс: %1$s</string>
     <string name="comic_view_title">Комикс</string>
     <string name="comic_view_desc">Страниц: %1$d
 \nСоздано %2$s</string>
-    <string name="comic_view_desc_draft">Страниц: %1$d\nСоздано %2$s. ЧЕРНОВИК</string>
     <string name="comic_view_edit_title">Новый заголовок</string>
     <string name="comic_view_edit_title_error">Не удалось обновить заголовок: %1$s</string>
     <string name="comic_view_edit_title_success">Заголовок обновлён</string>
@@ -219,9 +211,7 @@
     <string name="comic_view_post_remove_error">Не удалось удалить: %1$s</string>
     <string name="comic_view_post_set_thumb_updated">Миниатюра обновлена</string>
     <string name="comic_view_post_set_thumb_error">Не удалось установить миниатюру: %1$s</string>
-    <string name="comic_view_publish_title">Опубликовать комикс</string>
     <string name="comic_view_add_page">Добавить страницу</string>
-    <string name="comic_view_publish_already_published">Этот комикс уже опубликован!</string>
     <string name="fursona_view_title">Фурсона</string>
     <string name="fursona_view_user_title">Фурсоны %1$s</string>
     <string name="my_fursonas_create_title">Создать новую фурсону</string>
@@ -417,8 +407,6 @@
     <string name="report_hide_comment">Скрыть этот комментарий навсегда</string>
     <string name="block_settings">Настройки блокировки</string>
     <string name="block_title_visibility">Видимость:</string>
-    <string name="block_visibility_show_posts">Показывать посты данного пользователя в \"Новое\" и поиске</string>
-    <string name="block_title_can">Этот пользователь может:</string>
     <string name="block_can_comment_and_reply">Комментировать мои посты и отвечать на мои комментарии</string>
     <string name="block_can_message">Отправлять мне сообщения</string>
     <string name="block_can_view_profile">Смотреть мой профиль</string>
@@ -510,7 +498,6 @@
     <string name="notification_type_faved_post_gif">Понравилось ваше GIF</string>
     <string name="notification_type_faved_post_text">Понравился ваш текстовый пост</string>
     <string name="notification_type_faved_post_poll">Понравился ваш опрос</string>
-    <string name="notification_type_faved_post_comic">Понравился ваш комикс</string>
     <string name="notification_type_faved_post">Понравился ваш пост</string>
     <string name="notification_type_followed">Подписался на вас</string>
     <string name="notification_type_unfollowed">Кто-то отписался от вас</string>
@@ -602,16 +589,8 @@
     <string name="report_failed">Не удалось отправить жалобу: %1$s</string>
     <string name="edit_edit">Редактировать…</string>
     <string name="edit_mod">Модерация…</string>
-    <string name="edit_rating">Изменить рейтинг</string>
-    <string name="edit_artist">Изменить художника</string>
-    <string name="edit_source">Изменить источник</string>
-    <string name="edit_category">Редактировать категорию</string>
-    <string name="edit_title">Изменить название</string>
-    <string name="edit_description">Изменить описание</string>
     <string name="post_info_menu_add_to_news">Добавить в новости</string>
     <string name="post_info_menu_remove_from_news">Удалить из новостей</string>
-    <string name="post_info_menu_hide_from_new">Скрыть из \"Новое\"</string>
-    <string name="post_info_menu_hide_from_new_message">Скрыть этот пост из \"Новое\"?</string>
     <string name="post_info_menu_recreate_thumbnail">Восстановить миниатюру</string>
     <string name="post_info_menu_recreate_thumbnail_message">Восстановить миниатюру?</string>
     <string name="post_info_menu_swap_width_height">Поменять местами ширину/высоту</string>
@@ -770,10 +749,6 @@
     <string name="edit_profile_name_hint">Имя</string>
     <string name="edit_profile_name_info">Выберите красивое имя!</string>
     <string name="edit_profile_username_hint">Изменить свое имя пользователя</string>
-    <string name="edit_profile_presentation_hint">Краткая биография</string>
-    <string name="edit_profile_link_custom_hint">Пользовательская ссылка на веб-сайт</string>
-    <string name="edit_profile_link_fa_hint">Имя пользователя FurAffinity</string>
-    <string name="edit_profile_link_da_hint">Имя пользователя DeviantArt</string>
     <string name="edit_profile_about_hint">Обо мне</string>
     <string name="edit_profile_username_info">Другие пользователи могут упоминать вас с помощью @ваше_имя_пользователя.
 \nДопустимые символы: a-z A-Z _-. и 0–9</string>
@@ -807,12 +782,6 @@
     <string name="edit_profile_chip_max_rating_1">Безопасное</string>
     <string name="edit_profile_chip_max_rating_2">Непристойное (18+)</string>
     <string name="edit_profile_chip_max_rating_3">Откровенное (18+)</string>
-    <string name="edit_profile_age">Я:</string>
-    <string name="edit_profile_age_locked_message">Ваш возраст заблокирован. Обратитесь к модератору или в службу поддержки, если вам нужно изменить его</string>
-    <string name="edit_profile_age_lock">Заблокировать возраст</string>
-    <string name="edit_profile_age_15_younger">15 лет или младше</string>
-    <string name="edit_profile_age_16_to_17">от 16 до 17 лет</string>
-    <string name="edit_profile_age_18_above">18 лет и старше</string>
     <string name="uploading_dots">Загрузка…</string>
     <string name="edit_profile_uploading_error">Ошибка: %1$s</string>
     <string name="edit_profile_edited_profile">Профиль обновлен!</string>
@@ -831,9 +800,6 @@
     <string name="content_filter_block_tags_summary">Управление моими заблокированными тегами</string>
     <string name="content_filter_block_content_title">Настройки содержания</string>
     <string name="content_filter_block_content_summary">Показать/скрыть содержание</string>
-    <string name="content_filter_mod_show_hidden_title">Показать скрытые посты в \"Новое\"</string>
-    <string name="content_filter_mod_show_hidden_summary_on">Скрытые посты включены</string>
-    <string name="content_filter_mod_show_hidden_summary_off">Скрытые сообщения исключены</string>
     <string name="content_filter_mod_delete_mode_title">Режим быстрого удаления</string>
     <string name="content_filter_mod_delete_mode_summary_on">Кнопка быстрого удаления (видна)</string>
     <string name="content_filter_mod_delete_mode_summary_off">Кнопка быстрого удаления (скрыта)</string>
@@ -889,12 +855,6 @@
 \nНажмите на ссылку, которая была отправлена на %1$s, а затем повторите попытку или перезапустите приложение.
 \n
 \nЕсли вы не получили электронное письмо, выйдите из системы и войдите снова, и вы должны получить новое письмо.</string>
-    <string name="email_verification_dialog_title">Подтверждение адреса электронной почты</string>
-    <string name="email_verification_dialog_message">Добро пожаловать в eFur!
-\n
-\nЧтобы подтвердить адрес электронной почты, нажмите на ссылку, отправленную на адрес %1$s.
-\n
-\nЕсли вы не получили электронное письмо через пять минут, выйдите из системы и войдите снова, и вы должны получить новое письмо.</string>
     <string name="notification_dialog_clear_all_message">Очистить все уведомления?</string>
     <string name="notification_clear_all_message_done">Удалено %1$d уведомлений</string>
     <string name="following_posts_dialog_clear_all_message">Очистить ленту отслеживаемого?</string>
@@ -1034,7 +994,6 @@
     <string name="discover_users_menu_order_by_posts">Наибольшее количество постов</string>
     <string name="discover_users_menu_order_by_level">Наивысший уровень</string>
     <string name="discover_users_search_sub_hint">Поиск не чувствителен к регистру (А=а).</string>
-    <string name="discover_users_search_user_clicked_view_profile">Просмотреть профиль</string>
     <string name="discover_users_search_user_clicked_select">Выберите пользователя</string>
     <string name="discover_users_list_empty">Пользователи не найдены</string>
     <string name="discover_users_search_empty">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \"</string>

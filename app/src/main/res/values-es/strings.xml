@@ -73,8 +73,6 @@
     <string name="post_category_2">Arte (Tradicional)</string>
     <string name="post_category_3">Fursuits y disfraces</string>
     <string name="post_category_4">Animales y mascotas</string>
-    <string name="post_category_5">GIF</string>
-    <string name="post_category_27">Video</string>
     <string name="post_category_6">Graciosos y memes</string>
     <string name="post_category_7">Aww y tiernos</string>
     <string name="post_category_8">Fotografía</string>
@@ -84,7 +82,6 @@
     <string name="post_category_12">Cómics</string>
     <string name="post_category_13">Historias / texto</string>
     <string name="post_category_25">Preguntas (Preguntas y respuestas)</string>
-    <string name="post_category_26">Encuestas</string>
     <string name="post_category_14">Comisiones</string>
     <string name="post_category_15">Subastas / YCH</string>
     <string name="post_category_16">Adoptables</string>
@@ -294,8 +291,6 @@
     <string name="report_hide_comment">Ocultar este comentario permanentemente</string>
     <string name="block_settings">Configuración de bloqueo</string>
     <string name="block_title_visibility">Visibilidad:</string>
-    <string name="block_visibility_show_posts">Mostrar las publicaciones de este usuario en Nuevo y búsquedas</string>
-    <string name="block_title_can">Este usuario puede:</string>
     <string name="block_can_comment_and_reply">Comentar en mis publicaciones y responder a mis comentarios</string>
     <string name="block_can_message">Enviarme mensajes</string>
     <string name="block_can_view_profile">Ver mi perfil</string>
@@ -408,15 +403,8 @@
     <string name="report_failed">Envío de reporte fallido: %1$s</string>
     <string name="edit_edit">Editar…</string>
     <string name="edit_mod">Moderación…</string>
-    <string name="edit_rating">Editar calificación</string>
-    <string name="edit_artist">Editar artista</string>
-    <string name="edit_source">Editar fuente</string>
-    <string name="edit_title">Editar título</string>
-    <string name="edit_description">Editar descripción</string>
     <string name="post_info_menu_add_to_news">Agregar a las Noticias</string>
     <string name="post_info_menu_remove_from_news">Remover de las Noticias</string>
-    <string name="post_info_menu_hide_from_new">Ocular de las Noticias</string>
-    <string name="post_info_menu_hide_from_new_message">¿Ocultar esta publicación de las Noticias?</string>
     <string name="post_info_menu_recreate_thumbnail">Recrear miniatura</string>
     <string name="post_info_menu_recreate_thumbnail_message">¿Recrear miniatura?</string>
     <string name="post_info_menu_swap_width_height">Intercambiar ancho/alto</string>
@@ -514,10 +502,6 @@
     <string name="post_is_nsfw">¡Esta publicación es NSFW!</string>
     <string name="edit_profile_title">Edite su perfil</string>
     <string name="edit_profile_username_hint">Edite su nombre de usuario</string>
-    <string name="edit_profile_presentation_hint">Breve presentación</string>
-    <string name="edit_profile_link_custom_hint">Enlace a sitio web</string>
-    <string name="edit_profile_link_fa_hint">Nombre de usuario de FurAffinity</string>
-    <string name="edit_profile_link_da_hint">Nombre de usuario de DeviantArt</string>
     <string name="edit_profile_about_hint">Sobre mí</string>
     <string name="edit_profile_bio_info">¡Cuéntenos quién es! (permite códigos de estilo)</string>
     <string name="edit_profile_save_changes">Guardar cambios</string>
@@ -542,12 +526,6 @@
     <string name="edit_profile_chip_max_rating_1">Seguro</string>
     <string name="edit_profile_chip_max_rating_2">Contenido sugerente (mayores de 18 años)</string>
     <string name="edit_profile_chip_max_rating_3">Explícito (mayores de 18 años)</string>
-    <string name="edit_profile_age">Yo soy:</string>
-    <string name="edit_profile_age_locked_message">Su edad se encuentra bloqueada. Contacte a un moderador o a soporte si necesita modificarla.</string>
-    <string name="edit_profile_age_lock">Bloquear edad</string>
-    <string name="edit_profile_age_15_younger">15 o menor</string>
-    <string name="edit_profile_age_16_to_17">16 a 17 años</string>
-    <string name="edit_profile_age_18_above">18 o mayor</string>
     <string name="uploading_dots">Subiendo…</string>
     <string name="edit_profile_uploading_error">Error: %1$s</string>
     <string name="edit_profile_edited_profile">¡Perfil actualizado!</string>
@@ -558,9 +536,6 @@
     <string name="settings_language_edit_title">Cambiar el idioma de la aplicación</string>
     <string name="content_filter_title">Filtro de contenido</string>
     <string name="content_filter_rating_title">Máxima clasificación de contenido</string>
-    <string name="content_filter_mod_show_hidden_title">Mostrar las publicaciones ocultadas en Nuevo</string>
-    <string name="content_filter_mod_show_hidden_summary_on">Publicaciones ocultas incluidas</string>
-    <string name="content_filter_mod_show_hidden_summary_off">Publicaciones ocultas excluidas</string>
     <string name="content_filter_mod_delete_mode_title">Modo de eliminado rápido</string>
     <string name="content_filter_mod_delete_mode_summary_on">Botón de eliminado rápido visible</string>
     <string name="content_filter_mod_delete_mode_summary_off">Botón de eliminado rápido oculto</string>
@@ -587,12 +562,6 @@
 \nHaga clic en el enlace enviado a %1$s y luego intente nuevamente o reinicie la aplicación.
 \n
 \nSi no recibe un correo, cierre e inicie sesión nuevamente y debería recibir uno nuevo.</string>
-    <string name="email_verification_dialog_title">Verificación de correo electrónico</string>
-    <string name="email_verification_dialog_message">¡Bienvenido a eFur!
-\n
-\nPara confirmar su correo, haga clic en el enlace enviado a %1$s.
-\n
-\nSi no ha recibido un correo después de cinco minutos, cierre e inicie sesión nuevamente y debería recibir uno nuevo.</string>
     <string name="notification_dialog_clear_all_message">¿Limpias todas sus notificaciones?</string>
     <string name="notification_clear_all_message_done">%1$d notificaciones limpiadas</string>
     <string name="following_posts_dialog_clear_all_message">¿Limpiar todas sus publicaciones seguidas?</string>
@@ -649,10 +618,7 @@
     <string name="legal_ad_checkbox">Acepto anuncios personalizados</string>
     <string name="login_invalid_email_pw">Correo electrónico inválido y / o contraseña</string>
     <string name="login_register_error">No se registró: %1$s</string>
-    <string name="login_register_age">Tengo 13 años o más</string>
-    <string name="login_register_age_error">¡Debe confirmar que tiene 13 años o más para usar esta aplicación!</string>
     <string name="login_expired_session">Sesión expirada, ¡inicie sesión nuevamente!</string>
-    <string name="post_category_29">Ilustraciones (ai)</string>
     <string name="upload_chooser_edit_title">Editar post</string>
     <string name="upload_chooser_comic_not_allowed">¡No puedes agregar un cómic a un cómic!</string>
     <string name="upload_chooser_invalid_file">¡Archivo inválido!</string>
@@ -684,13 +650,11 @@
     <string name="my_comics_add_to_message">¿Agregar la publicación a este cómic?</string>
     <string name="my_comics_add_to_error">No se pudo agregar post: %1$s</string>
     <string name="my_comics_add_to_success">Publicación agregada a %1$s</string>
-    <string name="comic_list_draft">BORRADOR</string>
     <string name="comic_list_pages">Páginas: %1$d</string>
     <string name="comic_list_desc">Actualizado %1$s %2$s, creado %3$s %4$s hace</string>
     <string name="comic_view_get_error">No se pudo obtener cómic: %1$s</string>
     <string name="comic_view_title">Cómic</string>
     <string name="comic_view_desc">"Páginas: %1$d  nCreated por %2$s"</string>
-    <string name="comic_view_desc_draft">Páginas: %1$d \ nCreated por %2$s.BORRADOR</string>
     <string name="comic_view_edit_title">Nuevo título</string>
     <string name="comic_view_edit_title_error">No se pudo actualizar el título: %1$s</string>
     <string name="comic_view_edit_title_success">Título actualizado</string>
@@ -710,9 +674,7 @@
     <string name="comic_view_post_remove_error">No se pudo eliminar: %1$s</string>
     <string name="comic_view_post_set_thumb_updated">Miniatura actualizada</string>
     <string name="comic_view_post_set_thumb_error">No se pudo establecer el pulgar: %1$s</string>
-    <string name="comic_view_publish_title">Publicar cómico</string>
     <string name="comic_view_add_page">Añadir página</string>
-    <string name="comic_view_publish_already_published">¡Este cómic ya ha sido publicado!</string>
     <string name="fursona_view_title">Furioso</string>
     <string name="fursona_view_user_title">"%1$s  \'s Fursonas"</string>
     <string name="my_fursonas_create_title">Crea una nueva fursona</string>
@@ -867,7 +829,6 @@
     <string name="anon_name">Nombre</string>
     <string name="user_level">x%1$d</string>
     <string name="example">ejemplo</string>
-    <string name="notification_type_faved_post_comic">Me gustó tu cómic</string>
     <string name="notification_type_banned_all">Prohibición completa de la cuenta (%1$s %2$s).Razón: %3$s</string>
     <string name="notification_type_banned_comment">Prohibición de comentarios (%1$s %2$s).Razón: %3$s</string>
     <string name="notification_type_banned_message">Prohibición de mensajes (%1$s %2$s).Razón: %3$s</string>
@@ -897,7 +858,6 @@
     <string name="comment_edited">Comentario editado</string>
     <string name="comment_edit_error">No se pudo editar comentarios: %1$s</string>
     <string name="comment_thread_act_title">Respuestas</string>
-    <string name="edit_category">Editar categoria</string>
     <string name="post_info_menu_add_to_comic">Agregar al cómic</string>
     <string name="post_info_menu_add_to">añadir</string>
     <string name="unban_user_type_title">Prohibición de eliminar</string>
@@ -1013,7 +973,6 @@
     <string name="discover_users_menu_order_by_posts">La mayoría de las publicaciones hechas</string>
     <string name="discover_users_menu_order_by_level">Nivel más alto</string>
     <string name="discover_users_search_sub_hint">Los nombres de usuario son insensibles a los casos.Los nombres son sensibles a los casos.</string>
-    <string name="discover_users_search_user_clicked_view_profile">Ver perfil</string>
     <string name="discover_users_search_user_clicked_select">Seleccionar usuario</string>
     <string name="discover_users_list_empty">No se encontraron usuarios</string>
     <string name="discover_users_search_empty">No se encuentran usuarios con un nombre o nombre de usuario que comienza con \"%1$s \"</string>
@@ -1241,8 +1200,8 @@
     <string name="search_any_themes">Empareja cualquiera de los temas seleccionados.</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d publicaciones</item>
-        <item quantity="many"></item>
-        <item quantity="other"></item>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="search_all">TODO</string>
     <string name="discover_posts_text_none_found">No se encontraron publicaciones al buscar %1$s</string>

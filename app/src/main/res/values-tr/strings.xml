@@ -4,7 +4,6 @@
     <string name="upload_settings_content_sensitive_none_enabled">Hiçbir hassas içerik aktive etmedin.
 \n
 \nTercihlerini Ayarlar-&gt;İçerik bölümünden değiştirebilirsin</string>
-    <string name="comic_view_publish_already_published">Bu çizgi roman çoktan yayınlanmış!</string>
     <string name="order_by">Şuna göre sırala</string>
     <string name="chat_create_1_1_hint">Başka bir kullanıcıyla bir sohbet başlat.
 \nKullanıcının kullanıcı adını aşağıya yaz ya da kişinin profiline git ve sohbet başlatmak için mesaj tuşuna bas</string>
@@ -12,7 +11,6 @@
     <string name="conversation_delete_deleted_success">Sohbet silindi</string>
     <string name="chat_error_removed_from_chat">Bu sohbetten kaldırıldın</string>
     <string name="share_disabled">Paylaşma seçeneği bu gönderi için kapatıldı</string>
-    <string name="block_visibility_show_posts">Bu kullanıcı ın gönderilerini Yeni Gönderiler &amp; arama kısmında göster</string>
     <string name="translate_general">Bu uygulamayı başka bir dile çevirebilirsin!</string>
     <string name="premium_purchased_item_activate_activated_gift">Satın alımın başarıyla %1$s kullanıcısına hediye edildi</string>
     <string name="post_info_posted_by">Şu kişi tarafından paylaşıldı</string>
@@ -29,7 +27,6 @@
     <string name="not_image_or_gif">Bu bir resim veya gif dosyası değil!</string>
     <string name="comment_share_to">Metni şu kişiyle paylaş</string>
     <string name="post_info_menu_add_to">Şuna ekle</string>
-    <string name="edit_profile_age_locked_message">Yaşın kilitli, değiştirmek için bir yetkiliyle iletişime geç</string>
     <string name="edit_profile_chip_show_age_1">Tüm yaşlar</string>
     <string name="edit_profile_chip_show_age_2">16 yaş ve üstü kullanıcılar</string>
     <string name="action_mute">Sustur</string>
@@ -105,7 +102,6 @@
     <string name="login_invalid_email_pw">Geçersiz e-posta adresi ve/ya da şifre</string>
     <string name="login_register_accept">Kayıt olmak için hem Gizlilik Politikasını hem de Hizmet Şartlarını kabul et</string>
     <string name="login_register_error">Kayıt olma işlemi başarısız: %1$s</string>
-    <string name="login_register_age">13 yaş veya üzeriyim</string>
     <string name="login_dialog_consent_country_title">Konumun</string>
     <string name="login_dialog_consent_country_message">AB/AEA\'da mı, Birleşik Krallık\'da mı yoksa Amerika\'nın Kalifornya eyaletinde mi ikamet ediyorsun?</string>
     <string name="login_dialog_consent_country_yes">Evet</string>
@@ -119,7 +115,6 @@
     <string name="login_dialog_register_confirm_message">%1$s adresi kullanarak bir hesap oluşturmak üzeresin. E-posta adresine onaylaman için bir e-posta gelecek.
 \n
 \nContinue?</string>
-    <string name="login_register_age_error">Bu uygulamayı kullanmak için 13 yaş veya üzeri olduğunu kabul etmen gerek!</string>
     <string name="account_needed">Bir hesap bu işlemi gerçekleştirmek zorunda!</string>
     <string name="reset_password_dialog_title">Şifreni sıfırla</string>
     <string name="reset_password_dialog_message">Bu seçenek şifrenizi sıfırlamak için \"%1$s\" adresine bir e-posta gönderecek.
@@ -135,11 +130,8 @@
     <string name="post_category_0">Genel</string>
     <string name="post_category_1">Sanat eseri (Dijital)</string>
     <string name="post_category_2">Sanat eseri (Geleneksel)</string>
-    <string name="post_category_29">Sanat eseri (AI/Yapay zeka)</string>
     <string name="post_category_3">Fursuitler &amp; kostümler</string>
     <string name="post_category_4">Hayvanlar &amp; evcil hayvanlar</string>
-    <string name="post_category_5">GIF</string>
-    <string name="post_category_27">Video</string>
     <string name="post_category_6">Komik &amp;meme\'ler</string>
     <string name="post_category_7">Aww &amp; şirin</string>
     <string name="post_category_8">Fotoğrafçılık</string>
@@ -149,7 +141,6 @@
     <string name="post_category_12">Çizgi romanlar</string>
     <string name="post_category_13">Hikayeler / metin</string>
     <string name="post_category_25">Sorular (Soru&amp;Cevap)</string>
-    <string name="post_category_26">Anketler</string>
     <string name="post_category_14">Komisyonlar</string>
     <string name="post_category_15">Açık arttırma / YCH</string>
     <string name="post_category_16">Sahiplenilebilirler</string>
@@ -251,15 +242,12 @@
     <string name="my_comics_add_to_message">Gönderi çizgi romana eklensin mi?</string>
     <string name="my_comics_add_to_error">Gönderi eklenilemedi: %1$s</string>
     <string name="my_comics_add_to_success">Gönderi %1$s \'a eklendi</string>
-    <string name="comic_list_draft">TASLAK</string>
     <string name="comic_list_pages">Sayfalar: %1$d</string>
     <string name="comic_list_desc">%1$s %2$s önce güncellendi, %3$s %4$s önce oluşturuldu</string>
     <string name="comic_view_get_error">Çizgi roman oluşturulamadı: %1$s</string>
     <string name="comic_view_title">Çizgi roman</string>
     <string name="comic_view_desc">Sayfalar: %1$d
 \n %2$s tarafından oluşturuldu</string>
-    <string name="comic_view_desc_draft">Sayfalar: %1$d
-\n %2$s tarafından oluşturuldu. TASLAK</string>
     <string name="comic_view_edit_title">Yeni başlık</string>
     <string name="comic_view_edit_title_error">Başlık güncellenemedi: %1$s</string>
     <string name="comic_view_edit_title_success">Başlık güncellendi</string>
@@ -280,7 +268,6 @@
     <string name="comic_view_post_remove_error">Sayfa kaldırılamadı: %1$s</string>
     <string name="comic_view_post_set_thumb_updated">Küçük resim güncellendi</string>
     <string name="comic_view_post_set_thumb_error">Küçük resim eklenilemedi: %1$s</string>
-    <string name="comic_view_publish_title">Çizgi romanı yayınla</string>
     <string name="comic_view_add_page">Sayfa ekle</string>
     <string name="fursona_view_title">Fursona</string>
     <string name="fursona_view_user_title">%1$s\'nın fursonası</string>
@@ -598,7 +585,6 @@
     <string name="report_hide_comment">Bu yorumu kalıcı olarak gizle</string>
     <string name="block_settings">Engel ayarları</string>
     <string name="block_title_visibility">Görüntülünebilirlik:</string>
-    <string name="block_title_can">Bu kullanıcı:</string>
     <string name="block_can_comment_and_reply">Gönderilerime yorum yapabilir &amp; yorumlarıma cevap yazabilir</string>
     <string name="block_can_message">Bana mesaj gönderebilir</string>
     <string name="block_can_view_profile">Profilimi görüntüleyebilir</string>
@@ -690,7 +676,6 @@
     <string name="notification_type_faved_post_gif">GIF\'ini beğendi :D</string>
     <string name="notification_type_faved_post_text">Metin gönderini beğendi :D</string>
     <string name="notification_type_faved_post_poll">Anketini beğendi :D</string>
-    <string name="notification_type_faved_post_comic">Çizgi romanını beğendi :D</string>
     <string name="notification_type_faved_post">Gönderini beğendi :D</string>
     <string name="notification_type_followed">Seni takip etmeye başladı :3</string>
     <string name="notification_type_unfollowed">Birisi seni takipten çıktı :c</string>
@@ -779,16 +764,8 @@
     <string name="report_failed">Şikayet gönderilemedi: %1$s</string>
     <string name="edit_edit">Düzenle…</string>
     <string name="edit_mod">Moderasyon…</string>
-    <string name="edit_rating">Değerlendirmeyi düzenle</string>
-    <string name="edit_artist">Çizeni düzenle</string>
-    <string name="edit_source">Kaynağı düzenle</string>
-    <string name="edit_category">Kategoriyi düzenle</string>
-    <string name="edit_title">Başlığı düzenle</string>
-    <string name="edit_description">Açıklamayı düzenle</string>
     <string name="post_info_menu_add_to_news">Yeni Gönderiler bölümüne ekle</string>
     <string name="post_info_menu_remove_from_news">Yeni Gönderiler bölümünden çıkar</string>
-    <string name="post_info_menu_hide_from_new">Yeni Gönderiler bölümünden gizle</string>
-    <string name="post_info_menu_hide_from_new_message">Bu gönderi Yeni Gönderiler bölümünden gizlensin mi?</string>
     <string name="post_info_menu_recreate_thumbnail">Küçük resmi yeniden yap</string>
     <string name="post_info_menu_recreate_thumbnail_message">Küçük resmi yeniden yapmak istiyor musun?</string>
     <string name="post_info_menu_swap_width_height">Genişlik ve yüksekliği değiştir</string>
@@ -972,10 +949,6 @@
     <string name="edit_profile_name_hint">İsim</string>
     <string name="edit_profile_name_info">Güzel bir isim seç!</string>
     <string name="edit_profile_username_hint">Kullanıcı adı</string>
-    <string name="edit_profile_presentation_hint">Kısaca kendini tanıt</string>
-    <string name="edit_profile_link_custom_hint">Web sitesi linki</string>
-    <string name="edit_profile_link_fa_hint">FurAffinity kullanıcı adı</string>
-    <string name="edit_profile_link_da_hint">DeviantArt kullanıcı adı</string>
     <string name="edit_profile_about_hint">Hakkımda</string>
     <string name="edit_profile_username_info">Diğer kullanıcılar seni @senin_adın şeklinde etiketleyebilir.
 \nİzin verilen karakterler: a-z A-Z _-. ve 0–9</string>
@@ -1001,11 +974,6 @@
     <string name="edit_profile_chip_max_rating_1">Güvenli</string>
     <string name="edit_profile_chip_max_rating_2">Müstehcen</string>
     <string name="edit_profile_chip_max_rating_3">Cinsel</string>
-    <string name="edit_profile_age">Ben:</string>
-    <string name="edit_profile_age_lock">Yaşı kilitle</string>
-    <string name="edit_profile_age_15_younger">13-15 yaşındayım</string>
-    <string name="edit_profile_age_16_to_17">16-17 yaşındayım</string>
-    <string name="edit_profile_age_18_above">18 veya üstü yaştayım</string>
     <string name="uploading_dots">Yükleniyor…</string>
     <string name="edit_profile_uploading_error">Hata: %1$s</string>
     <string name="edit_profile_edited_profile">Profil güncellendi!</string>
@@ -1024,9 +992,6 @@
     <string name="content_filter_block_tags_summary">Engelli etiketlerimi yönet</string>
     <string name="content_filter_block_content_title">İçerik tercihleri</string>
     <string name="content_filter_block_content_summary">İçerik göster/gizle</string>
-    <string name="content_filter_mod_show_hidden_title">Gizlenmiş gönderileri Yeni Gönderiler bölümünde göster</string>
-    <string name="content_filter_mod_show_hidden_summary_on">Gizli gönderileri dahil</string>
-    <string name="content_filter_mod_show_hidden_summary_off">Gizli gönderiler dahil değil</string>
     <string name="content_filter_mod_delete_mode_title">Gönderi hızlı işlemlerini göster</string>
     <string name="content_filter_mod_delete_mode_summary_on">Hızlı işlemler görünebilir</string>
     <string name="content_filter_mod_delete_mode_summary_off">Hızlı işlemler gizli</string>
@@ -1081,12 +1046,6 @@
 \n%1$s adresine gönderilen linke tıklayıp yeniden dene.
 \n
 \nEğer e-posta gelmediyse, hesabından çıkış yap ve yeniden giriş yap.</string>
-    <string name="email_verification_dialog_title">E-posta doğrulama</string>
-    <string name="email_verification_dialog_message">eFur\'e hoşgeldin!
-\n
-\nE-postanı doğrulamak için, %1$s adresine gönderilen linke tıkla.
-\n
-\nEğer e-posta 5 dakika içinde gelmezse, hesabından çıkış yap ve yeniden giriş yap.</string>
     <string name="notification_dialog_clear_all_message">Bildirimler temizlensin mi?</string>
     <string name="notification_clear_all_message_done">%1$d tane bildirim temizlendi</string>
     <string name="following_posts_dialog_clear_all_message">Feed\'in temizlensin mi?</string>
@@ -1133,7 +1092,6 @@
     <string name="discover_users_menu_order_by_level">İlk en yüksek seviyede olanlar</string>
     <string name="discover_users_search_hint">Bir isim veya @kullanıcı_adı gir</string>
     <string name="discover_users_search_sub_hint">Kullanıcı adları büyük-küçük harflere duyarlı değil iken isimler duyarlıdır.</string>
-    <string name="discover_users_search_user_clicked_view_profile">Profili görüntüle</string>
     <string name="discover_users_search_user_clicked_select">Kullanıcı seç</string>
     <string name="discover_users_list_empty">Kullanıcı bulunamadı</string>
     <string name="discover_users_search_empty">\"%1$s\" ismi veya kullanıcı adıyla bir kullanıcı bulunamadı</string>
@@ -1243,7 +1201,7 @@
     <string name="post_theme_17">Diğer fetiş</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d gönderiler</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Yakın zamanda ki aktivite</string>
 </resources>
