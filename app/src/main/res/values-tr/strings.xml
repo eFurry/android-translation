@@ -4,7 +4,6 @@
     <string name="upload_settings_content_sensitive_none_enabled">Hiçbir hassas içerik aktive etmedin.
 \n
 \nTercihlerini Ayarlar-&gt;İçerik bölümünden değiştirebilirsin</string>
-    <string name="comic_view_publish_already_published">Bu çizgi roman çoktan yayınlanmış!</string>
     <string name="order_by">Şuna göre sırala</string>
     <string name="chat_create_1_1_hint">Başka bir kullanıcıyla bir sohbet başlat.
 \nKullanıcının kullanıcı adını aşağıya yaz ya da kişinin profiline git ve sohbet başlatmak için mesaj tuşuna bas</string>
@@ -12,12 +11,11 @@
     <string name="conversation_delete_deleted_success">Sohbet silindi</string>
     <string name="chat_error_removed_from_chat">Bu sohbetten kaldırıldın</string>
     <string name="share_disabled">Paylaşma seçeneği bu gönderi için kapatıldı</string>
-    <string name="block_visibility_show_posts">Bu kullanıcı ın gönderilerini Yeni Gönderiler &amp; arama kısmında göster</string>
     <string name="translate_general">Bu uygulamayı başka bir dile çevirebilirsin!</string>
     <string name="premium_purchased_item_activate_activated_gift">Satın alımın başarıyla %1$s kullanıcısına hediye edildi</string>
     <string name="post_info_posted_by">Şu kişi tarafından paylaşıldı</string>
     <string name="notification_type_premium_activated">Premium\'un %1$d ay için etkinleştirildi</string>
-    <string name="admin_verify_email_dialog_message">Bu kullanıcı ın e-postası manüel olarak doğrulansın mı?</string>
+    <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
     <string name="content_settings_subtitle">Uygulamada görmek istediğin içerikleri yönet. O kategöriyi gizlemek için bir şey seç</string>
     <string name="picker_media_permissions_hint">Daha kolay olması için medya izni verin
 \ngaleri erişimi</string>
@@ -29,7 +27,6 @@
     <string name="not_image_or_gif">Bu bir resim veya gif dosyası değil!</string>
     <string name="comment_share_to">Metni şu kişiyle paylaş</string>
     <string name="post_info_menu_add_to">Şuna ekle</string>
-    <string name="edit_profile_age_locked_message">Yaşın kilitli, değiştirmek için bir yetkiliyle iletişime geç</string>
     <string name="edit_profile_chip_show_age_1">Tüm yaşlar</string>
     <string name="edit_profile_chip_show_age_2">16 yaş ve üstü kullanıcılar</string>
     <string name="action_mute">Sustur</string>
@@ -54,8 +51,8 @@
     <string name="action_ban_user">Kullanıcıyı yasakla</string>
     <string name="action_unban_user">Kullanıcının yasağını kaldır</string>
     <string name="action_show_logs">Kayıtları göster</string>
-    <string name="action_add_as_mod">Moderatörlüğe terfi ettir</string>
-    <string name="action_remove_as_mod">Moderatör durumunu kaldır</string>
+    <string name="action_add_as_mod" translatable="false">Promote to moderator</string>
+    <string name="action_remove_as_mod" translatable="false">Remove moderator status</string>
     <string name="action_verify_email">E-postanı doğrula</string>
     <string name="action_start_chat">Sohbet başlat</string>
     <string name="action_create_1_1_chat">Birebir sohbet başlat</string>
@@ -75,8 +72,8 @@
 \n
 \nRetrying</string>
     <string name="launcher_updating_account">Hesabınız getiriliyor</string>
-    <string name="action_delete_all_posts">Kullanıcı ın gönderilerini sil</string>
-    <string name="action_delete_all_comments">Kullanıcı ın yorumlarını sil</string>
+    <string name="action_delete_all_posts" translatable="false">Purge user\'s posts</string>
+    <string name="action_delete_all_comments" translatable="false">Purge user\'s comments</string>
     <string name="launcher_updating_account_error">Hesabınız getiriliyor
 \nError: %1$s
 \n
@@ -105,7 +102,6 @@
     <string name="login_invalid_email_pw">Geçersiz e-posta adresi ve/ya da şifre</string>
     <string name="login_register_accept">Kayıt olmak için hem Gizlilik Politikasını hem de Hizmet Şartlarını kabul et</string>
     <string name="login_register_error">Kayıt olma işlemi başarısız: %1$s</string>
-    <string name="login_register_age">13 yaş veya üzeriyim</string>
     <string name="login_dialog_consent_country_title">Konumun</string>
     <string name="login_dialog_consent_country_message">AB/AEA\'da mı, Birleşik Krallık\'da mı yoksa Amerika\'nın Kalifornya eyaletinde mi ikamet ediyorsun?</string>
     <string name="login_dialog_consent_country_yes">Evet</string>
@@ -119,7 +115,6 @@
     <string name="login_dialog_register_confirm_message">%1$s adresi kullanarak bir hesap oluşturmak üzeresin. E-posta adresine onaylaman için bir e-posta gelecek.
 \n
 \nContinue?</string>
-    <string name="login_register_age_error">Bu uygulamayı kullanmak için 13 yaş veya üzeri olduğunu kabul etmen gerek!</string>
     <string name="account_needed">Bir hesap bu işlemi gerçekleştirmek zorunda!</string>
     <string name="reset_password_dialog_title">Şifreni sıfırla</string>
     <string name="reset_password_dialog_message">Bu seçenek şifrenizi sıfırlamak için \"%1$s\" adresine bir e-posta gönderecek.
@@ -135,11 +130,8 @@
     <string name="post_category_0">Genel</string>
     <string name="post_category_1">Sanat eseri (Dijital)</string>
     <string name="post_category_2">Sanat eseri (Geleneksel)</string>
-    <string name="post_category_29">Sanat eseri (AI/Yapay zeka)</string>
     <string name="post_category_3">Fursuitler &amp; kostümler</string>
     <string name="post_category_4">Hayvanlar &amp; evcil hayvanlar</string>
-    <string name="post_category_5">GIF</string>
-    <string name="post_category_27">Video</string>
     <string name="post_category_6">Komik &amp;meme\'ler</string>
     <string name="post_category_7">Aww &amp; şirin</string>
     <string name="post_category_8">Fotoğrafçılık</string>
@@ -149,7 +141,6 @@
     <string name="post_category_12">Çizgi romanlar</string>
     <string name="post_category_13">Hikayeler / metin</string>
     <string name="post_category_25">Sorular (Soru&amp;Cevap)</string>
-    <string name="post_category_26">Anketler</string>
     <string name="post_category_14">Komisyonlar</string>
     <string name="post_category_15">Açık arttırma / YCH</string>
     <string name="post_category_16">Sahiplenilebilirler</string>
@@ -251,15 +242,12 @@
     <string name="my_comics_add_to_message">Gönderi çizgi romana eklensin mi?</string>
     <string name="my_comics_add_to_error">Gönderi eklenilemedi: %1$s</string>
     <string name="my_comics_add_to_success">Gönderi %1$s \'a eklendi</string>
-    <string name="comic_list_draft">TASLAK</string>
     <string name="comic_list_pages">Sayfalar: %1$d</string>
     <string name="comic_list_desc">%1$s %2$s önce güncellendi, %3$s %4$s önce oluşturuldu</string>
     <string name="comic_view_get_error">Çizgi roman oluşturulamadı: %1$s</string>
     <string name="comic_view_title">Çizgi roman</string>
     <string name="comic_view_desc">Sayfalar: %1$d
 \n %2$s tarafından oluşturuldu</string>
-    <string name="comic_view_desc_draft">Sayfalar: %1$d
-\n %2$s tarafından oluşturuldu. TASLAK</string>
     <string name="comic_view_edit_title">Yeni başlık</string>
     <string name="comic_view_edit_title_error">Başlık güncellenemedi: %1$s</string>
     <string name="comic_view_edit_title_success">Başlık güncellendi</string>
@@ -280,7 +268,6 @@
     <string name="comic_view_post_remove_error">Sayfa kaldırılamadı: %1$s</string>
     <string name="comic_view_post_set_thumb_updated">Küçük resim güncellendi</string>
     <string name="comic_view_post_set_thumb_error">Küçük resim eklenilemedi: %1$s</string>
-    <string name="comic_view_publish_title">Çizgi romanı yayınla</string>
     <string name="comic_view_add_page">Sayfa ekle</string>
     <string name="fursona_view_title">Fursona</string>
     <string name="fursona_view_user_title">%1$s\'nın fursonası</string>
@@ -346,7 +333,7 @@
     <string name="content_policy">İçerik Politikası</string>
     <string name="terms_of_service">Kullanım Şartları</string>
     <string name="privacy_policy">Gizlilik Politikası</string>
-    <string name="divider_horizontal">"| "</string>
+    <string name="divider_horizontal" translatable="false">|</string>
     <string name="allowed_digits">01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</string>
     <string name="main_press_back_again_to_exit">Çıkmak için geri tuşuna tekrar basın!</string>
     <string name="register">Hesap oluştur</string>
@@ -510,8 +497,8 @@
     <string name="chat_role_banned">yasaklandı</string>
     <string name="chat_role_admin">ADMİN</string>
     <string name="chat_role_left">ayrıldı</string>
-    <string name="chat_admin_join">Admin olarak katıl</string>
-    <string name="chat_joined_with_role">Şu rol ile katıldı: %1$d</string>
+    <string name="chat_admin_join" translatable="false">Join as admin</string>
+    <string name="chat_joined_with_role" translatable="false">Joined with role %1$d</string>
     <string name="chat_info_user_option_kick">At</string>
     <string name="chat_info_user_option_kick_error">Atılamadı: %1$s</string>
     <string name="chat_info_user_option_kick_success">Şu kişi atıldı: %1$s</string>
@@ -598,7 +585,6 @@
     <string name="report_hide_comment">Bu yorumu kalıcı olarak gizle</string>
     <string name="block_settings">Engel ayarları</string>
     <string name="block_title_visibility">Görüntülünebilirlik:</string>
-    <string name="block_title_can">Bu kullanıcı:</string>
     <string name="block_can_comment_and_reply">Gönderilerime yorum yapabilir &amp; yorumlarıma cevap yazabilir</string>
     <string name="block_can_message">Bana mesaj gönderebilir</string>
     <string name="block_can_view_profile">Profilimi görüntüleyebilir</string>
@@ -690,7 +676,6 @@
     <string name="notification_type_faved_post_gif">GIF\'ini beğendi :D</string>
     <string name="notification_type_faved_post_text">Metin gönderini beğendi :D</string>
     <string name="notification_type_faved_post_poll">Anketini beğendi :D</string>
-    <string name="notification_type_faved_post_comic">Çizgi romanını beğendi :D</string>
     <string name="notification_type_faved_post">Gönderini beğendi :D</string>
     <string name="notification_type_followed">Seni takip etmeye başladı :3</string>
     <string name="notification_type_unfollowed">Birisi seni takipten çıktı :c</string>
@@ -779,24 +764,16 @@
     <string name="report_failed">Şikayet gönderilemedi: %1$s</string>
     <string name="edit_edit">Düzenle…</string>
     <string name="edit_mod">Moderasyon…</string>
-    <string name="edit_rating">Değerlendirmeyi düzenle</string>
-    <string name="edit_artist">Çizeni düzenle</string>
-    <string name="edit_source">Kaynağı düzenle</string>
-    <string name="edit_category">Kategoriyi düzenle</string>
-    <string name="edit_title">Başlığı düzenle</string>
-    <string name="edit_description">Açıklamayı düzenle</string>
-    <string name="post_info_menu_add_to_news">Yeni Gönderiler bölümüne ekle</string>
-    <string name="post_info_menu_remove_from_news">Yeni Gönderiler bölümünden çıkar</string>
-    <string name="post_info_menu_hide_from_new">Yeni Gönderiler bölümünden gizle</string>
-    <string name="post_info_menu_hide_from_new_message">Bu gönderi Yeni Gönderiler bölümünden gizlensin mi?</string>
-    <string name="post_info_menu_recreate_thumbnail">Küçük resmi yeniden yap</string>
-    <string name="post_info_menu_recreate_thumbnail_message">Küçük resmi yeniden yapmak istiyor musun?</string>
-    <string name="post_info_menu_swap_width_height">Genişlik ve yüksekliği değiştir</string>
+    <string name="post_info_menu_add_to_news" translatable="false">Add to News</string>
+    <string name="post_info_menu_remove_from_news" translatable="false">Remove from News</string>
+    <string name="post_info_menu_recreate_thumbnail" translatable="false">Recreate thumbnail</string>
+    <string name="post_info_menu_recreate_thumbnail_message" translatable="false">Recreate the thumbnail?</string>
+    <string name="post_info_menu_swap_width_height" translatable="false">Swap width/height</string>
     <string name="report_reason">Şikayet sebebi</string>
     <string name="report_sent">Şikayet gönderildi</string>
-    <string name="post_info_menu_swap_width_height_message">Genişlik ve yükseklik değiştirilsin mi?</string>
-    <string name="post_info_menu_add_to_news_message">Bu gönderi Yeni Gönderiler bölümüne eklensin mi?</string>
-    <string name="post_info_menu_remove_from_news_message">Bu gönderi Yeni Gönderiler bölümünden çıkarılsın mı?</string>
+    <string name="post_info_menu_swap_width_height_message" translatable="false">Swap the width/height?</string>
+    <string name="post_info_menu_add_to_news_message" translatable="false">Add this post to the News section?</string>
+    <string name="post_info_menu_remove_from_news_message" translatable="false">Remove this post from the News section?</string>
     <string name="post_info_menu_hide_post_message">Gönderi gizlensin mi? Gönderiyi bir daha göremeyeceksin. Bu işlem geri alınamaz.</string>
     <string name="post_info_menu_add_to_comic">Çizgi romana ekle</string>
     <string name="post_hidden">Gönderi gizlendi</string>
@@ -821,19 +798,19 @@
     <string name="unban_user_dialog_positive">Yasağı kaldır</string>
     <string name="unban_user_dialog_title">Kullanıcının yasağını kaldır</string>
     <string name="unban_user_dialog_message">Kullanıcının yasağı kaldırılsın mı?</string>
-    <string name="remove_mod_dialog_title">Moderatörü kaldır</string>
-    <string name="add_mod_dialog_title">Moderatör ekle</string>
-    <string name="add_mod_dialog_message">Bu kullanıcı moderatörlüğe terfi edilsin mi?</string>
-    <string name="delete_all_posts_from_dialog_title">Kullanıcının galerisini sil</string>
-    <string name="delete_all_comments_from_dialog_title">Kullanıcının yorumlarını sil</string>
-    <string name="admin_verify_email_dialog_title">E-posta\'yı doğrula</string>
+    <string name="remove_mod_dialog_title" translatable="false">Remove moderator</string>
+    <string name="add_mod_dialog_title" translatable="false">Add moderator</string>
+    <string name="add_mod_dialog_message" translatable="false">Promote this user to a moderator?</string>
+    <string name="delete_all_posts_from_dialog_title" translatable="false">Purge user gallery</string>
+    <string name="delete_all_comments_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
     <string name="ban_user_type_comment">Yorum yapamaz</string>
     <string name="ban_user_type_message">Mesaj gönderemez</string>
     <string name="ban_user_type_post">Gönderi paylaşamaz</string>
     <string name="ban_user_type_start_chat">Sohbet başlatamaz</string>
-    <string name="remove_mod_dialog_message">Bu kullanıcı ın moderatörlüğü kaldırılsın mı?</string>
-    <string name="delete_all_posts_from_dialog_message">Bu kullanıcı ın galerisi silinsin mi?</string>
-    <string name="delete_all_comments_from_dialog_message">Bu kullanıcı ın yorumları silinsin mi?</string>
+    <string name="remove_mod_dialog_message" translatable="false">Remove this user\'s moderator status?</string>
+    <string name="delete_all_posts_from_dialog_message" translatable="false">Purge this user\'s gallery?</string>
+    <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
     <string name="ban_user_type_all">Tam yasak (hepsi aşağıda)</string>
     <string name="ban_user_type_edit_icon_bg">Profil resmi veya banner düzenleyemez</string>
     <string name="ban_user_type_edit_profile">Profilini düzenleyemez</string>
@@ -972,10 +949,6 @@
     <string name="edit_profile_name_hint">İsim</string>
     <string name="edit_profile_name_info">Güzel bir isim seç!</string>
     <string name="edit_profile_username_hint">Kullanıcı adı</string>
-    <string name="edit_profile_presentation_hint">Kısaca kendini tanıt</string>
-    <string name="edit_profile_link_custom_hint">Web sitesi linki</string>
-    <string name="edit_profile_link_fa_hint">FurAffinity kullanıcı adı</string>
-    <string name="edit_profile_link_da_hint">DeviantArt kullanıcı adı</string>
     <string name="edit_profile_about_hint">Hakkımda</string>
     <string name="edit_profile_username_info">Diğer kullanıcılar seni @senin_adın şeklinde etiketleyebilir.
 \nİzin verilen karakterler: a-z A-Z _-. ve 0–9</string>
@@ -1001,11 +974,6 @@
     <string name="edit_profile_chip_max_rating_1">Güvenli</string>
     <string name="edit_profile_chip_max_rating_2">Müstehcen</string>
     <string name="edit_profile_chip_max_rating_3">Cinsel</string>
-    <string name="edit_profile_age">Ben:</string>
-    <string name="edit_profile_age_lock">Yaşı kilitle</string>
-    <string name="edit_profile_age_15_younger">13-15 yaşındayım</string>
-    <string name="edit_profile_age_16_to_17">16-17 yaşındayım</string>
-    <string name="edit_profile_age_18_above">18 veya üstü yaştayım</string>
     <string name="uploading_dots">Yükleniyor…</string>
     <string name="edit_profile_uploading_error">Hata: %1$s</string>
     <string name="edit_profile_edited_profile">Profil güncellendi!</string>
@@ -1024,9 +992,6 @@
     <string name="content_filter_block_tags_summary">Engelli etiketlerimi yönet</string>
     <string name="content_filter_block_content_title">İçerik tercihleri</string>
     <string name="content_filter_block_content_summary">İçerik göster/gizle</string>
-    <string name="content_filter_mod_show_hidden_title">Gizlenmiş gönderileri Yeni Gönderiler bölümünde göster</string>
-    <string name="content_filter_mod_show_hidden_summary_on">Gizli gönderileri dahil</string>
-    <string name="content_filter_mod_show_hidden_summary_off">Gizli gönderiler dahil değil</string>
     <string name="content_filter_mod_delete_mode_title">Gönderi hızlı işlemlerini göster</string>
     <string name="content_filter_mod_delete_mode_summary_on">Hızlı işlemler görünebilir</string>
     <string name="content_filter_mod_delete_mode_summary_off">Hızlı işlemler gizli</string>
@@ -1081,12 +1046,6 @@
 \n%1$s adresine gönderilen linke tıklayıp yeniden dene.
 \n
 \nEğer e-posta gelmediyse, hesabından çıkış yap ve yeniden giriş yap.</string>
-    <string name="email_verification_dialog_title">E-posta doğrulama</string>
-    <string name="email_verification_dialog_message">eFur\'e hoşgeldin!
-\n
-\nE-postanı doğrulamak için, %1$s adresine gönderilen linke tıkla.
-\n
-\nEğer e-posta 5 dakika içinde gelmezse, hesabından çıkış yap ve yeniden giriş yap.</string>
     <string name="notification_dialog_clear_all_message">Bildirimler temizlensin mi?</string>
     <string name="notification_clear_all_message_done">%1$d tane bildirim temizlendi</string>
     <string name="following_posts_dialog_clear_all_message">Feed\'in temizlensin mi?</string>
@@ -1133,7 +1092,6 @@
     <string name="discover_users_menu_order_by_level">İlk en yüksek seviyede olanlar</string>
     <string name="discover_users_search_hint">Bir isim veya @kullanıcı_adı gir</string>
     <string name="discover_users_search_sub_hint">Kullanıcı adları büyük-küçük harflere duyarlı değil iken isimler duyarlıdır.</string>
-    <string name="discover_users_search_user_clicked_view_profile">Profili görüntüle</string>
     <string name="discover_users_search_user_clicked_select">Kullanıcı seç</string>
     <string name="discover_users_list_empty">Kullanıcı bulunamadı</string>
     <string name="discover_users_search_empty">\"%1$s\" ismi veya kullanıcı adıyla bir kullanıcı bulunamadı</string>
@@ -1243,7 +1201,47 @@
     <string name="post_theme_17">Diğer fetiş</string>
     <plurals name="discover_tags_tag_item_post_count">
         <item quantity="one">%1$d gönderiler</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="discover_tags_order_by_recent">Yakın zamanda ki aktivite</string>
+    <string name="setting_language_item_uk" translatable="false">Українська</string>
+    <string name="setting_language_item_fa" translatable="false">فارسی</string>
+    <string name="cleanup_old_installations" translatable="false">Delete old installations</string>
+    <string name="cleanup_unban_ip" translatable="false">Unban IP</string>
+    <string name="enter_ip" translatable="false">Enter IP</string>
+    <string name="cleanup_error" translatable="false">Error: %1$s</string>
+    <string name="discover_tags_tag_item_toggle_success" translatable="false">%1$s toggled, safe=%2$b</string>
+    <string name="setting_language_item_fr" translatable="false">French</string>
+    <string name="setting_language_item_el" translatable="false">Greek</string>
+    <string name="setting_language_item_de" translatable="false">Deutsche</string>
+    <string name="cleanup_old_following_posts" translatable="false">Delete old following posts</string>
+    <string name="cleanup_deleted_messages" translatable="false">Delete deleted messages</string>
+    <string name="cleanup_deleted_chats" translatable="false">Delete deleted chats</string>
+    <string name="cleanup_old_control_messages" translatable="false">Delete old control messages</string>
+    <string name="cleanup_old_like_notifications" translatable="false">Delete old liked notifications</string>
+    <string name="app_name_main" translatable="false">eFur</string>
+    <string name="app_name_debug" translatable="false">eFur dev</string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) © eFur 2024 | All Rights Reserved | 30796 SLOC</string>
+    <string name="chats_unread_many" translatable="false">%1$d+</string>
+    <string name="post_date_posted_categories" translatable="false">%1$s%2$s</string>
+    <string name="post_poll_option_percentage" translatable="false">%1$d%%</string>
+    <string name="posts_comic" translatable="false">%1$s</string>
+    <string name="setting_language_item_en" translatable="false">English</string>
+    <string name="setting_language_item_es" translatable="false">Español</string>
+    <string name="setting_language_item_pl" translatable="false">Polski</string>
+    <string name="setting_language_item_pt" translatable="false">Português</string>
+    <string name="setting_language_item_ru" translatable="false">Pусский</string>
+    <string name="setting_language_item_it" translatable="false">Italiano</string>
+    <string name="setting_language_item_zh_CN" translatable="false">简体中文</string>
+    <string name="setting_language_item_tr" translatable="false">Türkçe</string>
+    <string name="setting_language_item_nl" translatable="false">Nederlands</string>
+    <string name="admin_delete_account_dialog_title" translatable="false">Delete account</string>
+    <string name="admin_delete_account_dialog_message" translatable="false">Mark this user\'s account as pending deletion?</string>
+    <string name="action_delete_all_messages" translatable="false">Purge user\'s messages</string>
+    <string name="delete_all_messages_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_messages_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="delete_to_here" translatable="false">Delete to here</string>
+    <string name="discover_tags_tag_item_toggle_error" translatable="false">Failed to toggle: %1$s</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="cleanup_ban_ip" translatable="false">Ban IP</string>
 </resources>

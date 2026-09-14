@@ -10,10 +10,10 @@
     <string name="action_view_blocked">Bekijk geblokkeerde gebruikers</string>
     <string name="action_block_user">Blokkeer/deblokkeer…</string>
     <string name="action_ban_user">Verban gebruiker</string>
-    <string name="action_add_as_mod">Promoot tot moderator</string>
-    <string name="action_remove_as_mod">Verwijder moderator status</string>
-    <string name="action_delete_all_posts">Wis gebruiker\'s posts</string>
-    <string name="action_delete_all_comments">Wis gebruiker\'s opmerkingen</string>
+    <string name="action_add_as_mod" translatable="false">Promote to moderator</string>
+    <string name="action_remove_as_mod" translatable="false">Remove moderator status</string>
+    <string name="action_delete_all_posts" translatable="false">Purge user\'s posts</string>
+    <string name="action_delete_all_comments" translatable="false">Purge user\'s comments</string>
     <string name="action_verify_email">Verifieer e-mail</string>
     <string name="action_create_1_1_chat">Start een 1:1 chat</string>
     <string name="action_create_group_chat">Start een groepschat</string>
@@ -52,7 +52,6 @@
     <string name="login_username_too_long">Gebruikersnamen mogen niet langer dan 22 characters zijn</string>
     <string name="login_invalid_email_pw">Onjuiste e-mail en/of wachtwoord</string>
     <string name="login_register_error">Registreren mislukt: %1$s</string>
-    <string name="login_register_age">Ik ben 13 jaar of ouder</string>
     <string name="login_dialog_consent_country_title">Uw locatie</string>
     <string name="login_dialog_consent_country_message">Bent u een inwoner van de EU/EER, het Verenigd Koninkrijk of de staat Californië in de VS?</string>
     <string name="login_dialog_consent_country_yes">Ja</string>
@@ -424,7 +423,7 @@
     <string name="chat_role_banned">verbannen</string>
     <string name="chat_role_admin">ADMIN</string>
     <string name="chat_role_left">verlaten</string>
-    <string name="chat_admin_join">Wordt lid als admin</string>
+    <string name="chat_admin_join" translatable="false">Join as admin</string>
     <string name="chat_info_user_option_kick">Zet eruit</string>
     <string name="chat_info_user_option_kick_error">Eruit zetten mislukt: %1$s</string>
     <string name="chat_info_user_option_kick_success">%1$s eruit gezet</string>
@@ -496,8 +495,6 @@
     <string name="report_additional_information">Aanvullende informatie</string>
     <string name="report_hide_post">Verberg deze post permanent</string>
     <string name="block_title_visibility">Zichtbaarheid:</string>
-    <string name="block_visibility_show_posts">Laat deze gebruiker\'s posts zien in Nieuw &amp; zoekopdrachten</string>
-    <string name="block_title_can">Deze gebruiker kan:</string>
     <string name="block_settings">Blokkeer instellingen</string>
     <string name="block_can_message">Berichten naar mij stuurt</string>
     <string name="block_can_view_profile">Mijn profiel bekijkt</string>
@@ -796,9 +793,6 @@
     <string name="edit_profile_name_hint">Naam</string>
     <string name="edit_profile_name_info">Kies een leuke naam!</string>
     <string name="edit_profile_username_hint">Gebruikersnaam</string>
-    <string name="edit_profile_link_custom_hint">Websitelink</string>
-    <string name="edit_profile_link_fa_hint">FurAffinity gebruikersnaam</string>
-    <string name="edit_profile_link_da_hint">DeviantArt gebruikersnaam</string>
     <string name="edit_profile_about_hint">Over mij</string>
     <string name="edit_profile_username_invalid">Uw gebruikersnaam bevat onjuiste characters</string>
     <string name="edit_profile_edit_failed">Profiel bewerken mislukt</string>
@@ -827,11 +821,6 @@
     <string name="edit_profile_chip_max_rating_1">Veilig</string>
     <string name="edit_profile_chip_max_rating_2">Suggestief (18+)</string>
     <string name="edit_profile_chip_max_rating_3">Expliciet (18+)</string>
-    <string name="edit_profile_age">Ik ben:</string>
-    <string name="edit_profile_age_lock">Leeftijd vergrendelen</string>
-    <string name="edit_profile_age_16_to_17">16 of 17 jaar oud</string>
-    <string name="edit_profile_age_15_younger">13 tot en met 15 jaar oud</string>
-    <string name="edit_profile_age_18_above">18 of ouder</string>
     <string name="edit_profile_image_removed">Afbeelding verwijderd</string>
     <string name="edit_profile_image_remove_error">Verwijderen mislukt: %1$s</string>
     <string name="video_error">Afspeel fout: %1$s</string>
@@ -927,7 +916,6 @@
     <string name="post_info_menu_hide_post">Verberg post</string>
     <string name="unban_user_dialog_message">Verbanning opheffen voor deze gebruiker?</string>
     <string name="post_item_cropped">Lange posts zijn bijgesneden, tik om de volledige post te weergeven</string>
-    <string name="edit_profile_presentation_hint">Korte presentatie</string>
     <string name="edit_profile_username_info">Andere gebruikers kunnen u vermelden met @uw_gebruikersnaam.
 \nToegestane characters: a-z A-Z _-. en 0-9</string>
     <string name="edit_profile_chip_public_favourites_3">Verberg Expliciet &amp; Suggestief</string>
@@ -937,7 +925,6 @@
     <string name="google_play_services_missing_error">De Google Play diensten zijn nodig om deze app te gebruiken!</string>
     <string name="launch_subtitle">Inloggen, registreren of gebruiken als gast</string>
     <string name="launcher_server_status">Check server status</string>
-    <string name="login_register_age_error">U moet bevestigen dat u 13 jaar of ouder bent om deze app te gebruiken!</string>
     <string name="reset_password_error">Fout: %1$s</string>
     <string name="post_category_19">Reizen &amp; plaatsen</string>
     <string name="upload_chooser_quota_restock">Uw quota vult bij in %1$d minuten</string>
@@ -1034,7 +1021,7 @@
     <string name="description">Beschrijving</string>
     <string name="conversation_message_deleted">Bericht verwijderd</string>
     <string name="conversation_delete_deleted_failed">Conversatie verwijderen mislukt: %1$s</string>
-    <string name="chat_joined_with_role">Lid geworden met rol %1$d</string>
+    <string name="chat_joined_with_role" translatable="false">Joined with role %1$d</string>
     <string name="report_reason_illegal_content">Illegale content</string>
     <string name="report_hide_comment">Verberg deze opmerking permanent</string>
     <string name="report_resolve_delete_dialog_title">Verwijder?</string>
@@ -1096,7 +1083,6 @@
         <item quantity="other">%1$d likes ontvangen</item>
     </plurals>
     <string name="post_is_nsfw">Deze post is NSFW!</string>
-    <string name="edit_profile_age_locked_message">Uw leeftijd is vergrendeld. Neem contact op met een moderator of de support als u het wilt veranderen</string>
     <string name="edit_profile_edit_ad">Bewerk after dark (AD/NSFW) profiel</string>
     <string name="consent_crashlytics_summary_on">Crashrapporten worden verzameld en verzonden naar Firebase Crashlytics</string>
     <string name="delete_account_posts_success_message">Success! Uw posts worden verwijderd. Dit kan even duren als u er veel heeft. Klik op het ververs icoon om de voortgang te checken.</string>
@@ -1123,11 +1109,6 @@
     <string name="delete_account_send_request_failed">Verwijderingsverzoek verzenden mislukt: %1$s</string>
     <string name="delete_account_cancel_request_failed">Verwijderingsverzoek annuleren mislukt: %1$s</string>
     <string name="discover_users_search_sub_hint">De zoekopdracht is niet hoofdlettergevoelig.</string>
-    <string name="email_verification_dialog_message">Welkom bij eFur!
-\n
-\nOm uw e-mail te bevestigen, tik op de link die is gestuurd naar %1$s.
-\n
-\nAls u na vijf minuten geen e-mail heeft ontvangen kunt u uit- en inloggen om een nieuwe te ontvangen.</string>
     <string name="discover_users_search_empty">Geen gebruikers gevonden met een naam of gebruikersnaam die starten met \"%1$s\"</string>
     <string name="picker_text">Verhaal</string>
     <string name="picker_media_permissions_hint">Geef toestemming tot media voor
@@ -1150,7 +1131,6 @@
 \nTik op de link die is verstuurd naar %1$s en probeer het vervolgens opnieuw of start de app opnieuw.
 \n
 \nAls u geen e-mail ontvangen heeft kunt u uit- en inloggen om een nieuwe te ontvangen.</string>
-    <string name="email_verification_dialog_title">E-mail verificatie</string>
     <string name="delete_account_request_text_title">Permanent uw eFurry account verwijderen</string>
     <string name="following_posts_dialog_clear_all_message">Wis al uw volgende posts?</string>
     <string name="following_posts_clear_all_message_done">%1$d posts gewist</string>
@@ -1186,7 +1166,6 @@
     <string name="discover_users_menu_order_by_level">Hoogste level</string>
     <string name="discover_users_search_hint">Voer een naam of @gebruikersnaam in</string>
     <string name="modmail_empty_text">U heeft nog geen Modmail!</string>
-    <string name="discover_users_search_user_clicked_view_profile">Bekijk profiel</string>
     <string name="discover_users_search_user_clicked_select">Selecteer gebruiker</string>
     <string name="discover_users_list_empty">Geen gebruikers gevonden</string>
     <string name="discover_users_search_error">Geen gebruikers gevonden met een naam of gebruikersnaam die starten met \"%1$s\".
@@ -1359,4 +1338,66 @@
     <string name="profile_content_error_unfollow">Gebruiker ontvolgen</string>
     <string name="profile_content_error_unfollow_done">Succes, je volgt deze gebruiker niet langer</string>
     <string name="discover_posts_search_hint">Voer tekst in om te zoeken naar</string>
+    <string name="setting_language_item_uk" translatable="false">Українська</string>
+    <string name="setting_language_item_fa" translatable="false">فارسی</string>
+    <string name="cleanup_deleted_chats" translatable="false">Delete deleted chats</string>
+    <string name="cleanup_old_control_messages" translatable="false">Delete old control messages</string>
+    <string name="cleanup_old_like_notifications" translatable="false">Delete old liked notifications</string>
+    <string name="cleanup_old_installations" translatable="false">Delete old installations</string>
+    <string name="cleanup_ban_ip" translatable="false">Ban IP</string>
+    <string name="cleanup_unban_ip" translatable="false">Unban IP</string>
+    <string name="enter_ip" translatable="false">Enter IP</string>
+    <string name="cleanup_error" translatable="false">Error: %1$s</string>
+    <string name="post_info_menu_remove_from_news_message" translatable="false">Remove this post from the News section?</string>
+    <string name="remove_mod_dialog_message" translatable="false">Remove this user\'s moderator status?</string>
+    <string name="add_mod_dialog_title" translatable="false">Add moderator</string>
+    <string name="add_mod_dialog_message" translatable="false">Promote this user to a moderator?</string>
+    <string name="delete_all_posts_from_dialog_title" translatable="false">Purge user gallery</string>
+    <string name="delete_all_posts_from_dialog_message" translatable="false">Purge this user\'s gallery?</string>
+    <string name="delete_all_comments_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
+    <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
+    <string name="post_date_posted_categories" translatable="false">%1$s%2$s</string>
+    <string name="post_poll_option_percentage" translatable="false">%1$d%%</string>
+    <string name="posts_comic" translatable="false">%1$s</string>
+    <string name="setting_language_item_en" translatable="false">English</string>
+    <string name="setting_language_item_es" translatable="false">Español</string>
+    <string name="setting_language_item_pl" translatable="false">Polski</string>
+    <string name="setting_language_item_pt" translatable="false">Português</string>
+    <string name="setting_language_item_ru" translatable="false">Pусский</string>
+    <string name="setting_language_item_it" translatable="false">Italiano</string>
+    <string name="setting_language_item_zh_CN" translatable="false">简体中文</string>
+    <string name="setting_language_item_tr" translatable="false">Türkçe</string>
+    <string name="setting_language_item_nl" translatable="false">Nederlands</string>
+    <string name="admin_delete_account_dialog_title" translatable="false">Delete account</string>
+    <string name="admin_delete_account_dialog_message" translatable="false">Mark this user\'s account as pending deletion?</string>
+    <string name="action_delete_all_messages" translatable="false">Purge user\'s messages</string>
+    <string name="delete_all_messages_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_messages_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="delete_to_here" translatable="false">Delete to here</string>
+    <string name="discover_tags_tag_item_toggle_error" translatable="false">Failed to toggle: %1$s</string>
+    <string name="setting_language_item_de" translatable="false">Deutsche</string>
+    <string name="cleanup_old_following_posts" translatable="false">Delete old following posts</string>
+    <string name="cleanup_deleted_messages" translatable="false">Delete deleted messages</string>
+    <string name="divider_horizontal" translatable="false">|</string>
+    <string name="app_name_main" translatable="false">eFur</string>
+    <string name="app_name_debug" translatable="false">eFur dev</string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) © eFur 2024 | All Rights Reserved | 30796 SLOC</string>
+    <string name="allowed_digits" translatable="false">01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="chats_unread_many" translatable="false">%1$d+</string>
+    <string name="discord" translatable="false">Discord</string>
+    <string name="telegram" translatable="false">Telegram</string>
+    <string name="post_info_menu_add_to_news" translatable="false">Add to News</string>
+    <string name="post_info_menu_remove_from_news" translatable="false">Remove from News</string>
+    <string name="post_info_menu_recreate_thumbnail" translatable="false">Recreate thumbnail</string>
+    <string name="post_info_menu_recreate_thumbnail_message" translatable="false">Recreate the thumbnail?</string>
+    <string name="post_info_menu_swap_width_height" translatable="false">Swap width/height</string>
+    <string name="post_info_menu_swap_width_height_message" translatable="false">Swap the width/height?</string>
+    <string name="post_info_menu_add_to_news_message" translatable="false">Add this post to the News section?</string>
+    <string name="remove_mod_dialog_title" translatable="false">Remove moderator</string>
+    <string name="discover_tags_tag_item_toggle_success" translatable="false">%1$s toggled, safe=%2$b</string>
+    <string name="setting_language_item_fr" translatable="false">French</string>
+    <string name="setting_language_item_el" translatable="false">Greek</string>
 </resources>

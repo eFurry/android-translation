@@ -6,7 +6,7 @@
     <string name="action_create">Stwórz</string>
     <string name="action_clear_all">Wyczyść wszystko</string>
     <string name="action_edit_profile">Edytuj profil</string>
-    <string name="action_view_blocked">Wyświetl zablokowanych użytkowników</string>
+    <string name="action_view_blocked">Wyświetl blokowanych użytkowników</string>
     <string name="action_report_user">Zgłoś użytkownika</string>
     <string name="action_block_user">Zablokuj/Odblokuj użytkownika…</string>
     <string name="ad_attribution">Reklama</string>
@@ -31,13 +31,13 @@
 \nPonawianie próby</string>
     <string name="launcher_updating_account_settings">Ładowanie ustawień konta</string>
     <string name="launcher_server_status">Sprawdź status serwera</string>
-    <string name="login_title">Witamy na eFur!</string>
-    <string name="login_subtitle">Prosimy, zaloguj się lub zarejestruj się, aby kontynuować</string>
+    <string name="login_title">Witaj na eFur!</string>
+    <string name="login_subtitle">Zaloguj się lub zarejestruj, aby kontynuować</string>
     <string name="login_email_text">Wprowadź swój e-mail</string>
     <string name="login_password_text">Wprowadź swoje hasło</string>
     <string name="login_reset">Zresetuj hasło</string>
-    <string name="login_new_user">Jesteś nowym użytkownikiem? Zamiast tego zarejestruj się</string>
-    <string name="legal_notice_launch">Kontynuując, potwierdzasz, że przeczytałeś i akceptujesz Warunki świadczenia usług oraz Politykę prywatności:</string>
+    <string name="login_new_user">Nie masz konta? Zarejestruj się</string>
+    <string name="legal_notice_launch">Kontynuując, potwierdzasz, że przeczytałeś(-aś) i akceptujesz Warunki świadczenia usług oraz Politykę prywatności:</string>
     <string name="legal_notice_checkbox">"Akceptuję "</string>
     <string name="login_invalid_email">Błędny adres e-mail</string>
     <string name="login_password_too_short">Hasło powinno zawierać co najmniej 8 znaków</string>
@@ -59,10 +59,7 @@
 \nKontynuować?</string>
     <string name="account_needed">Do wykonania tej akcji wymagane jest konto!</string>
     <string name="reset_password_dialog_title">Odzyskiwanie hasła</string>
-    <string name="reset_password_dialog_message">Na adres \"%1$s\" zostanie wysłany e-mail z linkiem do zresetowania hasła.
-\nKliknij link w wiadomości, aby ustawić nowe hasło.
-\n
-\nCzy chcesz kontynuować?</string>
+    <string name="reset_password_dialog_message">Na adres \"%1$s\" zostanie wysłany e-mail z linkiem do zresetowania hasła.\nWybierz link w wiadomości, aby ustawić nowe hasło.\n\nCzy chcesz kontynuować?</string>
     <string name="reset_password_error">Błąd: %1$s</string>
     <string name="reset_password_sent">Na adres \"%1$s\" wysłano wiadomość z instrukcją zmiany hasła</string>
     <string name="register_success">Konto utworzone, witamy na eFur!</string>
@@ -73,26 +70,23 @@
     <string name="post_category_2">Grafika (tradycyjna)</string>
     <string name="post_category_3">Fursuity i kostiumy</string>
     <string name="post_category_4">Zwierzęta i pupile</string>
-    <string name="post_category_5">GIF-y</string>
-    <string name="post_category_27">Filmy / filmiki</string>
     <string name="post_category_6">Śmieszne i memy</string>
     <string name="post_category_7">Rozkoszne i słodkie</string>
     <string name="post_category_8">Fotografia</string>
     <string name="post_category_9">IRL (prawdziwe życie)</string>
-    <string name="post_category_10">Rzemiosło i rzeźbiarstwo</string>
-    <string name="post_category_11">Projekty</string>
+    <string name="post_category_10">Rękodzieło i rzeźbienie</string>
+    <string name="post_category_11">Projekty / designy</string>
     <string name="post_category_12">Komiksy</string>
-    <string name="post_category_13">Relacje / teksty</string>
-    <string name="post_category_25">Q&amp;A (Pytania i odpowiedzi)</string>
-    <string name="post_category_26">Ankiety</string>
+    <string name="post_category_13">Historie / teksty</string>
+    <string name="post_category_25">Q&amp;A (pytania i odpowiedzi)</string>
     <string name="post_category_14">Zlecenia</string>
     <string name="post_category_15">Aukcje / YCH (Twoja postać tutaj)</string>
     <string name="post_category_16">Do adopcji</string>
     <string name="post_category_17">Gaming / gry</string>
-    <string name="post_category_18">Filmy, seriale i programy telewizyjne</string>
+    <string name="post_category_18">Filmy, seriale i programy TV</string>
     <string name="post_category_28">Muzyka</string>
     <string name="post_category_19">Podróże i miejsca</string>
-    <string name="post_category_20">WTF</string>
+    <string name="post_category_20">WTF (dziwne)</string>
     <string name="post_category_21">Jedzenie i przepisy</string>
     <string name="post_category_22">Zrzuty ekranu</string>
     <string name="post_category_23">Aktualne wydarzenia</string>
@@ -148,11 +142,11 @@
     <string name="upload_settings_categories_none_selected">Brak wybranej kategorii</string>
     <string name="upload_settings_tags">Tagi</string>
     <string name="upload_settings_tags_too_many">Nie można dodawać więcej niż 100 tagów</string>
-    <string name="upload_settings_poll_question_title">Pytanie ankietowe</string>
+    <string name="upload_settings_poll_question_title">Pytanie ankiety</string>
     <string name="upload_settings_poll_question_hint">Zadaj pytanie</string>
-    <string name="upload_settings_poll_answers">Odpowiedzi</string>
+    <string name="upload_settings_poll_answers">Opcje odpowiedzi</string>
     <string name="upload_settings_poll_option">Napisz odpowiedź</string>
-    <string name="upload_settings_poll_option_add">Dodaj Opcję…</string>
+    <string name="upload_settings_poll_option_add">Dodaj opcję…</string>
     <string name="upload_settings_poll_settings">Ustawienia</string>
     <string name="upload_settings_poll_settings_type">Zezwól na wiele odpowiedzi</string>
     <string name="upload_post_created">Post stworzony!</string>
@@ -184,7 +178,7 @@
     <string name="register">Zarejestruj się</string>
     <string name="login">Zaloguj się</string>
     <string name="login_or_register">Zaloguj się lub zarejestruj</string>
-    <string name="login_instead">Zamiast tego zaloguj się</string>
+    <string name="login_instead">Masz konto? Zaloguj się</string>
     <string name="cancel">Anuluj</string>
     <string name="ok">OK</string>
     <string name="copy">Kopiuj</string>
@@ -238,7 +232,7 @@
         <item quantity="other">sekund</item>
     </plurals>
     <plurals name="minutes">
-        <item quantity="one">minuta</item>
+        <item quantity="one">minutę</item>
         <item quantity="few">minuty</item>
         <item quantity="many">minut</item>
         <item quantity="other">minut</item>
@@ -266,7 +260,7 @@
     <string name="message_error_button_hint">Wciśnij, aby spróbować ponownie</string>
     <string name="message_send">Wyślij wiadomość</string>
     <string name="message_send_error">Nie udało się wysłać wiadomości: %1$s</string>
-    <string name="message_get_error">Nie udało się otrzymać wiadomości: %1$s</string>
+    <string name="message_get_error">Nie udało się załadować wiadomości: %1$s</string>
     <string name="message_new_messages_below">ᐯ nowe wiadomości ᐯ</string>
     <string name="message_option_edit_title">Edytuj wiadomość</string>
     <string name="message_option_delete_title">Usuń wiadomość</string>
@@ -287,7 +281,7 @@
     <string name="report_reason_spam">Spam</string>
     <string name="report_reason_hate_speech">Mowa nienawiści</string>
     <string name="report_reason_harassment">Nękanie</string>
-    <string name="report_reason_impersonation">Podszywanie się za kogoś innego</string>
+    <string name="report_reason_impersonation">Podszywanie się pod kogoś innego</string>
     <string name="report_reason_illegal_content">Niedozwolone treści</string>
     <string name="report_reason_threats">Groźby</string>
     <string name="report_reason_personal">Prywatne informacje</string>
@@ -298,8 +292,6 @@
     <string name="report_hide_comment">Ukryj ten komentarz na zawsze</string>
     <string name="block_settings">Ustawienia blokowania</string>
     <string name="block_title_visibility">Widoczność:</string>
-    <string name="block_visibility_show_posts">Pokaż posty tego użytkownika w sekcji Nowe i w wyszukiwaniach</string>
-    <string name="block_title_can">Ten użytkownik może:</string>
     <string name="block_can_comment_and_reply">Komentowania pod moimi postami i odpowiadania na moje komentarze</string>
     <string name="block_can_message">Wysyłania mi wiadomości</string>
     <string name="block_can_view_profile">Wyświetlania mojego profilu</string>
@@ -318,7 +310,7 @@
     <string name="report_comment_deleted_by_text">%1$s. Było w nim napisane:
 \n
 \n%2$s</string>
-    <string name="report_linked_button">Kliknij, aby wyświetlić posta</string>
+    <string name="report_linked_button">Dotknij, aby wyświetlić posta</string>
     <string name="report_post_deleted">Post został usunięty</string>
     <string name="go_to_post">Idź do posta</string>
     <string name="mod_log_post">Idź do posta %1$s</string>
@@ -326,9 +318,7 @@
     <string name="post_deleted_by">Usunięte przez: %1$s (%2$s)</string>
     <string name="deleted_score_when_deleted">Ulubione: %1$d, Komentarze: %2$d</string>
     <string name="post_is_nsfw_in_sfw_mode">Ten post ma ocenę wyższą niż Twój maksymalny limit!</string>
-    <string name="about_general">Zapraszamy do udziału w projekcie eFur!
-\n
-\nPrzestrzeni społecznościowej do dzielenia się i cieszenia ze wszystkich spraw, związanych z furry ~</string>
+    <string name="about_general">Witamy w projekcie eFur! \n \nW przestrzeni społecznościowej do dzielenia się i czerpania radości ze wszystkich futrzanych rzeczy ~</string>
     <string name="about_stats">Statystyki</string>
     <string name="feedback_general">Masz uwagi lub sugestie dotyczące ulepszenia aplikacji? Oceń aplikację w Sklepie Google Play, wyślij e-mail na adres feedback@efurry.net lub dołącz do nas na Discordzie i podziel się swoimi przemyśleniami!</string>
     <string name="contributions_general">Jeżeli masz wkład, wyślij wiadomość do @Dog!</string>
@@ -358,10 +348,10 @@
     <string name="notification_type_mod_deleted_comment">Twój komentarz został usunięty przez moderatora</string>
     <string name="notification_type_unknown">Zaktualizuj aplikację, aby zobaczyć to powiadomienie!</string>
     <string name="notification_type_notice_notification_disabled_title">Wszystkie powiadomienia push są wyłączone</string>
-    <string name="notification_type_notice_notification_disabled_text">Nie otrzymujesz powiadomień push dla wiadomości lub komentarzy. Kliknij tutaj, aby zezwolić aplikacji na wysyłanie powiadomień push.</string>
+    <string name="notification_type_notice_notification_disabled_text">Nie otrzymujesz powiadomień push dla wiadomości i komentarzy. Dotknij tutaj, aby zezwolić aplikacji na wysyłanie powiadomień push.</string>
     <string name="permission_was_denied">Odmowa żądania dostępu.</string>
-    <string name="notification_type_old_below">Najstarsze</string>
-    <string name="notification_type_new_below">Najnowsze</string>
+    <string name="notification_type_old_below">Starsze</string>
+    <string name="notification_type_new_below">Nowsze</string>
     <string name="post_comment_hint">Napisz komentarz</string>
     <string name="post_comment_thread_hint">Napisz odpowiedź</string>
     <string name="post_comment_empty">Niczego tu nie ma…
@@ -412,21 +402,14 @@
     <string name="report_failed">Nie udało się wysłać zgłoszenia: %1$s</string>
     <string name="edit_edit">Edytuj…</string>
     <string name="edit_mod">Moderowanie…</string>
-    <string name="edit_rating">Klasyfikację</string>
-    <string name="edit_artist">Artystę</string>
-    <string name="edit_source">Źródło</string>
-    <string name="edit_title">Tytuł</string>
-    <string name="edit_description">Opis</string>
-    <string name="post_info_menu_add_to_news">Dodaj do sekcji \"Aktualności\"</string>
-    <string name="post_info_menu_remove_from_news">Usuń z sekcji \"Aktualności\"</string>
-    <string name="post_info_menu_hide_from_new">Ukryj z sekcji Nowe</string>
-    <string name="post_info_menu_hide_from_new_message">Ukryć tego posta z sekcji Nowe?</string>
-    <string name="post_info_menu_recreate_thumbnail">Odtwórz miniaturę</string>
-    <string name="post_info_menu_recreate_thumbnail_message">Odtworzyć miniaturę?</string>
-    <string name="post_info_menu_swap_width_height">Podmień szerokość/wysokość</string>
-    <string name="post_info_menu_swap_width_height_message">Podmienić szerokość/wysokość?</string>
-    <string name="post_info_menu_add_to_news_message">Dodać tego posta do sekcji \"Aktualności\"?</string>
-    <string name="post_info_menu_remove_from_news_message">Usunąć tego posta z sekcji Aktualności?</string>
+    <string name="post_info_menu_add_to_news" translatable="false">Add to News</string>
+    <string name="post_info_menu_remove_from_news" translatable="false">Remove from News</string>
+    <string name="post_info_menu_recreate_thumbnail" translatable="false">Recreate thumbnail</string>
+    <string name="post_info_menu_recreate_thumbnail_message" translatable="false">Recreate the thumbnail?</string>
+    <string name="post_info_menu_swap_width_height" translatable="false">Swap width/height</string>
+    <string name="post_info_menu_swap_width_height_message" translatable="false">Swap the width/height?</string>
+    <string name="post_info_menu_add_to_news_message" translatable="false">Add this post to the News section?</string>
+    <string name="post_info_menu_remove_from_news_message" translatable="false">Remove this post from the News section?</string>
     <string name="post_info_menu_hide_post">Ukryj posta</string>
     <string name="post_info_menu_hide_post_message">Więcej nie zobaczysz tego posta. Tej czynności nie można cofnąć.</string>
     <string name="post_hidden">Post ukryty</string>
@@ -448,12 +431,12 @@
     <string name="ban_user_dialog_positive">Banuj</string>
     <string name="unban_user_dialog_title">Odbanuj użytkownika</string>
     <string name="unban_user_dialog_message">Odbanować tego użytkownika?</string>
-    <string name="remove_mod_dialog_title">Usuń moderatora</string>
-    <string name="remove_mod_dialog_message">Odebrać status moderatora temu użytkownikowi?</string>
-    <string name="add_mod_dialog_title">Dodaj moderatora</string>
-    <string name="add_mod_dialog_message">Promować tego użytkownika na moderatora?</string>
-    <string name="delete_all_posts_from_dialog_title">Wyczyść galerię użytkownika</string>
-    <string name="delete_all_posts_from_dialog_message">Wyczyścić galerię tego użytkownika?</string>
+    <string name="remove_mod_dialog_title" translatable="false">Remove moderator</string>
+    <string name="remove_mod_dialog_message" translatable="false">Remove this user\'s moderator status?</string>
+    <string name="add_mod_dialog_title" translatable="false">Add moderator</string>
+    <string name="add_mod_dialog_message" translatable="false">Promote this user to a moderator?</string>
+    <string name="delete_all_posts_from_dialog_title" translatable="false">Purge user gallery</string>
+    <string name="delete_all_posts_from_dialog_message" translatable="false">Purge this user\'s gallery?</string>
     <string name="post_text_read_more">Kontynuuj czytanie</string>
     <string name="post_text_read_less">Pokaż mniej</string>
     <string name="post_unknown_title">Nieznany rodzaj posta</string>
@@ -464,7 +447,7 @@
     <string name="post_poll_vote">Głosuj</string>
     <string name="post_poll_option_click_votes">%1$d głosów</string>
     <string name="post_poll_option_click_vote">%1$d głos</string>
-    <string name="post_poll_error_title">Nie udało się uzyskać głosu: %1$s. Spróbuj ponownie</string>
+    <string name="post_poll_error_title">Nie udało się załadować głosów: %1$s. Spróbuj ponownie</string>
     <string name="post_poll_error_button">Ponów próbę</string>
     <string name="posts_scrolling_empty_following">Strona jest pusta,
 \nobserwuj użytkowników, aby widzieć tu ich nowe posty!</string>
@@ -516,12 +499,8 @@
     <string name="posts_category_search">Posty z kategorii %1$s</string>
     <string name="posts_single_post_title">Post użytkownika %1$s</string>
     <string name="post_is_nsfw">Ten post jest NSFW (18+)!</string>
-    <string name="edit_profile_title">Edytuj swój profil</string>
+    <string name="edit_profile_title">Edytuj profil</string>
     <string name="edit_profile_username_hint">Zmień nazwę użytkownika</string>
-    <string name="edit_profile_presentation_hint">Krótka prezentacja profilu użytkownika</string>
-    <string name="edit_profile_link_custom_hint">Niestandardowy link do strony internetowej</string>
-    <string name="edit_profile_link_fa_hint">Nazwa użytkownika Fur Affinity</string>
-    <string name="edit_profile_link_da_hint">Nazwa użytkownika DeviantArt</string>
     <string name="edit_profile_about_hint">O mnie</string>
     <string name="edit_profile_bio_info">Powiedz coś o sobie!</string>
     <string name="edit_profile_save_changes">Zapisz zmiany</string>
@@ -546,12 +525,6 @@
     <string name="edit_profile_chip_max_rating_1">Bezpieczne</string>
     <string name="edit_profile_chip_max_rating_2">Sugestywne (18+)</string>
     <string name="edit_profile_chip_max_rating_3">Nieodpowiednie (18+)</string>
-    <string name="edit_profile_age">Mam:</string>
-    <string name="edit_profile_age_locked_message">Twój wiek jest zablokowany. Skontaktuj się z moderatorem lub wsparciem technicznym, jeżeli potrzebujesz go zmienić</string>
-    <string name="edit_profile_age_lock">Zablokuj wiek</string>
-    <string name="edit_profile_age_15_younger">15 lat lub mniej</string>
-    <string name="edit_profile_age_16_to_17">16 lub 17 lat</string>
-    <string name="edit_profile_age_18_above">18 lat lub więcej</string>
     <string name="uploading_dots">Przesyłanie…</string>
     <string name="edit_profile_uploading_error">Błąd: %1$s</string>
     <string name="edit_profile_edited_profile">Profil zaktualizowany!</string>
@@ -562,9 +535,6 @@
     <string name="settings_language_edit_title">Język aplikacji</string>
     <string name="content_filter_title">Filtr treści</string>
     <string name="content_filter_rating_title">Maksymalna klasyfikacja treści</string>
-    <string name="content_filter_mod_show_hidden_title">Pokaż ukryte posty w sekcji Nowe</string>
-    <string name="content_filter_mod_show_hidden_summary_on">Ukryte posty uwzględnione</string>
-    <string name="content_filter_mod_show_hidden_summary_off">Ukryte posty wykluczone</string>
     <string name="content_filter_mod_delete_mode_title">Szybkie akcje postów</string>
     <string name="content_filter_mod_delete_mode_summary_on">Szybkie akcje są widoczne</string>
     <string name="content_filter_mod_delete_mode_summary_off">Szybkie akcje są ukryte</string>
@@ -572,7 +542,7 @@
     <string name="consent_reopen_title">Edytuj RODO / CCPA / ustawienia reklam</string>
     <string name="consent_crashlytics_title">Wysyłaj raporty o błędach</string>
     <string name="consent_crashlytics_summary_on">Raporty błędów są zbierane i wysyłane do Firebase Crashlytics</string>
-    <string name="consent_crashlytics_summary_off">Raporty błędów nie są zbierane i nie będą wysyłane do Firebase Crashlytics</string>
+    <string name="consent_crashlytics_summary_off">Raporty błędów są wyłączone i nie będą wysyłane do Firebase Crashlytics</string>
     <string name="settings_danger_title">Strefa zagrożenia</string>
     <string name="settings_danger_delete_account_title">Usuń dane konta</string>
     <string name="delete_account_title">Usuwanie konta</string>
@@ -586,17 +556,7 @@
     <string name="delete_account_posts_failed">Nie udało się usunąć postów: %1$s</string>
     <string name="delete_account_messages_failed">Nie udało się usunąć wiadomości: %1$s</string>
     <string name="delete_account_deleting">Usuwanie…</string>
-    <string name="email_not_verified_dialog_message">Najpierw musisz zweryfikować swój adres e-mail!
-\n
-\nKliknij w link, który został wysłany na %1$s, a następnie spróbuj ponownie lub zrestartuj aplikację.
-\n
-\nJeśli nie otrzymałeś(-aś) e-maila, wyloguj się i zaloguj ponownie, aby otrzymać nowy.</string>
-    <string name="email_verification_dialog_title">Weryfikacja adresu e-mail</string>
-    <string name="email_verification_dialog_message">Witamy na eFur!
-\n
-\nAby potwierdzić swój e-mail, kliknij przycisk z linkiem, który został wysłany na adres %1$s.
-\n
-\nJeżeli po pięciu minutach nie otrzymasz wiadomości e-mail, wyloguj się i zaloguj ponownie, a powinieneś otrzymać nową.</string>
+    <string name="email_not_verified_dialog_message">Najpierw musisz zweryfikować swój adres e-mail!\n\nWybierz link, który został wysłany na %1$s, a następnie spróbuj ponownie lub zrestartuj aplikację.\n\nJeśli nie otrzymałeś(-aś) e-maila, wyloguj się i zaloguj ponownie, aby otrzymać nowy.</string>
     <string name="notification_dialog_clear_all_message">Wyczyścić wszystkie Twoje powiadomienia?</string>
     <string name="notification_clear_all_message_done">Wyczyszczone powiadomienia: %1$d</string>
     <string name="following_posts_dialog_clear_all_message">Wyczyścić wszystkie Twoje obserwowane posty?</string>
@@ -607,7 +567,7 @@
     <string name="picker_comic">Komiks</string>
     <string name="picker_camera">Zrób zdjęcie</string>
     <string name="picker_text">Relację</string>
-    <string name="picker_title">Stwórz</string>
+    <string name="picker_title">Utwórz</string>
     <string name="picker_poll">Ankietę</string>
     <string name="picker_select">Wybierz</string>
     <string name="picker_camera_permissions_hint">Uprawnienie do aparatu wymagane</string>
@@ -634,15 +594,15 @@
     <string name="blocked_get_error">Błąd: %1$s</string>
     <string name="blocked_none">Nikogo jeszcze nie blokujesz</string>
     <string name="action_edit_title">Edytuj tytuł</string>
-    <string name="action_reorder_comic">Zorganizuj strony</string>
+    <string name="action_reorder_comic">Organizuj strony</string>
     <string name="action_delete_comic">Usuń komiks</string>
     <string name="action_ban_user">Zbanuj użytkownika</string>
     <string name="action_unban_user">Odbanuj użytkownika</string>
     <string name="action_show_logs">Pokaż dzienniki</string>
-    <string name="action_add_as_mod">Promować moderatora</string>
-    <string name="action_remove_as_mod">Usuń status moderatora</string>
-    <string name="action_delete_all_posts">Oczyść posty użytkownika</string>
-    <string name="action_delete_all_comments">Oczyść komentarze użytkownika</string>
+    <string name="action_add_as_mod" translatable="false">Promote to moderator</string>
+    <string name="action_remove_as_mod" translatable="false">Remove moderator status</string>
+    <string name="action_delete_all_posts" translatable="false">Purge user\'s posts</string>
+    <string name="action_delete_all_comments" translatable="false">Purge user\'s comments</string>
     <string name="action_verify_email">Zweryfikuj adres e-mail</string>
     <string name="action_start_chat">Rozpocznij czat</string>
     <string name="action_create_1_1_chat">Rozpocznij czat prywatny</string>
@@ -654,29 +614,24 @@
     <string name="legal_ad_checkbox">Zgadzam się na spersonalizowane reklamy</string>
     <string name="login_invalid_email_pw">Błędny e-mail i/lub hasło</string>
     <string name="login_register_error">Nie udało się zarejestrować: %1$s</string>
-    <string name="login_register_age">Mam 13 lat lub starsze</string>
-    <string name="login_register_age_error">Musisz potwierdzić, że masz 13 lat lub starsze, aby korzystać z tej aplikacji!</string>
     <string name="login_expired_session">Sesja wygasła, zaloguj się ponownie!</string>
-    <string name="post_category_29">Grafika (AI)</string>
     <string name="upload_chooser_edit_title">Edytuj post</string>
     <string name="upload_chooser_comic_not_allowed">Nie możesz dodać komiksu do komiksu!</string>
     <string name="upload_chooser_invalid_file">Niepoprawny plik!</string>
     <string name="upload_chooser_video_copy_failed">Nie udało się wczytać wideo: %1$s</string>
     <string name="upload_chooser_video_compress_failed">Nie udało się skompresować wideo: %1$s</string>
     <string name="upload_progress_edit">Zapisywanie…</string>
-    <string name="upload_rating_error_age_safe">Twoje konto jest ustawione tylko na Bezpieczną (SFW) treść</string>
-    <string name="upload_rating_error_age_suggestive">Twoje konto jest ustawione tylko na bezpieczną (SFW) i sugestywną treść</string>
+    <string name="upload_rating_error_age_safe">Twoje konto jest ustawione tylko na treść Bezpieczną (SFW)</string>
+    <string name="upload_rating_error_age_suggestive">Twoje konto jest ustawione tylko na treść Bezpieczną (SFW) i Sugestywną</string>
     <string name="upload_settings_disable_comments">Wyłącz komentarze</string>
-    <string name="upload_settings_disable_comments_hint">Komentowanie będzie wyłączone dla tego postu</string>
+    <string name="upload_settings_disable_comments_hint">Komentowanie będzie wyłączone dla tego posta</string>
     <string name="upload_settings_content_normal">Rodzaj treści/tematyka</string>
     <string name="upload_settings_content_normal_dialog_title">Wybierz treść</string>
     <string name="upload_settings_content_normal_none_selected">Brak wybranego rodzaju treści/tematyki</string>
     <string name="upload_settings_content_sensitive">Wrażliwy rodzaj treści/tematyka (opcjonalne)</string>
     <string name="upload_settings_content_sensitive_dialog_title">Wybierz Wrażliwą zawartość</string>
     <string name="upload_settings_content_sensitive_none_selected">Brak wrażliwych treści</string>
-    <string name="upload_settings_content_sensitive_none_enabled">Nie włączyłeś żadnej wrażliwej treści.
-\n
-\nZaktualizuj swoje preferencje w Ustawienia-&gt;Preference treści</string>
+    <string name="upload_settings_content_sensitive_none_enabled">Nie włączono żadnych treści wrażliwych.\n\nZaktualizuj swój wybór w Ustawienia-&gt;Preferencje treści</string>
     <string name="upload_settings_categories_remaining">Możesz wybrać maksymalnie trzy kategorie</string>
     <string name="upload_settings_tags_hint">Wprowadź tag</string>
     <string name="upload_settings_comic_switch">Ten post jest częścią komiksu</string>
@@ -691,14 +646,12 @@
     <string name="my_comics_add_to_message">Dodaj post do tego komiksu?</string>
     <string name="my_comics_add_to_error">Nie udało się dodać postu: %1$s</string>
     <string name="my_comics_add_to_success">Post dodany do %1$s</string>
-    <string name="comic_list_draft">PROJEKT</string>
     <string name="comic_list_pages">Strony: %1$d</string>
-    <string name="comic_list_desc">Zaktualizowano %1$s %2$s, utworzone %3$s %4$s temu</string>
-    <string name="comic_view_get_error">Nie udało się uzyskać komiksu: %1$s</string>
+    <string name="comic_list_desc">Zaktualizowano %1$s %2$s temu, utworzono %3$s %4$s temu</string>
+    <string name="comic_view_get_error">Nie udało się załadować komiksu: %1$s</string>
     <string name="comic_view_title">Komiks</string>
     <string name="comic_view_desc">Strony: %1$d
 \nStworzone przez %2$s</string>
-    <string name="comic_view_desc_draft">Strony: %1$d \ ncreat o %2$s.PROJEKT</string>
     <string name="comic_view_edit_title">Nowy tytuł</string>
     <string name="comic_view_edit_title_error">Nie udało się zaktualizować tytułu: %1$s</string>
     <string name="comic_view_edit_title_success">Zaktualizowano tytuł</string>
@@ -709,7 +662,7 @@
 \nPost nie zostanie usunięty.</string>
     <string name="comic_view_delete_error">Nie udało się usunąć komiksu: %1$s</string>
     <string name="comic_view_delete_success">Komiks usunięty</string>
-    <string name="comic_view_reorder_title">Zorganizuj komiks</string>
+    <string name="comic_view_reorder_title">Organizuj komiks</string>
     <string name="comic_view_reorder_message">Przeciągnij i upuść strony, aby zmienić ich kolejność. Nie zapomnij dotknąć ikony zapisu po zakończeniu!</string>
     <string name="comic_view_post_long_press_set_thumb">Ustawione jako miniaturę komiksu</string>
     <string name="comic_view_post_long_press_remove">Usuń z komiksu</string>
@@ -719,9 +672,7 @@
     <string name="comic_view_post_remove_error">Nie udało się usunąć: %1$s</string>
     <string name="comic_view_post_set_thumb_updated">Zaktualizowano miniaturę</string>
     <string name="comic_view_post_set_thumb_error">Nie udało się ustawić miniatur: %1$s</string>
-    <string name="comic_view_publish_title">Publikuj komiks</string>
     <string name="comic_view_add_page">Dodaj stronę</string>
-    <string name="comic_view_publish_already_published">Ten komiks został już opublikowany!</string>
     <string name="fursona_view_title">Furson</string>
     <string name="fursona_view_user_title">Fursony %1$s</string>
     <string name="my_fursonas_create_title">Utwórz nową fursonę</string>
@@ -744,31 +695,30 @@
     <string name="discover_users_send_gift_to">Wybierz użytkownika do wysłania prezentu</string>
     <string name="discover_posts_advanced">Zaawansowane wyszukiwanie</string>
     <string name="enter_tags">Wprowadź tagi</string>
-    <string name="order_by">Sortuj według</string>
-    <string name="order_newest_first">Najnowsze najpierw</string>
+    <string name="order_by">Sortowanie</string>
+    <string name="order_newest_first">Najpierw najnowsze</string>
     <string name="order_oldest_first">Najpierw starsze</string>
-    <string name="order_most_likes">Więcej polubień</string>
+    <string name="order_most_likes">Najwięcej polubień</string>
     <string name="order_least_likes">Najmniej polubień</string>
-    <string name="discover_posts_advanced_enter_tags_details">Wprowadź tagi oddzielone spacją.
-\nDla przykładu: \"dog digital_art\" w wyszukiwaniu postów zawierających obydwa tagi \"dog\" i \"digital_art\"</string>
+    <string name="discover_posts_advanced_enter_tags_details">Wprowadź tagi oddzielone spacją. \nPrzykładowo: \"pies grafika_cyfrowa\" wyszuka posty zawierające oba tagi: \"pies\" oraz \"grafika_cyfrowa\"</string>
     <string name="discover_posts_advanced_default_categories">Wszystkie kategorie</string>
-    <string name="discover_posts_advanced_default_content_safe">Wszystkie motywy</string>
-    <string name="discover_posts_advanced_default_content_sensitive">Wszystkie wrażliwe motywy</string>
+    <string name="discover_posts_advanced_default_content_safe">Wszystkie tematy</string>
+    <string name="discover_posts_advanced_default_content_sensitive">Wszystkie wrażliwe tematy</string>
     <string name="search_all_any">Dopasuj
 \nWSZYSTYKIE/DOWOLNE</string>
     <string name="search_all">WSZYSTKO</string>
     <string name="search_any">KAŻDY</string>
     <string name="search_result">Wynik wyszukiwania</string>
     <string name="rating">Ocena</string>
-    <string name="failed_to_get_posts">Nie udało się pozyskać postów: %1$s</string>
+    <string name="failed_to_get_posts">Nie udało się załadować postów: %1$s</string>
     <string name="post_media_failed_to_load_with_error">Nie udało się załadować. Dotknij, aby spróbować ponownie.
 \n
 \n%1$s</string>
     <string name="post_media_failed_to_load">Nie udało się załadować. Dotknij, aby spróbować ponownie.</string>
-    <string name="post_reposted">%1$s zrepostował</string>
+    <string name="post_reposted">%1$s zrepostowane</string>
     <string name="followers">Obserwujący</string>
     <string name="about_premium">Premium</string>
-    <string name="modmail">Wiadomości z moderacją</string>
+    <string name="modmail">Kontakt z moderacją</string>
     <string name="cleanup">Posprzątać</string>
     <string name="recent_messages">Najnowsze wiadomości</string>
     <string name="mod_logs_user">Dzienniki moderacji dla %1$s</string>
@@ -798,7 +748,7 @@
     <string name="chat_group_members_count_online">%1$d członków, %2$d online</string>
     <string name="chat_currently_writing_one">%1$s pisze…</string>
     <string name="chat_currently_writing_two">%1$s i %2$s piszą…</string>
-    <string name="chat_currently_writing_three">%1$s, %2$s i %3$s pisze…</string>
+    <string name="chat_currently_writing_three">%1$s, %2$s i %3$s piszą…</string>
     <string name="chat_currently_writing_four_or_more">%1$s, %2$s i %3$d innych piszą…</string>
     <string name="chat_deleted">Usunięty czat</string>
     <string name="chat_deleted_dialog_title">Czat usunięty</string>
@@ -822,8 +772,7 @@
     <string name="chat_group_add_members">Dodaj członków</string>
     <string name="chat_group_invite_user_error">Nie udało się zaprosić: %1$s</string>
     <string name="chat_group_invite_user_success">Zaproszono %1$s!</string>
-    <string name="chat_role_with_last_seen_date">%1$s
-\nostatnio widziano %2$s %3$s temu</string>
+    <string name="chat_role_with_last_seen_date">%1$s\nostatnio widziano %2$s %3$s temu</string>
     <string name="chat_last_seen_date">Ostatnio widziano %1$s %2$s temu</string>
     <string name="chat_role_with_online">%1$s
 \nonline</string>
@@ -844,7 +793,7 @@
     <string name="chat_info_user_option_unban_error">Nie udało się odbanować: %1$s</string>
     <string name="chat_info_user_option_unban_success">Odbanowano %1$s</string>
     <string name="chat_open_error_banned">Masz bana na tym czacie.</string>
-    <string name="chat_open_error_kicked">Zostałeś wyrzucony z tego czatu.</string>
+    <string name="chat_open_error_kicked">Wyrzucono Cię z tego czatu</string>
     <string name="chat_open_error_deleted">Ten czat już nie istnieje.</string>
     <string name="leave">Wyjdź</string>
     <string name="join">Dołącz</string>
@@ -864,7 +813,7 @@
     <string name="premium">Premium</string>
     <string name="premium_description">Kup eFurry Premium, aby usunąć wszystkie reklamy w aplikacji i zyskać większy limit przesyłania plików.</string>
     <string name="premium_levels">Podnieś poziom</string>
-    <string name="premium_levels_description">Podnieś poziom swojego konta i zdobądź odznakę przy swjej nazwie, która pokaże Twoje wsparcie dla aplikacji!</string>
+    <string name="premium_levels_description">Podnoś poziom konta i zdobywaj odznaki (łapki), które pokażą Twoje wsparcie dla aplikacji przy Twojej nazwie!</string>
     <string name="premium_user_premium_until">Premium: aktywne (pozostało %1$s %2$s)</string>
     <string name="premium_user_no_premium">Premium: Nie aktywny</string>
     <string name="premium_user_level">Poziom konta: %1$d</string>
@@ -874,21 +823,16 @@
     <string name="premium_purchase_flow_completed">Zakup zakończony</string>
     <string name="premium_purchase_flow_error">Błąd zakupu: %1$s</string>
     <string name="premium_purchases">Moje zakupy</string>
-    <string name="premium_purchases_description">Twoje ostatnie zakupy. Po dokonaniu zakupu należy aktywować go na swoje konto lub podarować go innej osobie.</string>
-    <string name="premium_purchases_reload">Załaduj zakupy</string>
-    <string name="premium_purchases_none_found_reload">Nie znaleziono zakupów - dotknij, aby przeładować</string>
-    <string name="premium_purchases_error_reload">Nie udało się załadować zakupów - dotknij ponownego</string>
-    <string name="premium_purchased_item_description">Ilość: %1$d
-\nZakupione %2$s%3$s temu</string>
-    <string name="premium_purchased_item_gifted_to">Obdarowany</string>
-    <string name="premium_purchased_item_gifted_from">Obdarowany z</string>
+    <string name="premium_purchases_description">Twoje ostatnie przedmioty. Po dokonaniu zakupu możesz aktywować zakupiony produkt na swoim koncie lub podarować go innej osobie.</string>
+    <string name="premium_purchases_reload">Odśwież zakupy</string>
+    <string name="premium_purchases_none_found_reload">Nie znaleziono zakupów - dotknij, aby odświeżyć</string>
+    <string name="premium_purchases_error_reload">Nie udało się załadować zakupów - dotknij, aby odświeżyć</string>
+    <string name="premium_purchased_item_description">Ilość: %1$d\nKupiono %2$s %3$s temu</string>
+    <string name="premium_purchased_item_gifted_to">Podarowano</string>
+    <string name="premium_purchased_item_gifted_from">Otrzymane od</string>
     <string name="premium_purchased_item_activate_dialog_title">Aktywuj zakup</string>
-    <string name="premium_purchased_item_activate_dialog_message">Czy chcesz aktywować ten zakup na swoje konto, czy podarować go innej osobie?
-\n
-\n%1$s x %2$d</string>
-    <string name="premium_purchased_item_activate_dialog_message_confirm">To aktywuje zakup dla %1$s (%2$s).
-\n
-\nKontynuować?</string>
+    <string name="premium_purchased_item_activate_dialog_message">Czy chcesz aktywować ten zakup na swoim koncie, czy podarować go innej osobie?\n\n%1$s x %2$d</string>
+    <string name="premium_purchased_item_activate_dialog_message_confirm">To aktywuje zakup dla %1$s (%2$s).\n\nKontynuować?</string>
     <string name="premium_purchased_item_activate_dialog_myself">Ja</string>
     <string name="premium_purchased_item_activate_dialog_gift">Prezent</string>
     <string name="premium_purchased_item_activate_error">Nie udało się aktywować: %1$s</string>
@@ -901,7 +845,6 @@
     <string name="anon_name">Nazwa</string>
     <string name="user_level">x%1$d</string>
     <string name="example">przykład</string>
-    <string name="notification_type_faved_post_comic">Podobał mi się twój komiks</string>
     <string name="notification_type_banned_all">Pełny ban konta (%1$s %2$s). Powód: %3$s</string>
     <string name="notification_type_banned_comment">Ban komentowania (%1$s %2$s). Powód: %3$s</string>
     <string name="notification_type_banned_message">Ban wysyłania wiadomości (%1$s %2$s). Powód: %3$s</string>
@@ -926,30 +869,29 @@
     <string name="notification_type_level_up_received">Podarowuje Ci %1$d poziom(y)</string>
     <string name="notification_delete_message">Usuń to powiadomienie?</string>
     <string name="notification_delete_error">Nie udało się usunąć: %1$s</string>
-    <string name="post_comments_disabled">Komentarze zostały wyłączone w tym poście</string>
+    <string name="post_comments_disabled">Komentowanie tego posta zostało wyłączone</string>
     <string name="comment_edit">Edytuj komentarz</string>
     <string name="comment_edited">Komentarz edytowany</string>
     <string name="comment_edit_error">Nie udało się edytować komentarza: %1$s</string>
     <string name="comment_thread_act_title">Odpowiedzi</string>
-    <string name="edit_category">Edytuj kategorię</string>
     <string name="post_info_menu_add_to_comic">Dodaj do komiksu</string>
     <string name="post_info_menu_add_to">Dodać do</string>
-    <string name="unban_user_type_title">Ban do zniesienia</string>
+    <string name="unban_user_type_title">Ban do usunięcia</string>
     <string name="ban_user_type_title">Wybierz rodzaj bana</string>
     <string name="unban_user_dialog_positive">Odbanuj</string>
-    <string name="delete_all_comments_from_dialog_title">Oczyść komentarze użytkownika</string>
-    <string name="delete_all_comments_from_dialog_message">Wyczyść komentarze tego użytkownika?</string>
-    <string name="admin_verify_email_dialog_title">Zweryfikuj adres e-mail</string>
-    <string name="admin_verify_email_dialog_message">Ręcznie sprawdź e -mail tego użytkownika?</string>
+    <string name="delete_all_comments_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
+    <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
     <string name="ban_user_type_all">Pełny ban (wszystkie poniższe)</string>
-    <string name="ban_user_type_comment">Utwórz komentarze</string>
-    <string name="ban_user_type_message">Wysłać wiadomości</string>
-    <string name="ban_user_type_post">Utwórz posty</string>
+    <string name="ban_user_type_comment">Tworzenie komentarzy</string>
+    <string name="ban_user_type_message">Wysyłanie wiadomości</string>
+    <string name="ban_user_type_post">Tworzenie postów</string>
     <string name="ban_user_type_start_chat">Rozpoczynanie nowych czatów</string>
     <string name="ban_user_type_edit_icon_bg">Edycje awatara/tła profilu</string>
-    <string name="ban_user_type_edit_profile">Edytuj profil</string>
-    <string name="ban_user_type_report">Zgłoś treść</string>
-    <string name="ban_user_type_follow_users">Obserwuj użytkowników</string>
+    <string name="ban_user_type_edit_profile">Edycje profilu</string>
+    <string name="ban_user_type_report">Zgłaszanie treści</string>
+    <string name="ban_user_type_follow_users">Obserwowanie użytkowników</string>
     <string name="post_tag_blocked_title">Post ukryty</string>
     <string name="post_tag_blocked_body">Zablokowane tagi: %1$s</string>
     <string name="post_content_blocked_body">Zablokowana treść: %1$s</string>
@@ -1012,9 +954,9 @@
     <string name="content_filter_block_content_title">Preferencje treści</string>
     <string name="content_filter_block_content_summary">Pokaż/ukryj treść</string>
     <string name="content_settings_subtitle">Zarządzaj tym, jakie treści chcesz widzieć w aplikacji. Wyłącz opcję, aby ukryć wszystkie posty w tej kategorii</string>
-    <string name="content_settings_normal">Standardowa zawartość</string>
+    <string name="content_settings_normal">Podstawowa zawartość</string>
     <string name="visible_by_default">Domyślnie widoczne. Odznacz, aby ukryć.</string>
-    <string name="hidden_by_default">Treści wrażliwe są ukryte, dopóki ich nie włączysz. Zaznacz opcję na liście, aby wyświetlać lub przesyłać posty z tej kategorii.</string>
+    <string name="hidden_by_default">Treści wrażliwe są ukryte, dopóki ich nie włączysz.\nZaznacz opcję na liście, aby wyświetlać lub przesyłać posty z tej kategorii.</string>
     <string name="content_settings_sensitive">Mocne fetysze i wrażliwe treści NSFW</string>
     <string name="content_settings_empty_fetch_error">Nie udało się pobrać zawartości: %1$s</string>
     <string name="content_settings_missing">Brakuje Ci kategorii? Wyślij wiadomość do @Dog!</string>
@@ -1048,14 +990,13 @@
     <string name="discover_users_order_posts_item">%1$d Posty</string>
     <string name="discover_users_order_level_item">Poziom %1$d</string>
     <string name="discover_users_menu_order_by">Sortuj użytkowników</string>
-    <string name="discover_users_menu_order_by_newest">Najnowszy pierwszy</string>
-    <string name="discover_users_menu_order_by_oldest">Najpierw najstarsi</string>
-    <string name="discover_users_menu_order_by_followers">Większość obserwujących</string>
-    <string name="discover_users_menu_order_by_likes">Większość polubień otrzymała</string>
-    <string name="discover_users_menu_order_by_posts">Większość postów wykonanych</string>
+    <string name="discover_users_menu_order_by_newest">Najnowsi</string>
+    <string name="discover_users_menu_order_by_oldest">Najwcześniejsi</string>
+    <string name="discover_users_menu_order_by_followers">Najwięcej obserwujących</string>
+    <string name="discover_users_menu_order_by_likes">Najwięcej polubień</string>
+    <string name="discover_users_menu_order_by_posts">Najwięcej postów</string>
     <string name="discover_users_menu_order_by_level">Najwyższy poziom</string>
     <string name="discover_users_search_sub_hint">Wyszukiwanie nie uwzględnia wielkości liter.</string>
-    <string name="discover_users_search_user_clicked_view_profile">Zobacz profil</string>
     <string name="discover_users_search_user_clicked_select">Wybierz użytkownika</string>
     <string name="discover_users_list_empty">Nie znaleziono użytkowników</string>
     <string name="discover_users_search_empty">Żadnych użytkowników o nazwie lub nazwie użytkownika zaczynającej się od \"%1$s \"</string>
@@ -1065,7 +1006,7 @@
     <string name="action_clear_history">Wyczyść historie</string>
     <string name="chat_info_user_option_ban">Zbanuj</string>
     <string name="chat_control_message_12">%1$s zmienia informacje/opis grupy na %2$s</string>
-    <string name="chat_error_removed_from_chat">Zostałeś usunięty z tego czatu</string>
+    <string name="chat_error_removed_from_chat">Usunięto Cię z tego czatu</string>
     <string name="action_mute">Wycisz</string>
     <string name="action_unmute">Wyłącz wyciszenie</string>
     <string name="moderators">Moderatorzy</string>
@@ -1073,8 +1014,8 @@
     <string name="chat_media_message">Załącznik</string>
     <string name="chat_media_message_with_text">Załącznik: %1$s</string>
     <string name="chat_role_admin">ADMIN</string>
-    <string name="chat_admin_join">Dołącz jako admin</string>
-    <string name="chat_joined_with_role">Połączone z rolą %1$d</string>
+    <string name="chat_admin_join" translatable="false">Join as admin</string>
+    <string name="chat_joined_with_role" translatable="false">Joined with role %1$d</string>
     <string name="chat_error_does_not_exist">Ten czat został usunięty</string>
     <string name="chat_open_invited_single">%1$s (%2$s) chce z Tobą rozmawiać.
 \n
@@ -1149,14 +1090,14 @@
     <plurals name="profile_stats_data_premium_months">
         <item quantity="one">Zakupiony %1$d miesiąc Premium</item>
         <item quantity="few">Zakupione %1$d miesiące Premium</item>
-        <item quantity="many">Zakupione %1$d miesięcy Premium</item>
-        <item quantity="other">Zakupione %1$d miesięcy Premium</item>
+        <item quantity="many">Zakupiono %1$d miesięcy Premium</item>
+        <item quantity="other">Zakupiono %1$d miesięcy Premium</item>
     </plurals>
     <plurals name="profile_stats_data_levels">
         <item quantity="one">Zakupiony %1$d poziom konta</item>
         <item quantity="few">Zakupione %1$d poziomy konta</item>
-        <item quantity="many">Zakupione %1$d poziomów konta</item>
-        <item quantity="other">Zakupione %1$d poziomów konta</item>
+        <item quantity="many">Zakupiono %1$d poziomów konta</item>
+        <item quantity="other">Zakupiono %1$d poziomów konta</item>
     </plurals>
     <plurals name="profile_stats_data_messages_sent">
         <item quantity="one">%1$d wiadomość wysłana</item>
@@ -1168,66 +1109,64 @@
     <string name="profile_stats_data_bytes_stored">Przechowuje %1$d bajtów (%2$s MB)</string>
     <string name="action_show_messages">Pokaż wiadomości</string>
     <string name="action_delete_account">Usuń konto</string>
-    <string name="post_theme_22">Punkt widzenia</string>
-    <string name="upload_video_too_large">Film, który próbujesz przesłać, jest większy niż 100MB. Skompresuj go lub wybierz mniejszy plik.</string>
-    <string name="search_categories">W kategoriach</string>
-    <string name="post_theme_1">Niewola</string>
+    <string name="post_theme_22">POV (z punktu widzenia)</string>
+    <string name="upload_video_too_large">Film, który próbujesz przesłać, jest większy niż 100 MB. Skompresuj go lub wybierz mniejszy plik.</string>
+    <string name="search_categories">Kategorie</string>
+    <string name="post_theme_1">Krępowanie</string>
     <string name="upload_no_rating_selected">Wybierz ocenę posta!</string>
-    <string name="post_theme_3">Pieluszka/ niemowlęce furry</string>
+    <string name="post_theme_3">Pieluszki / babyfur</string>
     <string name="post_theme_8">Hipnoza</string>
-    <string name="search_any_sensitive_themes">Dopasuj dowolny z wybranych wrażliwych tematów</string>
-    <string name="post_theme_18">Mój mały kucyk/Brony</string>
-    <string name="discover_posts_search">Szukaj postów</string>
+    <string name="search_any_sensitive_themes">Dopasuj którykolwiek z wybranych wrażliwych tematów</string>
+    <string name="post_theme_18">My Little Pony / Brony</string>
+    <string name="discover_posts_search">Przeszukaj posty</string>
     <string name="post_theme_21">Wykonane z AI</string>
     <string name="post_theme_24">Wyżalanie</string>
-    <string name="post_theme_16">Vore (Pożeranie)</string>
-    <string name="post_theme_17">Inne fetysze</string>
+    <string name="post_theme_16">Pożeranie</string>
+    <string name="post_theme_17">Inny fetysz</string>
     <string name="upload_progress_file_part">Przesyłanie pliku %1$d z %2$d…</string>
-    <string name="upload_add_another">Dodaj kolejny</string>
-    <string name="upload_images_empty">Musisz wybrać co najmniej jeden plik do przesłania</string>
-    <string name="login_register_set_age">Ustaw datę urodzenia, aby się zarejestrować</string>
-    <string name="post_category_30">Ubrania i makijaż</string>
-    <string name="post_category_32">Broń palna i uzbrojenie</string>
-    <string name="post_theme_19">Nie furry</string>
-    <string name="post_theme_20">Moja sztuka/ wykonane przez mnie</string>
+    <string name="upload_add_another">Dodaj kolejne</string>
+    <string name="upload_images_empty">Wybierz co najmniej jeden plik do przesłania</string>
+    <string name="login_register_set_age">Ustaw swoją datę urodzenia, aby się zarejestrować</string>
+    <string name="post_category_30">Ubrania i makijaże</string>
+    <string name="post_category_32">Broń i uzbrojenie</string>
+    <string name="post_theme_19">Nie-furry</string>
+    <string name="post_theme_20">Moje dzieło / wykonane przez mnie</string>
     <string name="post_theme_0">Krew</string>
-    <string name="post_category_31">Samochody i pojazdy</string>
-    <string name="post_theme_9">Nadmuchanie</string>
-    <string name="post_theme_10">Makro</string>
-    <string name="post_theme_11">Mikro</string>
-    <string name="post_theme_2">Puszysty/otyły</string>
-    <string name="post_theme_25">Randkowanie</string>
-    <string name="post_theme_4">Narkotyki (sztuka)</string>
-    <string name="post_theme_5">Dziki</string>
-    <string name="post_theme_6">Migające światła</string>
-    <string name="post_theme_7">Hiper</string>
-    <string name="post_theme_26">Paszczaki</string>
-    <string name="post_theme_12">Paliwo koszmaru</string>
-    <string name="post_theme_23">Wojsko/ wojna</string>
-    <string name="post_theme_13">Łapy</string>
+    <string name="post_category_31">Auta i pojazdy</string>
+    <string name="post_theme_9">Inflacja (powiększanie)</string>
+    <string name="post_theme_10">Macro (Olbrzymy)</string>
+    <string name="post_theme_11">Micro (miniaturki)</string>
+    <string name="post_theme_2">Puszystość / otyłość</string>
+    <string name="post_theme_25">Randki</string>
+    <string name="post_theme_4">Używki (sztuka)</string>
+    <string name="post_theme_5">Feral</string>
+    <string name="post_theme_6">Migotanie obrazu</string>
+    <string name="post_theme_7">Hyper</string>
+    <string name="post_theme_26">Paszcze</string>
+    <string name="post_theme_12">Straszne</string>
+    <string name="post_theme_23">Wojsko / wojna</string>
+    <string name="post_theme_13">Łapki</string>
     <string name="post_theme_14">Ciąża</string>
     <string name="post_theme_15">Transformacja</string>
-    <string name="order_random">Losowy</string>
+    <string name="order_random">Losowo</string>
     <string name="search_ratings">Ocena postów</string>
-    <string name="search_content_safe">O rodzaju treści/tematyce</string>
-    <string name="search_content_sensitive">O wrażliwym rodzaju treści/tematyce</string>
+    <string name="search_content_safe">Rodzaj treści/tematyki</string>
+    <string name="search_content_sensitive">Rodzaj wrażliwej treści/tematyki</string>
     <string name="search_any_categories">Dopasuj dowolną z wybranych kategori</string>
-    <string name="search_any_themes">Dopasuj dowolny z wybranych rzeczy</string>
+    <string name="search_any_themes">Dopasuj którykolwiek z wybranych tematów</string>
     <string name="upload_quota_too_many_mb">Możesz przesłać tylko %1$d MB z limitem ilości, wynoszącym %2$d. Poczekaj %3$d minut(y) lub wybierz mniejsze pliki.</string>
     <string name="discover_tags_browse">Szukaj tagów</string>
     <string name="discover_tags_none_found">Nie znaleziono tagów</string>
     <string name="april">Kwiecień</string>
     <string name="chat_join_confirm">Potwierdź, że chcesz dołączyć do tego czatu</string>
-    <string name="reset_password_new_password">2. Wprowadź nowe hasło oraz kod, który otrzymałeś(aś) na poniższy adres e-mail.</string>
+    <string name="reset_password_new_password">2. Wprowadź nowe hasło oraz kod, który otrzymałeś(-aś) na poniższy adres e-mail.</string>
     <string name="chat_edit_secure_no">Normalny</string>
     <string name="edit_profile_about_ad_hint">O mnie (After Dark)</string>
     <string name="settings_ui_title">Interfejs użytkownika i lokalizacja</string>
     <string name="delete_account_request_text_2_sub">Twoje konto będzie dezaktywowane przez miesiąc, zanim przetworzymy żądanie jego usunięcia. W tym czasie, jeśli zmienisz zdanie i zechcesz je odzyskać, należy nacisnąć przycisk „Anuluj żądanie usunięcia konta” lub wysłać e-mail na adres support@efurry.net, aby anulować usunięcie.</string>
     <string name="chat_edit_secure_no_desc">Zezwala na zrzuty ekranu</string>
     <string name="account_deletions">Usuwanie kont</string>
-    <string name="verify_account_subtitle">Aby uzyskać dostęp do wszystkich funkcji, musisz zweryfikować swoje konto.
-\n
-\nSprawdź skrzynkę odbiorczą na adresie %1$s i wprowadź kod, który otrzymałeś.</string>
+    <string name="verify_account_subtitle">Aby uzyskać dostęp do wszystkich funkcji, musisz zweryfikować swoje konto. \n \nSprawdź skrzynkę odbiorczą na adresie %1$s i wprowadź otrzymany kod.</string>
     <string name="main_verify_email_snackbar_text">Wymagana weryfikacja konta</string>
     <string name="chat_control_message_14">%1$s zmienia typ czatu na Prywatny</string>
     <string name="settings_danger_reset_password_title">Zmień hasło</string>
@@ -1237,9 +1176,7 @@
     <string name="verify_account_success">Sukces! Twoje konto zostało zweryfikowane</string>
     <string name="chat_control_message_unknown">Nieznana wiadomość - sprawdź dostępność aktualizacji</string>
     <string name="discover_posts_search_sub_hint">Wyszukuj w tytułach postów, opisach, tekstach, twórcach/artystach i tagach. Wyszukiwanie nie uwzględnia wielkości liter.</string>
-    <string name="edit_profile_after_dark_help">Jeśli masz 18 lat lub więcej, możesz mieć dwa profile. Jeden ogólny, widoczny dla wszystkich użytkowników, oraz jeden profil dla dorosłych (NSFW), który jest widoczny tylko dla użytkowników 18+.
-\n
-\nTwój ogólny profil musi być Bezpieczny/odpowiedni dla nieletnich, natomiast profil „After Dark” (AD/NSFW) może zawierać materiały Sugestywne i Nieodpowiednie, dla dorosłych.</string>
+    <string name="edit_profile_after_dark_help">Jeśli masz 18 lat lub więcej, możesz mieć dwa profile. Jeden ogólny, widoczny dla wszystkich użytkowników, oraz jeden profil dla dorosłych (NSFW), który jest widoczny tylko dla użytkowników 18+. \n \nTwój ogólny profil musi być Bezpieczny/odpowiedni dla nieletnich, natomiast profil „After Dark” (AD/NSFW) może zawierać materiały Sugestywne i Nieodpowiednie, (tj. dla dorosłych).</string>
     <string name="delete_account_messages_success_message">Sukces! Twoje wiadomości zostaną usunięte. Może to chwilę potrwać, jeśli masz ich dużo. Dotknij ikony odświeżania, aby sprawdzić postęp.</string>
     <string name="deleted_accounts_cancelled">Anulowano żądanie usunięcia konta dla %1$s</string>
     <string name="delete_account_loading">Wczytywanie…</string>
@@ -1267,8 +1204,8 @@
         <item quantity="many">%1$d postów</item>
         <item quantity="other">%1$d postów</item>
     </plurals>
-    <string name="discover_tags_order_by_recent">Niedawna aktywność</string>
-    <string name="discover_tags_order_by_popular">Popularne</string>
+    <string name="discover_tags_order_by_recent">Ostatnia aktywność</string>
+    <string name="discover_tags_order_by_popular">Najpopularniejsze</string>
     <string name="post_type_images">Obrazy</string>
     <string name="post_type_gifs">GIFy</string>
     <string name="post_type_videos">Filmy</string>
@@ -1294,7 +1231,7 @@
     <string name="delete_account_request_text_3_sub">Po upływie miesiąca Twoje konto zostanie usunięte z naszych serwerów. Gdy to nastąpi, otrzymasz powiadomienie na adres e-mail.</string>
     <string name="delete_account_request_text_notice">Uwaga: po usunięciu konta Twoja nazwa użytkownika stanie się dostępna dla innych.</string>
     <string name="post_type_polls">Ankiety</string>
-    <string name="post_type_texts">Ankiety tekstowe</string>
+    <string name="post_type_texts">Tekstowe</string>
     <string name="post_type_multi_images">Posty z wieloma obrazkami</string>
     <string name="discover_chats">Czaty</string>
     <string name="about_stats_premium_levels">Podniesionych poziomów: %1$d</string>
@@ -1306,13 +1243,13 @@
     <string name="chat_info_user_option_promote_to_mod">Awansuj na moderatora</string>
     <string name="chat_info_user_option_demote_from_mod">Zdegraduj do członka</string>
     <string name="chat_info_user_option_demote_from_mod_error">Nie udało się zdegradować: %1$s</string>
-    <string name="edit_profile_birthday">Moja data urodzenia:</string>
+    <string name="edit_profile_birthday">Twoja data urodzenia:</string>
     <string name="upload_image_error">Nie udało się przesłać pliku %1$d z %2$d: %3$s</string>
     <string name="reset_password_save">Zapisz nowe hasło do konta</string>
     <string name="discover_posts_text_none_found">Nie znaleziono postów szukając %1$s</string>
     <string name="discover_chats_adapter_item_body">%1$d członków, %2$d wiadomości</string>
     <string name="discover_chats_menu_order_by">Sortuj czaty</string>
-    <string name="discover_chats_menu_order_by_last_message">Niedawna aktywność</string>
+    <string name="discover_chats_menu_order_by_last_message">Ostatnia aktywność</string>
     <string name="discover_chats_menu_order_by_member_count">Ilość członków</string>
     <string name="discover_chats_menu_order_by_message_count">Ilość wiadomości</string>
     <string name="discover_chats_search_hint">Tekst do wyszukania</string>
@@ -1392,12 +1329,12 @@
     <string name="about_stats_messages">Wiadomości: %1$d</string>
     <string name="about_stats_fursonas">Furson: %1$d</string>
     <string name="about_stats_files">Plików: %1$d</string>
-    <string name="about_stats_bytes">Przechowywanych bajtów %1$d (%2$s GB)</string>
+    <string name="about_stats_bytes">Przechowywanych bajtów: %1$d (%2$s GB)</string>
     <string name="about_stats_premium">Premium</string>
     <string name="about_stats_premium_months">Miesięcy Premium: %1$d</string>
     <string name="notification_type_faved_post_multi_image">Lubi Twój post z wieloma obrazkami</string>
     <string name="profile_content_error_unfollow">Przestań obserwować użytkownika</string>
-    <string name="profile_content_error_unfollow_done">Sukces! Przestałeś obserwować tego użytkownika</string>
+    <string name="profile_content_error_unfollow_done">Sukces! Już nie obserwujesz tego użytkownika</string>
     <string name="edit_profile_bio_ad_info">Powiedz coś o swojej \"ciemnej stronie\"! ;)</string>
     <string name="edit_profile_birthday_hidden_show">Ukryto, dotknij aby wyświetlić</string>
     <string name="edit_profile_birthday_year_button">Wybierz rok</string>
@@ -1431,4 +1368,44 @@
     <string name="deleted_accounts_days_ago">Usunięto %1$s %2$s temu</string>
     <string name="deleted_accounts_deleted_data">Usunięto dane konta dla %1$s</string>
     <string name="discover_posts_search_hint">Wprowadź tekst do wyszukania</string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) © eFur 2024 | All Rights Reserved | 30796 SLOC</string>
+    <string name="posts_comic" translatable="false">%1$s</string>
+    <string name="chats_unread_many" translatable="false">%1$d+</string>
+    <string name="delete_all_messages_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_messages_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="cleanup_old_control_messages" translatable="false">Delete old control messages</string>
+    <string name="cleanup_old_like_notifications" translatable="false">Delete old liked notifications</string>
+    <string name="cleanup_old_installations" translatable="false">Delete old installations</string>
+    <string name="enter_ip" translatable="false">Enter IP</string>
+    <string name="cleanup_error" translatable="false">Error: %1$s</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="setting_language_item_de" translatable="false">Deutsche</string>
+    <string name="setting_language_item_uk" translatable="false">Українська</string>
+    <string name="setting_language_item_fa" translatable="false">فارسی</string>
+    <string name="cleanup_old_following_posts" translatable="false">Delete old following posts</string>
+    <string name="cleanup_deleted_messages" translatable="false">Delete deleted messages</string>
+    <string name="cleanup_deleted_chats" translatable="false">Delete deleted chats</string>
+    <string name="cleanup_unban_ip" translatable="false">Unban IP</string>
+    <string name="admin_delete_account_dialog_title" translatable="false">Delete account</string>
+    <string name="admin_delete_account_dialog_message" translatable="false">Mark this user\'s account as pending deletion?</string>
+    <string name="post_date_posted_categories" translatable="false">%1$s%2$s</string>
+    <string name="post_poll_option_percentage" translatable="false">%1$d%%</string>
+    <string name="cleanup_ban_ip" translatable="false">Ban IP</string>
+    <string name="app_name_main" translatable="false">eFur</string>
+    <string name="discover_tags_tag_item_toggle_error" translatable="false">Failed to toggle: %1$s</string>
+    <string name="discover_tags_tag_item_toggle_success" translatable="false">%1$s toggled, safe=%2$b</string>
+    <string name="setting_language_item_zh_CN" translatable="false">简体中文</string>
+    <string name="app_name_debug" translatable="false">eFur dev</string>
+    <string name="delete_to_here" translatable="false">Delete to here</string>
+    <string name="action_delete_all_messages" translatable="false">Purge user\'s messages</string>
+    <string name="setting_language_item_en" translatable="false">English</string>
+    <string name="setting_language_item_es" translatable="false">Español</string>
+    <string name="setting_language_item_pl" translatable="false">Polski</string>
+    <string name="setting_language_item_pt" translatable="false">Português</string>
+    <string name="setting_language_item_ru" translatable="false">Pусский</string>
+    <string name="setting_language_item_it" translatable="false">Italiano</string>
+    <string name="setting_language_item_tr" translatable="false">Türkçe</string>
+    <string name="setting_language_item_nl" translatable="false">Nederlands</string>
+    <string name="setting_language_item_fr" translatable="false">French</string>
+    <string name="setting_language_item_el" translatable="false">Greek</string>
 </resources>
