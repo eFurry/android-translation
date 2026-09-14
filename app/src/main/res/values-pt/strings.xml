@@ -113,7 +113,7 @@
     <string name="content_policy">Política de Conteúdo</string>
     <string name="terms_of_service">Termos de Serviço</string>
     <string name="privacy_policy">Política de Privacidade</string>
-    <string name="divider_horizontal">Eu</string>
+    <string name="divider_horizontal" translatable="false">|</string>
     <string name="allowed_digits">01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</string>
     <string name="main_press_back_again_to_exit">Clique no botão \"voltar atrás\" outra vez para sair!</string>
     <string name="register">Registrar</string>
@@ -255,7 +255,7 @@
     <string name="support_social">Nós temos um canal de Discord e um grupo de Telegram! Junta-te à conversa com outros utilizadores e moderadores e ganhe assistência com tudo.</string>
     <string name="support_social_not_logged_in">Registre uma conta primeiro</string>
     <string name="discord">Discord</string>
-    <string name="telegram">"Telegram "</string>
+    <string name="telegram" translatable="false">Telegram</string>
     <string name="dialogs_open_uri_title">Abrir URL externo</string>
     <string name="dialogs_open_uri_message">Está prestes a abrir o URL externo %1$s
 \n
@@ -316,14 +316,14 @@
     <string name="report_failed">Falha ao relatar: %1$s</string>
     <string name="edit_edit">Editar…</string>
     <string name="edit_mod">Moderação…</string>
-    <string name="post_info_menu_add_to_news">"Adicionar a Notícias "</string>
-    <string name="post_info_menu_remove_from_news">"Remover de Notícias "</string>
-    <string name="post_info_menu_recreate_thumbnail">"Recriar miniatura "</string>
-    <string name="post_info_menu_recreate_thumbnail_message">Recriar a miniatura?</string>
-    <string name="post_info_menu_swap_width_height">Trocar largura/altura</string>
-    <string name="post_info_menu_swap_width_height_message">Trocar largura/altura?</string>
-    <string name="post_info_menu_add_to_news_message">Adicionar esta postagem à secção das notícias?</string>
-    <string name="post_info_menu_remove_from_news_message">Remover está postagem da secção das Notícias?</string>
+    <string name="post_info_menu_add_to_news" translatable="false">Add to News</string>
+    <string name="post_info_menu_remove_from_news" translatable="false">Remove from News</string>
+    <string name="post_info_menu_recreate_thumbnail" translatable="false">Recreate thumbnail</string>
+    <string name="post_info_menu_recreate_thumbnail_message" translatable="false">Recreate the thumbnail?</string>
+    <string name="post_info_menu_swap_width_height" translatable="false">Swap width/height</string>
+    <string name="post_info_menu_swap_width_height_message" translatable="false">Swap the width/height?</string>
+    <string name="post_info_menu_add_to_news_message" translatable="false">Add this post to the News section?</string>
+    <string name="post_info_menu_remove_from_news_message" translatable="false">Remove this post from the News section?</string>
     <string name="ban_user_duration_title">Selecionar duração do banimento</string>
     <string name="ban_user_duration_30min">30 minutos</string>
     <string name="ban_user_duration_1hour">1 hora</string>
@@ -340,12 +340,12 @@
     <string name="ban_user_duration_permanent">Permanentemente</string>
     <string name="unban_user_dialog_title">Não banir usuario</string>
     <string name="unban_user_dialog_message">Não banir este utilizador?</string>
-    <string name="remove_mod_dialog_title">"Remover moderador "</string>
-    <string name="remove_mod_dialog_message">Remover este utilizador do estatuto de moderador?</string>
-    <string name="add_mod_dialog_title">"Adicionar moderador "</string>
-    <string name="add_mod_dialog_message">Promover este utilizador a moderador?</string>
-    <string name="delete_all_posts_from_dialog_title">Limpar galeria do utilizador?</string>
-    <string name="delete_all_posts_from_dialog_message">Limpar galeria deste utilizador?</string>
+    <string name="remove_mod_dialog_title" translatable="false">Remove moderator</string>
+    <string name="remove_mod_dialog_message" translatable="false">Remove this user\'s moderator status?</string>
+    <string name="add_mod_dialog_title" translatable="false">Add moderator</string>
+    <string name="add_mod_dialog_message" translatable="false">Promote this user to a moderator?</string>
+    <string name="delete_all_posts_from_dialog_title" translatable="false">Purge user gallery</string>
+    <string name="delete_all_posts_from_dialog_message" translatable="false">Purge this user\'s gallery?</string>
     <string name="post_text_read_more">Continuar lendo</string>
     <string name="post_text_read_less">Mostrar menos</string>
     <string name="post_unknown_title">Tipo de publicação desconhecida</string>
@@ -469,10 +469,10 @@
     <string name="action_ban_user">Banir Usuário</string>
     <string name="action_unban_user">Desbanir usuário</string>
     <string name="action_show_logs">Mostrar registros</string>
-    <string name="action_add_as_mod">Promover para o moderador</string>
-    <string name="action_remove_as_mod">Remova o status do moderador</string>
-    <string name="action_delete_all_posts">Postagens de Purge User \\</string>
-    <string name="action_delete_all_comments">Purge os comentários do usuário</string>
+    <string name="action_add_as_mod" translatable="false">Promote to moderator</string>
+    <string name="action_remove_as_mod" translatable="false">Remove moderator status</string>
+    <string name="action_delete_all_posts" translatable="false">Purge user\'s posts</string>
+    <string name="action_delete_all_comments" translatable="false">Purge user\'s comments</string>
     <string name="action_verify_email">Verificar e-mail</string>
     <string name="action_start_chat">Iniciar uma conversa</string>
     <string name="action_create_1_1_chat">Iniciar um chat 1:1</string>
@@ -813,10 +813,10 @@
     <string name="ban_user_reason_hint">Razão para proibição</string>
     <string name="ban_user_dialog_positive">Banimento</string>
     <string name="unban_user_dialog_positive">Resmungar</string>
-    <string name="delete_all_comments_from_dialog_title">Purge comentários do usuário</string>
-    <string name="delete_all_comments_from_dialog_message">Purge os comentários deste usuário?</string>
-    <string name="admin_verify_email_dialog_title">Verificar e-mail</string>
-    <string name="admin_verify_email_dialog_message">Verificar manualmente o e -mail desse usuário?</string>
+    <string name="delete_all_comments_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_comments_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="admin_verify_email_dialog_title" translatable="false">Verify email</string>
+    <string name="admin_verify_email_dialog_message" translatable="false">Manually verify this user\'s email?</string>
     <string name="ban_user_type_all">Proibição completa (tudo abaixo)</string>
     <string name="ban_user_type_comment">Crie comentários</string>
     <string name="ban_user_type_message">Enviar mensagens</string>
@@ -958,8 +958,8 @@
     <string name="chat_media_message">Mensagem de mídia</string>
     <string name="chat_media_message_with_text">Mensagem de mídia: %1$s</string>
     <string name="chat_role_admin">Admin</string>
-    <string name="chat_admin_join">Junte -se como admin</string>
-    <string name="chat_joined_with_role">Juntou -se ao papel %1$d</string>
+    <string name="chat_admin_join" translatable="false">Join as admin</string>
+    <string name="chat_joined_with_role" translatable="false">Joined with role %1$d</string>
     <string name="chat_error_does_not_exist">Este bate -papo foi excluído</string>
     <string name="chat_open_invited_single">%1$s (%2$s) quer conversar com você.\n\nAceitar convite?</string>
     <string name="chat_open_invited_group">Você foi convidado(a) para entrar no chat em grupo “%1$s”.\n\nAceitar convite?</string>
@@ -1307,4 +1307,44 @@
     <string name="post_theme_26">Bocas</string>
     <string name="ban">Banir</string>
     <string name="activated">Ativado</string>
+    <string name="delete_all_messages_from_dialog_title" translatable="false">Purge user comments</string>
+    <string name="delete_all_messages_from_dialog_message" translatable="false">Purge this user\'s comments?</string>
+    <string name="post_date_posted_categories" translatable="false">%1$s%2$s</string>
+    <string name="post_poll_option_percentage" translatable="false">%1$d%%</string>
+    <string name="setting_language_item_el" translatable="false">Greek</string>
+    <string name="setting_language_item_de" translatable="false">Deutsche</string>
+    <string name="setting_language_item_uk" translatable="false">Українська</string>
+    <string name="setting_language_item_fa" translatable="false">فارسی</string>
+    <string name="cleanup_old_following_posts" translatable="false">Delete old following posts</string>
+    <string name="cleanup_deleted_messages" translatable="false">Delete deleted messages</string>
+    <string name="cleanup_deleted_chats" translatable="false">Delete deleted chats</string>
+    <string name="cleanup_old_control_messages" translatable="false">Delete old control messages</string>
+    <string name="cleanup_old_like_notifications" translatable="false">Delete old liked notifications</string>
+    <string name="cleanup_old_installations" translatable="false">Delete old installations</string>
+    <string name="cleanup_ban_ip" translatable="false">Ban IP</string>
+    <string name="cleanup_unban_ip" translatable="false">Unban IP</string>
+    <string name="enter_ip" translatable="false">Enter IP</string>
+    <string name="cleanup_error" translatable="false">Error: %1$s</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="admin_delete_account_dialog_title" translatable="false">Delete account</string>
+    <string name="delete_to_here" translatable="false">Delete to here</string>
+    <string name="admin_delete_account_dialog_message" translatable="false">Mark this user\'s account as pending deletion?</string>
+    <string name="app_name_main" translatable="false">eFur</string>
+    <string name="app_name_debug" translatable="false">eFur dev</string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) © eFur 2024 | All Rights Reserved | 30796 SLOC</string>
+    <string name="posts_comic" translatable="false">%1$s</string>
+    <string name="action_delete_all_messages" translatable="false">Purge user\'s messages</string>
+    <string name="discover_tags_tag_item_toggle_error" translatable="false">Failed to toggle: %1$s</string>
+    <string name="discover_tags_tag_item_toggle_success" translatable="false">%1$s toggled, safe=%2$b</string>
+    <string name="setting_language_item_en" translatable="false">English</string>
+    <string name="setting_language_item_es" translatable="false">Español</string>
+    <string name="setting_language_item_pl" translatable="false">Polski</string>
+    <string name="setting_language_item_pt" translatable="false">Português</string>
+    <string name="setting_language_item_ru" translatable="false">Pусский</string>
+    <string name="setting_language_item_it" translatable="false">Italiano</string>
+    <string name="setting_language_item_zh_CN" translatable="false">简体中文</string>
+    <string name="setting_language_item_tr" translatable="false">Türkçe</string>
+    <string name="setting_language_item_nl" translatable="false">Nederlands</string>
+    <string name="setting_language_item_fr" translatable="false">French</string>
+    <string name="chats_unread_many" translatable="false">%1$d+</string>
 </resources>
