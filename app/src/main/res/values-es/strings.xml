@@ -6,77 +6,63 @@
     <string name="action_create">Crear</string>
     <string name="action_clear_all">Deshacer todo</string>
     <string name="action_edit_profile">Editar perfil</string>
-    <string name="action_view_blocked">Ver usuarios bloqueadas</string>
+    <string name="action_view_blocked">Ver usuarios bloqueados</string>
     <string name="action_report_user">Reportar usuario</string>
-    <string name="action_block_user">Bloquear usuario</string>
+    <string name="action_block_user">Bloquear/desbloquear…</string>
     <string name="ad_attribution">Anuncio</string>
     <string name="google_play_services_missing_error">¡Se necesitan los servicios de Google Play para usar esta app!</string>
-    <string name="launch_subtitle">Iniciar sesión, registrarse o continuar como invitado</string>
+    <string name="launch_subtitle">Inicia sesión, registrate o continua como un invitado</string>
     <string name="launch_btn_guest">Continuar como invitado</string>
     <string name="launcher_init_parse">Inicializando</string>
-    <string name="launcher_creating_guest_account">Creando cuenta de invitado</string>
-    <string name="launcher_creating_guest_account_error">Creando cuenta de invitado
-\nError: %1$s
-\n
-\nReintentando</string>
-    <string name="launcher_updating_account">Recuperando la cuenta</string>
-    <string name="launcher_updating_account_error">Recuperando la cuenta
-\nError: %1$s
-\n
-\nReintentando</string>
-    <string name="launcher_fetching_config">Recuperando la configuración</string>
-    <string name="launcher_fetching_config_error">Recuperando la configuración
-\nError: %1$s
-\n
-\nReintentando</string>
-    <string name="launcher_updating_account_settings">Recuperando la configuración de la cuenta</string>
+    <string name="launcher_creating_guest_account">Creando una cuenta de invitado</string>
+    <string name="launcher_creating_guest_account_error">Creando cuenta de invitado\nError: %1$s\n\nReintentando</string>
+    <string name="launcher_updating_account">Accediendo a los datos de tu cuenta</string>
+    <string name="launcher_updating_account_error">Accediendo a los datos de la cuenta \nError: %1$s \n \nReintentando</string>
+    <string name="launcher_fetching_config">Accediendo a la configuración</string>
+    <string name="launcher_fetching_config_error">Accediendo a la configuración \nError: %1$s \n \nReintentando</string>
+    <string name="launcher_updating_account_settings">Accediendo a la configuración de la cuenta</string>
     <string name="launcher_server_status">Comprobando el estado del servidor</string>
     <string name="login_title">¡Bienvenido a eFur!</string>
     <string name="login_subtitle">Por favor inicie sesión o regístrese para continuar</string>
     <string name="login_email_text">Ingrese su correo</string>
-    <string name="login_password_text">Ingrese su contraseña</string>
-    <string name="login_reset">Reiniciar contraseña</string>
-    <string name="login_new_user">¿Nuevo usuario? Regístrese</string>
-    <string name="legal_notice_launch">Al continuar, confirma que ha leído y aceptado los Términos de Servicios y la Política de Privacidad:</string>
-    <string name="legal_notice_checkbox">Yo acepto a</string>
-    <string name="login_invalid_email">Dirección de correo inválida</string>
-    <string name="login_password_too_short">La contraseña debe poseer al menos 8 caracteres</string>
-    <string name="login_username_too_short">El nombre de usuario debe poseer al menos 3 caracteres</string>
-    <string name="login_username_too_long">El nombre de usuario debe poseer 22 caracteres como máximo</string>
-    <string name="login_register_accept">Acepte ambos la Política de Privacidad y los Términos de Servicios para registrarse</string>
-    <string name="login_dialog_consent_country_title">Su ubicación</string>
-    <string name="login_dialog_consent_country_message">¿Es residente de la UE/EEE, Reino Unido o del estado de California en Estados Unidos?</string>
+    <string name="login_password_text">Introduce tu contraseña</string>
+    <string name="login_reset">Resetear tu contraseña</string>
+    <string name="login_new_user">¿Eres un nuevo usuario? Registrate entonces</string>
+    <string name="legal_notice_launch">Al continuar confirma que ha leído y aceptado los Términos de Servicios y la Política de Privacidad:</string>
+    <string name="legal_notice_checkbox">"Yo acepto a "</string>
+    <string name="login_invalid_email">Dirección de email inválida</string>
+    <string name="login_password_too_short">La contraseña debe tener un mínimo de 8 caracteres de longitud</string>
+    <string name="login_username_too_short">La longitud mínima para el nombre de usuario es de 3 caracteres</string>
+    <string name="login_username_too_long">La longitud maxima para el nombre de usuario es de 22 caracteres</string>
+    <string name="login_register_accept">Acepte tanto la Política de Privacidad como los Términos de Servicios para registrarse</string>
+    <string name="login_dialog_consent_country_title">Tu ubicación</string>
+    <string name="login_dialog_consent_country_message">¿Eres residente de la UE/EEE, Reino Unido o del estado de California en Estados Unidos?</string>
     <string name="login_dialog_consent_country_yes">Sí</string>
     <string name="login_dialog_consent_country_no">No</string>
-    <string name="login_dialog_consent_age_title">Consentir</string>
+    <string name="login_dialog_consent_age_title">Consiento</string>
     <string name="login_dialog_consent_personalised_title">Anuncios personalizados</string>
-    <string name="login_dialog_consent_personalised_message">Esta app contiene anuncios. ¿Quiere que estén personalizados (relevantes para usted)?</string>
+    <string name="login_dialog_consent_personalised_message">Esta app contiene anuncios. ¿Quiere que sean personalizados (relevantes para ti)?</string>
     <string name="login_dialog_consent_personalised_yes">Sí</string>
     <string name="login_dialog_consent_personalised_no">No</string>
-    <string name="login_dialog_consent_done_title">¿Registrarse?</string>
-    <string name="login_dialog_register_confirm_message">Estás a punto de registrar una cuenta usando %1$s. Un correo será enviado a su cuenta para confirmarlo.
-\n
-\n¿Continuar?</string>
+    <string name="login_dialog_consent_done_title">¿Registrarte?</string>
+    <string name="login_dialog_register_confirm_message">Estás a punto de registrar una cuenta usando %1$s. Un correo será enviado a tu cuenta para confirmarlo. \n \n¿Continuar?</string>
     <string name="account_needed">¡Se necesita una cuenta pare realizar esta acción!</string>
-    <string name="reset_password_dialog_title">Recuperar contraseña</string>
-    <string name="reset_password_dialog_message">Esto enviará un correo para recuperar contraseña a \"%1$s\".
-\nHaga clic en el enlace en el correo para recuperar su contraseña
-\n
-\n¿Desea contunuar?</string>
+    <string name="reset_password_dialog_title">Resetear contraseña</string>
+    <string name="reset_password_dialog_message">Esto enviará un correo para resetear tu contraseña a \"%1$s\".\nHaz clic en el enlace en el correo para resetear tu contraseña.\n \n¿Deseas contunuar?</string>
     <string name="reset_password_error">Error: %1$s</string>
-    <string name="reset_password_sent">Un correo para recuperar contraseña fue enviado a \"%1$s\"</string>
+    <string name="reset_password_sent">Un correo para resetear tu contraseña ha sido enviado a \"%1$s\"</string>
     <string name="register_success">Cuenta creada ¡Bienvenido a eFur!</string>
     <string name="logout_dialog_title">¿Cerrar sesión?</string>
-    <string name="logout_dialog_message">¿Esta seguro que quiere cerrar sesión?</string>
+    <string name="logout_dialog_message">¿Estas seguro de que quieres cerrar sesión?</string>
     <string name="post_category_0">General</string>
     <string name="post_category_1">Arte (Digital)</string>
     <string name="post_category_2">Arte (Tradicional)</string>
     <string name="post_category_3">Fursuits y disfraces</string>
     <string name="post_category_4">Animales y mascotas</string>
-    <string name="post_category_6">Graciosos y memes</string>
-    <string name="post_category_7">Aww y tiernos</string>
+    <string name="post_category_6">Divertido y memes</string>
+    <string name="post_category_7">Monos y adorables</string>
     <string name="post_category_8">Fotografía</string>
-    <string name="post_category_9">Vida Real</string>
+    <string name="post_category_9">En la vida real</string>
     <string name="post_category_10">Manualidades y esculturas</string>
     <string name="post_category_11">Diseños</string>
     <string name="post_category_12">Cómics</string>
@@ -599,26 +585,26 @@
     <string name="action_edit_title">Editar título</string>
     <string name="action_reorder_comic">Reordenar páginas</string>
     <string name="action_delete_comic">Eliminar cómic</string>
-    <string name="action_ban_user">Prohibir el usuario</string>
-    <string name="action_unban_user">Perdió el número de suerte R</string>
-    <string name="action_show_logs">Mostrar registros</string>
+    <string name="action_ban_user">Bannear usuario</string>
+    <string name="action_unban_user">Desbanear usuario</string>
+    <string name="action_show_logs">Mostrar logs</string>
     <string name="action_add_as_mod" translatable="false">Promote to moderator</string>
     <string name="action_remove_as_mod" translatable="false">Remove moderator status</string>
     <string name="action_delete_all_posts" translatable="false">Purge user\'s posts</string>
     <string name="action_delete_all_comments" translatable="false">Purge user\'s comments</string>
-    <string name="action_verify_email">Verificar correo electrónico</string>
-    <string name="action_start_chat">Iniciar una conversación</string>
-    <string name="action_create_1_1_chat">Empiece un chat 1: 1</string>
-    <string name="action_create_group_chat">Comience un chat grupal</string>
-    <string name="action_clear_history">Historia clara</string>
+    <string name="action_verify_email">Verificar email</string>
+    <string name="action_start_chat">Iniciar un chat</string>
+    <string name="action_create_1_1_chat">Comienza un chat privado</string>
+    <string name="action_create_group_chat">Comienza un chat grupal</string>
+    <string name="action_clear_history">Borrar historial</string>
     <string name="action_delete_chat">Eliminar chat</string>
-    <string name="action_leave_chat">Deja el chat</string>
-    <string name="launcher_reset_button">Iniciar sesión / restablecer</string>
-    <string name="launcher_save_token_error">No se pudo ahorrar token: %1$s</string>
-    <string name="legal_ad_checkbox">Acepto anuncios personalizados</string>
-    <string name="login_invalid_email_pw">Correo electrónico inválido y / o contraseña</string>
-    <string name="login_register_error">No se registró: %1$s</string>
-    <string name="login_expired_session">Sesión expirada, ¡inicie sesión nuevamente!</string>
+    <string name="action_leave_chat">Abandonar el chat</string>
+    <string name="launcher_reset_button">Cerrar sesión / reiniciar</string>
+    <string name="launcher_save_token_error">No se ha podido guardar el token: %1$s</string>
+    <string name="legal_ad_checkbox">Acepto los anuncios personalizados</string>
+    <string name="login_invalid_email_pw">Email y/o contraseña inválidos</string>
+    <string name="login_register_error">Fallo al registrarte: %1$s</string>
+    <string name="login_expired_session">Sesión expirada, ¡inicia sesión nuevamente!</string>
     <string name="upload_chooser_edit_title">Editar post</string>
     <string name="upload_chooser_comic_not_allowed">¡No puedes agregar un cómic a un cómic!</string>
     <string name="upload_chooser_invalid_file">¡Archivo inválido!</string>
@@ -980,7 +966,7 @@
     <string name="chat_control_message_12">%1$s cambió la información del grupo a %2$s</string>
     <string name="chat_error_removed_from_chat">Te han eliminado de este chat</string>
     <string name="action_mute">Silenciar</string>
-    <string name="action_unmute">Mogi</string>
+    <string name="action_unmute">Desilenciar</string>
     <string name="reported_chats">Chats reportados</string>
     <string name="chat_media_message">Mensaje de medios</string>
     <string name="chat_media_message_with_text">Mensaje de medios: %1$s</string>
@@ -1137,7 +1123,7 @@
     <string name="delete_account_messages_success_message">¡Éxito! Tus mensajes se eliminarán. Si tienes muchos, esto puede tardar un poco. Haz clic en el icono de actualizar para comprobar el progreso.</string>
     <string name="delete_account_request_text_3_sub">Transcurrido un mes, su cuenta será eliminada de nuestros servidores. Recibirá una notificación por correo electrónico cuando esto ocurra.</string>
     <string name="deleted_accounts_cancelled">Solicitud de eliminación de cuenta cancelada para %1$s</string>
-    <string name="action_delete_account">Cuenta eliminada</string>
+    <string name="action_delete_account">Eliminar tu cuenta</string>
     <string name="post_category_31">Automóviles y vehículos</string>
     <string name="post_category_32">Armas y armamento</string>
     <string name="post_theme_19">No es furro</string>
@@ -1174,7 +1160,7 @@
     <string name="settings_ui_theme_item_system">Siga el sistema</string>
     <string name="post_theme_15">Transformación</string>
     <string name="action_show_messages">Mostrar mensajes</string>
-    <string name="login_register_set_age">…Establece tu fecha de nacimiento para registrarte.</string>
+    <string name="login_register_set_age">Establece tu fecha de nacimiento para registrarte</string>
     <string name="post_theme_12">Material para pesadillas</string>
     <string name="post_theme_23">Militar / guerra</string>
     <string name="post_theme_14">Embarazo</string>
